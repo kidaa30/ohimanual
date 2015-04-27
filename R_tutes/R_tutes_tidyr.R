@@ -28,6 +28,7 @@ lookup   <- read.csv(sprintf('%s/comm2prod_sample.csv',   dir_data))
 ### Transform data from wide format (some variables are contained in
 ### rows, rather than columns) into long format (each column is a variable,
 ### and each row is a single observation.
+data_wide = data
 data_long <- data_wide %>%
   gather(year, tonnes, -Country, -Commodity, -Trade)
 ### Note that the (-Country, -Commodity, -Trade) arguments tell the
@@ -70,7 +71,7 @@ harvest <- harvest %>%
       # class rather than 'character' class.... as.character() forces factor
       # into character, and then as.integer() and as.numeric converts
       # characters into integers/numbers where possible.
-
+    
 ### use group_by() to summarize harvest information by commodity for each country
 harvest <- harvest %>%
   group_by(country, commodity)

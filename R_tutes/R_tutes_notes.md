@@ -64,3 +64,8 @@ What makes a good function:
 * switch vs list?
 * ifelse?
 * apply functions?
+
+## Omar and Ning's Ques 
+* line 69 R_tubes_tidyr.R, why not save year as.numeric (vs. as.integer)? any functional differences?
+* added a line 31: data_wide = data, which wasn't defined before
+* line 86: doesn't arrange by alphabetical order? 
