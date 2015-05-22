@@ -8,14 +8,7 @@ Ideally, quantity, value, and a sustainability rating of the harvest method woul
 
 Whether you use the approach from the global assessment or are developing your own new model entirely, there are a few tasks that will remain the same because are key to the philosophy of this goal.
 
-The first is to identify **identify which products are in your study area.** For example, does your study area have corals, ornamental fishes, sponges? Does your area yield medicines from the sea, that are not used for nutrition under **Food Provision**? Does your area harvest drinking water from the ocean through desalination plants? Is there a kelp or seaweed industry in your area?
-
-Study | Natural Products considered | Data Source
--------|-----------------------------------|--------------
-Global 2013 | aquaria fishes, corals, sponges, shells, seaweeds, fish oil | UN FAO database
-U.S. West Coast (2013) | kelp considered, not included | NA
-OHI+ China | seasalt, medicine, chemicals | China Statistical Yearbook 2014
-OHI+ Israel | desalinated water, not included | ???
+The first is to identify **identify which products are in your study area.** For example, does your study area have corals, ornamental fishes, sponges? Does your area yield medicines from the sea, or other products that are not used for nutrition under **Food Provision**? Does your area harvest drinking water from the ocean through desalination plants? Is there a kelp or seaweed industry in your area? If there are multiple uses of the product, you must also consider what proportion of the product is used for food, and what proportion is used for other purposes. As another example, oil from marine mammals was considered but excluded from the global models, but if a region has a considerable amount of mammal oil harvest, they should include it in the calculation, keeping in mind that the sustainability of this type of harvest is likely to be low and should be reflected in the score.
 
 The second task is to think about **where these products are harvested and how much of them are harvested** in these areas through a period of time. You should find spatial representation of these products, which can be done by knowing where they are derived from. Do they come from certain habitats (in the case of coral) or animals (in the case of fish oil)? This information will help calculate the sustainability of the harvest of eah natural product.  harvest amounts and the spatial data are used to calculate **exposure** further on, and can also be used to set the **relative weighting** between the products. These spatial data may have already been used in other goals, or they may lead you to find useful data that can be used in other parts of the assessment (See **Best Approaches**).
 
@@ -25,7 +18,7 @@ It should be noted that in the Global Assessments, the harvested amounts are der
 
 <!---deleted because was confusing--->
 
-The third component is to try to find the **sustainability** coefficients of the identified products. These could be given values, in which case you would simplify the model, or they could be derived from two factors, **exposure and risk**. The **exposure** will come from the spatio-temporal harvest amount data already prepared, and the **risk** will come from the scientific literature or a developed indicator. For both of those cases, the values can be calculated in separate equations as part of your data preparation process.
+The third component is to try to find the **sustainability** coefficients of the identified products. It is possible to measure sustainability in a number of different ways. Quantitative information can be used, or expert judgment, perhaps based on information or rough estimates of how sustainable the harvest method is, which is what was done in Global 2012. We based the sustainability component on the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).  In the absence of these, we borrowed general principles from fisheries models to provide rough estimates. If these are given values you could simplify the model, or they could be derived from two factors, **exposure and risk**. The **exposure** will come from the spatio-temporal harvest amount data already prepared, and the **risk** will come from the scientific literature or a developed indicator. For both of those cases, the values can be calculated in separate equations as part of your data preparation process.
 
 ![Natural Products goal model from OHI Global Assessment 2013](https://docs.google.com/drawings/d/1JFU166u9J8-bYDxeEJPKoZjHOnUtOsz4GlsxlMgKsQo/pub?w=594&h=100)
 
@@ -33,7 +26,7 @@ The third component is to try to find the **sustainability** coefficients of the
 
 > Global assessments borrow principles from fisheries science to make estimates of product sustainability. In the Global 2013 assessment the sustainability component was derived from the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).
 
-One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the timeseries, or some percentage above or below, or some other approach that is ambitious yet realistic (SMART principles). <!---the average isn't a good approach so I've cut it. What I've written here isn't complete I don't think but it's closer to what we want-->
+One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is ambitious yet realistic (SMART principles). <!---the average isn't a good approach so I've cut it. What I've written here isn't complete I don't think but it's closer to what we want-->
 
 [insert an image of trend in total harvest vs time?]
 
@@ -50,8 +43,7 @@ seaweeds | FAO | FAO | rocky reef habitat | --
 
 #### What's the code trying to do?
 
-[check!]<!---This section is a good idea. But I think we'll want to split it into a different section after the Tbx is introduced.
-Check this section, please--->
+<!---This section is a good idea. But I think we'll want to split it into a different section after the Tbx is introduced.--->
 
 You may have already looked at the **NP** section of `functions.R`. In simple terms, here is what the code is doing:
 
@@ -70,9 +62,8 @@ You may have already looked at the **NP** section of `functions.R`. In simple te
 * The latest year value is used in the status, and the past few years' values are used in the trend to produce the final score.
 
 <!---I think this diagram is more confusing than explicative because it implies these data are spatial, but not all of them are--->
-![Diagram of calculation, NP](https://docs.google.com/drawings/d/1cHTBz55p2ZoAM3tSbpLRHIWdfHZlUg2AqjX2xMvz8Po/pub?w=960&h=720)
-**Figure.** Diagram of sustainability calculation, NP.
 
+**Figure needed?** Diagram of sustainability calculation, NP; or perhaps a time-series of the available products in country X in order to show where the peak yield would be.]
 
 #### Data Sources
 
@@ -84,12 +75,6 @@ Coming soon.
 
 <!---Below will be erased eventually--->
 ### Appendix - source materials
-#### Recommendations for regional assessments
-
-The kinds of marine products included, and how much should each contribute to the overall score may vary from case to case and should be decided based on the data available (see model details below in Evolution of the Approach). For example, if seaweed is a natural product, but it is also food, if there are no data to indicate the proportions of these two uses, some other source of information will have to be used to decide what proportion should be used to calculate Food Provision and what proportion should be computed for Natural Products. As another example, oil from marine mammals was excluded from the models presented here, but if a region has a considerable amount of mammal oil harvest, they should include it in the calculation, keeping in mind that the sustainability of this type of harvest is likely to be low and should be reflected in the score.
-
-It is possible to measure sustainability in a number of different ways. Quantitative information can be used, or expert judgment, perhaps based on information or rough estimates of how sustainable the harvest method is, which is what was done in Global 2012. We based the sustainability component on the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).  In the absence of these, we borrowed general principles from fisheries models to provide rough estimates.
-
 
 #### Appendix - Global Data Approach (Technical Notes)
 
@@ -113,17 +98,7 @@ The habitat area used for seaweeds: rocky reef
 The habitat area used for coral: coral
 The habitat area used for shells, ornamentals, sponges: coral plus rocky reef
 
-#### Calculation
-For each product:
-sustainability = 1- average(exposure, risk)
-Prod_score = sustainability*relative tonnes
-
-Then take a weighted average of the Prod_score using the "weighting" file.
-
-#### Notes on modifying the function
-1. Several data layers are called that are not used: np_harvest_tonnes, np_harvest_usd, np_harvest_usd_relative
-
-#### Preparing the Data
+#### Notes: Preparing the Data
 
 Notes from Katie while updating the NP goal:
 
@@ -136,7 +111,7 @@ Natural products
 - check cases where country-product pair has 0 for sustainability score, but relatively high harvest ratio (curr harvest/peak harvest) – it may be a flag that the sustainability score is off (eg because the habitat area is off)
 
 
-#### Tech Specs
+#### Notes: Tech Specs
 
 **Updating the Script**
 
