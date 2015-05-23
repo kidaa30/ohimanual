@@ -3,6 +3,10 @@ title: "ESM 270 Ocean Health Index Lab"
 output: pdf_document
 ---
 
+```{r}
+install.packages('dplyr'); library(dplyr)
+```
+
 # Introduction
 
 The Ocean Health Index [intro here]
@@ -10,54 +14,105 @@ The Ocean Health Index [intro here]
 Intro to WebApps concept and overview of lab exercise
  - study areas and regions
 
-# Instructions
+# Setup Instructions
 
 You access an existing WebApp and modify it locally on your computer to complete the assignment. You will need to install R (and preferably RStudio) to complete the assignment. 
 
 **Setup steps:**
 
-1. Create a folder called `**ESM_270**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
-    - **Windows**: `Users\[User]\Documents\ESM_270\`
-    - **Mac**: `Users/[User]/ESM_270/`
+1. Create a folder called `**github**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
+    - **Windows**: `Users\[User]\Documents\github\`
+    - **Mac**: `Users/[User]/github/`
 
 2. **R**: Download and install the current version of R from [cran.r-project.org](http://cran.r-project.org/). 
 
 3. **RStudio**: Download and install the current version of RStudio from [rstudio.com](www.rstudio.com). 
 
 4. Choose a coastal country or territory that has a WebApp using the list available at [ohi-science.org/subcountry](). The WebApp you choose must have a green `build | passing` indicator associated with its study area. 
-    - click the three-letter code in the '*Repo*' column to explore the WebApp of that study area. 
+    - click the three-letter key (`xxx`) in the '*Repo*' column to explore the WebApp of that study area. 
     - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area. 
 
-5. Click the '*Download ZIP*' button on the main page of the repository  
+5. Click the '*Download ZIP*' button on the main page of the repository for your key (github.com/OHI-Science/`xxx`)
     ![](./figures/downloadZIP.png)
+    - NOTE: please do not choose CHN, as it is under development. 
 
-6. unzip the downloaded *.zip* folder and save in your `ESM_270` folder. 
+6. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply `xxx`
   
-7. Open RStudio follow the instructions below. 
+7. Double-click the `.Rproj` file to open **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
 
+# Lab Instructions 
+
+**L1. Type the following in the Console window, replacing 'xxx' with your 3-letter code:**
+
+```
+key = 'xxx'  # don't forget the quotes!
+```
+
+**L2. paste the following into the Console window:**
+
+```
+
+# set the working directory
+wd = (sprintf('~/github/%s/subcountry2014', key))
+setwd(wd)
+
+# install OHI Toolbox software
+source(file.path(wd, 'install_ohicore.r'))
+
+# save a copy of the original calculated scores
+file.copy('scores.csv', 'scores_orig.csv')
+
+```
+
+**L3. Explore assessment inputs.**  
+
+Use the WebApp at `http://ohi-science.org/xxx/app/` (replacing *xxx* with your key) to explore the input layers that contribute to each goal. Do this by selecting 'Input Layer' as the variable type and changing the targets. Input layers are identified in the third pull-down menu by title and by the layername (in parentheses).    
+
+Determine which goals you would like to modify, and write them down below in the `.Rmd` version of this document.
+
+![](https://docs.google.com/drawings/d/1W4Tr39izAR-IAEnu3XvFbDdAH5CmcUwpj-84zThJNgY/pub?w=384&h=288)
+
+
+## Assignment
+
+A1. 
 
 ```{r}
+# A1 goal to modify
 
-# in your R Console, paste the following, replacing the xxx with your 3-letter code.
-key = 'xxx'
+# write the name of the goal to modify: __________
 
-```
-
-```{r}
-
-# paste the following into your console:
+layerA1 = 'layer_name_here.csv' # write the layername
 
 
 
-# Note: if you have chosen any of the following repositories, you will need to make the following substitutions for subcountry2014:
-#       chn -> province2015
+# Using layers.csv, 
+
+
+file_save = 'scores_A1.csv' # you can change this filename if you'd like
 
 ```
 
-You can also embed plots, for example:
 
-```{r, echo=FALSE}
-plot(cars)
+
+
+
+
+With Excel, open `subcountry2014/layers.csv` to explore which data layers contribute to the goals. 
+
+
+
+
+```
+# v source(file.path(wd, 'calculate_scores.r'))
+
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
+
+
+

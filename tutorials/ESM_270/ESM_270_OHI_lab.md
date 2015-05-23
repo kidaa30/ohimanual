@@ -10,58 +10,147 @@ The Ocean Health Index [intro here]
 Intro to WebApps concept and overview of lab exercise
  - study areas and regions
 
-# Instructions
+# Setup Instructions
 
 You access an existing WebApp and modify it locally on your computer to complete the assignment. You will need to install R (and preferably RStudio) to complete the assignment. 
 
 **Setup steps:**
 
-1. Create a folder called `**ESM_270**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
-    - **Windows**: `Users\[User]\Documents\ESM_270\`
-    - **Mac**: `Users/[User]/ESM_270/`
+1. Create a folder called `**github**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
+    - **Windows**: `Users\[User]\Documents\github\`
+    - **Mac**: `Users/[User]/github/`
 
 2. **R**: Download and install the current version of R from [cran.r-project.org](http://cran.r-project.org/). 
 
 3. **RStudio**: Download and install the current version of RStudio from [rstudio.com](www.rstudio.com). 
 
 4. Choose a coastal country or territory that has a WebApp using the list available at [ohi-science.org/subcountry](). The WebApp you choose must have a green `build | passing` indicator associated with its study area. 
-    - click the three-letter code (`xxx`) in the '*Repo*' column to explore the WebApp of that study area. 
+    - click the three-letter key (`xxx`) in the '*Repo*' column to explore the WebApp of that study area. 
     - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area. 
 
-5. Click the '*Download ZIP*' button on the main page of the repository (github.com/OHI-Science/`xxx`)
+5. Click the '*Download ZIP*' button on the main page of the repository for your key (github.com/OHI-Science/`xxx`)
     ![](./figures/downloadZIP.png)
-    - NOTE: do not choose CHN, as it is under development. 
+    - NOTE: please do not choose CHN, as it is under development. 
 
-6. Unzip the downloaded ** *.zip* ** folder and save in your `ESM_270` folder, without changing the name. 
+6. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply `xxx`
   
-7. Open **RStudio** follow the instructions below. Note that anything following the `#` symbol in R is a comment and will not be executed.
+7. Double-click the `.Rproj` file to open **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
 
+# Lab Instructions 
 
-```{r}
-# 1. type the following in the Console window, replacing 'xxx' with your 3-letter code: 
-key = 'xxx'
+**L1. Type the following in the Console window, replacing 'xxx' with your 3-letter code:**
 
 ```
+key = 'xxx'  # don't forget the quotes!
+```
 
-```{r}
+**L2. paste the following into the Console window:**
 
-# 2. paste the following into the Console window:
-
+```
 # set the working directory
-setwd(sprintf('~/ESM_270/%s-draft/subcountry2014', key))
+wd = (sprintf('~/github/%s/subcountry2014', key))
+setwd(wd)
 
-# install OHI Toolbox software
-source(install_ohicore.r)
+# install OHI Toolbox software and necessary packages
+source(file.path(wd, 'install_ohicore.r'))
+install.packages(c('devtools', 'dplyr'))
+library(devtools)
+library(dplyr)
 
-summary(cars)
+# save a copy of the original calculated scores
+file_save_orig = 'scores_orig.csv'
+file.copy('scores.csv', file_save_orig, overwrite=T)
+csv_orig = file.path(wd, file_save_orig)
+
 ```
 
+**L3. Explore assessment inputs.**  
+
+Use the WebApp at `http://ohi-science.org/xxx/app/` (replacing *xxx* with your key) to explore the input layers that contribute to each goal. Do this by selecting 'Input Layer' as the variable type and changing the targets. Input layers are identified in the third pull-down menu by title and by the layername (in parentheses).    
+
+Determine which goals you would like to modify, and write them down below in the `.Rmd` version of this document.
+
+![](https://docs.google.com/drawings/d/1W4Tr39izAR-IAEnu3XvFbDdAH5CmcUwpj-84zThJNgY/pub?w=384&h=288)
 
 
-You can also embed plots, for example:
+## Assignment
 
-```{r, echo=FALSE}
-plot(cars)
+### A1. Modify Layer 1
+
+**In the R Console:**
+
+```{r}
+
+# Type the following in your R Console window, identifying the data layer to modify: 
+layerA1 = 'layer_name_here' # write the layername. Example: layerA1 = 'ao_need'
+
+# paste the following in your R Console window:
+infoA1 = read.csv('layers.csv') %>% filter(layer==layerA1) %>% select(layer, targets, filename)
+print(infoA1)
+goalA1 =  infoA1$target
+
+
+# the filename column identifies the layer's filename, located in `subcountry2014/layers`
+
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+**Modify the file in excel**
+
+a) In Windows Explorer, find the filename located within `subcountry2014/layers` and modify as desired. Change only values, do not delete or add rows or columns.
+
+b) Save the changes and close the file. 
+
+c) Describe the modifications and why. What behavior do you expect from Ocean Health Index scores?
+
+
+```
+# Paste the following into your R Console
+
+# recalculate the scores with your modifications
+source(file.path(wd, 'calculate_scores.r'))
+
+# save a copy of these scores with 
+file_save = 'scores_A1' # you can change this name if you'd like
+file.copy('scores.csv', paste0(file_save, '.csv'), overwrite=T)
+csv_new = file.path(wd, paste0(file_save, '.csv'))
+layer_changed = layerA1
+fig_save = file.path(wd, paste0(file_save, '.png'))
+
+
+# Paste the following into your R Console
+
+# load comparison functions compareVis_scores.r
+# devtools::source_url('https://raw.githubusercontent.com/OHI-Science/ohidev/master/test.r?token=AFnnRaypXn4nUTvokCyu9ENmOIH7by-eks5VaOq6wA%3D%3D')
+source('~/github/ohimanual/tutorials/ESM_270/compareVis_scores.R')  # for testing; to be completed after discussing with BH
+
+changePlot(csv_orig, csv_new, layer_changed, fig_save)
+(csv_orig, csv_new, layer_changed, fig_save, goalA1)
+
+
+# compare_scores based on Mel. 
+
+```
+
+### A2. Modify Layer 2
+
+REPEAT ...
+
+### A3. Modify Layer 3
+
+REPEAT ...
+
+### A4. Modify Layer 4
+
+REPEAT ...
+
+
+## To Discuss with BH
+
+1. How do we want them to turn in their assignment? A series of pngs? A rendered .rmd file? Do we want them to turn in an assignment?
+2. Figures. is a Change Plot enough (compares all goals and dimensions), of do we also want a Scatter Plot (just for the goal that was modified)? Examples below. 
+
+
+JSL notes--could use history()
+ex changeplot_ex.png
+ex scatterplot_ex.png
+
