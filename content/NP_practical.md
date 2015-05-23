@@ -69,14 +69,8 @@ You may have already looked at the **NP** section of `functions.R`. In simple te
 
 If the case is that corals, sponges, and  then you might be able to use FAO data, which is the data source of the Global Assessments. Otherwise, you will have to find comparable data in your area or consult local statistical offices and local fisheries managers to get harvest values similar to landing values and any other kinds of stock assessments. The IUCN offers quantified assessments of risk to species, but that is more appropriate for biodiversity; CITES signatory data may be more appropriate for the trade products. Exposure can be calculated spatially, and for this you should be able to find or produce your own maps if possible. Your maps might have finer resolution than those in global resolution.
 
-
-
 ### Appendix - source materials
-=======
-### Appendix - source materials
->>>>>>> b28f7b5dddbb47d5055ff285969bff5082ad161c
-
-#### Appendix - Global Data Approach (Technical Notes)
+#### Global Data Approach (Technical Notes)
 
 **Data Overview**
 
