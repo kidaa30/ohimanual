@@ -57,7 +57,7 @@ You may have already looked at the **NP** section of `functions.R`. In simple te
 
 * It then averages the two factors, Exposure and Risk, to reveal where risk and intensity are highest. This value is then inverted to become Sustainability and to reward lower intensity and lower risk.
 
-* The amount of each kind of product, relative to the peak historical yield of the products and Sustainability are used create sustainability-weighted scores for all regions and all years available.
+* The amount of each kind of product, relative to the peak historical yield of that product across all regions assessed, and Sustainability are both used create sustainability-weighted scores for all regions and all years available.
 
 * The latest year value is used in the status, and the past few years' values are used in the trend to produce the final score.
 
