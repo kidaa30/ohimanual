@@ -9,12 +9,14 @@ The Ocean Health Index [intro here]
 
 Intro to WebApps concept and overview of lab exercise
  - study areas and regions
+ 
+In this assignment you will explore how the Ocean Health Index would respond to several different management scenarios. You will do this by identifying three components of the OHI that could be affected by three different scenarios, and recalculate the scores with these changes. 
 
 # Setup Instructions
 
 You access an existing WebApp and modify it locally on your computer to complete the assignment. You will need to install R (and preferably RStudio) to complete the assignment. 
 
-**Setup steps:**
+**Setup Instructions:**
 
 1. Create a folder called `**github**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
     - **Windows**: `Users\[User]\Documents\github\`
@@ -29,22 +31,16 @@ You access an existing WebApp and modify it locally on your computer to complete
     - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area. 
 
 5. Click the '*Download ZIP*' button on the main page of the repository for your key (github.com/OHI-Science/`xxx`)
-    ![](./figures/downloadZIP.png)
     - NOTE: please do not choose CHN, as it is under development. 
 
-6. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply `xxx`
+6. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply **`xxx`**.
   
 7. Double-click the `.Rproj` file to open **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
 
-# Lab Instructions 
+8. Type the following in the Console window, replacing 'xxx' with your 3-letter code:
+    - **` key = 'xxx'`**. Don't forget the quotes!
 
-**L1. Type the following in the Console window, replacing 'xxx' with your 3-letter code:**
-
-```
-key = 'xxx'  # don't forget the quotes!
-```
-
-**L2. paste the following into the Console window:**
+9. Paste the following into the Console window:
 
 ```
 # set the working directory
@@ -64,13 +60,14 @@ csv_orig = file.path(wd, file_save_orig)
 
 ```
 
+# Lab Instructions 
+
 **L3. Explore assessment inputs.**  
 
-Use the WebApp at `http://ohi-science.org/xxx/app/` (replacing *xxx* with your key) to explore the input layers that contribute to each goal. Do this by selecting 'Input Layer' as the variable type and changing the targets. Input layers are identified in the third pull-down menu by title and by the layername (in parentheses).    
+Use the WebApp at **`http://ohi-science.org/xxx/app/`** (replacing `xxx` with your key) to explore the input layers that contribute to each goal. Do this by selecting 'Input Layer' as the variable type and changing the targets. Input layers are identified in the third pull-down menu by title and by the layername (in parentheses).    
 
-Determine which goals you would like to modify, and write them down below in the `.Rmd` version of this document.
+Determine which goals you would like to modify. 
 
-![](https://docs.google.com/drawings/d/1W4Tr39izAR-IAEnu3XvFbDdAH5CmcUwpj-84zThJNgY/pub?w=384&h=288)
 
 
 ## Assignment
@@ -138,19 +135,3 @@ REPEAT ...
 ### A3. Modify Layer 3
 
 REPEAT ...
-
-### A4. Modify Layer 4
-
-REPEAT ...
-
-
-## To Discuss with BH
-
-1. How do we want them to turn in their assignment? A series of pngs? A rendered .rmd file? Do we want them to turn in an assignment?
-2. Figures. is a Change Plot enough (compares all goals and dimensions), of do we also want a Scatter Plot (just for the goal that was modified)? Examples below. 
-
-
-JSL notes--could use history()
-ex changeplot_ex.png
-ex scatterplot_ex.png
-
