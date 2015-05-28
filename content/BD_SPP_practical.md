@@ -82,3 +82,12 @@ An advantage is (actually a disadvantage of averaging species scores at the EEZ 
 For now, we are going to calculate SPP using both methods and evaluate (or present both).  
 
 ![How the raster cells interpret the species data](https://cloud.githubusercontent.com/assets/10619388/7287365/c41926a6-e908-11e4-8cfb-db2b85cecd38.png)
+
+
+
+<!---Note: Moved from FAQ--->
+<!---**Q: Can species and iconic species model scores be penalized if there are local flagship species that have not been evaluated?**
+
+Global data are based on IUCN assessments. For these evaluations, IUCN chooses a taxon (e.g. sharks) and a group of world experts assess it comprehensively. Locally identified species identified in a regional assessment may not be in the IUCN database because they do not belong to one of the taxa that have been selected for assessment, or because the experts that did the assessment did not know that information existed. In either case, there is no connection between what IUCN reports and what assessments are done locally. Therefore, it might not be fair to penalize a study area for missing species. For biodiversity, it is unrealistic to expect that all species are assessed, so it seems unfair to penalize for unassessed species. In the fisheries goal, there are penalties for species that are exploited but not assessed, because if there are landings data, it means they are somewhat measurable, and so it is reasonable to expect they should be at least monitored.
+
+It might be reasonable to penalize unassessed iconic species. It is a smaller list of species that are specifically identified as being of interest, for one reason or other. This would work for species that have some form of assessment - unless that information already exists, it might be unrealistic to try to produce the data layer required to develop a new model.--->

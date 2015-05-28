@@ -16,3 +16,15 @@ When collecting data on fish landings, it's important to consider how you will d
 In this case, one option may be to use the information on where the boats are registered. Having the boats assigned to regions might then offer a way to disaggregate the data. So if possible, try to find as much spatial information for this goal as possible.
 
 <!---From OHI China discussion, April 2015--->
+
+
+<!--- Moved below from `example_modifications.md`--->
+
+
+### Example: FAO data 
+
+NOTE: if a species that is caught in different sub-regions belongs to the same population, you don't want to split the catch among sub-regions, instead, you want to sum catch across all sub-regions, so you can calculate B/Bmsy for the whole population. For the global analysis we grouped all species catch by FAO major fishing area (www.fao.org/fishery/area/search/en), indicated in the column *fao_id*, assuming that all species caught within the same FAO area belonged to the same stock, while we assumed that the same species, if caught in a different fishing area, belonged to a separate stock.  
+Use *fao_id* as an identifier that separates different fisheries 'stocks' belonging to the same species.
+If you don't have multiple stocks in your study area, set all *fao_id* = 1.  
+
+`fis_meancatch`:

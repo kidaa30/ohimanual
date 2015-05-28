@@ -45,6 +45,8 @@ However, if a new layer has been added (for example when a new goal model is dev
  + **filename:** Add a filename for the new data layer that matches the name of the *.csv* file that was created previously in the `layers` folder.
  + **fld_id_num:** Area designation that applies to the newly created data layer, such as: *rgn_id* and *fao_id*.
 
+ >TIP: Think about what units you would like to be displayed on the WebApp when filling out "units."
+
 ### Check pressures and resilience matrices
 
 If the new or modified layer is a pressures layer, check that `pressures_matrix.csv` and `resilience_matrix.csv` have been properly modified to register the new data layers.
