@@ -29,11 +29,11 @@ in_md = c(
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
-  '3_HAB_Goals_practical.md', # --> exists, new content. 
-  '3_CS_practical.md', # --> To be replaced by HAB_goals practical
-  '3_CP_practical.md', # --> To be replaced by HAB_goals practical
+  '3_HAB_Goals_practical.md', # --> exists, check content.
+  #'3_CS_practical.md', # --> Replaced by HAB_goals practical, OK
+  #'3_CP_practical.md', # --> Replaced by HAB_goals practical, 
   #'3_BDD_ICO_practical.md' # --> to be developed 
-  '3_NP_practical.md', # --> exists, new content. 
+  '3_NP_practical.md', # --> exists, new content OK
   '3_pressures_resilience.md', # --> updated with practical guidance
   '3_intro_to_tbx.md',
   '3_file_system.md',

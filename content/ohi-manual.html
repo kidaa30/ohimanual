@@ -569,86 +569,71 @@ some history: the 1km buffer was used at the global scale because there was spat
 <div id="practical-considerations" class="section level4">
 <h4><span class="header-section-number">3.7.5.1</span> Practical Considerations</h4>
 <blockquote>
-<p>Habitat-based goals can be approacahed together in the data gathering process. Habitats appear in such goals as <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>..</p>
+<p>Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>.</p>
 </blockquote>
 </div>
 <div id="ideal-approach" class="section level4">
 <h4><span class="header-section-number">3.7.5.2</span> <em>Ideal Approach</em></h4>
 <p>Ideally, information on the extent and condition of every single habitat type would be available. The reference point for habitat-based goals will likely be temporal. This means that historic data are needed such that current habitat and value data can be compared to historic data. This could also be achieved by using or a proportion of historic data.</p>
 </div>
-<div id="ready-to-start-on-habitats" class="section level4">
-<h4><span class="header-section-number">3.7.5.3</span> Ready to start on <strong>Habitats</strong>?</h4>
-<p>The first thing to consider with habitats is <strong>what habitats are in your area</strong>?</p>
-</div>
-<div id="more-on-health" class="section level4">
-<h4><span class="header-section-number">3.7.5.4</span> More on health</h4>
-<!---Via #362--->
-<p>Coral health is based on the % living cover on a reef. Ideally, historical data is available that can provide a reference point for % living cover. For our reference point, we used the mean predicted values for a country from 1985-1987. When this data was not available for a country, we used the value of neighboring countries. (There was also some analyses to control for the fact that the % live coral cover naturally varies over time, hence the use of “predicted values”).</p>
-<p>For soft-bottom habitat, we estimated status based on the intensity of trawl fishing as a proxy (pages 51 and 52 of SOM 2012).</p>
-<p>habitat trend: Change in health/condition over time</p>
-<p>Ideally, there will be enough years of data to directly calculate the recent change in health of the habitat (i.e., using a linear model to calculate trend). For example, for sea ice, we fit a linear model to a metric of sea ice cover for data from 2006-2011 (after some smoothing to account for natural variation).</p>
-<p>This isn’t always the case, and proxies or estimates might need to be used. For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.</p>
+<div id="ready-to-start-on-habitat-based-goals" class="section level4">
+<h4><span class="header-section-number">3.7.5.3</span> Ready to start on <strong>Habitat-based Goals</strong>?</h4>
+<p>The first thing to consider with habitats is <strong>what habitats are in your area</strong>? You must consider what habitats are in your coastal regions. Are there mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats? Are there kelp forests in your area?</p>
+<p>Once you determine what habitats are in your area, you should also consider whether and to what extent they go offshore and inland. You will likely use a combination of clipped spatial data and spatial data for whole regions, depending on the goal being assessed. For instance, the <strong>Habitat</strong> sub-goal of <strong>Biodiversity</strong> uses the entire region for habitats such as coral reefs in the calculation, but the <strong>Coastal Protection</strong> only uses the extent to 1 kilometer offshore and inland to 1 kilometer <!---Check---> This will affect the preparation of the spatial data layers later in you assessment.</p>
+<blockquote>
+<p>For instance, do mangroves occur in river deltas in your area, and if so, how far upriver do they go? In the 2013 Global Assessment, for example, mangrove was assessed from 1 kilometer offshore to 1 kilometer inland, but this distance is variable and could change for you OHI+ assessments. It depends on your geography.</p>
+</blockquote>
+<p>Several factors for habitats will have to be considered. In score calculations, habitats are weighted in different ways based on the amount of protection they provide and the amount carbon they sequester, and they are also derived from estimations of habitat health and condition (See <strong>Carbon Storage</strong>, <strong>Coastal Protection</strong>, and <strong>Biodiversity</strong>). The weights on the habitats comes from the literature. If you have access to regional-specific studies, you should use that information. Otherwise, the Global data layers can be used as a secondary option.</p>
+<p>When thinking about condition, for instance, coral health is based on the percentage of “living cover” on a reef relative to the potential range of the reef.</p>
+<blockquote>
+<p>In the Global Assessment, coral reference points used the mean predicted values for a country from 1985-1987. When this data was not available for a country, we used the value of neighboring countries. There was also some analyses to control for the fact that the % live coral cover naturally varies over time, hence the use of “predicted values”.</p>
+</blockquote>
+<blockquote>
+<p>In the 2012 Global Assessment, soft-bottom habitat had an estimated status based on the “intensity of trawl fishing” as a proxy (pages 51 and 52 of SOM 2012).</p>
+</blockquote>
+<p>It is also important to think about the temporal aspect of your habitats. This will affect the <strong>trend</strong> and the choice of the <strong>reference point</strong>. Trend is the change in health or condition over time. However, this might be constrained by data availability due to the heterogeneity of habitat types and data sources. Ideally, there will be enough years of data to directly calculate the recent change in health of the habitat by using a linear model to calculate trend. This isn’t always the case, and proxies or estimates might need to be used. For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.</p>
+<blockquote>
+<p>For example, for sea ice in the Global Assessment, a linear model was set to a metric of sea ice cover for data from 2006-2011, after some smoothing to account for natural variation.</p>
+</blockquote>
+<p>Overall, the historical <strong>reference point</strong> is particularly important for the habitat goals. What’s the ideal reference point, however? You could consider setting the reference point further back in history if you have the data for it. This would assume there was a more pristine condition in the past, and would be based on the assumption that habitat destruction has been and still is occuring. Here it is useful to use the S.M.A.R.T. principles (See <strong>Conceptual Guide</strong>). It is highly encouraged to set an ambitious reference point, and deviate from those which were set in the Global.</p>
 <hr />
-<p>Notes</p>
-<!---From Baltic Workshop--->
-<p>CP &amp; CS Both are habitat based protection of coastal things by Natural habitats (no credit for walls)</p>
-<p>CS: about ability to sequester (pull in) carbon</p>
-<p>For both, you’d like a reference point of past habitat and then compare yourself to that. You could restore habitat to increase your score–or protect against further loss. But globally we expect this goal to keep decreasing as we keep destroying.</p>
-<p>We weight the habitats based on the amount of protection they provide and the amount carbon they sequester</p>
-<p>Q: what are we protecting against? A: erosion, storm damage. We did spend a lot of time trying to think about the value of the land/people behind the habitats. PNAS paper looking at the US accounting for # of people on the land and the value of the land for coastal habitats. It gets challenging bc uninhabited is important too. Property value is weird because it is a measure of rich people–so we decided what is on land: just focus on what the habitats are and the protection they provide. At the regional level, could start thinking about these issues (globally there also weren’t the data), but it’s not super democratic–property values and rich people, and uninhabited areas are valuable as well.</p>
-<p>Given the habs you have now, what do they compare with what you had?</p>
-<p>Ex: in SF bay, invasive marsh plant (spartina). it provides the same kind of CP, but it’s a non-native habitat. It would still count towards CP but would also be a pressure on BD. if habitats change for natural reasons, that might be OK. but if they are introduced species, think about the effects on other goals.</p>
-<p>The weights on the habitats–comes from the literature. IF you have region-specific info, use those as weights. Otherwise can use the global weights. Baltic has a lot of data on habitat types</p>
-<p>We excluded kelp forests but sea ice is another one. If you don’t account for longer-term trends could</p>
-<p>You need Extent and Condition of each habitat type for both CS and CP. Since Baltic has such good data, you should try to account for both. You might be able to have a better approach than we did.</p>
-<p>Q: CS: how long are habitats expected to store carbon? A: We assumed 100 years based on the literature. Not in fleshy tissue. The long-term. Literature set these weights. But you could change this definition depending on how local studies quantify this.</p>
-<p>Explicit: set the ref pt further back in history if you have the data to back it. Use S.M.A.R.T. Principles Note: It’s ok/good to be more ambitious than the first Global</p>
-</div>
-<div id="recommendations-for-regional-assessments" class="section level4">
-<h4><span class="header-section-number">3.7.5.5</span> Recommendations for Regional Assessments</h4>
-<p>If comprehensive species biodiversity data exist, these data can be used alone and the sub-goal of habitats can be removed (so that the entire goal is species biodiversity). However, the inventory of marine biodiversity may not often be sufficiently complete to permit that.</p>
 </div>
 <div id="global-data-approach" class="section level4">
-<h4><span class="header-section-number">3.7.5.6</span> Global Data Approach</h4>
-<p>Hi Julie: I’m not sure if this is an adequate answer, but we can start discussing this!</p>
+<h4><span class="header-section-number">3.7.5.4</span> Global Data Approach</h4>
 </div>
 <div id="habitat-extent-area-of-each-habitat-in-each-reporting-region" class="section level4">
-<h4><span class="header-section-number">3.7.5.7</span> habitat extent: Area of each habitat in each reporting region</h4>
+<h4><span class="header-section-number">3.7.5.5</span> habitat extent: Area of each habitat in each reporting region</h4>
 </div>
 <div id="habitat-healthcondition-this-is-the-condition-of-the-habitat-relative-to-a-reference-point.-the-ideal-situation-is-if-there-is-historical-data-that-can-be-compared-to-the-present-habitat." class="section level4">
-<h4><span class="header-section-number">3.7.5.8</span> habitat health/condition: this is the condition of the habitat relative to a reference point. The ideal situation is if there is historical data that can be compared to the present habitat.</h4>
+<h4><span class="header-section-number">3.7.5.6</span> habitat health/condition: this is the condition of the habitat relative to a reference point. The ideal situation is if there is historical data that can be compared to the present habitat.</h4>
 <p>Some examples: For mangroves, we divided the current area (2005 data) by the reference area (1980 data).</p>
 <p>Coral health is based on the % living cover on a reef. Ideally, historical data is available that can provide a reference point for % living cover. For our reference point, we used the mean predicted values for a country from 1985-1987. When this data was not available for a country, we used the value of neighboring countries. (There was also some analyses to control for the fact that the % live coral cover naturally varies over time, hence the use of “predicted values”).</p>
 <p>For soft-bottom habitat, we estimated status based on the intensity of trawl fishing as a proxy (pages 51 and 52 of SOM 2012).</p>
 </div>
 <div id="habitat-trend-change-in-healthcondition-over-time" class="section level4">
-<h4><span class="header-section-number">3.7.5.9</span> habitat trend: Change in health/condition over time</h4>
+<h4><span class="header-section-number">3.7.5.7</span> habitat trend: Change in health/condition over time</h4>
 <p>Ideally, there will be enough years of data to directly calculate the recent change in health of the habitat (i.e., using a linear model to calculate trend). For example, for sea ice, we fit a linear model to a metric of sea ice cover for data from 2006-2011 (after some smoothing to account for natural variation).</p>
 <p>This isn’t always the case, and proxies or estimates might need to be used. For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.</p>
 </div>
 <div id="questions-to-consider" class="section level4">
-<h4><span class="header-section-number">3.7.5.10</span> Questions to Consider</h4>
+<h4><span class="header-section-number">3.7.5.8</span> Questions to Consider</h4>
 <p>I think the approach is going to largely depend on the type of data they have (our approach varies for each habitat because the data is so variable).</p>
 <p>Do they have maps, for example, that show current habitat distributions and maps that show historical habitat distributions? If so, they could extract that data for each of their regions to get a current and reference area. Or, they may have access to summarized habitat data that exists in tables for their regions (or, at smaller scales such as estuary that they can summarize per region)?</p>
 <p>Antarctica had sea ice habitat data, there is a script that wallks through downloading and analyzing the data. But, I’m not sure how helpful that will be.</p>
 <p>For Fiji, the only habitat variable that we modified was coral health. In this case, we had better regional data to estimate coral health (even though the final value we ended up getting was the same). That was a fairly specialized analysis</p>
 </div>
-<div id="linking-habitat-and-biodiversity" class="section level4">
-<h4><span class="header-section-number">3.7.5.11</span> Linking Habitat and Biodiversity</h4>
 </div>
-<div id="practical-considerations-1" class="section level4">
-<h4><span class="header-section-number">3.7.5.12</span> Practical Considerations</h4>
-</div>
+<div id="ready-to-start-the-carbon-storage-goal" class="section level3">
+<h3><span class="header-section-number">3.7.6</span> Ready to start the <strong>Carbon Storage</strong> goal?</h3>
 <div id="ideal-approach-1" class="section level4">
-<h4><span class="header-section-number">3.7.5.13</span> Ideal Approach</h4>
+<h4><span class="header-section-number">3.7.6.1</span> Ideal Approach</h4>
 <p>Ideally, information would be available to allow you to to assess the amount of carbon stored in every coastal habitat in your area. The best information would show area covered and some measure of the quality of the habitat for this goal. For example, a dense mangrove forest would be better quality than a sparse mangrove forest. Additionally, different weights would be assigned to the habitats based on their relative ability to store carbon, and this factor could be used to penalize areas where there is greater loss of carbon and reward areas where this is a greater storage of carbon. The carbon storage model could then incorporate such weights in a similar way to the <strong>Coastal Protection</strong> goal. The reference point for habitat-based goals will likely be temporal in most cases. This means that historic data are needed so that current habitat values can be compared to a past state.</p>
 <blockquote>
 <p>TIP: Understanding habitat carbon storage rates is an area of ongoing research. The capacity for habitats to store carbon varies, and depends on the morphology of plants in the system.</p>
 </blockquote>
 </div>
-</div>
-<div id="ready-to-start-the-carbon-storage-goal" class="section level3">
-<h3><span class="header-section-number">3.7.6</span> Ready to start the <strong>Carbon Storage</strong> goal?</h3>
+<div id="practical-approach" class="section level4">
+<h4><span class="header-section-number">3.7.6.2</span> Practical Approach</h4>
 <p>The model and approach for <strong>Carbon Storage</strong> developed for the Global assessment will likely be appropriate for independent assessments. Knowing the area and the condition of of carbon-storing habitats are the two components that are most important. It is important to spend time looking for a way to quantify condition, but it may not be possible to find.</p>
 <p>One of the first decisions for your team to make is <strong>whether to use the given data</strong> in the Global Assessments or <strong>to find and use a better dataset</strong>. Even though your goal model shouldn’t change entirely from the Global, you should find more localized data than the global data, because the global data layers have already been processed and include clipped regions that reduce the specificity of the information for your area. This is because in the default WebApp methods, the habitat area was calculated by using the global areal coverage of the habitat weighted by the size of the offshore area of the region. This is not consistent currently in the WebApps; for example, if you look at <a href="https://github.com/OHI-Science/col/blob/draft/subcountry2014/layers/hab_extent_gl2014.csv">the given layers a WebApp</a>, you will see that the same values are applied to all regions. You should think here, however, of how your regions’ size compare to any spatial dataset’s scale, and return to the question of spatial coverage once you are thinking about the <strong>reference points</strong> farther on.</p>
 <blockquote>
@@ -668,40 +653,48 @@ some history: the 1km buffer was used at the global scale because there was spat
 <p>In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical salt marsh extents in California.</p>
 </blockquote>
 <p>In this case, perhaps your choice of historical reference point may be guided by a policy target as well. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?</p>
-<div id="practical-considerations-2" class="section level4">
-<h4><span class="header-section-number">3.7.6.1</span> Practical Considerations</h4>
+<hr />
+</div>
+<div id="ready-to-start-on-coastal-protection" class="section level4">
+<h4><span class="header-section-number">3.7.6.3</span> Ready to start on <strong>Coastal Protection</strong>?</h4>
 <blockquote>
 <p><strong>Coastal Protection</strong> aims to assess the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value.</p>
 </blockquote>
 </div>
 <div id="ideal-approach-2" class="section level4">
-<h4><span class="header-section-number">3.7.6.2</span> <em>Ideal Approach</em></h4>
+<h4><span class="header-section-number">3.7.6.4</span> <em>Ideal Approach</em></h4>
 <p>Ideally, data for all habitats within a region would be available, as well as information on the value of the land and the vulnerability of inhabitants being protected by these habitats. This requires data for habitat type at high spatial resolution as well as a measure of the value of what is protected by the habitats. The reference point for habitat-based goals will likely be a temporal baseline; this means that historic data are needed such that current habitat and value data can be compared to them.</p>
 </div>
-<div id="ready-to-start-on-coastal-protection" class="section level4">
-<h4><span class="header-section-number">3.7.6.3</span> Ready to start on <strong>Coastal Protection</strong>?</h4>
-<p>The areas relevant to this goal include both inhabited places, such as homes and other structures, and uninhabited places such as parks and special places. At local and regional scales data may exist on all these variables at a high enough resolution to map and calculate exactly which habitats are providing how much protection to which coastal areas. You must first decide which data sources to use for your maps. Do you have spatially-explicit satellite data? If so, how far back in time does it go? The data consideration will be a consideration when you set the reference points.</p>
+<div id="practical-approach-1" class="section level4">
+<h4><span class="header-section-number">3.7.6.5</span> Practical Approach</h4>
+<p>The areas relevant to this goal include both inhabited places, such as homes and other structures, and uninhabited places such as parks and special places. However, no credit is given for sea-walls, because they are not regarded as sustainable. At local and regional scales data may exist on all these variables at a high enough resolution to map and calculate exactly which habitats are providing how much protection to which coastal areas. You must first decide which data sources to use for your maps. Do you have spatially-explicit satellite data? If so, how far back in time does it go? The data consideration will be a consideration when you set the reference points.</p>
 <blockquote>
 <p>In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical sand-dunes in California, for example, in order to find information for sand dune extent in the 1850s.</p>
 </blockquote>
 <p>In addition, one might want to know the level of vulnerability of the different coastal communities. Vulnerability can be quantified as the ability to evacuate, fragility of constructions, economic ability to reconstruct in case of damage. The the reason this is done is to prioritize the protection of certain locations. Physical properties may be available in regional studies, allowing for more a detailed understanding of the protective ability, and likelihood of exposure for each habitat type in different portions of the coastline.</p>
-<p>As with the other habitat-based goals (See <strong>Best Approaches</strong>), you will need to make careful decisions about your reference point. It’s an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this–either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? Do you want to be ambitious and set it far in the past, so it gets closer to a more “pristine” condition? Or do you want to make it represent human use? Will it make your scores look better or worse if you choose a more recent or more distant example?</p>
+<p>As with the other habitat-based goals, you will need to make careful decisions about your reference point. It’s an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this–either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? Do you want to be ambitious and set it far in the past, so it gets closer to a more “pristine” condition? Or do you want to make it represent human use? Will it make your scores look better or worse if you choose a more recent or more distant example?</p>
 <hr />
-<!---From Baltic Workshop--->
-<p>Q: what are we protecting against? A: erosion, storm damage. We did spend a lot of time trying to think about the value of the land/people behind the habitats. PNAS paper looking at the US accounting for # of people on the land and the value of the land for coastal habitats. It gets challenging bc uninhabited is important too. Property value is weird because it is a measure of rich people–so we decided what is on land: just focus on what the habitats are and the protection they provide. At the regional level, could start thinking about these issues (globally there also weren’t the data), but it’s not super democratic–property values and rich people, and uninhabited areas are valuable as well.</p>
 </div>
-<div id="practical-considerations-3" class="section level4">
-<h4><span class="header-section-number">3.7.6.4</span> Practical Considerations</h4>
+<div id="linking-habitat-and-biodiversity" class="section level4">
+<h4><span class="header-section-number">3.7.6.6</span> Linking Habitat and Biodiversity</h4>
+<p>If comprehensive species biodiversity data exist, these data can be used alone and the sub-goal of habitats can be removed so that the entire goal is species biodiversity. However, the inventory of marine biodiversity may not often be sufficiently complete to permit that.</p>
+<p>You should also think about the linkages between the habitat-based goals, such as <strong>Carbon Storage</strong> and <strong>Coastal Protection</strong>, and the pressures and resilience. Does the encroachment or reduction of these habitats have an effect on carbon sequestration, or does it change ecosystem composition sufficiently to impact species? Could habitats have an effect on <strong>Clean Waters</strong>, or are they impacted more by local pollution than other impacts? If habitats change for natural reasons, you might not need to worry about their pressures on other goals, but if they consist of introduced species, you should think about the effects on other goals.</p>
+<blockquote>
+<p>For example, the invasive marsh plants such as <em>Spartina</em> may afford some Carbon Storage, but it’s a non-native habitat to an area such as the San Francisco Bay. It could still count towards the <strong>Carbon Storage</strong> goal, but would also be a pressure on <strong>Biodiversity</strong>.</p>
+</blockquote>
+</div>
+<div id="practical-considerations-1" class="section level4">
+<h4><span class="header-section-number">3.7.6.7</span> Practical Considerations</h4>
 <blockquote>
 <p>The <strong>Natural Products</strong> goal describes how sustainably people harvest non-food products from the sea.</p>
 </blockquote>
 </div>
 <div id="ideal-approach-3" class="section level4">
-<h4><span class="header-section-number">3.7.6.5</span> <em>Ideal Approach</em></h4>
+<h4><span class="header-section-number">3.7.6.8</span> <em>Ideal Approach</em></h4>
 <p>Ideally, quantity, value, and a sustainability rating of the harvest method would be available for every marine and coastally-derived natural product within the regions of a study area. This could include a wide range of products depending on what is harvested in the study area, including corals, shells, seaweeds, aquarium fish, mangrove wood, or any non-food marine product that is harvested within a region. The ideal reference point would be derived from a functional relationship of the sustainability of the harvest for each product relative to the amount of product available in the ecosystem, informed by scientific studies. Without such information, assumptions and expert judgment will need to be made to set the reference point.</p>
 </div>
 <div id="ready-to-start-on-natural-products" class="section level4">
-<h4><span class="header-section-number">3.7.6.6</span> Ready to start on <strong>Natural Products</strong>?</h4>
+<h4><span class="header-section-number">3.7.6.9</span> Ready to start on <strong>Natural Products</strong>?</h4>
 <p>Whether you use the approach from the global assessment or are developing your own new model entirely, there are a few tasks that will remain the same because are key to the philosophy of this goal.</p>
 <p>The first is to identify <strong>identify which products are in your study area.</strong> For example, does your study area have corals, ornamental fishes, sponges? Does your area yield medicines from the sea, or other products that are not used for nutrition under <strong>Food Provision</strong>? Does your area harvest drinking water from the ocean through desalination plants? Is there a kelp or seaweed industry in your area? If there are multiple uses of the product, you must also consider what proportion of the product is used for food, and what proportion is used for other purposes. As another example, oil from marine mammals was considered but excluded from the global models, but if a region has a considerable amount of mammal oil harvest, they should include it in the calculation, keeping in mind that the sustainability of this type of harvest is likely to be low and should be reflected in the score.</p>
 <p>The second task is to think about <strong>where these products are harvested and how much of them are harvested</strong> in these areas through a period of time. You should find spatial representation of these products, which can be done by knowing where they are derived from. Do they come from certain habitats (in the case of coral) or animals (in the case of fish oil)? This information will help calculate the sustainability of the harvest of eah natural product. harvest amounts and the spatial data are used to calculate <strong>exposure</strong> further on, and can also be used to set the <strong>relative weighting</strong> between the products. These spatial data may have already been used in other goals, or they may lead you to find useful data that can be used in other parts of the assessment (See <strong>Best Approaches</strong>).</p>
@@ -940,7 +933,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 <div id="ideal-approach-5" class="section level3">
 <h3><span class="header-section-number">3.9.1</span> Ideal Approach</h3>
 <p>Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.</p>
-<div id="practical-considerations-4" class="section level4">
+<div id="practical-considerations-2" class="section level4">
 <h4><span class="header-section-number">3.9.1.1</span> Practical Considerations</h4>
 <p>In practical terms, resilience is hard to define and finding data can be difficult. It is often difficult to find regulations and indicators that would directly ‘balance’ individual stressors, but it is worth the effort to explore what information is available in the local context and how it could be included as resilience measures. You may be able to construct your own set of indicators for resilience (particularly social resilience) using proxy data. Your team may have to get creative to develop appropriate assessment measures here. It can be metrically be defined as presence-versus-absence (value of zero or one), or on a scale (value between zero and one) if the measure is an assessment or score. For instance in the global study, resilience measures that were counted in the socio-economic resilience class of data came from the World Governance Indicators (<a href="http://govindicators.org" class="uri">http://govindicators.org</a>). In a regional context, however, a more appropriate data layer might be a local governance index of some kind, preferably developed by a reputable organization using credible methods.</p>
 <p>When available, National-level data are preferable to global-level data for your assessment. These include national laws on the environment, or protection of the marine environment or rivers that lead to coastal waters. National laws include things like the Clean Water Act (CWA) and the Endangered Species Act (ESA) in the U.S., or the national implementations of the E.U. Water Framework Directive. National actions can also be broadened beyond just legislation to include administrative procedures such as those involving permits, licenses, court cases, administrative action, and compliance mechanisms. [Cultural items at the national scale, such as holidays, are also applied at this scale]</p>
