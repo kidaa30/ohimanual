@@ -68,7 +68,7 @@ in_mdv2 = c(
   'Phase_2.md',                         ## removed 'Understand_Philosophy_of_Index.md' 5-18-15
   '2_Understand_Requirements_for_Assessment.md',
   '2_Funding.md',
-  # '2_Assembling_team.md' # --> Develop
+  '2_Assembling_team.md' # --> Developing; fix
   '2_Data_Requirements.md',
   '2_Planning_and_Partnering.md',
   '2_Who_Should_Be_Involved.md',

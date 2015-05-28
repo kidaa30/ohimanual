@@ -29,9 +29,11 @@ in_md = c(
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
-  '3_HAB_practical.md', # --> exists, new content. 
-  #'3_BDD_ICO_practical.md' # --> to be developed
-  #'3_NP_practical.md', # --> exists, new content. 
+  '3_HAB_Goals_practical.md', # --> exists, new content. 
+  '3_CS_practical.md', # --> To be replaced by HAB_goals practical
+  '3_CP_practical.md', # --> To be replaced by HAB_goals practical
+  #'3_BDD_ICO_practical.md' # --> to be developed 
+  '3_NP_practical.md', # --> exists, new content. 
   '3_pressures_resilience.md', # --> updated with practical guidance
   '3_intro_to_tbx.md',
   '3_file_system.md',
@@ -44,6 +46,7 @@ in_md = c(
   '3_use_tbx_to_modify_data_layers.md',
   '3_use_tbx_to_modify_pressures_resilience.md',
   '3_use_tbx_to_modify_goal_models.md',
+  '3_use_tbx_to_modify_goal_models_practical.md', # --> exists, add more
   '3_use_tbx_to_remove_goal_models.md',
   '3_use_tbx_to_modify_goals_categories.md',
   '3_example_modifications_with_tbx.md',
@@ -215,8 +218,3 @@ render(
 
 print(sprintf('ohi-science.org/manual was updated: %s', redo_website))
 if(redo_website ==F) print("to update ohi-science.org/manual, change the 'redo_website' variable from FALSE to TRUE")
-   
-   
-   
-   
-   
