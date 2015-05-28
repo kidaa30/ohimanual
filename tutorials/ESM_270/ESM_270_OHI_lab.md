@@ -20,9 +20,9 @@ In this assignment you will explore an existing OHI WebApp for the country of yo
 2. Choose a coastal country or territory that has a WebApp using the list available at [ohi-science.org/subcountry](). The WebApp you choose must have a green `build | passing` indicator associated with its study area.
     - click the three-letter key (`xxx`) in the '*Repo*' column to explore the WebApp of that study area.
     - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area.
+    - NOTE: please do not choose CHN, as it is under development
 
 3. Click the '*Download ZIP*' button on the main page of the repository for your key (linked from '*Last Mod*'): **github.com/OHI-Science/xxx**
-    - NOTE: please do not choose CHN, as it is under development.
 
 4. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply **`xxx`**.
 
@@ -99,7 +99,8 @@ When you have made your modifications, save and close the file. Document the cha
 
 ### 3. Recalculate and visualize OHI scores  
 
-Paste the following into your R Console to recalculate the scores with your modifications:
+Paste the following into your R Console to recalculate the scores with your modifications:  
+NOTE: this will take take several seconds. Progress is logged in the R Console and will be complete when you see the `>` symbol again.
 
 ```
 source(file.path(wd, 'calculate_scores.r'))
@@ -129,7 +130,7 @@ scatterPlot(csv_orig, csv_new, layer_changed, fig_save, goal1)
 
 ```
 
-Open the figures by clicking on them in the File pane of RStudio (they will be at the bottom of the pane) or from Windows Explorer. See how scores changed compared to other goals with the '_changePlot.png' and how individual regions changed with '_scatterPlot.png'.
+Open the figures by clicking on them in the File pane of RStudio (they will be within the `subcountry2014` folder) or from Windows Explorer. See how scores changed compared to other goals with the '_changePlot.png' and how individual regions changed with '_scatterPlot.png'.
 
 ### 4. Repeat Steps 1-3 for two goal layers and one pressure layer  
 
