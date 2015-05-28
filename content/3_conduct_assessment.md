@@ -1,25 +1,26 @@
 # Conducting an Assessment
 
->**Section Summary:**
+<!---See `what_is_ohi+.md`>**Section Summary:**
 
 >In this section, you will learn what to think about before conducting an assessment. Your team should already be familiar with the OHI approach and can now prepare for tailoring it to the local context.
 
-> TIP: Careful planning before an assessment will pay off later.
+> TIP: Careful planning before an assessment will pay off later.--->
 
-## What to expect when conducting an assessment
+<!---Moved to 'What_is_ohi+.md'## What to expect when conducting an assessment
 
-There are key considerations and processes that will be a part of every assessment, however, the process for conducting each assessment will be unique depending on the local context. For example: what data and indicators are available will determine how goal models can be tailored to the region, and what skillsets and resources are involved will affect the time it takes to complete the assessment.
+There are key considerations and processes that will be a part of every assessment, however, the process for conducting each assessment will be unique depending on the local context. For example: what data and indicators are available will determine how goal models can be tailored to the region, and what skillsets and resources are involved will affect the time it takes to complete the assessment.--->
 
+<!---See Task Timeline in Conc. Guide
 ### Timeline
 
 The time required to complete an assessment depends on the local context and available resources, but the proportion of time required for different phases of the assessment is more predictable.  
 
-**Expect strategic planning, discovering and gathering data, and developing reference points and models to comprise > 80% of the time allotted for the assessment.**  
+**Expect strategic planning, discovering and gathering data, and developing reference points and models to comprise > 80% of the time allotted for the assessment.** --->
 
 
-![](./fig/task_timeline.png)  
+<!---![](./fig/task_timeline.png)--->
 
-## Where to start
+<!---Moved to `what_is_ohi+.md`. ## Where to start
 
 You should start by understanding the structure of the global assessment and the data involved will help you think about what should be done differently in your local context.  
 
@@ -27,7 +28,7 @@ The best way to do this is to begin with the WebApps. As described in the sectio
 
 You should also be familiar with the approaches taken by other assessments adapted from the global context, including Brazil, the US West Coast, and Fiji. You can find these studies at http://ohi-science.org.  
 
-While our team of scientists and managers is prepared to provide guidance for assessments, you should follow the steps in this training program to complete your assessment as autonomously as possible.
+While our team of scientists and managers is prepared to provide guidance for assessments, you should follow the steps in this training program to complete your assessment as autonomously as possible.--->
 
 
 ## Points to remember

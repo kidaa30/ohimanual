@@ -19,7 +19,7 @@ As a composite index, the Ocean Health Index integrates the results across disci
 - [**Clean Waters**](CW_Philosophy) and beaches for aesthetic and health values
 - [**Biodiversity**](BIO_Philosophy) of species and habitats
 
-## The Benefit of OHI+
+## The Benefits of OHI+
 
 The Index is a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. It is now being expressed through independent Ocean Health Index+ (OHI+) assessments. The OHI+ framework is repeatable, transparent, quantitative, and goal-driven, and the inputs to the OH+ assessments use the same overarching framework while consisting of data and indicators specifically relevant to the local context. Repeated assessments are valuable because they can be used to tack and monitor the progress of ocean health through time. Even a first effort OHI+ is valuable because it establishes a baseline against which to monitor change.  Such a flexible framework allows OHI+ assessments to adapt to local conditions while still being useful for management.
 

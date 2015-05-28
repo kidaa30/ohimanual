@@ -1,4 +1,4 @@
-#Glossary
+# Glossary
 
 <!---Taken from Conceptual Guide v2 --->
 

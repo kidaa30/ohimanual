@@ -22,3 +22,9 @@ One approach, for example, that has been very successful is to spread the goal m
 <!---From Lauren's "Determine_the_Need", Conc Guide--->
 
 Effective assessments are carefully planned and require adequate project leadership and vision. Due to the multidisciplinary nature of the Index, assessments often count with participation of various stakeholder groups. Nevertheless, we recommend a key agency or group assumes the leadership of the assessment to ensure proper planning, development, and engagement throughout the assessment.
+
+<!---From Man, before_conducting: * Assemble a qualified team with diverse skills and knowledge, including:
+    + a broad scientific understanding and experience with environmental policy
+    + ability to manage large data sets, make decisions, and think creatively
+    + capacity to collaborate in a multidisciplinary team, remotely and in person
+    + team members who can use the statistical programming language R (http://cran.r-project.org/), ArcGIS or other spatial analysis software, and are fluent in English--->
