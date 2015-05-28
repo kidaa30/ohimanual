@@ -5,42 +5,33 @@ output: pdf_document
 
 # Introduction
 
-The Ocean Health Index [intro here]
+In this assignment you will explore how the Ocean Health Index (OHI) would respond to different management scenarios. You will do this by modifying input data based on the management scenarios you choose, and recalculating the OHI scores.
 
-Intro to WebApps concept and overview of lab exercise
- - study areas and regions
- 
-In this assignment you will explore how the Ocean Health Index would respond to several different management scenarios. You will do this by identifying three components of the OHI that could be affected by three different scenarios, and recalculate the scores with these changes. 
+To facilitate independent OHI assessments, we have created the OHI Toolbox software, which has everything you need to start an assessment. Data and scripts are stored online in 'repositories' at [https://github.com/ohi-science](), and information is visualized in 'WebApps' at [http://ohi-science.org]().
 
 # Setup Instructions
 
-You access an existing WebApp and modify it locally on your computer to complete the assignment. You will need to install R (and preferably RStudio) to complete the assignment. 
-
-**Setup Instructions:**
+In this assignment you will explore an existing OHI WebApp for the country of your choice. You will download its repository and modify some of the input data on your computer. You will use R and RStudio to complete the assignment.
 
 1. Create a folder called `**github**` in your home directory so that the R scripts will run smoothly. This folder will have the following filepath:
     - **Windows**: `Users\[User]\Documents\github\`
     - **Mac**: `Users/[User]/github/`
 
-2. **R**: Download and install the current version of R from [cran.r-project.org](http://cran.r-project.org/). 
+2. Choose a coastal country or territory that has a WebApp using the list available at [ohi-science.org/subcountry](). The WebApp you choose must have a green `build | passing` indicator associated with its study area.
+    - click the three-letter key (`xxx`) in the '*Repo*' column to explore the WebApp of that study area.
+    - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area.
 
-3. **RStudio**: Download and install the current version of RStudio from [rstudio.com](www.rstudio.com). 
+3. Click the '*Download ZIP*' button on the main page of the repository for your key (linked from '*Last Mod*'): **github.com/OHI-Science/xxx**
+    - NOTE: please do not choose CHN, as it is under development.
 
-4. Choose a coastal country or territory that has a WebApp using the list available at [ohi-science.org/subcountry](). The WebApp you choose must have a green `build | passing` indicator associated with its study area. 
-    - click the three-letter key (`xxx`) in the '*Repo*' column to explore the WebApp of that study area. 
-    - click the date in the '*Last Mod*' column to explore the GitHub repository of that study area. 
+4. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply **`xxx`**.
 
-5. Click the '*Download ZIP*' button on the main page of the repository for your key (github.com/OHI-Science/`xxx`)
-    - NOTE: please do not choose CHN, as it is under development. 
+5. Double-click the `.Rproj` file to launch **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
 
-6. Unzip the downloaded ** *.zip* ** folder and save in your `github` folder, removing the `-draft` from the folder's name so that it is simply **`xxx`**.
-  
-7. Double-click the `.Rproj` file to open **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
-
-8. Type the following in the Console window, replacing 'xxx' with your 3-letter code:
+6. Type the following in the Console window, replacing 'xxx' with your 3-letter code:
     - **` key = 'xxx'`**. Don't forget the quotes!
 
-9. Paste the following into the Console window:
+7. Paste the following into the Console window:
 
 ```
 # set the working directory
@@ -49,89 +40,97 @@ setwd(wd)
 
 # install OHI Toolbox software and necessary packages
 source(file.path(wd, 'install_ohicore.r'))
-install.packages(c('devtools', 'dplyr'))
-library(devtools)
+install.packages('dplyr')
 library(dplyr)
 
 # save a copy of the original calculated scores
-file_save_orig = 'scores_orig.csv'
-file.copy('scores.csv', file_save_orig, overwrite=T)
-csv_orig = file.path(wd, file_save_orig)
+file_basename_orig = 'scores_orig.csv'
+file.copy('scores.csv', file_basename_orig, overwrite=T)
+csv_orig = file.path(wd, file_basename_orig)
 
 ```
 
-# Lab Instructions 
+# Lab Assignment
 
-**L3. Explore assessment inputs.**  
+Use the WebApp  (**`http://ohi-science.org/xxx/app`**, replacing `xxx` with your key)  to explore the input layers that contribute to different goals. Do this by selecting 'Input Layer' as the variable type and selecting different goals as the target. Input data layers are identified in the third pull-down menu by title and by the layername (in parentheses). You can view these data on the Map, Histogram, and Table tabs. Use the Layers page to learn more about each data layer.
 
-Use the WebApp at **`http://ohi-science.org/xxx/app/`** (replacing `xxx` with your key) to explore the input layers that contribute to each goal. Do this by selecting 'Input Layer' as the variable type and changing the targets. Input layers are identified in the third pull-down menu by title and by the layername (in parentheses).    
-
-Determine which goals you would like to modify. 
+Choose two goals and one pressure that could be affected by three different management scenarios based on the data layers included in those goals. Document this in your report, along with how you will modify the input layers. How do you expect goal scores and combined Index scores to be affected?
 
 
+### 1. Find the `.csv` file to modify.  
 
-## Assignment
+Type the following in your R Console window, writing the layername you choose in quotes. (Example: layer_mod = 'ao_need')
 
-### A1. Modify Layer 1
+```
+layer_mod = 'layer_name_here'
+```
 
-**In the R Console:**
+Paste the following in your R Console window:
 
-```{r}
-
-# Type the following in your R Console window, identifying the data layer to modify: 
-layerA1 = 'layer_name_here' # write the layername. Example: layerA1 = 'ao_need'
-
-# paste the following in your R Console window:
-infoA1 = read.csv('layers.csv') %>% filter(layer==layerA1) %>% select(layer, targets, filename)
-print(infoA1)
-goalA1 =  infoA1$target
-
-
-# the filename column identifies the layer's filename, located in `subcountry2014/layers`
+```
+info1 = read.csv('layers.csv') %>%
+        filter(layer==layer_mod) %>%
+        select(layer, targets, filename)
+goal1 =  info1$target
+print(info1)
 
 ```
 
-**Modify the file in excel**
+The output in your R Consule identifies the filename of the layer you have chosen. This `.csv` file is located in the folder called `subcountry2014/layers`.
 
-a) In Windows Explorer, find the filename located within `subcountry2014/layers` and modify as desired. Change only values, do not delete or add rows or columns.
 
-b) Save the changes and close the file. 
 
-c) Describe the modifications and why. What behavior do you expect from Ocean Health Index scores?
+### 2. Modify the `.csv` file  
 
+You can modify the `.csv` file in RStudio, a text editor, or in Excel. Navigate to it within the RStudio Files pane or using Windows Explorer. All `.csv` layers files are in the `subcountry2014/layers` folder.
+
+When you have made your modifications, save and close the file. Document the changes you've made in your report.
+
+**What modifications should you make?** This will depend on your management scenario your assumptions. You can increase or decrease any numeric value, and do this in any combination for all regions or only a subset. There are only a few constraints:
+
+* Change only numeric values, do not delete or add rows or columns.
+* Notice the range of values within your data layer. If the numeric values are scores between 0 and 1, make sure any modifications you do keep the values within that range.
+  * Optional: to quickly check the range of values you can paste the following into your R Console:
+  ```
+  suppressWarnings(require(ohicore))
+  layers = Layers('layers.csv', 'layers')
+  summary(layers$data[[layer_mod]])
+  ```  
+
+### 3. Recalculate and visualize OHI scores  
+
+Paste the following into your R Console to recalculate the scores with your modifications:
 
 ```
-# Paste the following into your R Console
-
-# recalculate the scores with your modifications
 source(file.path(wd, 'calculate_scores.r'))
+```
 
-# save a copy of these scores with 
-file_save = 'scores_A1' # you can change this name if you'd like
-file.copy('scores.csv', paste0(file_save, '.csv'), overwrite=T)
-csv_new = file.path(wd, paste0(file_save, '.csv'))
-layer_changed = layerA1
-fig_save = file.path(wd, paste0(file_save, '.png'))
+Paste the following into your R Console to name and save a copy of these modified scores:
 
+```
+file_basename = paste0('scores_', layer_mod)
+csv_new = file.path(wd, paste0(file_basename, '.csv'))
+file.copy('scores.csv', csv_new, overwrite=T)
+```
 
-# Paste the following into your R Console
+Paste the following into your R Console to name and save figures:
+
+```
+layer_changed = layer_mod
 
 # load comparison functions compareVis_scores.r
-# devtools::source_url('https://raw.githubusercontent.com/OHI-Science/ohidev/master/test.r?token=AFnnRaypXn4nUTvokCyu9ENmOIH7by-eks5VaOq6wA%3D%3D')
-source('~/github/ohimanual/tutorials/ESM_270/compareVis_scores.R')  # for testing; to be completed after discussing with BH
+devtools::source_url(
+  'https://raw.githubusercontent.com/OHI-Science/ohimanual/master/tutorials/ESM_270/compareVis_scores.R')
 
-changePlot(csv_orig, csv_new, layer_changed, fig_save)
-(csv_orig, csv_new, layer_changed, fig_save, goalA1)
-
-
-# compare_scores based on Mel. 
+fig_save = paste0(file_basename, '_comparePlot.png')
+comparePlot(csv_orig, csv_new, layer_changed, fig_save)
+fig_save = paste0(file_basename, '_scatterPlot.png')
+scatterPlot(csv_orig, csv_new, layer_changed, fig_save, goal1)
 
 ```
 
-### A2. Modify Layer 2
+Open the figures by clicking on them in the File pane of RStudio (they will be at the bottom of the pane) or from Windows Explorer. See how scores changed compared to other goals with the '_changePlot.png' and how individual regions changed with '_scatterPlot.png'.
 
-REPEAT ...
+### 4. Repeat Steps 1-3 for two goal layers and one pressure layer  
 
-### A3. Modify Layer 3
-
-REPEAT ...
+Along with what you modified, be sure to document how scores changed and whether this is what you expected to happen. 
