@@ -1,11 +1,11 @@
-### **ICONIC SPECIES**
+### **Species Goals**
 #### Practical Considerations
 
 #### *Ideal Approach*
 
-Ideally, data would be available on all species that are important to coastal communities, and then a separate assessments would judge the condition of each of the populations. Because almost any species can be iconic to someone, defining which species are culturally iconic can be challenging; information can sometimes be found from local customs and experts, oral tradition, sociological or anthropological literature, journalism and regional assessments. The type of reference point used will depend on the data available.
+Ideally, data would be available on all species that are important to coastal communities, and then a separate assessments would judge the condition of each of the populations. Because almost any species can be iconic to someone, defining which species are culturally iconic can be challenging; information can sometimes be found from local customs and experts, oral tradition, sociological or anthropological literature, journalism and regional assessments. The type of reference point used will depend on the data available. Ideally, data would be available on all species that are important to coastal communities, and then a separate assessment would judge the condition of each of the populations. It would ideally be possible to find an officially-sanctioned list, or a list from a trusted source, of the iconic species for an area.
 
-#### Comparing SPP and ICO
+#### Comparing **Biodiversity, Speies** and **Iconic Species**
 
 General Issue: SPP and ICO use different models for the OHI eez analyses (but not for HS and Ant).  We are exploring whether we should modify the SPP or ICO model.
 
@@ -13,7 +13,9 @@ ICO status is calculated by taking the average of the IUCN ratings for all the i
 
 SPP status takes into account the IUCN score and the area that the species occupies (although the results are not exactly equivalent to an area weighted average).  Specifically, the values are calculated at the spatial scale of the raster cells (which I believe is at 0.5 degree resolution).  For each raster cell, the IUCN scores of the species are averaged to get a score. To get status, the raster cell scores within an EEZ are then averaged (after weighting for the area of the raster cell).  
 
+### Ready to start on **Species** goals?
 
+> TIP: One way to think about **Iconic Species** is to think about what kinds of animals or plants would appear on local stamps or coinage. The nice thing about that process is the choice has already been vetted by the community.
 
 #### Global Data Approach
 

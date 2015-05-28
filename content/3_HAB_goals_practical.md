@@ -1,7 +1,7 @@
 ### Habitat-based Goals
 #### Practical Considerations
 
-> Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as **Carbon Storage**, **Coastal Protection**, and **Biodiversity**.
+> Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as **Carbon Storage**, **Coastal Protection**, and **Biodiversity**. Your approach will largely depend on the type of data you have.
 
 #### *Ideal Approach*
 
@@ -9,13 +9,13 @@ Ideally, information on the extent and condition of every single habitat type wo
 
 #### Ready to start on **Habitat-based Goals**?
 
-The first thing to consider with habitats is **what habitats are in your area**? You must consider what habitats are in your coastal regions. Are there mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats? Are there kelp forests in your area?
+The first thing to consider with habitats is **what habitats are in your area**. You should consider what habitats are in your coastal regions as well as your offshore regions throughought your EEZ. Are there mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats? Are there kelp forests in your waters?
 
-Once you determine what habitats are in your area, you should also consider whether and to what extent they go offshore and inland. You will likely use a combination of clipped spatial data and spatial data for whole regions, depending on the goal being assessed. For instance, the **Habitat** sub-goal of **Biodiversity** uses the entire region for habitats such as coral reefs in the calculation, but the **Coastal Protection** only uses the extent to 1 kilometer offshore and inland to 1 kilometer <!---Check---> This will affect the preparation of the spatial data layers later in you assessment.
+Once you determine what habitats are in your area, you should also consider **their range extent within your reporting regions**. You should consider whether and how far they go offshore and inland. You will likely use a combination of clipped spatial data and spatial data for whole regions, depending on the goal being assessed. For instance, the **Habitat** sub-goal of **Biodiversity** uses the entire region for habitats such as coral reefs in the calculation, but the **Coastal Protection** only uses the extent to 1 kilometer offshore and inland to 1 kilometer <!---Check---> This will affect the preparation of the spatial data layers later in you assessment.
 
 > For instance, do mangroves occur in river deltas in your area, and if so, how far upriver do they go? In the 2013 Global Assessment, for example, mangrove was assessed from 1 kilometer offshore to 1 kilometer inland, but this distance is variable and could change for you OHI+ assessments. It depends on your geography.
 
-Several factors for habitats will have to be considered. In score calculations, habitats are weighted in different ways based on the amount of protection they provide and the amount carbon they sequester, and they are also derived from estimations of habitat health and condition (See **Carbon Storage**, **Coastal Protection**, and **Biodiversity**). The weights on the habitats comes from the literature. If you have access to regional-specific studies, you should use that information. Otherwise, the Global data layers can be used as a secondary option.
+Several factors for habitats will have to be considered. In score calculations, habitats are weighted in different ways based on the amount of protection they provide and the amount carbon they sequester, and they are also derived from estimations of habitat health and condition (See **Carbon Storage**, **Coastal Protection**, and **Biodiversity**). The weights of the habitats relative to each other comes from the literature. If you have access to regional-specific studies, you should use try to use that information. Otherwise, the Global data layers can be used as a secondary option.
 
 When thinking about condition, for instance, coral health is based on the percentage of "living cover" on a reef relative to the potential range of the reef.
 
@@ -27,37 +27,9 @@ It is also important to think about the temporal aspect of your habitats. This w
 
 > For example, for sea ice in the Global Assessment, a linear model was set to a metric of sea ice cover for data from 2006-2011, after some smoothing to account for natural variation.
 
-Overall, the historical **reference point** is particularly important for the habitat goals. What's the ideal reference point, however? You could consider setting the reference point further back in history if you have the data for it. This would assume there was a more pristine condition in the past, and would be based on the assumption that habitat destruction has been and still is occuring. Here it is useful to use the S.M.A.R.T. principles (See **Conceptual Guide**). It is highly encouraged to set an ambitious reference point, and deviate from those which were set in the Global.
+Overall, the historical **reference point** is particularly important for the habitat goals. What's the ideal reference point, however? You could consider setting the reference point further back in history if you have the data for it. This would assume there was a more pristine condition in the past, and would be based on the assumption that habitat destruction has been and still is occurring. Here it is useful to use the S.M.A.R.T. principles (See **Conceptual Guide**). It is highly encouraged to set an ambitious reference point, and deviate from those which were set in the Global.
 
 ****
-
-
-#### Global Data Approach
-
-#### habitat extent: Area of each habitat in each reporting region
-#### habitat health/condition: this is the condition of the habitat relative to a reference point.  The ideal situation is if there is historical data that can be compared to the present habitat.  
-
-Some examples:
-For mangroves, we divided the current area (2005 data) by the reference area (1980 data).
-
-Coral health is based on the % living cover on a reef.  Ideally, historical data is available that can provide a reference point for % living cover.  For our reference point, we used the mean predicted values for a country from 1985-1987.  When this data was not available for a country, we used the value of neighboring countries.  (There was also some analyses to control for the fact that the % live coral cover naturally varies over time, hence the use of "predicted values").
-
-For soft-bottom habitat, we estimated status based on the intensity of trawl fishing as a proxy (pages 51 and 52 of SOM 2012).
-
-#### habitat trend: Change in health/condition over time
-Ideally, there will be enough years of data to directly calculate the recent change in health of the habitat (i.e., using a linear model to calculate trend).  For example, for sea ice, we fit a linear model to a metric of sea ice cover for data from 2006-2011 (after some smoothing to account for natural variation).
-
-This isn't always the case, and proxies or estimates might need to be used.  For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.
-
-#### Questions to Consider
-
-I think the approach is going to largely depend on the type of data they have (our approach varies for each habitat because the data is so variable).
-
-Do they have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, they could extract that data for each of their regions to get a current and reference area. Or, they may have access to summarized habitat data that exists in tables for their regions (or, at smaller scales such as estuary that they can summarize per region)?
-
-Antarctica had sea ice habitat data, there is a script that wallks through downloading and analyzing the data.  But, I'm not sure how helpful that will be.
-
-For Fiji, the only habitat variable that we modified was coral health.  In this case, we had better regional data to estimate coral health (even though the final value we ended up getting was the same).  That was a fairly specialized analysis
 
 ### Ready to start the **Carbon Storage** goal?
 
@@ -73,7 +45,7 @@ The model and approach for **Carbon Storage** developed for the Global assessmen
 
 One of the first decisions for your team to make is **whether to use the given data** in the Global Assessments or **to find and use a better dataset**. Even though your goal model shouldn't change entirely from the Global, you should find more localized data than the global data, because the global data layers have already been processed and include clipped regions that reduce the specificity of the information for your area. This is because in the default WebApp methods, the habitat area was calculated by using the global areal coverage of the habitat weighted by the size of the offshore area of the region. This is not consistent currently in the WebApps; for example, if you look at [the given layers a WebApp](https://github.com/OHI-Science/col/blob/draft/subcountry2014/layers/hab_extent_gl2014.csv), you will see that the same values are applied to all regions. You should think here, however, of how your regions' size compare to any spatial dataset's scale, and return to the question of spatial coverage once you are thinking about the **reference points** farther on.
 
-> Questions to consider: Do you  have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, you could extract that data for each of your regions to get a current and reference area. You may also have access to summarized habitat data that exists in tables or are already compiled in another source.
+> Questions to consider: Do you have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, you could extract that data for each of your regions to get a current and reference area. You could also use summarized habitat data that exists in tables or are already compiled in another source.
 
 The types of habitat data you search for also matter. It is recommended to search for mangroves, saltmarshes, and sea grasses because these are viewed as carbon-sequestering habitats that are both ecologically threatened and sensitive to policy responses.  You should remember that we recommend using habitats that can store carbon on the order of 100 years, thereby limiting the types of habitat types you will need. This would also affect other kinds of indicator considerations not discussed in the Global Assessments, such as chlorophyll abundance.
 
@@ -82,9 +54,9 @@ The types of habitat data you search for also matter. It is recommended to searc
 The second group of items to consider are the **condition** and **carbon contribution**. **Condition** is more essential than **contribution** in this case because it is a more direct measure of ecosystem health and would give a more accurate score for this goal. **Condition** means . It can be measured by a number of ways, often indirectly through studies on density of the habitats, disease affecting the particular habitats, or other impacts such as change in species composition or growth rates from impacts such as overgrazing. Has there been a study assessing habitat integrity or health specifically in your area? **Contribution** is how much each habitat stores relatively to the others--such as the rates of carbon uptake as measured by empirical data. For this you would have to go to the literature and find ratios of organic nutrient uptake between habitats, and you would have to make sure these studies are done correctly to represent your area. For example, were the studies done with a young mangrove forest, or an older one, which might have different growth rates?
 
 <!---let's look into this more; I feel like this may not have been worded well and it might be misleading. OM: My question is whether Global 2012 used total extent 1km offshore, while 2013 used only 1km_offshore+1km_inland?--->
-> In the 2012 Global Assessment, the condition of mangroves was assessed as, "Current square kilometers of mangrove coverage divided by the reference hectares, calculated from 1980 to 2005." [The rate of change on areal extent over the entire time-series was used as the trend.] Seagrass condition was calculated as, "Current percent cover, or hectares, of habitat divided by the reference percentage cover, or hectares from 1975 to 2010."  <!---See Table S7, Supplementary Information, Halpern et al. 2012, p. 24. Note that interestingly it does say salt marsh "condition" was calculated by an increasing or stable trend (value = 1), or by a decreasing trend (value = 0.5). Excluded it because it seems like an estimation.--->
+> In the 2012 Global Assessment, the condition of mangroves was assessed as, "Current square kilometers of mangrove coverage divided by the reference hectares, calculated from 1980 to 2005. Seagrass condition was calculated as, "Current percent cover, or hectares, of habitat divided by the reference percentage cover, or hectares from 1975 to 2010."  <!---See Table S7, Supplementary Information, Halpern et al. 2012, p. 24. Note that interestingly it does say salt marsh "condition" was calculated by an increasing or stable trend (value = 1), or by a decreasing trend (value = 0.5). Excluded it because it seems like an estimation.--->
 
-A vital consideration for this goal is **the reference point**. It is an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this--either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? The reference year should be identified based on SMART principles, particularly that it is an ambitious goal, but also realistic.
+A vital consideration for this goal is **the reference point**. It is an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this--either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? The reference year should be identified based on SMART principles, particularly that it is an ambitious goal, but also realistic. If you do not have trend data, you will have to use a proxy for the trend.
 
 > In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical salt marsh extents in California.
 
@@ -114,7 +86,7 @@ As with the other habitat-based goals, you will need to make careful decisions a
 
 #### Linking Habitat and Biodiversity
 
-If comprehensive species biodiversity data exist, these data can be used alone and the sub-goal of habitats can be removed so that the entire goal is species biodiversity. However, the inventory of marine biodiversity may not often be sufficiently complete to permit that.
+It is important to think about how habitat relate to the **Biodiversity** goal. The current approach tracks **Species** and **Habitats** separately because of imperfect data for **Species**. In other words, habitatas are an estimation of the health of the species in an area. Therefore if you have comprehensive species assessments in your area you wouldn’t need the **Habitat** sub-goal. However, the inventory of marine biodiversity may not often be sufficiently complete in your area.
 
 You should also think about the linkages between the habitat-based goals, such as **Carbon Storage** and **Coastal Protection**, and the pressures and resilience. Does the encroachment or reduction of these habitats have an effect on carbon sequestration, or does it change ecosystem composition sufficiently to impact species? Could habitats have an effect on **Clean Waters**, or are they impacted more by local pollution than other impacts? If habitats change for natural reasons, you might not need to worry about their pressures on other goals, but if they consist of introduced species, you should think about the effects on other goals.
 

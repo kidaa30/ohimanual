@@ -32,7 +32,7 @@ in_md = c(
   '3_HAB_Goals_practical.md', # --> exists, check content.
   #'3_CS_practical.md', # --> Replaced by HAB_goals practical, OK
   #'3_CP_practical.md', # --> Replaced by HAB_goals practical, 
-  #'3_BDD_ICO_practical.md' # --> to be developed 
+  #'3_ICO_SPP_practical.md' # --> to be developed 
   '3_NP_practical.md', # --> exists, new content OK
   '3_pressures_resilience.md', # --> updated with practical guidance
   '3_intro_to_tbx.md',
