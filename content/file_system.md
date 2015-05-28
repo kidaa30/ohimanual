@@ -4,11 +4,7 @@ This section is an orientation to the files within your assessment repository. T
 
 Throughout this example, we will use Ecuador’s assessment repository as a guide. It's available at https://github.com/OHI-Science/ecu.
 
-### File Preparation Workflow
-
-It is generally recommended that you construct a useful workflow with your team when updating data layers for the Toolbox. There are  overall steps to preparing to input your layers into the Toolbox, starting with data layer preparation, and then going into data layer registration. The firs step involves placing files into `layers` folder, and the second is registering those files in `layers.csv`. <!---OM Add more, fix here--->
-
-![Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the `layers` folder when they're ready for the Toolbox, and then registering them in `layers.csv`](https://docs.google.com/drawings/d/1-WB84qsupe4yeqKzeBnOSm9iIW-G7N3EYW0VqqGXORs/pub?w=960&h=720)
+> TIP: Once you know the layout of the repository and the purpose of the files within it, you can plan an appropriate workflow with your team. See the **Using the Toolbox** introduction for more.
 
 ### Assessments and scenarios
 
