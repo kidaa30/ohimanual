@@ -1,6 +1,6 @@
 ---
 title: "ESM 270 Ocean Health Index Lab"
-output: html_document
+output: pdf_document
 ---
 
 # Introduction
@@ -28,8 +28,9 @@ In this assignment you will explore an existing OHI WebApp for the country of yo
 
 5. Double-click the `.Rproj` file to launch **RStudio**, and then follow the instructions below. Note that anything following the `#` symbol in R is a comment providing description or instruction and will not be executed by R.
 
-6. Type the following in the Console window, replacing 'xxx' with your 3-letter code:
-    - **` key = 'xxx'`**. Don't forget the quotes!
+6. Type the following in the Console window, replacing 'xxx' with your 3-letter code. Don't forget the quotes!
+
+    - **` key = 'xxx'`**
 
 7. Paste the following into the Console window:
 
@@ -59,7 +60,7 @@ Choose two goals and one pressure that could be affected by three different mana
 
 ### 1. Find the `.csv` file to modify.  
 
-Type the following in your R Console window, writing the layername you choose in quotes. (Example: layer_mod = 'ao_need')
+Type the following in your R Console window, writing the layername you will modify in quotes. (Example: layer_mod = 'ao_need')
 
 ```
 layer_mod = 'layer_name_here'
@@ -68,11 +69,11 @@ layer_mod = 'layer_name_here'
 Paste the following in your R Console window:
 
 ```
-info1 = read.csv('layers.csv') %>%
+info_mod = read.csv('layers.csv') %>%
         filter(layer==layer_mod) %>%
         select(layer, targets, filename)
-goal1 =  info1$target
-print(info1)
+goal_mod =  info_mod$target
+print(info_mod)
 
 ```
 
@@ -88,8 +89,9 @@ When you have made your modifications, save and close the file. Document the cha
 
 **What modifications should you make?** This will depend on your management scenario your assumptions. You can increase or decrease any numeric value, and do this in any combination for all regions or only a subset. There are only a few constraints:
 
-* Change only numeric values, do not delete or add rows or columns.
-* Notice the range of values within your data layer. If the numeric values are scores between 0 and 1, make sure any modifications you do keep the values within that range.
+* Change only numeric values
+* Do not delete or add rows or columns
+* Notice the range of values within your data layer. If the numeric values are scores between 0 and 1, make sure any modifications you do keep the values within that range
   * Optional: to quickly check the range of values you can paste the following into your R Console:
   ```
   suppressWarnings(require(ohicore))
@@ -117,16 +119,14 @@ file.copy('scores.csv', csv_new, overwrite=T)
 Paste the following into your R Console to name and save figures:
 
 ```
-layer_changed = layer_mod
-
 # load comparison functions compareVis_scores.r
 devtools::source_url(
   'https://raw.githubusercontent.com/OHI-Science/ohimanual/master/tutorials/ESM_270/compareVis_scores.R')
 
 fig_save = paste0(file_basename, '_comparePlot.png')
-comparePlot(csv_orig, csv_new, layer_changed, fig_save)
+comparePlot(csv_orig, csv_new, layer_mod, fig_save)
 fig_save = paste0(file_basename, '_scatterPlot.png')
-scatterPlot(csv_orig, csv_new, layer_changed, fig_save, goal1)
+scatterPlot(csv_orig, csv_new, layer_mod, fig_save, goal_mod)
 
 ```
 
