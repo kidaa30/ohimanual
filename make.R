@@ -17,6 +17,9 @@ stopifnot(file.copy('~/github/ohimanual/content/README.md',
 # set variables ----
 title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/content'
+
+# Version below, May 25, 2015:
+
 in_md = c(
   'README.md',
   'intro_assessment.md',
@@ -42,6 +45,32 @@ in_md = c(
   'toolbox_troubleshooting.md')
 out_md = 'ohi-manual.md'
 
+# Version below, April 15, 2015:
+
+# in_md = c(
+#   'README.md',
+#   'intro_assessment.md',
+#   'overview_webapp.md',
+#   'before_conduct_assessment.md',
+#   'conduct_assessment.md',
+#   'gathering_appropriate_data.md',
+#   'pressures_resilience.md',
+#   'intro_to_tbx.md',
+#   'file_system.md',
+#   'formatting_data.md',
+#   'install_tbx.md',
+#   'accessing_github_repos.md',
+#   'github_architecture.md',
+#   'use_tbx.md',
+#   'use_tbx_to_modify_data_layers.md',
+#   'use_tbx_to_modify_pressures_resilience.md',
+#   'use_tbx_to_modify_goal_models.md',
+#   'use_tbx_to_remove_goal_models.md',
+#   'use_tbx_to_modify_goals_categories.md',
+#   'example_modifications_with_tbx.md',
+#   'frequently_asked_questions.md',
+#   'toolbox_troubleshooting.md')
+# out_md = 'ohi-manual.md'
 
 # cleanup original ----
 

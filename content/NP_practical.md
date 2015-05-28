@@ -41,7 +41,7 @@ seaweeds | FAO | FAO | rocky reef habitat | --
 
 #### What's the code trying to do?
 
-<!---This section is a good idea. But I think we'll want to split it into a different section after the Tbx is introduced.--->
+<!---MOVE. This section is a good idea. But I think we'll want to split it into a different section after the Tbx is introduced.--->
 
 You may have already looked at the **NP** section of `functions.R`. In simple terms, here is what the code is doing:
 
@@ -69,6 +69,14 @@ You may have already looked at the **NP** section of `functions.R`. In simple te
 
 If the case is that corals, sponges, and  then you might be able to use FAO data, which is the data source of the Global Assessments. Otherwise, you will have to find comparable data in your area or consult local statistical offices and local fisheries managers to get harvest values similar to landing values and any other kinds of stock assessments. The IUCN offers quantified assessments of risk to species, but that is more appropriate for biodiversity; CITES signatory data may be more appropriate for the trade products. Exposure can be calculated spatially, and for this you should be able to find or produce your own maps if possible. Your maps might have finer resolution than those in global resolution.
 
+#### Gap-filling
+
+> TIP: When checking your data, check cases where country-product pair has 0 for sustainability score, but relatively high harvest ratio (curr harvest/peak harvest) – it may be a flag that the sustainability score is off (eg because the habitat area is off)
+
+> TIP: Explore simplifying gap-filling: use correlation model of dollar value vs. harvested tonnage, while discarding the part of script using dollar ratio (current dollar value)/(peak dollar value) as a gap-filler for harvest ratio.
+
+> TIP: Switch the gap-filling order: using the dollar value correlation model first (in cases where the most recent year has no harvest reported but has dollar value reported, that’s a better estimate than using the harvest from the previous year), then gap-fill any remaining cases of missing harvest for the current year with harvest from the previous year
+
 ### Appendix - source materials
 #### Global Data Approach (Technical Notes)
 
@@ -94,22 +102,12 @@ The habitat area used for shells, ornamentals, sponges: coral plus rocky reef
 
 #### Notes: Preparing the Data
 
-Notes from Katie while updating the NP goal:
-
-Natural products
-**harvest:**
-- explore simplifying gap-filling: use correlation model of dollar value vs harvested tonnage, while discarding the part of script using dollar ratio (curr dollar value/peak dollar value) as a gap-filler for harvest ratio
-- switch the gap-filling order: using the dollar value correlation model first (in cases where the most recent year has no harvest reported but has dollar value reported, that’s a better estimate than using the harvest from the previous year), then gap-fill any remaining cases of missing harvest for the current year with harvest from the previous year
-
-**sustainability:**
-- check cases where country-product pair has 0 for sustainability score, but relatively high harvest ratio (curr harvest/peak harvest) – it may be a flag that the sustainability score is off (eg because the habitat area is off)
-
+<!---Notes from Katie while updating the NP goal -- MOVED UP--->
+-
 
 #### Notes: Tech Specs
 
-**Updating the Script**
-
-I just pushed a new script, `data_prep_2015a.R`, and the resulting outputs to `ohiprep/globalprep/fao_commodities/v2015`.  The new script reworks the gap-filling, based on Mel's and Katie's suggestions.  I'll post later about the smoothing and calculations based on new input from Katie, but would love to get input on the gap-filling first.
+<!---Note on Updating the Script: I just pushed a new script, `data_prep_2015a.R`, and the resulting outputs to `ohiprep/globalprep/fao_commodities/v2015`.  The new script reworks the gap-filling, based on Mel's and Katie's suggestions.  I'll post later about the smoothing and calculations based on new input from Katie, but would love to get input on the gap-filling first.
 * Before gap-filling, binds the USD and tonnes data for all natural products at the commodity level (rather than product level).
 * By commodity & year: Identifies years with neither USD nor tonnes data, flags as `no_data`, and determines first reporting year based on first year with either data (and deletes years prior to this).
 * By commodity & year: Gap-fills according to these rules:
@@ -141,6 +139,8 @@ In ohi-global/eez2013, LSP_update branch, I've updated /conf/functions.R - clean
 * currently, for regions with exposure = NA, replaces NAs with zero.  Should these be replaced with one instead?
     * Exposure for these indicates harvest intensity (tonnes/km^2) relative to the region with the max harvest intensity.  
     * NAs occur when a country hasn't reported area values for rocky (seaweeds), coral (corals), so tonnes/NA = NA.
-    * Setting exposure to zero means intensity = none at all (boosting the status); leaving as NA removes from calculation (ignored in status); setting to one means intensity = worst case (penalizing the status).
+    * Setting exposure to zero means intensity = none at all (boosting the status); leaving as NA removes from calculation (ignored in status); setting to one means intensity = worst case (penalizing the status).--->
 
-Almost there!
+    <!---Note Ecuador's approach to Natural Products:
+    Very low data for species, so it has been hard to advance this goal, unknown for each global product. but they did look up FAO data and found 3 products by country
+    but they need to be looking for data for things they actually produce, like madera, leña de manglares, sea horses, they do have data for ornamental species in Sta Elena (not sure if they have data (tonnes) of catch of these species) they have good resilience measures, should add these Maybe they should ignore this goal all together? → they can decide to, but first I think they should think about what natural products are actually important to the area: we’ve heard about mangrove wood before--->

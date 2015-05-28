@@ -14,6 +14,9 @@ We were not able to assess specific toxic chemicals at the global scale; however
 
 #### Global Data Approach
 
+<!---From Ecuador--->
+
+What decreases clean waters in your region? Is it when the population doesn’t have access to sanitation? Or is it urban runoff?
 
 <!---From #145--->
 One approach:

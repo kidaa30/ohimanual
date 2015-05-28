@@ -28,3 +28,11 @@ Transportation & Fishing
 Ports & Harbors
 Ships & Boat Building
 Here is a table summarizing how these data were grouped:
+
+<!---From China example--->
+
+> For example, OHI+ China are considering excluding Purchasing Power Parity from LIV_ECO models because the economic data are just for China's provinces. This was a simplification of the default Global Model, and led to a simplification of the adjustment in the code.
+
+<!---Example--->
+
+One option is to establish targets for domestic and foreign visitors to various tourism activities. 

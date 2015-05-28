@@ -1,7 +1,7 @@
 # Ocean Health Index, Santa Barbara, CA
 # last updated: 08 May 2015
 
-##### Summary: the goal of this code is to combine the text in the `conceptual` folder into one markdown document for reading and editing purposes.
+##### Summary: Obsolete. The goal of this code is to combine the existing goal text from both Conceptual and Content into one file for reading.
 
 # Step A. Loading Libraries, Directories, Functions:
 # Note: this code is mainly copied form `make.R` but changed all instances of variables to "v2" just in case.
