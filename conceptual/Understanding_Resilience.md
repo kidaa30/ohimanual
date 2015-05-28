@@ -36,7 +36,3 @@ The UN also organizes treaties such as the  Convention on the Law of the Sea (UN
 ####Ideal Approach
 
 Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.
-
-#### Guide to Laws, Policies, Regulations
-
-*Coming soon.* <!---INSERT HERE--->

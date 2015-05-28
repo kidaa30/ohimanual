@@ -104,6 +104,6 @@ The U.S. West Coast assessment (2014) used a tailor-made set of resilience metri
 ORPHANED TEXT
 ****************
 
-#### ADD TO SECTION ON FLEXIBILITY OF THE OHI+
-
-See [448](github.com/ohi-science/issues/issues/448)
+<!---Note Ecuador's approach to Natural Products:
+Very low data for species, so it has been hard to advance this goal, unknown for each global product. but they did look up FAO data and found 3 products by country
+but they need to be looking for data for things they actually produce, like madera, leña de manglares, sea horses, they do have data for ornamental species in Sta Elena (not sure if they have data (tonnes) of catch of these species) they have good resilience measures, should add these Maybe they should ignore this goal all together? → they can decide to, but first I think they should think about what natural products are actually important to the area: we’ve heard about mangrove wood before--->
