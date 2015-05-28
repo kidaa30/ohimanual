@@ -4,6 +4,11 @@ This section is an orientation to the files within your assessment repository. T
 
 Throughout this example, we will use Ecuador’s assessment repository as a guide. It's available at https://github.com/OHI-Science/ecu.
 
+### File Preparation Workflow
+
+It is generally recommended that you construct a useful workflow with your team when updating data layers for the Toolbox. There are  overall steps to preparing to input your layers into the Toolbox, starting with data layer preparation, and then going into data layer registration. The firs step involves placing files into `layers` folder, and the second is registering those files in `layers.csv`. <!---OM Add more, fix here--->
+
+![Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the `layers` folder when they're ready for the Toolbox, and then registering them in `layers.csv`](https://docs.google.com/drawings/d/1-WB84qsupe4yeqKzeBnOSm9iIW-G7N3EYW0VqqGXORs/pub?w=960&h=720)
 
 ### Assessments and scenarios
 
@@ -105,6 +110,10 @@ The Toolbox can be launched on your computer so that you can visualize any edits
 
 ### *calculate_scores.R*
 `calculate_scores.R` is a script that tells the Toolbox to calculate scores using the *.csv* files in the `layers` folder that are registered in `layers.csv` and the configurations identified in `config.R`. Scores will be saved in `scores.csv`.
+
+> TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'.
+
+![You can error-check your data layer registration if you see a 'missing files' warning when running `calculate_scores.R`.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
 
 ### *scores.csv*
 `scores.csv` contains the calculated scores for the assessment. Currently, these scores were calculated using data for your country from the global 2014 assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area (with region identifier), and are presented in ‘long’ format. Scores can be viewed through the WebApp using the ‘Output Score’ pulldown menu on the 'App' page.
