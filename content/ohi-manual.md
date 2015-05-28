@@ -19,36 +19,28 @@ This manual provides information for:
 
 
 
----
-output: html_document
----
-# Introduction to OHI Assessments
+# What is OHI+?
 
-  >**Section Summary:**
+> Your assessment is an example of independent assessment called Ocean Health Index+ (OHI+). At this stage of the process, you have **Learned** and **Planned** for the assessment, and are now ready to **Conduct** it.
 
-> This section provides an overview of conducting an OHI assessment. In each assessment, goals are scored from 0 to 100 and then aggregated to produce an overall Index score. An assessment requires data, indicators, and priorities that are appropriate for each context.
+The Ocean Health Index framework presents a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. Here you will learn how to conduct an Ocean Health Index+ (OHI+) assessment.  The OHI+ approach adds new inputs and information to the overarching OHI framework that consist of data and indicators that are relevant to the local context. Because method of the framework is repeatable, transparent, quantitative, and goal-driven, repeated assessments are invaluable because they can be used to tack and monitor the progress of ocean health through time. Even a first-effort OHI+ is valuable because it establishes a baseline against which to monitor change.
 
-> TIP: The process of conducting an OHI assessment is as valuable as the results for policy and management decisions.
+>Such a flexible framework allows OHI+ assessments to adapt to local conditions while still being useful for management.
 
-Assessments using the OHI framework can be most relevant to policy and management decisions when they are conducted at smaller spatial scales (e.g., countries, states, provinces, ecoregions, bays, etc.). Using ten criteria (called goals), the Index scores on a scale of 0 to 100 how well coastal regions optimize their potential ocean benefits and services in a sustainable way relative to self-established reference points (targets). Relevant goal models are developed based on the best available information, which can be either raw data or composite data, or previously developed indicators.  
+The Index is the first assessment tool that provides a common platform for scientifically combining and comparing key elements from all dimensions of the oceans health — biological, physical, economic, and social – to measure how sustainably people are using the ocean. By allowing for a comprehensive and integrated view of marine systems as a way to understand the trade-offs and synergies among these goals, the Index represents a significant advance over conventional single-sector approaches to assessing sustainability as communicated through other kinds of index efforts. Because of this, preparing the conducting phase will require careful thought, consideration, and documentation, throughout this scientific process.
 
-**The process of conducting an OHI assessment is as valuable as the final results.** This is because while conducting an OHI assessment you will identify gaps in knowledge and data, produce decision-relevant information, and create an ocean alliance that combines knowledge and cultural values across disciplines. Conducting an OHI assessment requires engagement from as many different groups as possible, including research institutions, government agencies, policy groups, non-governmental organizations, and the civil and private sectors.  
+## The Process of OHI+: Phase Three
 
-Assessments can incorporate higher-resolution data and indicators, local priorities and preferences, and develop tailored goal models and reference points, which produce scores that better reflect local realities. If a goal is not relevant in the local context, it can be excluded entirely. When you change goal models, though, it is important to capture the process in order to justify decisions that will inform the results. Similarly, pressures and resilience measures can be refined using local data and indicators. Index scores are only as good as the data on which they are based. **Finding the best data and indicators available is crucial for obtaining meaningful findings that can help inform decision-making.**  
+> TIP: The amount of time required to do an OHI+ Assessment will vary.
 
-OHI assessments most often involve several **regions** within an overall **study area**. For example, in the global assessment, there were 221 regions (nations and territories) within the study area (global coastal oceans).
+The OHI+ process consists of four distinct phases. In the first phase, you **learned** about the OHI and understood the philosophy behind it and the motivation for conducting your study. In the second phase, you actively **planned** to conduct an OHI+ Assessment. Now, in the third phase, you will **conduct** the assessment by engaging with the science of finding the data, preparing the goal models, and taking the necessary steps to learn the software and produce the results. In the final phase, you will communicate the results of your OHI+ Assessment in order to inform stakeholders who will use its findings.
 
-![Figure. Global vs. regional assessments. Scores are calculated for each region and combined to produce a total score for the study area, whether at the regional, country, or global level.  ](./fig/global_v_brazil_map.png)  
+- **Phase 1:** **Learn** about the OHI
+- **Phase 2:** **Plan** an OHI+ Assessment
+- **Phase 3:** **Conduct** the OH+ Assessment
+- **Phase 4:** **Communicate** and Inform
 
-Goal scores are calculated for each region separately and then combined to produce an overall Index score for the region. Index scores are combined using an area-weighted average to produce the Index score for the overall study area.
-
-![Scores for Ecuador (ECU) as displayed in a flower chart on the the OHI WebApp. The length of a petal indicates the score for the goal or sub-goal, and the width of the petal indicates the goal or sub-goal weighting.](https://docs.google.com/drawings/d/1kj11Y0lYC0t2ofKD4fDkVUxopws7pIMpxtVD5JyDhAk/pub?w=960&h=720)
-
-Scores can then be visualized to communicate the results to  stakeholders. For example, the **flower plot** shown in the figure demonstrates a useful way to represent OHI scores. Goal or sub-goal scores are shown around the outside of the plot. The length of each 'petal'   represents the goal score, while the width of each petal represents the relative weighting of the goal or sub-goal. Sub-goals are weighted equally by default, as shown here, but can change depending on the regional context.
-
-Clear communication and transparency of the process are fundamental to the Ocean Health Index overall.
-
-# Overview of the OHI Toolbox
+# Overview of the OHI WebApp
 
 >**Section Summary:**
 
@@ -138,33 +130,6 @@ As another example, if you select 'Input Layer' as the variable type, you will b
 ## The App’s Compare tab
 
 The **Compare** tab allows you to compare differences in calculated scores based on changes you have made to the underlying data layers. Visualizing these differences is extremely helpful for confirming results and error checking. More context on the use of this function can be found in the section, "**The Ocean Health Index Toolbox**."<!--- develop. Removed line on 'instructions' for this functionality, so might want to include discussion of that elsewhere --->
-
-## Before conducting an assessment
-
->**Section Summary:**
-
->This section advises you on how to plan for a successful assessment. From engaging decision-makers early on, to maintaining future assessment efforts, here are some key points to consider.
-
-Before conducting an assessment, it is important to prepare the following:
-
-* Develop a strategic plan and timeline
-    + establish the need for an assessment
-    + define the spatial scale of the assessment: country, state, eco-region, etc.
-    + determine the resources available
-    + outline a timeline with necessary meetings and workshops
-    + engage decision-makers early for results to be most useful
-* Assemble a qualified team with diverse skills and knowledge, including:
-    + a broad scientific understanding and experience with environmental policy
-    + ability to manage large data sets, make decisions, and think creatively
-    + capacity to collaborate in a multidisciplinary team, remotely and in person
-    + team members who can use the statistical programming language R (http://cran.r-project.org/), ArcGIS or other spatial analysis software, and are fluent in English
-* Funding
-    + greatly depends on the local context
-    + potentially needed for a management and scientific team, workshops and meetings (including travel), communications, policy engagement, and operating costs
-* Policy and management interest
-    + engage decision-makers early: informing policies to improve ocean health is most effective if there is early interest and engagement from government agencies and decision-making bodies
-    + requires ongoing communication during Index development to best inform management actions
-    + repeated assessments as new data become available enable tracking ocean health through time and evaluating management and policy interventions
 
 # Conducting an Assessment
 
@@ -378,6 +343,112 @@ There are a lot of existing data that contribute to our scientific understanding
 
 * **Time series data are not long enough to calculate a trend or a reference point** (when a historical reference point is most appropriate). For the US West Coast, the current extent of seagrass habitats was available, however, these do not exist for previous points in time in most areas, so could not be used to calculate the trend or set a historical reference point. Therefore, we estimated the trend in health of seagrass habitats using as a proxy the trend in the main stressor (i.e., turbidity). In other words, we assumed that the rate of seagrass loss was directly proportional to the rate of increase in turbidity. Similar solutions may be used to estimate trends in your own assessment, if there is scientific support for assuming that the trend of what we want to assess (or the relationship between the current state and the state in the reference year) has a strong relationship with the trend of the proxy data available.
 
+<!---Option: JSL develop the discussion of searching not only for strict data within your country to use, but studies that have been done anywhere in the world, demonstrating relationships between different things (eg camaroneras effects on mangrove condition)--->
+
+## Best approaches for goals, pressures and resilience
+
+<!--- See GitHub issue #100 --->
+
+The Ocean Health Index team has a wealth of knowledge from years of developing the Index. However, with each new independent assessment, the team is learning even more, and we hope to share that information with you and encourage outside dialogue on the best approaches to conducting an Independent Assessment.Your OHI+ assessment will also be invaluable in learning how to develop better and more appropriate techniques to changing goal models.
+
+#### Synergies and Goals to approach together
+
+> TIP: See section, **Assembling a Team**
+
+Whether you are working goal-by-goal, or data layer by data layer, it is important to consider where you can find synergies. This will save you time, and effort, and will help build a picture of how your goals are interlocking in a way that is reflective of the actual linkages that exist in the coupled human and natural systems you are studying. Some examples include:
+
+#### Do Habitat-Based Goals Together
+
+You should do the habitat-based goals together. These include **Carbon Storage**, **Coastal Protection**, **Biodiversity: Habitats** in the Global Assessment. This will be more efficient because the spatial analyst can do the data manipulation to create the spatial layers that get used for these goals, based off the same source material. This will greatly expedite your data search, and layer preparation. If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of these three goals.
+
+If you look at `functions.R`, you will see that the reason this is the case is because the data layer, `Hab_extent`, is used in multiple places in the software:
+
+* NP
+* FIS
+* CS
+* CP
+
+![Note that Habitat Extent appears in several goal model functions. ](https://docs.google.com/drawings/d/1HtrwjFi1Lod6B687nNTUPqK-MTAr9uwShooHUIu3Le4/pub?w=790&h=258)
+
+#### Linkages: Note climate change connections
+
+Climate change appears in several places in the global index, and will certainly influence numerous goals in your assessment. You will see that climate pressures include UV radiation, Sea Surface Temperature (SST, sea-levle rise (SLR), ocean acidification, and influence in the Global model the goals for Natural Products, Carbon Storage, Coastal Protection, Sense of Place, Livelihoods and Economies, and Biodiversity.
+
+
+#### Linkages: Note the influence of trash
+
+In the case of Global 2012, the **Clean Waters** goal is very much linked to the pressures because the same data layers for pressures are used as the input layers for the status, albeit transformed as (1 - value). Note that because trash is also a pressure, it affects other goals as well (TR, LSP/ICO/SP, LIV/ECO/LE, SPP/BD).
+
+Other tips:
+
+- Do the **Wild-Caught Fisheries** model and the fisheries-related pressures together. This is because you will already be searching for data on commercial high bycatch, low-bycatch,
+
+- Do the **Mariculture** model and the Fisheries
+
+#### Strategies for Assessment
+
+Every Independent Assessment requires a plan of action. One approach would be to have **goalkeepers** for each goal <!---ADD more--->
+
+> See **Assembling a Team**
+
+
+### Using this Guide
+
+For each goal and sub-goal model and for each assessment, we provide recommendations for conducting independent assessments.
+
+For descriptions of the models, evolution of the approach, reference point, how to interpret the score, see the OHI **Conceptual Guide**>
+
+
+****
+<!---Duplicate from from Conceptual Guide--->
+
+###Where to start?
+
+Any assessment will depend on the available data, which requires creative thinking, particularly when ideal data are unavailable. Determining the appropriate scale and defining the study area and any regions within the study area will also depend on available data. The scale and resolution of available data can help inform the scale of the study area to be analyzed and how to divide it into regions.
+
+#### To consider as you get started
+
+Data included to calculate scores are partly based on the philosophical framework of the Ocean Health Index (see Part I), and partly based on data available. Several goals that combine across categories have many potential data sources that could be included (or excluded): in particular the natural products, livelihoods and economies, and habitat based goals. The existence of the data itself will drive a lot of these decisions, but here are some guidelines to help determine if data are appropriate philosophically:
+
+* Do the data represent something truly ocean-based, and natural (i.e. not man-made)?
+* How would the reference point be calculated?
+* Do data cover the appropriate spatial scales?
+* Do data cover the appropriate temporal scales?
+
+###Which data are available?
+
+Humans interact with and depend upon the oceans in complex ways, some of which are familiar and easy to measure, such as providing seafood, transporting goods, or disposing of waste. Other benefits are more difficult to measure, such as the way marine-related jobs indirectly affect coastal communities, how different habitats mediate storm damage or the benefits people receive or perceive simply from living near the ocean. Thinking creatively and exploring the data available can make the Index more representative of reality.
+
+It is important to think creatively and beyond the interests of a specific institution or primary field of study. Google or other internet search engines are great starting places: investigate what kinds of information are available from government and public records, scientific literature, academic studies, surveys and reports or other sources.
+
+Data used in the Ocean Health Index spans a wide array of disciplines, both within and outside of oceanography and marine ecology. Therefore, it is necessary to look beyond the most known or obvious data sources to find data relevant for the goals in the region. Discussions with colleagues, literature searches, emails to experts, and search engines are good ways to understand what kinds of data are collected and to hunt for appropriate data.
+
+###What scale is appropriate?
+
+Here it is important to think about why is there interest in completing an OHI assessment. If managers or policy makers are interested, at what scale do they work? Where are the political boundaries? These questions are important to keep the OHI assessment relevant, but ultimately data availability will be most important in how to define regional boundaries for the OHI.
+
+### What's important spatially?
+
+There are several spatial considerations you should have prepared before moving forward with the Toolbox. One is your map definitions for use in the assessment and in the WebApps. You must define your map regions and boundary. This can be politically drawn or, if appropriate, biogeographically drawn. Biographic considerations may be important when there are disputed territories or boundary lines in your area. *Note that OHI+ does not take a position on disputed territories, so it is up to you to vet the quality of the maps.*
+
+Once you have the maps, you may also need to define buffer zones. Buffers are distances from shore, both inland and offland, that can be used later in the Toolbox to assess many impacts more accurately.
+
+Finally, you will need to prepare your layers folder with spatial data. Only goals certain goals will require data layers that are spatial (see Section, **Habitat-based goals, practical***). When considering spatial data, you should be conscientious of how it is presented: is it by square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data? Once you find the data, consider how far back in time it goes. Can you set a reference point with this data, or do you have to find another dataset or other source of information to find a historical reference point?
+
+> TIP: The only thing to do is remember that you are trying to capture ocean health--too far inland may no longer relate to ocean health.
+
+<!---FIX: Does 1km land buffer make sense in this context? Should they extend this beyond maybe ~5km or more? It just depends on how Ecuadorians define ‘coastal’. Maybe 1km is too much? Maybe not enough? How do people interact with the ocean from onland? Maybe it’s only if you can see the water. Or maybe more. Maybe they could look at cultural sites on land that have been considered coastal and see how many km inland they are. Maybe they should clip as far inland as mangroves go, if these are special places. The only thing to do is remember that you are trying to capture ocean health: too far inland may no longer relate to ocean health. So maybe the idea of a constant buffer is a bad one, and follow the mangrove or saltmarsh lines, combined with other specific special places. But they can also just leave it and not worry about it. Might not be worth bringing up the debate now.
+some history: the 1km buffer was used at the global scale because there was spatial data of parks on land, and we needed to exclude ones that didn’t make sense. but since they have a better knowledge of their coastlines and what’s important, they could ditch the buffers and just pick the ones that they know are important coastally.--->
+
+<!---BUFFERS note: a common theme was ‘these are special areas inland, but they’re not considered by the index since they are >1km inland’. us: ‘but you can change that buffer. Define it as is important to you, to your interpretation of ocean health--->
+
+#### Reference Points
+
+<!---Develop--->
+When you have a spatial ref point like in the global assessment, you essentially take the highest-scoring region and say that it is perfect.
+
+<!---ECU are thinking of a spatial ref pt: Could mention that they can set internal ref points differently for each region, like we did in USWest Coast, since Guayas has so so much more tourism and it’s realistic that Sta Elena shouldn’t aspire to be at Guayas’ level.--->
+
 ## Pressures and resilience
 
 **Pressures** and **Resilience** are two of the four dimensions used to evaluate each goal or sub-goal, along with **Status** and **Trend**.
@@ -473,17 +544,46 @@ These distinctions won't always apply for smaller-scale assessments. For example
 
 
 ##Guide to searching for resilience metrics
-####Practical Considerations
 
-In practical terms, resilience is hard to define and finding data can be difficult. Your team may have to get creative to develop appropriate assessment measures for these pressure layers.
+###Ideal Approach
 
-It can be metrically be defined as presence-versus-absence (value of zero or one), or on a scale (value between zero and one) if the measure is an assessment or score. For instance in the global study,  resilience measures that were counted in the socio-economic resilience class of data came from the World Governance Indicators (http://govindicators.org).
+Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.
 
-In a regional context, however, a more appropriate data layer might be a local governance index of some kind, preferably developed by a reputable organization using credible methods.
+#### Practical Considerations
+
+In practical terms, resilience is hard to define and finding data can be difficult. It is often difficult to find regulations and indicators that would directly 'balance' individual stressors, but it is worth the effort to explore what information is available in the local context and how it could be included as resilience measures. You may be able to construct your own set of indicators for resilience (particularly social resilience) using proxy data. Your team may have to get creative to develop appropriate assessment measures here. It can be metrically be defined as presence-versus-absence (value of zero or one), or on a scale (value between zero and one) if the measure is an assessment or score. For instance in the global study,  resilience measures that were counted in the socio-economic resilience class of data came from the World Governance Indicators (http://govindicators.org). In a regional context, however, a more appropriate data layer might be a local governance index of some kind, preferably developed by a reputable organization using credible methods.
+
+When available, National-level data are preferable to global-level data for your assessment. These include national laws on the environment, or protection of the marine environment or rivers that lead to coastal waters. National laws include things like the Clean Water Act (CWA) and the Endangered Species Act (ESA) in the U.S., or the national implementations of the E.U. Water Framework Directive. National actions can also be broadened beyond just legislation to include administrative procedures such as those involving permits, licenses, court cases, administrative action, and compliance mechanisms. [Cultural items at the national scale, such as holidays, are also applied at this scale]
+
+State or province-level laws provide more regionally-specific information and thus work well for assessments. This would involve looking at the same types of laws and policies that exist on the national level, but specifically incorporating those that have been tailored to fit the needs of a particular sub-national area. This includes things such as California's state-level California Environmental Quality Act (CEQA), or the California Ocean Protection Act (COPA), which have laws designed specifically to protect California's environment. This would tell you more relevant information than using data from a national or international law. Local level regulations will usually provide you with the most accurate information for your assessment in order to tailor it best to the local context.
+
+#### Scoring: Turning Qualitative into Quantitative
+
+There are several ways to turn the qualitative information of regulations and social actions into quantitative metrics for analysis. A  robust way is to give credit for different aspects of the resilience measures. In addition to a score for having the law, policy, or action, in place, it is possible to gauge the effectiveness of that activity.
+
+The simplest way is to give credit for having a resilience measure in place. This means assigning a binary score of zero or one for "presence" versus "absence" of the resilience measure. For international conventions, this can be done by assigning a value of 1 for having signed a convention. A more rigorous score can be given for countries that have further *ratified* a convention in addition to signing it; this is one way to further differentiate scores. This can be done by seeing if a country has signed and ratified CITES, for example.
+
+> For example, if you were trying to find out if there are regulations in place that guide fishing pressure, you could look see if regulations exist for trawl-fishing limitations, or see if there are regulations for fish size, length, or if there are any seasonal restrictions. Another option would be to see if formal stock assessments exist for commercially-fished species.
+
+A further step is to assess how well those measures are being complied with. This will give you more robust way is to assess how well a resilience  mechanism is working to maintain the integrity of the regulation and thereby the ecosystem.
+
+> For example, once you have found out whether regulations for fishing pressure exist, you would then try to find values for compliance with these regulations. These could be raw data or calculated statistics such as rate of compliance or proportion of compliance. It should answer the question, "Are there indicators of compliance with fishing pressure guidelines"?
+
+A subsequent, and final, step to creating a robust resilience assessment is to determine whether there are enforcement mechanisms in place to deal with non-compliance of the regulations. This is because a regulation is only as good as its implementation, and having both enforcement and compliance actions in place would reinforce the regulation and make it more effective.
+
+> For example, in the case of fishing pressures, a further look into available data could lead you learn whether there are reported values of inspector visits and enforcement coverage of permitted facilities. Or you could look at reported numbers of enforcement actions in response to non-compliance. Further, you could also see if there are fines that have been paid or exist in association with non-compliance.
+
+#### Data sources
+
+<!---Link to Courtney's Google Doc-->
+
+Environmental laws and policies offer tangible information on resilience. The most common type of environmental regulations come from administrative law, such as pollution regulation of various kinds. Land-use law is also important to the integration of social and ecosystem issues, so finding zoning laws relevant for coastal areas could be useful, and so could finding whether or not a region requires environmental impact statements before allowing construction for either coastal land or for marine planning. Other kinds of law some countries include court cases settling disputes or requiring reparation of pollution damages, for example.
+
+Resilience also goes beyond just the law, however. Insurance policies present another option, for instance.. Coastal areas are increasingly requiring climate-related insurance in some countries, and so the existence of such markets in a vulnerable area would be an example of a climate change resilience measure. Social initiatives also present another way to tackle resilience. There might be a beach clean-up day, a percentage of the refuse material that is recycled by the population, or some other social factor that reduces trash inputs into the ocean. A local law banning plastic bags is another way that local jurisdictions control plastic trash.
+
+> In the Brazil study (2014), the marine trash resilience was calculated by counting up whether localities had one of four garbage management services, including access to beach clean-up services, household garbage collection, household recycling collection, and garbage collection in public streets. <!---Julie's MS--->
 
 ### Incorporating local resilience measures in your assessment
-
-It is often difficult to find regulations and indicators that would directly 'balance' individual stressors, but it is worth the effort to explore what information is available in the local context and how it could be included as resilience measures. You may be able to construct your own set of indicators for resilience (particularly social resilience) using proxy data.
 
 1. Begin by exploring how resilience could be measured in your study area. What laws and regulations are in place that could provide resilience to ocean health?
 2. Are there locally-developed indices that capture social or ecological resilience? Is there information about how each region in your study area are implementing or enforcing the laws?
@@ -543,6 +643,7 @@ This section is an orientation to the files within your assessment repository. T
 
 Throughout this example, we will use Ecuador’s assessment repository as a guide. It's available at https://github.com/OHI-Science/ecu.
 
+> TIP: Once you know the layout of the repository and the purpose of the files within it, you can plan an appropriate workflow with your team. See the **Using the Toolbox** introduction for more.
 
 ### Assessments and scenarios
 
@@ -644,6 +745,10 @@ The Toolbox can be launched on your computer so that you can visualize any edits
 
 ### *calculate_scores.R*
 `calculate_scores.R` is a script that tells the Toolbox to calculate scores using the *.csv* files in the `layers` folder that are registered in `layers.csv` and the configurations identified in `config.R`. Scores will be saved in `scores.csv`.
+
+> TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'.
+
+![You can error-check your data layer registration if you see a 'missing files' warning when running `calculate_scores.R`.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
 
 ### *scores.csv*
 `scores.csv` contains the calculated scores for the assessment. Currently, these scores were calculated using data for your country from the global 2014 assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area (with region identifier), and are presented in ‘long’ format. Scores can be viewed through the WebApp using the ‘Output Score’ pulldown menu on the 'App' page.
@@ -1092,6 +1197,12 @@ The files you will modify are:
 
 ![Files you will commonly modify are shown in the figure (Mac navigation is shown above and Windows is shown below). These include the `conf` folder, `layers` folder, and `layers.csv`.](https://docs.google.com/drawings/d/10-cx0mlgT9tmy5KN_IKE0TxgojBX6J3U6ahZMMVmNqY/pub?w=964&h=878)
 
+### File Preparation Workflow
+
+It is generally recommended that you construct a useful workflow with your team when updating data layers for the Toolbox. This process is one that can be done by one person, or by several who are working through GitHub to sync the work. There are overall two main steps to preparing to input your layers into the Toolbox, starting with data layer preparation, and then going into data layer registration. The firs step involves placing files into `layers` folder, and the second is registering those files in `layers.csv`. This file preparation process can occur in tandem with the model modification process. However, it must occur in order for you to run modified goal code using your new input data.
+
+![Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the `layers` folder when they're ready for the Toolbox, and then registering them in `layers.csv`](https://docs.google.com/drawings/d/1-WB84qsupe4yeqKzeBnOSm9iIW-G7N3EYW0VqqGXORs/pub?w=960&h=720)
+
 ## Modifying and creating data layers
 
 Data layers are *.csv* files and are located in the `[assessment]/subcountry2014/layers` folder. Remember that all data layers provided in your repository are extracted from the global 2014 assessment.
@@ -1138,6 +1249,8 @@ However, if a new layer has been added (for example when a new goal model is dev
  + **units:** Add a description about the *units* chosen in the *fld_value* column above.
  + **filename:** Add a filename for the new data layer that matches the name of the *.csv* file that was created previously in the `layers` folder.
  + **fld_id_num:** Area designation that applies to the newly created data layer, such as: *rgn_id* and *fao_id*.
+
+ >TIP: Think about what units you would like to be displayed on the WebApp when filling out "units."
 
 ### Check pressures and resilience matrices
 
@@ -1381,6 +1494,99 @@ To completely remove the carbon storage goal from Index calculations, you will d
 
 ![](./fig/delete_resilience.png)
 
+## Modifying goals with categories
+
+Several goals have categories that are assessed within them. In global assessments, these goals are:
+
+Goal | Category
+-----|---------
+NP   | product types
+CS   | habitat types
+CP   | habitat types
+HAB  | habitat types
+LIV  | industry sectors
+ECO  | industry sectors
+
+These goal categories are identified in the file `config.r` located in the `conf` folder. The Toolbox uses `config.r` to identify the appropriate categories when pressures and resilience dimensions are calculated.
+
+When you open `config.r`, you'll see that the `pressures_components` variable identifies which data layer indicates the category types. For global assessments, the following data layers are used:
+
+Goal | Category         | Pressures Layer in `config.r`
+-----|------------------|---------------
+NP   | product types    | np_harvest_product_weight
+CS   | habitat types    | cs_habitat_extent
+CP   | habitat types    | cp_habitat_extent_rank
+HAB  | habitat types    | le_sector_weight
+LIV  | industry sectors | le_sector_weight
+ECO  | industry sectors | hab_presence
+
+If you have modified any of the categories for any goal, you will likely need to update the layer indicated in `config.r` in addition to updating the categories as unique rows in `pressures_matrix.csv`.
+
+### Example 1: Pressures
+For example, there are three product types for Natural Products in the China assessment (seasalt, sea chemicals, and sea medicine), differ from those assessed in the global assessments (corals, fish_oil, ornamentals, seaweeds, sponges). To modify this goal in the Toolbox, input layers were updated, saved in the `layers` folder, and registered in `layers.csv`;  the NP function in `functions.r` was updated, and new categories replaced the old in `pressures_matrix.csv`. The only remaining step to finalize the new NP goal is to update `config.r` to ensure it looks for the correct data layer and therefore categories. If you do not update `config.r` before running `calculate_scores.r`, you will get the following warning:
+
+
+```
+Calculating Pressures...
+The following components for NP are not in the
+aggregation layer np_harvest_product_weight categories
+(corals, fish_oil, ornamentals, seaweeds, sponges):
+seasalt, sea_chemicals, sea_medicine
+```
+
+This message indicates that the `np_harvest_product_weight` layer identifies five categories (corals, fish_oil, ornamentals, seaweeds,
+sponges) but the `pressures_matrix.csv` indicates three (seasalt, sea_chemicals, sea_medicine).
+
+To ensure that pressures are calculated correctly for the categories in your assessment, you will need to change the layer identified in `config.r`.
+
+### Example 2: Pressures
+
+More subtle examples of these mismatch between the categories identified in `pressures_matrix.csv` and `config.r` can also occur. For example, after updating the CS layers and goal in the China assessment, the following warning message appeared when running `calculate_scores.r`:
+
+```
+Calculating Pressures...
+The following components for CS are not in the aggregation layer
+cs_extent categories (saltmarshes, seagrasses, mangroves):
+mangrove, saltmarsh, seagrass
+```
+
+The problem here is that the categories identified in `config.r` (saltmarshes, seagrasses, mangroves) are plural, whereas the categories identified in the pressures matrix (mangrove, saltmarsh, seagrass) are singular, and the Toolbox needs exact matches. To fix this warning, you need to update the pressures matrix with the plural names.
+
+
+### Example 3: Resilience
+
+For resilience, the proper categories also need to be identified both in `resilience_matrix.csv` and `config.r`. If neither are updated, you will see the following message:
+
+```
+Calculating Resilience...
+Note: each goal in resilience_matrix.csv
+must have at least one resilience field
+Based on the following components for NP:
+corals
+fish_oil
+ornamentals
+seaweeds
+shells
+sponges
+```
+
+With resilience, if we update only the `resilience_matrix.csv` but not `config.r`, we get the following error message instead of the warning message we saw for pressures above.
+
+```
+Based on the following components for NP:
+  seasalt
+  sea_chemicals
+  sea_medicine
+Error in subset.default(SelectLayersData(layers, layers = lyrs),
+id_num ==  : object 'id_num' not found
+In addition: Warning messages:
+1: Grouping rowwise data frame strips rowwise nature
+2: In left_join_impl(x, y, by$x, by$y) :
+  joining factors with different levels, coercing to character vector
+  ```
+
+This error can be fixed by updating `config.r` with a layer identifying the appropriate categories. NOTE: the file identified in `config.r` cannot contain any NA values.  
+
 ## Other example modifications
 
 ### Preparing the fisheries sub-goal 
@@ -1548,6 +1754,12 @@ A: Regional Index scores cannot be directly compared to global Index scores, or 
 
 However, because scores for each goal are scaled to a reference point, qualitative comparisons can be made. For example, a score of 71 in the US West Coast compared to 66 in Brazil says that the US West coast is closer to fully meeting its sustainable goals (i.e., meeting regional reference points). Furthermore, use of the same Ocean Health Index framework across regional assessments permits fruitful discussion and general comparisons even if data inputs differ. Ocean Health Index assessments at any scale always work within a standardized definition of ocean health, using information to capture the philosophy of the ten goals that have been identified (and undergone scientific peer-review) prior to compiling relevant data. Use of the ten-goal framework is important both to ensure that all aspects of ocean health are captured and to allow better comparison across regional assessments than would be possible if the different regions used different methods.
 
+**Q: How does the Index account for ecosystem benefits?**
+
+A: The OHI is not an index of ecosystem services. The Index prefers to describe benefits from a healthy ocean and emphasize their relevance, but the ideas are closely related. The ten goals roughly fall into areas of ecosystem services such as food provisioning (**Food Provision**), regulatory services (**Carbon Storage**), cultural services (**Tourism and Recreation**,**Special Places**), supporting services (**Clean Waters**, **Biodiversity**), and other values (**Livelhoods and Economies**).
+
+*(Source: OHI Baltic workshop)*
+
 
 **Q: Where is climate change measured in the Index?**
 
@@ -1572,7 +1784,7 @@ A: rather than a specific number of individuals, what is required are specific s
 
 **Q: How long does it take to calculate OHI at a regional scale?**
 
-A: This depends on many things: budget and number of people involved, the scale of the study area and whether new regions will need to be created, how easily data can be acquired, how much local data can be incorporated, how many goal models need to be changed. Additionally, decisions about setting reference points require input from experts.
+A: The duration of an OHI assessment depends on a number of factors, such as the budget and number of people involved, the scale of the study area and whether new regions will need to be created, how easily data can be acquired, how much local data can be incorporated, how many goal models need to be changed. Additionally, decisions about setting reference points require input from experts. For independent assessments (OHI+), we have found that the average time has ranged from 1.5 to 3 years (See **Task Timeline** in the **Conceptual Guide**).
 
 
 **Q: How much time will modifications by an R analyst take?**
@@ -1643,6 +1855,12 @@ A: The use of cooling water for on-shore power plants would be a pressure on the
 
 A: Desal would be incorporated into OHI in several places. The benefit is that there is freshwater produced, which could be incorporated into the Natural Products goal (or potentially into its own goal). Data required would be the volume of freshwater created based on the volume of seawater involved and spatial extent. Setting the reference point would not be based on how much can be produced, but some other targets perhaps set by government (percentage of the population served).
 Similar to the mariculture sub-goal and tourism goals, any negative effects caused by desal that affect other goals (example: species) do not influence the ability to obtain desalination targets now and in the future. Therefore, the sustainability coefficient only measures the ability to sustain that goal, but not the impacts on other goals: instead, they are taken into account as pressures when calculating the other goals. Desal should be included as a pressure similar to cooling on-shore power plants since the discharge brine is dense, doesn't plume very well and there are chemicals involved.
+
+**Q: Where do energy activities fit in to OHI?**
+
+It depends. Energy could be part of a **Natural Products** goal, for instance, such as wave energy -- but then the question is, what is the reference point? It is partially accounted for in **Livelihoods & Economies** through sectoral jobs data. The infrastructure is also something to consider. It could also be a pressure or resilience factor if there is a measurable footprint of the activity. You may want to consider for resilience, do you have governance measures that promote more sustainable practices in the energy industry?
+
+<!---From Baltic Discussion 2015--->
 
 ## Food Provision
 
@@ -1722,7 +1940,7 @@ A: Yes, it is possible to calculate only the marine component of this sub-goal: 
 
 **Q: Should we calculate each category used in our assessment (e.g., antiquities, MPAs, beaches of special interest) independently, and then give the same weight (e.g., a third of the goal score) to the three categories, or should we instead pool the actual areas of the 3 categories?**
 
-A: Whether you group them together or calculate each category separately depends on reference points. Maybe you want 10% of offshore water to be in MPAs, but only 5% of coastlines to be beaches and 3% Antiquities, for example; in this case, you would calculate them separately and then add them together. But if you want 10% of your country's coast to have any combination of these things, you would keep them together. 
+A: Whether you group them together or calculate each category separately depends on reference points. Maybe you want 10% of offshore water to be in MPAs, but only 5% of coastlines to be beaches and 3% Antiquities, for example; in this case, you would calculate them separately and then add them together. But if you want 10% of your country's coast to have any combination of these things, you would keep them together.
 
 *(Source: OHI Israel assessment discussions, 2014-2015)*
 

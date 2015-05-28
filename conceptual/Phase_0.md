@@ -1,4 +1,4 @@
-# Phase 0 - Introduction
+# Introduction
 
 ## **What is the Ocean Health Index?**
 
@@ -21,7 +21,7 @@ As a composite index, the Ocean Health Index integrates the results across disci
 
 ## The Benefit of OHI+
 
-The Index is a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. The OHI framework is repeatable, transparent, quantitative, and goal-driven, and because of this it now being expressed through independent Ocean Health Index+ (OHI+) assessments. The inputs to the OH+ assessments use the same overarching framework while consisting of data and indicators specifically relevant to the local context. Such a flexible framework allows OHI+ assessments to adapt to local conditions while still being comparable within its scope and across time.
+The Index is a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. It is now being expressed through independent Ocean Health Index+ (OHI+) assessments. The OHI+ framework is repeatable, transparent, quantitative, and goal-driven, and the inputs to the OH+ assessments use the same overarching framework while consisting of data and indicators specifically relevant to the local context. Repeated assessments are valuable because they can be used to tack and monitor the progress of ocean health through time. Even a first effort OHI+ is valuable because it establishes a baseline against which to monitor change.  Such a flexible framework allows OHI+ assessments to adapt to local conditions while still being useful for management.
 
 > Outside partners are now using the Index framework to conduct their own independent assessments, called Ocean Health Index+ (OHI+) assessments. OHI+ assessments are local interpretations of the original Global Assessments conducted for the first time in 2012 (Halpern *et al.* 2012). The methods have improved since then, and researchers have changed the goals, models, and data in their assessments in an ever-evolving process that characterizes the Index.
 
@@ -43,5 +43,15 @@ The OHI+ process consists of four distinct phases. In the first phase, you will 
 ![The Task Timeline shows the steps recommended in conducting Ocean Health Index assessments. It gives an overview of the **Phases** of the project and the colors offer recommendations for the types of skills needed at different stages of the process.](./Figures/task_timeline-01.png)
 
 When conducting an assessment, is it useful to use our timeline as a guide, knowing that the amount of time required to do an assessment will vary. It is important to keep in mind that the process of conducting the assessment requires collaboration and iteration among your team to arrive at the best results possible. The process of conducting an assessment is a scientific one and good documentation to track the decision-making along the way will support the validity of the results.
+
+## Outcomes of OHI+
+
+Goal scores are calculated for each region separately and then combined to produce an overall Index score for the region. Index scores are combined using an area-weighted average to produce the Index score for the overall study area.
+
+![Scores for Ecuador (ECU) as displayed in a flower chart on the the OHI WebApp. The length of a petal indicates the score for the goal or sub-goal, and the width of the petal indicates the goal or sub-goal weighting.](https://docs.google.com/drawings/d/1kj11Y0lYC0t2ofKD4fDkVUxopws7pIMpxtVD5JyDhAk/pub?w=960&h=720)
+
+Scores can then be visualized to communicate the results to  stakeholders. For example, the **flower plot** shown in the figure demonstrates a useful way to represent OHI scores. Goal or sub-goal scores are shown around the outside of the plot. The length of each 'petal'   represents the goal score, while the width of each petal represents the relative weighting of the goal or sub-goal. Sub-goals are weighted equally by default, as shown here, but can change depending on the regional context.
+
+Clear communication and transparency of the process are fundamental to the Ocean Health Index overall.
 
 * For more information, visit: http://ohi-science.org.

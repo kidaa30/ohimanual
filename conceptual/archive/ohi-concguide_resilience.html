@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Resilience</title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h2>Resilience</h2>
+
+<h3>How to get started?</h3>
+
+<p>Key questions:</p>
+
+<ul>
+<li>What is resilience?</li>
+<li>What are the ideal data?</li>
+<li>How do I find data for resilience?</li>
+<li>What are some resources I can use?</li>
+<li>Where can I get started?</li>
+</ul>
+
+<h4>Local to Global: Regulations at Different Scales</h4>
+
+<p>Environmental regulation exists on many scales. From the local, to the regional, to the global, there are different ways society manages its natural resources, engages in trade, and protects its environment. This makes finding data for this area an opportunity and a challenge. It&#39;s an opportunity because there is a wealth of information available to use, but it&#39;s also a challenge because the quality of the data, and the relevance of it for your needs, is not guaranteed.</p>
+
+<p>Global datasets offer broad insight. Global data are often the easiest to find with the largest geographic coverage in terms of the number of countries covered and they usually are built using consistent methods if they come from a trusted source. However, they are the coarsest types of data for you regional assessment. You can&#39;t compare specific regions within your assessment area using global data because all regions will have the same value or score from the global database, unless that one value is used transformed somehow, for instance by multiplying it with more local population data, in order to be an indirect way to make a measurement. Some reputable global database examples are the World Bank data, World Governance Indicators, World Development Indicators, and any dataset maintained by a United Nations or other inter-governmental organization; these include datasets from UN FAO, UNESCO, JMP/UNICEF, and composite information provided by the Human Development Index, for example.</p>
+
+<blockquote>
+<p>The wealth of international data is growing. For instance, the Millennium Development Goals have inspired much data-collection, such as the UNICEF/JMP&#39;s water and sanitation metrics. This is where Global Assessments gets their &ldquo;access to sanitation&rdquo; metric to assess water cleanliness and ecological pressures. It&#39;s also a dataset used in  other global composite index assessments. Note that the MDGs are expiring in 2015, soon to be replaced by the Sustainable Development Goals, which should bring more traction to international environmental monitoring and metrics. In future assessments, new and better datasets for particular aspects of ocean health and human well-being may become available.</p>
+</blockquote>
+
+<p>National-level data are better than global for your assessment. These include national laws on the environment, or protection of the marine environment or rivers that lead to coastal waters. National laws include things like the Clean Water Act and the Endangered Species Act in the U.S., or the national implementations of the E.U. Water Framework Directive. National actions can also be broadened beyond just legislation to include administrative procedures such as those involving permits, licenses, court cases, administrative action, and compliance mechanisms. [Cultural items at the national scale, such as holidays, are also applied at this scale]</p>
+
+<p>State or province-level laws work well for assessments. This would involve looking at the same types of laws and policies that exist on the national level, but they would have been tailored to fit the types of needs of a particular sub-national area. This includes California&#39;s own National Environmental Policy Act, or the California Ocean Protection Act, which have laws designed specifically to protect California&#39;s environment. This would tell you more relevant information that using data from a national law. Local level regulations will usually provide you with the most accurate information for your assessment in order to tailor it best to the local context.</p>
+
+<h4>Scoring: Turning Qualitative into Quantitative</h4>
+
+<p>There are several ways to turn the qualitative information of regulations and social actions into quantitative metrics for analysis. A  robust way is to give credit for different aspects of the resilience measures. In addition to a score for having the law, policy, or action, in place, it is possible to gauge the effectiveness of that activity.</p>
+
+<p>The simplest way is to give credit for having a resilience measure in place. This means assigning a binary score of zero or one for &ldquo;presence&rdquo; versus &ldquo;absence&rdquo; of the resilience measure. For international conventions, this can be done by assigning a value of 1 for having signed a convention. A more rigorous score can be given for countries that have further <em>ratified</em> a convention in addition to signing it; this is one way to further differentiate scores. This can be done by seeing if a country has signed and ratified CITES, for example.</p>
+
+<blockquote>
+<p>For example, if you were trying to find out if there are regulations in place that guide fishing pressure, you could look see if regulations exist for trawl-fishing limitations, or see if there are regulations for fish size, length, or if there are any seasonal restrictions. Another option would be to see if formal stock assessments exist for commercially-fished species.</p>
+</blockquote>
+
+<p>A further step is to assess how well those measures are being complied with. This will give you more robust way is to assess how well a resilience  mechanism is working to maintain the integrity of the regulation and thereby the ecosystem.</p>
+
+<blockquote>
+<p>For example, once you have found out whether regulations for fishing pressure exist, you would then try to find values for compliance with these regulations. These could be raw data or calculated statistics such as rate of compliance or proportion of compliance. It should answer the question, &ldquo;Are there indicators of compliance with fishing pressure guidelines&rdquo;?</p>
+</blockquote>
+
+<p>A subsequent, and final, step to creating a robust resilience assessment is to determine whether there are enforcement mechanisms in place to deal with non-compliance of the regulations. This is because a regulation is only as good as its implementation, and having both enforcement and compliance actions in place would reinforce the regulation and make it more effective.</p>
+
+<blockquote>
+<p>For example, in the case of fishing pressures, a further look into available data could lead you learn whether there are reported values of inspector visits and enforcement coverage of permitted facilities. Or you could look at reported numbers of enforcement actions in response to non-compliance. Further, you could also see if there are fines that have been paid or exist in association with non-compliance.</p>
+</blockquote>
+
+<h4>Data sources: Typology of Laws, Policies, Regulations</h4>
+
+<!---See Courtney's Google Doc-->
+
+<p>Environmental laws and policies offer concrete information.</p>
+
+<p>Administrative law. Land-use law is also important to the integration of environmental law; zoning laws relevant for coastal areas;</p>
+
+<p>Insurance policies present another option. Coastal areas are increasingly requiring climate-related insurance in some countries, for instance.</p>
+
+<p>Social initiatives also present another way to tackle resilience. There might be a beach clean-up day, a percentage of the refuse material that is recycled by the population, or some other social factor that reduces trash inputs into the ocean. A local law banning plastic bags is another way that local jurisdictions control plastic trash.</p>
+
+<blockquote>
+<p>In the Brazil study (2014), the marine trash resilience was calculated by counting up whether localities had one of four garbage management services, including access to beach clean-up services, household garbage collection, household recycling collection, and garbage collection in public streets. &lt;!&mdash;Julie&#39;s MS&mdash;&gt;</p>
+</blockquote>
+
+<h4><strong>Examples of Resilience Metrics</strong></h4>
+
+<h4>Case Study: High Seas Assessment (2014)</h4>
+
+<!---To be developed--->
+
+<p>The High Seas Assessment
+<img src="https://cloud.githubusercontent.com/assets/5891909/7570140/a272d48e-f7c2-11e4-988d-c3a80d97398a.png" alt="screen shot 2015-04-21 at 5 24 25 pm"/></p>
+
+<h4>Case Study: Israel (2014)</h4>
+
+<p>Used mostly the same resilience layers as Global Study (Halpern 2013) &lt;!&mdash;Julie, is this true?&mdash;&gt;. Most resilience measures were applied to Biodiversity, except for climate change regulations and gas prices. The resilience layers are listed below:</p>
+
+<p><strong>Ecological</strong></p>
+
+<ul>
+<li>CDB Water</li>
+<li>Habitat resilience</li>
+<li>Used in Food Provision, Artisanal Opportunity, Coastal Protection</li>
+<li>Fishing Resilience</li>
+<li>CBD Tourism</li>
+<li>Used in Biodiversity ( = Sand dunes, Soft bottom, Species)</li>
+<li>CBD Mariculture</li>
+<li>Biodiversity, Food Provision</li>
+<li>CBD Alien Species</li>
+<li>Biodiversity</li>
+<li>Trujillo (2008) regulations</li>
+<li>CITES signatories</li>
+<li>Diversity Indices</li>
+</ul>
+
+<p><strong>Social</strong></p>
+
+<ul>
+<li>World Governance Indicators</li>
+</ul>
+
+<h4>Case Study: U.S. West Coast (2014)</h4>
+
+<p>The U.S. West Coast assessment (2014) used a tailor-made set of resilience metrics. These were more informative than the global metrics in that that reflected the policy response to the local context. They included, for instance, using the U.S. Marine Mammal Protection Act as a resilience layer</p>
+
+<h4>Key Questions</h4>
+
+<!---from Julie's MS--->
+
+<ul>
+<li><p>What laws or regulations are in place that would mitigate pressures?</p>
+
+<!---From Courtney's GoogleDoc---></li>
+<li><ol>
+<li>Does a regulation exist that appropriately addresses a specific pressure?</li>
+</ol>
+
+<ul>
+<li>Assign a score of 0 or 1</li>
+<li>Is the regulation being appropriately complied with?</li>
+<li>Additional score of 0 or 1. For instance, the CBD surveys will tell you this kind of information. So will various &ldquo;scorecards&rdquo; or compliance assessments by interested third parties (e.g., Transparency International&#39;s Corruption Index)</li>
+<li>Are there mechanisms in place supporting enforcement of the regulations?</li>
+<li>e.g., CITES convention has a clause that causes parties to restrict trade with countries that are not complying with the convention</li>
+</ul></li>
+</ul>
+
+<hr/>
+
+<p>ORPHANED TEXT</p>
+
+<hr/>
+
+<h4>ADD TO SECTION ON FLEXIBILITY OF THE OHI+</h4>
+
+<p>See <a href="github.com/ohi-science/issues/issues/448">448</a></p>
+
+</body>
+
+</html>

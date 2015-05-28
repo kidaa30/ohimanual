@@ -7,7 +7,7 @@ library(knitr)
 library(rmarkdown)
 library(stringr)
 
-redo_website = T # T if do push update to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
+redo_website = F # T if do push update to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
 
 
 # copy ohimanual/README.md into ohimanual/content/README.md
@@ -18,31 +18,37 @@ stopifnot(file.copy('~/github/ohimanual/content/README.md',
 title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/content'
 
-# Version below, May 25, 2015:
+# Version below, May 27, 2015:
 
 in_md = c(
-  'README.md',
-  'intro_assessment.md',
-  'overview_webapp.md',
-  'before_conduct_assessment.md',
-  'conduct_assessment.md',
-  'gathering_appropriate_data.md',
-  'pressures_resilience.md',
-  'intro_to_tbx.md',
-  'file_system.md',
-  'formatting_data.md',
-  'install_tbx.md',
-  'accessing_github_repos.md',
-  'github_architecture.md',
-  'use_tbx.md',
-  'use_tbx_to_modify_data_layers.md',
-  'use_tbx_to_modify_pressures_resilience.md',
-  'use_tbx_to_modify_goal_models.md',
-  'use_tbx_to_remove_goal_models.md',
-  'use_tbx_to_modify_goals_categories.md',
-  'example_modifications_with_tbx.md',
-  'frequently_asked_questions.md',
-  'toolbox_troubleshooting.md')
+  # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
+  '3_what_is_OHI+.md', # --> exists, new content
+  '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?" instead.
+  '3_overview_webapp.md',
+  # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
+  #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
+  '3_gathering_appropriate_data.md',
+  '3_best_approaches.md', 
+  '3_HAB_practical.md', # --> exists, new content. 
+  #'3_BDD_ICO_practical.md' # --> to be developed
+  #'3_NP_practical.md', # --> exists, new content. 
+  '3_pressures_resilience.md', # --> updated with practical guidance
+  '3_intro_to_tbx.md',
+  '3_file_system.md',
+  '3_formatting_data.md',
+  # '3_data_transformation.md', --> exists, needs more content
+  '3_install_tbx.md',
+  '3_accessing_github_repos.md',
+  '3_github_architecture.md',
+  '3_use_tbx.md',
+  '3_use_tbx_to_modify_data_layers.md',
+  '3_use_tbx_to_modify_pressures_resilience.md',
+  '3_use_tbx_to_modify_goal_models.md',
+  '3_use_tbx_to_remove_goal_models.md',
+  '3_use_tbx_to_modify_goals_categories.md',
+  '3_example_modifications_with_tbx.md',
+  '3_frequently_asked_questions.md', # --> to be developed
+  '3_toolbox_troubleshooting.md')
 out_md = 'ohi-manual.md'
 
 # Version below, April 15, 2015:
