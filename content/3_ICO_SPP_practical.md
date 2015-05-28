@@ -1,4 +1,3 @@
-### **Species Goals**
 #### Practical Considerations
 
 #### Comparing **Biodiversity, Species** and **Iconic Species**
