@@ -4,7 +4,7 @@
 
 #### Philosophy
 
-This goal measures the value people have for experiencing and taking pleasure in coastal and ocean areas. Tourism, travel, and recreation are major drivers of thriving coastal communities and they also offer a measure of how much people value ocean systems. By electing to visit a coastal area rather than an inland area, people express their preference for visiting these places over others.
+This goal measures the value people have for experiencing and taking pleasure in coastal and ocean areas. Tourism, travel, and recreation are major drivers of thriving coastal communities and they also offer a measure of how much people value ocean systems. By electing to visit a coastal area rather than an inland area, people express their preference for visiting these places over others. Ideally, tourism and recreation could continue indefinitely if it is done in a sustainable manner.
 
 #### Ideal Approach
 

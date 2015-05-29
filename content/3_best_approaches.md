@@ -46,7 +46,7 @@ There are several spatial considerations you should have prepared before moving 
 
 Once you have the maps, you may also need to define buffer zones. Buffers are distances from shore, both inland and offland, that can be used later in the Toolbox to assess many impacts more accurately.
 
-Finally, you will need to prepare your layers folder with spatial data. Only goals certain goals will require data layers that are spatial (see Section, **Habitat-based goals, practical***). When considering spatial data, you should be conscientious of how it is presented: is it by square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data? Once you find the data, consider how far back in time it goes. Can you set a reference point with this data, or do you have to find another dataset or other source of information to find a historical reference point?
+Finally, you will need to prepare your layers folder with spatial data. Only goals certain goals will require data layers that are spatial (see Section, **Habitat-Based Goals**). When considering spatial data, you should be conscientious of how it is presented: is it by square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data? Once you find the data, consider how far back in time it goes. Can you set a reference point with this data, or do you have to find another dataset or other source of information to find a historical reference point?
 
 > TIP: The only thing to do is remember that you are trying to capture ocean health--too far inland may no longer relate to ocean health.
 
@@ -58,9 +58,15 @@ some history: the 1km buffer was used at the global scale because there was spat
 #### Reference Points
 
 <!---Develop--->
-When you have a spatial ref point like in the global assessment, you essentially take the highest-scoring region and say that it is perfect.
+The decisions on choosing a reference point will be a theme in each of the goal models you develop. The choice of a reference point will affect how the final scores are calculated, and will have to be balanced between limitations of the data and expert judgment to assess the conditions of the various dimensions of ocean health.
 
-<!---ECU are thinking of a spatial ref pt: Could mention that they can set internal ref points differently for each region, like we did in USWest Coast, since Guayas has so so much more tourism and it’s realistic that Sta Elena shouldn’t aspire to be at Guayas’ level.--->
+In addition to set values, such as maximum or minimum observed value, it's possible to use spatial reference points and temporal reference points. In spatial reference points, you find the highest-scoring region and say that it is perfect. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014). Using temporal reference points, a historical benchmark is used as a the "ideal" point in the past. A third type of reference point is a policy-set target, such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year. In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point--they should be "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
+
+After selecting the type of eref
+
+You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
+
+> For more, see the **Conceptual Guide**
 
 ### Practical Guidance
 
