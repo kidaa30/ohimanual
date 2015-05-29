@@ -4,27 +4,28 @@ title: The Ocean Health Index Assessment Manual
 
 # What is OHI+?
 
-> Your assessment will be an example of independent Ocean Health Index+ assessment (OHI+). At this stage of the process, you should have **Learned** and **Planned** for the assessment, and are now ready to **Conduct** it.
+> Your assessment will be an example of independent Ocean Health Index+ assessment (OHI+). At this stage, you should have **Learned** and **Planned** for your assessment, and are now ready to **Conduct** it.
 
-The Ocean Health Index framework presents a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. Here you will learn how to conduct an Ocean Health Index+ (OHI+) assessment.  The OHI+ approach adds new inputs and information to the overarching OHI framework that consist of data and indicators that are relevant to the local context. Because method of the framework is repeatable, transparent, quantitative, and goal-driven, repeated assessments are invaluable because they can be used to tack and monitor the progress of ocean health through time. Even a first-effort OHI+ is valuable because it establishes a baseline against which to monitor change. Such a flexible framework allows OHI+ assessments to adapt to local conditions while still being useful for management.
+The Ocean Health Index framework presents a highly tailorable approach ready to meet the needs and priorities of those who wish to use the ocean sustainably. Here you will learn how to conduct an Ocean Health Index+ (OHI+) assessment.  The OHI+ approach adds relevant inputs and information to the overarching OHI framework and consists of data and indicators that are specific to the local context. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, repeated assessments are valuable because they can be used to tack and monitor the progress of ocean health through time. Even if yours is a first effort, your OHI+ is valuable because it establishes a monitoring baseline and calls attention to the state of the data quality and availability in your area. Such a flexible approach allows OHI+ assessments to adapt to local conditions while still being useful for management.
 
 > Remember that when conducting an assessment, the process is just as valuable as the results.
 
-The Index is the first assessment tool that provides a common platform for scientifically combining and comparing key elements from all dimensions of the oceans health — biological, physical, economic, and social – to measure how sustainably people are using the ocean. By allowing for a comprehensive and integrated view of marine systems as a way to understand the trade-offs and synergies among these goals, the Index represents a significant advance over conventional single-sector approaches to assessing sustainability as communicated through other kinds of index efforts. Because of this, preparing the conducting phase will require careful thought, consideration, and documentation, throughout this scientific process.
+The Index is an assessment tool that provides a common platform for scientifically combining and comparing key elements from all dimensions of the oceans health — biological, physical, economic, and social – to measure how sustainably people are using the ocean. By allowing for a comprehensive and integrated view of marine systems as a way to understand the trade-offs and synergies among these goals, the Index represents a significant advance over conventional single-sector approaches to assessing sustainability as communicated through other kinds of index efforts. Because of this, preparing the conducting phase will require careful thought, consideration, and documentation, throughout this process.
 
-### The Process of OHI+: Phase Three
+### The Process of OHI+
 
 The OHI+ process consists of four distinct phases. In the first phase, you **learned** about the OHI and understood the philosophy behind it and the motivation for conducting your study. In the second phase, you actively **planned** to conduct an OHI+ Assessment. Now, in the third phase, you will **conduct** the assessment by engaging with the science of finding the data, preparing the goal models, and taking the necessary steps to learn the software and produce the results. In the final phase, you will communicate the results of your OHI+ Assessment in order to inform stakeholders who will use its findings.
 
 - >**Phase 1:** **Learn** about the OHI
 - >**Phase 2:** **Plan** an OHI+ Assessment
 - **Phase 3:** **Conduct** the OH+ Assessment
-
 - >**Phase 4:** **Communicate** and Inform
 
 #### What to expect when conducting an assessment
 <!---From Conducting_assessment--->
 There are key considerations and processes that will be a part of every assessment, however, the process for conducting each assessment will be unique depending on the local context. For example: what data and indicators are available will determine how goal models can be tailored to the region, and what skillsets and resources are involved will affect the time it takes to complete the assessment.
+
+> In OHI+,it is important for your team doing the study to make the decisions and modifications that are most important for the region, and then defend it clearly what was done and why. At the same, your team should  as creative and insightful as you can be.
 
 #### Where to start when conducting an assessment
 
@@ -101,7 +102,8 @@ The information displayed on the website is stored online, in a **GitHub reposit
 
 > When your team has finalized data layers and updated goal models, these data and scores will be visualized through the WebApp.
 
-When first exploring a WebApp (for example, http://ohi-science.org/ecu), first note that it is possible to **translate** the site into any language that Google provides using the pull-down menu at the top.  
+When first exploring a WebApp (for example, http://ohi-science.org/ecu), first note that it is possible to **translate** the site into any language that Google provides using the pull-down menu at the top. This will help with communication among your team. 
+
 ![The WebApp start page. Note that it's possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
 
 The WebApp homepage provides several tabs for you to explore. The interactive **App** sub-page allows you to explore input data layers and output calculated scores for each region (See **Overview of Variable Options**). More detailed information is about the default **regions** and **data layers**, **goal models**, and **calculated scores** based on global data can be viewed in separate tabs, as well as through the App page.
@@ -326,7 +328,7 @@ There are several spatial considerations you should have prepared before moving 
 
 Once you have the maps, you may also need to define buffer zones. Buffers are distances from shore, both inland and offland, that can be used later in the Toolbox to assess many impacts more accurately.
 
-Finally, you will need to prepare your layers folder with spatial data. Only goals certain goals will require data layers that are spatial (see Section, **Habitat-based goals, practical***). When considering spatial data, you should be conscientious of how it is presented: is it by square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data? Once you find the data, consider how far back in time it goes. Can you set a reference point with this data, or do you have to find another dataset or other source of information to find a historical reference point?
+Finally, you will need to prepare your layers folder with spatial data. Only goals certain goals will require data layers that are spatial (see Section, **Habitat-Based Goals**). When considering spatial data, you should be conscientious of how it is presented: is it by square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data? Once you find the data, consider how far back in time it goes. Can you set a reference point with this data, or do you have to find another dataset or other source of information to find a historical reference point?
 
 > TIP: The only thing to do is remember that you are trying to capture ocean health--too far inland may no longer relate to ocean health.
 
@@ -338,9 +340,15 @@ some history: the 1km buffer was used at the global scale because there was spat
 #### Reference Points
 
 <!---Develop--->
-When you have a spatial ref point like in the global assessment, you essentially take the highest-scoring region and say that it is perfect.
+The decisions on choosing a reference point will be a theme in each of the goal models you develop. The choice of a reference point will affect how the final scores are calculated, and will have to be balanced between limitations of the data and expert judgment to assess the conditions of the various dimensions of ocean health.
 
-<!---ECU are thinking of a spatial ref pt: Could mention that they can set internal ref points differently for each region, like we did in USWest Coast, since Guayas has so so much more tourism and it’s realistic that Sta Elena shouldn’t aspire to be at Guayas’ level.--->
+In addition to set values, such as maximum or minimum observed value, it's possible to use spatial reference points and temporal reference points. In spatial reference points, you find the highest-scoring region and say that it is perfect. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014). Using temporal reference points, a historical benchmark is used as a the "ideal" point in the past. A third type of reference point is a policy-set target, such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year. In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point--they should be "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
+
+After selecting the type of eref
+
+You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
+
+> For more, see the **Conceptual Guide**
 
 ### Practical Guidance
 
@@ -376,7 +384,7 @@ In the case of Global 2012, the **Clean Waters** goal is very much linked to the
 ### Habitat-based Goals
 #### Practical Considerations
 
-> Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as **Carbon Storage**, **Coastal Protection**, and **Biodiversity**.
+> Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as **Carbon Storage**, **Coastal Protection**, and **Biodiversity**. Your approach will largely depend on the type of data you have.
 
 #### *Ideal Approach*
 
@@ -384,13 +392,13 @@ Ideally, information on the extent and condition of every single habitat type wo
 
 #### Ready to start on **Habitat-based Goals**?
 
-The first thing to consider with habitats is **what habitats are in your area**? You must consider what habitats are in your coastal regions. Are there mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats? Are there kelp forests in your area?
+The first thing to consider with habitats is **what habitats are in your area**. You should consider what habitats are in your coastal regions as well as your offshore regions throughought your EEZ. Are there mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats? Are there kelp forests in your waters?
 
-Once you determine what habitats are in your area, you should also consider whether and to what extent they go offshore and inland. You will likely use a combination of clipped spatial data and spatial data for whole regions, depending on the goal being assessed. For instance, the **Habitat** sub-goal of **Biodiversity** uses the entire region for habitats such as coral reefs in the calculation, but the **Coastal Protection** only uses the extent to 1 kilometer offshore and inland to 1 kilometer <!---Check---> This will affect the preparation of the spatial data layers later in you assessment.
+Once you determine what habitats are in your area, you should also consider **their range extent within your reporting regions**. You should consider whether and how far they go offshore and inland. You will likely use a combination of clipped spatial data and spatial data for whole regions, depending on the goal being assessed. For instance, the **Habitat** sub-goal of **Biodiversity** uses the entire region for habitats such as coral reefs in the calculation, but the **Coastal Protection** only uses the extent to 1 kilometer offshore and inland to 1 kilometer <!---Check---> This will affect the preparation of the spatial data layers later in you assessment.
 
 > For instance, do mangroves occur in river deltas in your area, and if so, how far upriver do they go? In the 2013 Global Assessment, for example, mangrove was assessed from 1 kilometer offshore to 1 kilometer inland, but this distance is variable and could change for you OHI+ assessments. It depends on your geography.
 
-Several factors for habitats will have to be considered. In score calculations, habitats are weighted in different ways based on the amount of protection they provide and the amount carbon they sequester, and they are also derived from estimations of habitat health and condition (See **Carbon Storage**, **Coastal Protection**, and **Biodiversity**). The weights on the habitats comes from the literature. If you have access to regional-specific studies, you should use that information. Otherwise, the Global data layers can be used as a secondary option.
+Several factors for habitats will have to be considered. In score calculations, habitats are weighted in different ways based on the amount of protection they provide and the amount carbon they sequester, and they are also derived from estimations of habitat health and condition (See **Carbon Storage**, **Coastal Protection**, and **Biodiversity**). The weights of the habitats relative to each other comes from the literature. If you have access to regional-specific studies, you should use try to use that information. Otherwise, the Global data layers can be used as a secondary option.
 
 When thinking about condition, for instance, coral health is based on the percentage of "living cover" on a reef relative to the potential range of the reef.
 
@@ -402,37 +410,9 @@ It is also important to think about the temporal aspect of your habitats. This w
 
 > For example, for sea ice in the Global Assessment, a linear model was set to a metric of sea ice cover for data from 2006-2011, after some smoothing to account for natural variation.
 
-Overall, the historical **reference point** is particularly important for the habitat goals. What's the ideal reference point, however? You could consider setting the reference point further back in history if you have the data for it. This would assume there was a more pristine condition in the past, and would be based on the assumption that habitat destruction has been and still is occuring. Here it is useful to use the S.M.A.R.T. principles (See **Conceptual Guide**). It is highly encouraged to set an ambitious reference point, and deviate from those which were set in the Global.
+Overall, the historical **reference point** is particularly important for the habitat goals. What's the ideal reference point, however? You could consider setting the reference point further back in history if you have the data for it. This would assume there was a more pristine condition in the past, and would be based on the assumption that habitat destruction has been and still is occurring. Here it is useful to use the S.M.A.R.T. principles (See **Conceptual Guide**). It is highly encouraged to set an ambitious reference point, and deviate from those which were set in the Global.
 
 ****
-
-
-#### Global Data Approach
-
-#### habitat extent: Area of each habitat in each reporting region
-#### habitat health/condition: this is the condition of the habitat relative to a reference point.  The ideal situation is if there is historical data that can be compared to the present habitat.  
-
-Some examples:
-For mangroves, we divided the current area (2005 data) by the reference area (1980 data).
-
-Coral health is based on the % living cover on a reef.  Ideally, historical data is available that can provide a reference point for % living cover.  For our reference point, we used the mean predicted values for a country from 1985-1987.  When this data was not available for a country, we used the value of neighboring countries.  (There was also some analyses to control for the fact that the % live coral cover naturally varies over time, hence the use of "predicted values").
-
-For soft-bottom habitat, we estimated status based on the intensity of trawl fishing as a proxy (pages 51 and 52 of SOM 2012).
-
-#### habitat trend: Change in health/condition over time
-Ideally, there will be enough years of data to directly calculate the recent change in health of the habitat (i.e., using a linear model to calculate trend).  For example, for sea ice, we fit a linear model to a metric of sea ice cover for data from 2006-2011 (after some smoothing to account for natural variation).
-
-This isn't always the case, and proxies or estimates might need to be used.  For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.
-
-#### Questions to Consider
-
-I think the approach is going to largely depend on the type of data they have (our approach varies for each habitat because the data is so variable).
-
-Do they have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, they could extract that data for each of their regions to get a current and reference area. Or, they may have access to summarized habitat data that exists in tables for their regions (or, at smaller scales such as estuary that they can summarize per region)?
-
-Antarctica had sea ice habitat data, there is a script that wallks through downloading and analyzing the data.  But, I'm not sure how helpful that will be.
-
-For Fiji, the only habitat variable that we modified was coral health.  In this case, we had better regional data to estimate coral health (even though the final value we ended up getting was the same).  That was a fairly specialized analysis
 
 ### Ready to start the **Carbon Storage** goal?
 
@@ -448,7 +428,7 @@ The model and approach for **Carbon Storage** developed for the Global assessmen
 
 One of the first decisions for your team to make is **whether to use the given data** in the Global Assessments or **to find and use a better dataset**. Even though your goal model shouldn't change entirely from the Global, you should find more localized data than the global data, because the global data layers have already been processed and include clipped regions that reduce the specificity of the information for your area. This is because in the default WebApp methods, the habitat area was calculated by using the global areal coverage of the habitat weighted by the size of the offshore area of the region. This is not consistent currently in the WebApps; for example, if you look at [the given layers a WebApp](https://github.com/OHI-Science/col/blob/draft/subcountry2014/layers/hab_extent_gl2014.csv), you will see that the same values are applied to all regions. You should think here, however, of how your regions' size compare to any spatial dataset's scale, and return to the question of spatial coverage once you are thinking about the **reference points** farther on.
 
-> Questions to consider: Do you  have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, you could extract that data for each of your regions to get a current and reference area. You may also have access to summarized habitat data that exists in tables or are already compiled in another source.
+> Questions to consider: Do you have maps, for example, that show current habitat distributions and maps that show historical habitat distributions?  If so, you could extract that data for each of your regions to get a current and reference area. You could also use summarized habitat data that exists in tables or are already compiled in another source.
 
 The types of habitat data you search for also matter. It is recommended to search for mangroves, saltmarshes, and sea grasses because these are viewed as carbon-sequestering habitats that are both ecologically threatened and sensitive to policy responses.  You should remember that we recommend using habitats that can store carbon on the order of 100 years, thereby limiting the types of habitat types you will need. This would also affect other kinds of indicator considerations not discussed in the Global Assessments, such as chlorophyll abundance.
 
@@ -457,9 +437,9 @@ The types of habitat data you search for also matter. It is recommended to searc
 The second group of items to consider are the **condition** and **carbon contribution**. **Condition** is more essential than **contribution** in this case because it is a more direct measure of ecosystem health and would give a more accurate score for this goal. **Condition** means . It can be measured by a number of ways, often indirectly through studies on density of the habitats, disease affecting the particular habitats, or other impacts such as change in species composition or growth rates from impacts such as overgrazing. Has there been a study assessing habitat integrity or health specifically in your area? **Contribution** is how much each habitat stores relatively to the others--such as the rates of carbon uptake as measured by empirical data. For this you would have to go to the literature and find ratios of organic nutrient uptake between habitats, and you would have to make sure these studies are done correctly to represent your area. For example, were the studies done with a young mangrove forest, or an older one, which might have different growth rates?
 
 <!---let's look into this more; I feel like this may not have been worded well and it might be misleading. OM: My question is whether Global 2012 used total extent 1km offshore, while 2013 used only 1km_offshore+1km_inland?--->
-> In the 2012 Global Assessment, the condition of mangroves was assessed as, "Current square kilometers of mangrove coverage divided by the reference hectares, calculated from 1980 to 2005." [The rate of change on areal extent over the entire time-series was used as the trend.] Seagrass condition was calculated as, "Current percent cover, or hectares, of habitat divided by the reference percentage cover, or hectares from 1975 to 2010."  <!---See Table S7, Supplementary Information, Halpern et al. 2012, p. 24. Note that interestingly it does say salt marsh "condition" was calculated by an increasing or stable trend (value = 1), or by a decreasing trend (value = 0.5). Excluded it because it seems like an estimation.--->
+> In the 2012 Global Assessment, the condition of mangroves was assessed as, "Current square kilometers of mangrove coverage divided by the reference hectares, calculated from 1980 to 2005. Seagrass condition was calculated as, "Current percent cover, or hectares, of habitat divided by the reference percentage cover, or hectares from 1975 to 2010."  <!---See Table S7, Supplementary Information, Halpern et al. 2012, p. 24. Note that interestingly it does say salt marsh "condition" was calculated by an increasing or stable trend (value = 1), or by a decreasing trend (value = 0.5). Excluded it because it seems like an estimation.--->
 
-A vital consideration for this goal is **the reference point**. It is an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this--either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? The reference year should be identified based on SMART principles, particularly that it is an ambitious goal, but also realistic.
+A vital consideration for this goal is **the reference point**. It is an important decision to be made based on good science given the limitations of available data. The reference point is the extent of the habitat at some time in the past, in other words the ideal condition. You will need historical data for this--either from satellites, published papers, or even hand-drawn maps. For questions of sustainability, you must consider, what is a good year to set as your historical past extent? The reference year should be identified based on SMART principles, particularly that it is an ambitious goal, but also realistic. If you do not have trend data, you will have to use a proxy for the trend.
 
 > In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical salt marsh extents in California.
 
@@ -489,7 +469,7 @@ As with the other habitat-based goals, you will need to make careful decisions a
 
 #### Linking Habitat and Biodiversity
 
-If comprehensive species biodiversity data exist, these data can be used alone and the sub-goal of habitats can be removed so that the entire goal is species biodiversity. However, the inventory of marine biodiversity may not often be sufficiently complete to permit that.
+It is important to think about how habitat relate to the **Biodiversity** goal. The current approach tracks **Species** and **Habitats** separately because of imperfect data for **Species**. In other words, habitatas are an estimation of the health of the species in an area. Therefore if you have comprehensive species assessments in your area you wouldn’t need the **Habitat** sub-goal. However, the inventory of marine biodiversity may not often be sufficiently complete in your area.
 
 You should also think about the linkages between the habitat-based goals, such as **Carbon Storage** and **Coastal Protection**, and the pressures and resilience. Does the encroachment or reduction of these habitats have an effect on carbon sequestration, or does it change ecosystem composition sufficiently to impact species? Could habitats have an effect on **Clean Waters**, or are they impacted more by local pollution than other impacts? If habitats change for natural reasons, you might not need to worry about their pressures on other goals, but if they consist of introduced species, you should think about the effects on other goals.
 
@@ -987,6 +967,22 @@ The final step is optional: ordering the data will make it easier for humans to 
 **Example of data in the appropriate (long) format:**
 
 ![](./fig/formatting_long_example_2.png)
+
+## Rescaling your data
+
+<!---Notes from Github issue 389. Katie, develop--->
+
+An important consideration is how to rescale your data when preparing it for use in the Toolbox. Rescaling involves turning a distribution of data into a value from zero to one. This is based on finding a highest observed or theoretical point in the distribution of the data, and from there, the relative value of the data can be calculated.
+
+<!---Insert example: Data normalization; example with you rescaling to max, or to higher than max.--->
+
+#### Example: Global Data Approach
+
+You should base your decision on whether your consider it more appropriate to decide the reference point based on the data distribution of all data points, be they observed or interpolated, or whether we think we should only consider the observed data. If the interpolation covers large areas, and these get assigned values that aren't very frequent in the observed data, then the two distributions will be very different, and what value is in the 99.99th percentile is different too.
+
+In theory, one would favor deciding the reference point based on as many observations as possible (i.e., interpolate first, then obtain the percentile). In practice, if we think that large interpolated areas are very unreliable, we might prefer to use real observations only (i.e., percentile first, then interpolate).
+
+<!---Develop--->
 
 # Installing the Toolbox
 
@@ -1661,6 +1657,18 @@ In ohi-global/eez2013, LSP_update branch, I've updated /conf/functions.R - clean
     <!---Note Ecuador's approach to Natural Products:
     Very low data for species, so it has been hard to advance this goal, unknown for each global product. but they did look up FAO data and found 3 products by country
     but they need to be looking for data for things they actually produce, like madera, leña de manglares, sea horses, they do have data for ornamental species in Sta Elena (not sure if they have data (tonnes) of catch of these species) they have good resilience measures, should add these Maybe they should ignore this goal all together? → they can decide to, but first I think they should think about what natural products are actually important to the area: we’ve heard about mangrove wood before--->
+
+    <!---SPP status takes into account the IUCN score and the area that the species occupies (although the results are not exactly equivalent to an area weighted average).  Specifically, the values are calculated at the spatial scale of the raster cells (which I believe is at 0.5 degree resolution).  For each raster cell, the IUCN scores of the species are averaged to get a score. To get status, the raster cell scores within an EEZ are then averaged (after weighting for the area of the raster cell).
+    ICO status is calculated by taking the average of the IUCN ratings for all the iconic species in the EEZ. --->
+
+    <!---SPECIES he original logic was to represent the species present relative to the proportion of their range within a given EEZ.  We may also have wanted to avoid penalizing a region too heavily if only a very small portion of the range came from a very threatened species.  I think we were also worried about bad aqua maps data that could misallocate species into a country and having a big effect.
+
+    A disadvantage is that rare species (and those with contracting ranges) will have a relatively small influence on the score.  Common species will, in most cases, drive the results.
+
+    An advantage is (actually a disadvantage of averaging species scores at the EEZ level): "The bigger an area, the more likely you are to find rare at risk species (the classic problem of species-area relationships or SARs) - so bigger countries would have lower diversity scores just as a function of their size but not actual poorer biodiversity. In regards to sampling effort, the number of rare species increases faster than the number of common species, so they would not even each other out."--->
+
+    <!---SPECIES. For the global assessment, we started with a list of iconic species, and then found which ones had been assessed, in this case by IUCN. So from that original list of iconic species, we could only include the ones assessed by IUCN. IUCN scores are categorical ('extinct', 'least concern', etc), but Butchart et al. (attached) had done a study where they assigned numeric scores to each IUCN category. So we took the list of iconic species that had IUCN categories and assigned Butchart's numeric scores to each species based on these categories. We found how many species were in each IUCN category, (% or proportion of species in 'least concern' compared to all species with IUCN categories). For each region in the global assessment, we averaged the scores of the species that were there in that region together, giving that region's ICO score. (This averaging assumes that all species are of equal importance). So for an example, let's say there are 10 assessed iconic species: 5 are 'least concern', 4 'vulnerable', and 1 'threatened'. The math would be (5lc + 4v + 1t) / 10. Or, to think about this as percentages, it could be 0.5lc + 0.4v + 0.1t.
+    Are you using IUCN categories? If so, you can use Butchart's method. You'll see in the Toolbox that they assign the scores such that we actually have to do (1-Butchart_score) but the logic of what we did is the same.--->
 
 
 ## Removing goals
