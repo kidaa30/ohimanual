@@ -36,12 +36,12 @@ When considering how to change the model, you should think about the outcome of 
 
 > Range size has an impact on score results. For example, if you use the current model, none of the cone snail species listed below will have a big impact on the **Species** sub-goal score because to their small range size that covers one cell of map area. However,  the 0.8 score for *Conus roeckeli* shows that it is a rare species as assessed by the IUCN. On the other hand, the coral *Acropora palmata* is also rare and yet covers a large range.
 
-Scientific name | IUCN Category | Trend | Map Area
+Scientific name | IUCN Category | Trend | Map Cells
 ---------------|-----------------------------|-------------------|----|
-*Conus salreiensis* | 0.8 |  -0.5 | 1
-*Conus trochulus* |  0.2|  NA | 1
-*Conus roeckeli* | 0.0 | NA | 1
-*Acropora palmata* | 0.8 | 0 | 1158
+*Conus salreiensis* | Critically Endangered |  Decreasing | 1
+*Conus trochulus* |  NearThreatened |  Unknown | 1
+*Conus roeckeli* | Least Concern | Unknown | 1
+*Acropora palmata* | Critically Endangered | Stable | 1158
 
 When considering how to change the model, you should think about the outcome of the score on your decisions. For instance, will weighting a "Critically Endangered" species higher on the scale result in the inclusion or exclusion of more rare species? Will the way you aggregate spatial data to summarize extinction risk for your area take into account the influence of species with smaller ranges size, or will that information be lost in the averaging process? An inherent disadvantage for conservation may occur when rare species get rarer in the future, and will therefore have a relatively small influence on the score while common species drive the results.
 
