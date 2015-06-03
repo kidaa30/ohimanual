@@ -74,7 +74,7 @@ You will learn more, and think more critically about reference points, as you de
 
 > TIP: See section, **Assembling a Team**
 
-Whether you are working goal-by-goal, or data layer by data layer, it is important to consider where you can find synergies. This will save you time, and effort, and will help build a picture of how your goals are interlocking in a way that is reflective of the actual linkages that exist in the coupled human and natural systems you are studying. Some examples include:
+Whether you are working goal-by-goal, or data layer by data layer, it is important to consider where you can find synergies in data discovery. For example, while you are looking for data layers for fisheries goals, you may also find data layers for fishing pressures, such as metrics on bycatch or trawling intensity. This will save you time and allow you to start thinking about how to rank pressures and resilience weights on your goals as well. Conceptually, it will help your team build a picture of how your goals are interlocking in a way that is reflective of the actual linkages that exist in the coupled human and natural systems you are studying. Some key examples are listed below, and are further explained in the following sections.
 
 #### Do Habitat-Based Goals Together
 
@@ -89,12 +89,17 @@ You should do the habitat-based goals together. These include **Carbon Storage**
 
 ![Note that Habitat Extent appears in several goal model functions. ](https://docs.google.com/drawings/d/1HtrwjFi1Lod6B687nNTUPqK-MTAr9uwShooHUIu3Le4/pub?w=790&h=258)
 
-#### Do Fisheries goals and pressures together
-
-Do the **Wild-Caught Fisheries** model and the fisheries-related pressures together. This is because you will already be searching for data on commercial high bycatch and low-bycatch, which are also used as pressures layers. While you are working on **Mariculture**, you should also consider how your
 
 #### Linkages: Note the connections between pressures and goals
 
-Climate change appears in several places in the global index, and will certainly influence numerous goals in your assessment. You will see that climate pressures include UV radiation, Sea Surface Temperature (SST, sea-levle rise (SLR), ocean acidification, and influence in the Global model the goals for Natural Products, Carbon Storage, Coastal Protection, Sense of Place, Livelihoods and Economies, and Biodiversity.
+You should note the connections between your goals and the pressures and resilience that affect them.
+
+For instance, you should do the fisheries goals and pressures together. The **Wild-Caught Fisheries** model uses functional relationships that rely on catch data, which may lead to information on commercial high- and low-bycatch. Bycatch data are used in the pressures layers and affect other goals such as, **Livelhoods and Economies** and **Biodiversity**, but perhaps not **Food Provision**, and so it will be good to think about those connections as you go through the data discovery process. <!--- @Julie is this the right place for 'the idea of greedy goals'?--->
+
+Another example is how climate change impacts will appear in your assessment. Climate change pressures layers can include UV radiation, Sea Surface Temperature (SST), sea-level rise (SLR), ocean acidification. These impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**.
 
 In the case of Global 2012, the **Clean Waters** goal is very much linked to the pressures because the same data layers for pressures are used as the input layers for the status. Note that because trash is also a pressure, it affects other goals as well, including **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**.
+
+These connections will become more clear as you go through the OHI+ assessment process.
+
+***

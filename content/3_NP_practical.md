@@ -1,4 +1,4 @@
-#### Practical Considerations
+#### Practical Considerations for Natural Products
 
 > The **Natural Products** goal describes how sustainably people harvest non-food products from the sea.
 
@@ -25,8 +25,6 @@ The third component is to try to find the **sustainability** coefficients of the
 One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (**SMART** principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that.
 
 One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (**SMART** principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that. <!--Added explicit case where only increase in trend. I think having a graph of harvest yields as a time series, by product, would be a helpful visual.-->
-
-[insert an image of time-series of harvest by product in region X?]
 
 Example: The Global assessment used the following information in the Natural Products equations:
 
