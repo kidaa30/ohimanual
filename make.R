@@ -22,23 +22,23 @@ wd = '~/github/ohimanual/content'
 
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
-  '3_what_is_OHI+.md', # --> exists, new content
-  '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?" instead.
+  '3_what_is_OHI+.md', # --> Exists, new content
+  '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?";
   '3_overview_webapp.md',
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
-  '3_HAB_Goals_practical.md', # --> exists, check content.
+  '3_HAB_Goals_practical.md', # --> Exists, in review
   #'3_CS_practical.md', # --> Replaced by HAB_goals practical, OK
-  #'3_CP_practical.md', # --> Replaced by HAB_goals practical, 
-  #'3_ICO_SPP_practical.md' # --> to be developed 
-  '3_NP_practical.md', # --> exists, new content OK
-  '3_pressures_resilience.md', # --> updated with practical guidance
+  #'3_CP_practical.md', # --> Replaced by HAB_goals practical, in review
+  #'3_ICO_SPP_practical.md' # --> In review
+  '3_NP_practical.md', # --> Exists, new content OK
+  '3_pressures_resilience.md', # --> Updated with practical guidance
   '3_intro_to_tbx.md',
   '3_file_system.md',
   '3_formatting_data.md',
-  # '3_data_transformation.md', --> exists, needs more content
+  '3_data_transformation.md', # --> Exists, needs more content
   '3_install_tbx.md',
   '3_accessing_github_repos.md',
   '3_github_architecture.md',
@@ -46,11 +46,11 @@ in_md = c(
   '3_use_tbx_to_modify_data_layers.md',
   '3_use_tbx_to_modify_pressures_resilience.md',
   '3_use_tbx_to_modify_goal_models.md',
-  '3_use_tbx_to_modify_goal_models_practical.md', # --> exists, add more
+  '3_use_tbx_to_modify_goal_models_practical.md', # --> Exists, add more
   '3_use_tbx_to_remove_goal_models.md',
   '3_use_tbx_to_modify_goals_categories.md',
   '3_example_modifications_with_tbx.md',
-  '3_frequently_asked_questions.md', # --> to be developed
+  '3_frequently_asked_questions.md', # --> To be updated
   '3_toolbox_troubleshooting.md')
 out_md = 'ohi-manual.md'
 
