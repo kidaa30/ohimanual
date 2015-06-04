@@ -8,7 +8,7 @@ Ideally, you would be able to produce a list of all the places that people withi
 
 *Practical Guidance*
 
-It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a very difficult goal to express accurately, since it captures how people interact with their coastal places.
+It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places.
 
 > In the U.S. West Coast assessment (2014), **Special Places** was one of the most important goals. At the end of the day, how people interact with ‘their ocean’ is fundamentally important to whether they think oceans are healthy or not.
 
@@ -18,11 +18,9 @@ The main consideration for this sub-goal is the spatial data and the list of pro
 
 Data sources should be specific to your region. International databases, like the World Database of Protected Areas, offer rich information, but they may not be as up-to-date as the list of national parks in your area, and may not have as much information on the quality of protection. If you have more information on quality, you could think about another approach than the thirty percent reference point target.
 
-*Thinking Ahead**
+*Thinking Ahead*
 
 You should be thinking about **Resilience** at the same time as you think about **Lasting Special Places** sub-goal of **Special Places**. This is because the **LSP** sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create resilience data layers like Marine Protected Areas (See section, **Pressures and Resilience**).
-
-> TIP: LSP in the Global Assessments are the same as the Marine Protected Area resilience areas.
 
 Once you area ready, you should return to the **Iconic Species** sub-goal of **Lasting Special Places** and think about how to combine the two together. Do you want to use equal or unequal weighting? How do the two components relate to each other?
 
