@@ -137,36 +137,6 @@ As another example, if you select 'Input Layer' as the variable type, you will b
 
 The **Compare** tab allows you to compare differences in calculated scores based on changes you have made to the underlying data layers. Visualizing these differences is extremely helpful for confirming results and error checking. More context on the use of this function can be found in the section, "**The Ocean Health Index Toolbox**."<!--- develop. Removed line on 'instructions' for this functionality, so might want to include discussion of that elsewhere --->
 
-## Assembling a Team
-
-<!---Add more--->
-The success of your OHI+ assessment will depend on the effectiveness of your team. While every assessment will be done differently--it is always done according to local needs, resources, and priorities--we do have some guidance on suggested ways to go about assembling a team.
-
-It is very important to have, for example, contacts who are experts in the following:
-
-* R analysis
-* Fisheries models
-* Geospatial analyst (GIS or open-source software)
-* Other Subject-Matter Experts to inform goal model decisions
-
-Typically, team sizes have ranged from two to eight people. Whether members are full-time team members or contracted out depends on the contact. The OHI+ team are here to help with concepts offering in-kind support, but the kind of technical support you will need will likely require dedicated specialists. <!---From FAQ, ECU workshop 2015--->.
-
-* For more information, see the **Task Timeline** in the **Conceptual Guide**
-
-#### Case Study: The Baltic Health Index
-
-One approach, for example, that has been very successful is to spread the goal model development across different team members. In the Baltic Health Index assessment, for example, each chosen goal has been assigned to a different "Goalkeeper," who is responsible for their technical team's development of goal models, data, as well as the appropriate stakeholder engagement. There is also a separate "Pressures" point-person and a separate "Resilience" point-person, which has proven to be an effective approach--since pressures and resilience are cross- cutting across goals, and the data for them are so important. The larger effort is then coordinated by another team member, who ensures that the goalkeepers are working toward the desired objective.
-
-<!---From Lauren's "Determine_the_Need", Conc Guide--->
-
-Effective assessments are carefully planned and require adequate project leadership and vision. Due to the multidisciplinary nature of the Index, assessments often count with participation of various stakeholder groups. Nevertheless, we recommend a key agency or group assumes the leadership of the assessment to ensure proper planning, development, and engagement throughout the assessment.
-
-<!---From Man, before_conducting: * Assemble a qualified team with diverse skills and knowledge, including:
-    + a broad scientific understanding and experience with environmental policy
-    + ability to manage large data sets, make decisions, and think creatively
-    + capacity to collaborate in a multidisciplinary team, remotely and in person
-    + team members who can use the statistical programming language R (http://cran.r-project.org/), ArcGIS or other spatial analysis software, and are fluent in English--->
-
 ## Discovering and Gathering Appropriate Data and Indicators
 
 The OHI spans disciplines and integrates diverse data to give a comprehensive assessment of ocean health. A hallmark of the OHI is that it uses freely-available, existing data and indicators to create models that capture the philosophy of individual goals, and finding appropriate data requires good problem-solving abilities. There are many decisions to make when gathering from disparate sources, identifying good proxies and indicators, deciding reference points, and developing goal models.
@@ -555,7 +525,7 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Int
 
 ***
 
-### Practical Considerations for **Sense of Place**
+### Practical Considerations for Sense of Place
 
 #### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
@@ -830,6 +800,8 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Int
 **Global 2013** | A similar model to the one developed previously in Global 2012 was used in Global 2013; however, since we modified the approach to setting the reference point, the calculation of the results has significantly changed.<br  /><br  />Global 2013 instead bases the reference point on harvested tonnes per coastal inhabitant (with coastal defined as within 25 km inland), under the assumption that production depends on the presence of coastal communities that can provide the labor force, infrastructures, and economic demand to support the development and economic viability of mariculture facilities. Thus, two regions with an equal number of coastal inhabitants harvesting an equal tonnage of cultured seafood should score the same, even if one is larger than the other, as the productivity is commensurate to each region’s socio-economic potential to develop mariculture. Stated another way, mariculture development is assumed to scale proportionally with coastal population as a proxy for local demand and potential logistic limitations to farm development, e.g., presence of infrastructures, coastal access, and locally available workforce. Given the very high skew in the status values per region, we set the reference point to the 95th percentile region (Thailand), with all regions above that value set to a status score = 1.0 | Global 2013 differs from Global 2012 due to the reference point; see below. |
 **Brazil (2014)** | The status of the Mariculture sub-goal was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area. <br  /><br  />At the regional scale in Brazil, restricting the area available for Mariculture based on biophysical constraints and social preferences was possible. | Locally cultured species were used to calculate scores and appropriate reference points were set for each species state. |
 **U.S. West Coast (2014)** | The status of the Mariculture sub-goal was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region.<br  /><br  /> For the mariculture sub-goal, the reference point was modified to incorporate local information on suitable areas for cultivation and desirable production targets, proposed by the US government agency responsible for marine resources management (NOAA). This is a case where conceptually the US West Coast approach is similar to Assessments 1 and 2 but the reference point is based on better information. | Better information about physical and social limitations on mariculture allotments was available for the regional study in the US West Coast. The US government has identified areas that are appropriate for mariculture based on current water quality and coastal development, and thus mariculture production was assessed only within these predefined areas, and not for the entire coastline as was done in Global 2012. In addition, a target level of production increase was proposed by the ocean government agency that was used to set the reference point. |
+
+***
 
 #### Ready to start on **Artisanal Opportunities**?
 
