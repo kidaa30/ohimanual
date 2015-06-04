@@ -18,22 +18,22 @@ stopifnot(file.copy('~/github/ohimanual/content/README.md',
 title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/content'
 
-# Version below, May 27, 2015:
+# Version below, June 3, 2015:
 
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
   '3_what_is_OHI+.md', # --> Exists, new content
-  '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?";
+  # '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?";
   '3_overview_webapp.md',
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
-  '3_HAB_Goals_practical.md', # --> Exists, in review
-  #'3_CS_practical.md', # --> Replaced by HAB_goals practical, OK
-  #'3_CP_practical.md', # --> Replaced by HAB_goals practical, in review
-  #'3_ICO_SPP_practical.md' # --> In review
-  '3_NP_practical.md', # --> Exists, new content OK
+  '3_practical_HAB_goals_CS_CP.md', # --> Ready
+  '3_practical_species_BDD_ICO.md', # --> Ready
+  '3_practical_NP.md', # --> Ready
+  '3_practical_LE_TR.md', # new
+  '3_practical_FP_MAR_FIS.md', #new
   '3_pressures_resilience.md', # --> Updated with practical guidance
   '3_intro_to_tbx.md',
   '3_file_system.md',
