@@ -93,8 +93,9 @@ img {
 <li><a href="#synergies-data-to-approach-together"><span class="toc-section-number">2.9.1</span> Synergies: Data to Approach Together</a></li>
 <li><a href="#practical-considerations-for-habitat-based-goals"><span class="toc-section-number">2.9.2</span> Practical Considerations for Habitat-based Goals</a></li>
 <li><a href="#practical-considerations-for-special-places"><span class="toc-section-number">2.9.3</span> Practical Considerations for Special Places</a></li>
-<li><a href="#practical-considerations-for-economic-goals-and-tourism"><span class="toc-section-number">2.9.4</span> Practical Considerations for Economic Goals and Tourism</a></li>
-<li><a href="#practical-considerations-for-fisheries-goals"><span class="toc-section-number">2.9.5</span> Practical Considerations for Fisheries Goals</a></li>
+<li><a href="#practical-considerations-for-economic-goals"><span class="toc-section-number">2.9.4</span> Practical Considerations for Economic Goals</a></li>
+<li><a href="#practical-considerations-for-tourism"><span class="toc-section-number">2.9.5</span> Practical Considerations for Tourism</a></li>
+<li><a href="#practical-considerations-for-fisheries-goals"><span class="toc-section-number">2.9.6</span> Practical Considerations for Fisheries Goals</a></li>
 </ul></li>
 <li><a href="#pressures-and-resilience"><span class="toc-section-number">2.10</span> Pressures and resilience</a><ul>
 <li><a href="#ideal-approach-2"><span class="toc-section-number">2.10.1</span> <em>Ideal Approach</em>:</a></li>
@@ -807,7 +808,79 @@ some history: the 1km buffer was used at the global scale because there was spat
 </tbody>
 </table>
 <p>When considering how to change the model, you should think about the outcome of the score on your decisions. For instance, will weighting a “Critically Endangered” species higher on the scale result in the inclusion or exclusion of more rare species? Will the way you aggregate spatial data to summarize extinction risk for your area take into account the influence of species with smaller ranges size, or will that information be lost in the averaging process? An inherent disadvantage for conservation may occur when rare species get rarer in the future, and will therefore have a relatively small influence on the score while common species drive the results.</p>
-<p>You should also think about the reference point for scores that signal poor <strong>Biodiversity</strong> status. You can use the same threshold as the Global Assessments which say that places with extinction risk scores greater than seventy-five percent will get scores of zero. This is an estimation based on the literature of mass extinctions (e.g., Barnosky <em>et al</em>., 2011) and could be applied across scales. You don’t need all species extinct for there to be a zero, so you will have to choose how to rescale it, and whether the risk effects are linear or nonlinear. <!---(See Section, **Data Transformations**)---> ***</p>
+<p>You should also think about the reference point for scores that signal poor <strong>Biodiversity</strong> status. You can use the same threshold as the Global Assessments which say that places with extinction risk scores greater than seventy-five percent will get scores of zero. This is an estimation based on the literature of mass extinctions (e.g., Barnosky <em>et al</em>., 2011) and could be applied across scales. You don’t need all species extinct for there to be a zero, so you will have to choose how to rescale it, and whether the risk effects are linear or nonlinear.</p>
+</div>
+<div id="history-of-the-approaches-1" class="section level4">
+<h4><span class="header-section-number">2.9.2.10</span> History of the Approaches</h4>
+<p><em>Species sub-goal of Biodiversity goal</em></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Model Description and Reference Point</th>
+<th align="left">Evolution of Approach</th>
+<th align="left">Interpreting a score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Global 2012</strong></td>
+<td align="left">For the Species sub-goal, we used recent assessments by the International Union for Conservation of Nature (IUCN)- Global Marine Species Assessment of the extinction risk status of 2377 species for which distribution maps also exist across a wide range of taxa to provide a geographic snapshot of how total marine biodiversity is faring, even though it is a very small sub-sample of overall species diversity. The status of assessed species was calculated as the area- and threat status-weighted average of the number of threatened species within each 0.5 degree grid cell. Species distribution and threat category data came from the IUCN Global Marine Species Assessment results.<br  /><br  />The target for the species sub-goal is to have all species at a risk status of Least Concern. We scaled the lower end of the biodiversity goal to be 0 when 75% species are extinct, a level comparable to the five documented mass extinctions and that would constitute a catastrophic loss of biodiversity.</td>
+<td align="left">We did not include ecological integrity measures as they are based on the same data used to calculate Status and Trend.</td>
+<td align="left">A score of 100 would indicate that over 75% of species have a ‘least concern’ risk of extinction.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Global 2013</strong></td>
+<td align="left">The goal model and reference point were the same as Global 2012.</td>
+<td align="left">Updates were available for data used for this goal. It is important to note that extinction risk estimates for significantly more species were released in the past year, such that the scores needed to be updated for this sub-goal (and therefore the biodiversity goal overall) for 2012 to reflect improved reporting of species assessments (e.g., data quality). Actual changes in risk status from last year to this year occurred for only 15 of 6080 species, primarily because species are rarely re-assessed; in other words, only when species are reassessed can the status score of this sub-goal change.</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Brazil (2014)</strong></td>
+<td align="left">The status of assessed species was calculated as the threat status-weighted average of all species occurring in the Brazilian EEZ (we did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species at the time of this assessment). The sub-goal was therefore calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species.<br  /><br  />The reference point was the same was Global 2012.</td>
+<td align="left">A list of marine species that occur in Brazil and were evaluated globally under the IUCN Red List assessment process was combined with a list of species assessed regionally in Brazil using the same criteria (Brazilian Red List assessments from Chico Mendes Institute for Biodiversity Conservation; see Data Layers). We substitute global assessments for regional (Brazil-specific) assessments whenever these were available. We had assessments for a total of 504 species.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>U.S. West Coast (2014)</strong></td>
+<td align="left">The model description and reference point were the same as Global 2012, with regional data available for threat categories.</td>
+<td align="left">Data were available at a regional scale, but the approach was the same as Global 2012.</td>
+</tr>
+</tbody>
+</table>
+<p><em>Iconic Species sub-goal of <strong>Special Places</strong></em></p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Assessment</th>
+<th align="left">Model Description and Reference Point</th>
+<th align="left">Evolution of Approach</th>
+<th align="left">Interpreting a score</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left"><strong>Global 2012</strong></td>
+<td align="left">Status of this sub-goal is the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category, where an increasing weight is assigned by level of extinction risk of the threat category. This formula penalizes the gravity and number of species endangered among those recognized as iconic.<br  /><br  />The reference point is to have the risk status of all assessed species as Least Concern, meaning that the species is at lowest risk of extinction. Species that either have not been assessed or are labeled as data deficient are not included in the calculation.</td>
+<td align="left">To define the list of iconic species for each region, we compiled lists of region-specific iconic species combined with lists of globally-recognized iconic species to create the total list of iconic species per region. Species were drawn from the World Wildlife Fund’s global and regional lists for Priority Species (especially important to people for their health, livelihoods, and/or culture) and Flagship Species (‘charismatic’ and/or well-known). Ultimately, almost any species can be iconic to someone, and so the intent with this goal was to focus on those species widely seen as iconic from a cultural or existence value (rather than for a livelihoods or extractive reason). Many lists exist for globally important, threatened, endemic, etc. species, but in all cases it is not clear if or to what extent these species represent culturally iconic species. The lists we used from World Wildlife Fund are the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions, communities, religions, tribes or other groups elsewhere. Collecting data at those scales would be a very important advance forward.<br  /><br  />Habitat-forming species are not included in this definition of iconic species, nor are species that are harvested solely for economic or utilitarian purposes (even though they may be iconic to a sector or individual).</td>
+<td align="left">A score of 100 would indicate that all species are in the threat category equivalent to ‘least concern’.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>Global 2013</strong></td>
+<td align="left">The methods and reference point were the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="odd">
+<td align="left"><strong>Brazil (2014)</strong></td>
+<td align="left">The methods and reference point were the same as Global 2012.</td>
+<td align="left">The approach was the same as Global 2012.</td>
+</tr>
+<tr class="even">
+<td align="left"><strong>U.S. West Coast (2014)</strong></td>
+<td align="left">To assess the status of these iconic species within the region we used the same methods outlined in Global 2012, but replaced the global IUCN risk assessments with regionally specific species assessments provided by NatureServe.<br  /><br  />The reference point was the same as Global 2012.</td>
+<td align="left">Same as Global 2012, with regional data for the threat categories.</td>
+</tr>
+</tbody>
+</table>
+<hr />
 </div>
 </div>
 <div id="practical-considerations-for-special-places" class="section level3">
@@ -991,12 +1064,12 @@ some history: the 1km buffer was used at the global scale because there was spat
 <hr />
 </div>
 </div>
-<div id="practical-considerations-for-economic-goals-and-tourism" class="section level3">
-<h3><span class="header-section-number">2.9.4</span> Practical Considerations for Economic Goals and Tourism</h3>
+<div id="practical-considerations-for-economic-goals" class="section level3">
+<h3><span class="header-section-number">2.9.4</span> Practical Considerations for Economic Goals</h3>
 <blockquote>
 <p>The <strong>Coastal Livelihoods and Economies</strong> goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality. The <strong>Tourism and Recreation</strong> goal captures the value people have for experiencing and taking pleasure in coastal areas.</p>
 </blockquote>
-<p>Some goals in your assessment will draw from economic information. Such goals that you can approach together include the <strong>Livelihoods and Economies</strong> and <strong>Tourism and Recreation</strong> goals. If you have sub-goals for these, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between <strong>Livelihoods and Economies</strong> and <strong>Tourism and Recreation</strong> given their different philosophies.</p>
+<p>Some goals in your assessment will draw from economic information. Such sub-goals that you can approach together include the <strong>Livelihoods</strong> and <strong>Economies</strong>. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between <strong>Livelihoods and Economies</strong> and sometimes even with <strong>Tourism and Recreation</strong> given its different philosophy.</p>
 <p>In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends. You also have the chance to factor in the sustainability of the jobs–something that has not yet been done in the Global Approach.</p>
 <blockquote>
 <p>TIP: <strong>You will most likely simplify the given Global models.</strong> This is because you will be looking at local economic scales, you likely will not need to adjust for currency differences, for example, as was done in the Global Assessment through such metrics as the Consumer Price Index and Purchasing Power Parity.</p>
@@ -1063,7 +1136,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 </blockquote>
 <p>Lastly you will have to <em>combine the sub-goals</em>. You can weight the two sub-goals unequally if, for example, the number of jobs was considered more important than the wages rendered.</p>
 </div>
-<div id="history-of-the-approaches-1" class="section level4">
+<div id="history-of-the-approaches-2" class="section level4">
 <h4><span class="header-section-number">2.9.4.3</span> History of the Approaches</h4>
 <p><strong><em>Livelihoods</em></strong></p>
 <table>
@@ -1135,8 +1208,11 @@ some history: the 1km buffer was used at the global scale because there was spat
 </table>
 <hr />
 </div>
+</div>
+<div id="practical-considerations-for-tourism" class="section level3">
+<h3><span class="header-section-number">2.9.5</span> Practical Considerations for Tourism</h3>
 <div id="ready-to-start-on-tourism-and-recreation" class="section level4">
-<h4><span class="header-section-number">2.9.4.4</span> Ready to start on <strong>Tourism and Recreation</strong>?</h4>
+<h4><span class="header-section-number">2.9.5.1</span> Ready to start on <strong>Tourism and Recreation</strong>?</h4>
 <blockquote>
 <p>This goal will necessarily draw from different data sources than the Global Assessment, and so it is encourage to look at what other OHI+ and regional assessments have done. This goal demonstrates the flexibility of the OHI+ approach, so you are encouraged to think creatively.</p>
 </blockquote>
@@ -1159,7 +1235,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 <p>The reference point used will depend upon the types of data incorporated into the model. Does your country have growth rate targets? Do you want to increase tourism, or instead ensure it does not decline?</p>
 </div>
 <div id="history-of-the-approach-2" class="section level4">
-<h4><span class="header-section-number">2.9.4.5</span> History of the Approach</h4>
+<h4><span class="header-section-number">2.9.5.2</span> History of the Approach</h4>
 <table>
 <thead>
 <tr class="header">
@@ -1197,7 +1273,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 </div>
 </div>
 <div id="practical-considerations-for-fisheries-goals" class="section level3">
-<h3><span class="header-section-number">2.9.5</span> Practical Considerations for Fisheries Goals</h3>
+<h3><span class="header-section-number">2.9.6</span> Practical Considerations for Fisheries Goals</h3>
 <p><em>Ideal Approach</em></p>
 <p>These goals measure the amount of seafood sustainably harvested in a given region for primarily human consumption. It should include quantity of fish caught by any practice including wild-caught commercial fisheries, mariculture, artisanal-scale fisheries, and recreational fisheries.</p>
 <p><em>Practical Guidance for OHI+</em></p>
@@ -1205,7 +1281,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 <p>The overall <strong>Food Provision</strong> model should not change. It should always measure whether the seafood from fisheries and mariculture is harvested at maximum carrying capacity and remaining sustainable. The contribution of each practice to the overall score is weighted by its relative contribution to the total seafood yield in your area.</p>
 <p>The Global Assessments have studied commercial fisheries and mariculture. If another component were added, for example artisanal fisheries, you might want to consider different options for how to combine them into a weighted indicator. Does one tonne of fish caught through one component mean more than one tonne of fish caught in the others? If there is a rationale to use a different approach, that is entirely possible in the OHI+ framework.</p>
 <div id="ready-to-start-on-wild-caught-fisheries" class="section level4">
-<h4><span class="header-section-number">2.9.5.1</span> Ready to start on <strong>Wild-Caught Fisheries</strong>?</h4>
+<h4><span class="header-section-number">2.9.6.1</span> Ready to start on <strong>Wild-Caught Fisheries</strong>?</h4>
 <p><em>Ideal Approach</em></p>
 <blockquote>
 <p>The <strong>Wild-Caught Fisheries</strong> sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption.</p>
@@ -1220,7 +1296,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 </blockquote>
 </div>
 <div id="ready-to-start-on-mariculture" class="section level4">
-<h4><span class="header-section-number">2.9.5.2</span> Ready to start on <strong>Mariculture</strong>?</h4>
+<h4><span class="header-section-number">2.9.6.2</span> Ready to start on <strong>Mariculture</strong>?</h4>
 <blockquote>
 <p><strong>Mariculture</strong> measures the ability to reach the highest levels of seafood gained from far-raised facilities without damaging the ocean’s ability to provide fish sustainably now and in the future.</p>
 </blockquote>
@@ -1229,8 +1305,8 @@ some history: the 1km buffer was used at the global scale because there was spat
 <p><em>Practical Guidance</em></p>
 <p>Setting the reference point for mariculture really depends on regional preferences. This can be very hard to do: in best cases you would incorporate the potential range for mariculture based on habitat suitability for each cultured species, distance from the coast as well as which habitat is suitable, and how much local preference wants to allot to mariculture (versus area apportioned to ports, hotels, beaches, tourism, etc). In Global 2012, without information about social limitations for how much coastal area could be allotted to mariculture, we included the entire area of the coastline, thus assuming that mariculture could be developed everywhere. At a regional scale, better data will allow for restrictions based on habitat, conflicting uses, and social preferences.</p>
 </div>
-<div id="history-of-the-approaches-2" class="section level4">
-<h4><span class="header-section-number">2.9.5.3</span> History of the Approaches</h4>
+<div id="history-of-the-approaches-3" class="section level4">
+<h4><span class="header-section-number">2.9.6.3</span> History of the Approaches</h4>
 <p><em>Fisheries</em></p>
 <table>
 <thead>
@@ -1302,7 +1378,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 </table>
 </div>
 <div id="ready-to-start-on-artisanal-opportunities" class="section level4">
-<h4><span class="header-section-number">2.9.5.4</span> Ready to start on <strong>Artisanal Opportunities</strong>?</h4>
+<h4><span class="header-section-number">2.9.6.4</span> Ready to start on <strong>Artisanal Opportunities</strong>?</h4>
 <p><em>Ideal Approach</em></p>
 <p>Ideally, this goal would include some measure of how easy or hard it is for people to access ocean resources when they need them and a quantified evaluation of the sustainability of harvest of all nearshore stocks used by artisanal fishermen. The type of reference point used will depend on the data available.</p>
 <p><em>Practical Guidance</em></p>
@@ -1341,7 +1417,7 @@ some history: the 1km buffer was used at the global scale because there was spat
 <p>The <strong>reference point for this goal</strong> would likely be full access to the resource. Keep in mind that the access is for people, and therefore a marine protected area may not count towards full access.</p>
 </div>
 <div id="history-of-the-approach-3" class="section level4">
-<h4><span class="header-section-number">2.9.5.5</span> History of the Approach</h4>
+<h4><span class="header-section-number">2.9.6.5</span> History of the Approach</h4>
 <table>
 <thead>
 <tr class="header">
