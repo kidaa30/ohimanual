@@ -27,6 +27,7 @@ in_md = c(
   '3_overview_webapp.md',
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
+  '3_Assembling_team.md', # new
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
   '3_practical_HAB_goals_CS_CP.md', # --> Ready
