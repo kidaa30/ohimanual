@@ -43,7 +43,7 @@ You should be searching for these data at the same time as the **Livelihoods** s
 *Reference Points for the Economic Goals*
 
 | L&E component | Type of Reference | Point Example
-|-----|-----|
+|-----|-----|-----|
 | Number of jobs | Temporal | Current number of jobs minus number of jobs five years before |
 | Wages | Spatial | Highest observed value across reporting units |
 | Revenue | Temporal| Current revenue compared to past revenue |
