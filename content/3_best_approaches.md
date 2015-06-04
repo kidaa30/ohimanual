@@ -1,25 +1,26 @@
-## Best approaches for Starting an Assessment
+## Best Approaches for Starting an Assessment
 
-<!--- See GitHub issue #100 --->
+The Ocean Health Index team has a gained much knowledge from years of developing the Index. However, with each new independent assessment, the team is learning even more, and we hope to share that information with you and encourage outside dialogue on the best approaches to conducting an Independent Assessment.Your OHI+ assessment will also be invaluable in learning how to develop better and more appropriate techniques to changing goal models.
 
-The Ocean Health Index team has a wealth of knowledge from years of developing the Index. However, with each new independent assessment, the team is learning even more, and we hope to share that information with you and encourage outside dialogue on the best approaches to conducting an Independent Assessment.Your OHI+ assessment will also be invaluable in learning how to develop better and more appropriate techniques to changing goal models.
+For goals that have been conducted commonly across OHI+ assessments and the Global Assessment, we provide recommendations for how to approach them broadly here in the Manual. Some broad themes to keep in mind are listed below, followed by practical considerations for each goal model area.
 
-#### Strategies for Assessment
-
-> For more information on Strategies, see the OHI Conceptual Guide sections, such as **Assembling a Team** and **Strategy**.
-
-### Using this Guide
-
-For goals that have been conducted commonly across OHI+ assessments and the Global Assessment, we provide recommendations for how to approach them broadly here in the OHI Manual. For more descriptions of the models, evolution of the approach, and reference point, see the OHI **Conceptual Guide**>
+If you haven't already read about the goal philosophies in the OHI **Conceptual Guide**, you should read it before continuing. You should also read about **Assembling a Team** and **Strategy**. These are important first steps in starting an OHI+ assessment. You should also have checked out the WebApp and be familiar with its capabilities to keep your end-goal in mind.
 
 ****
-<!---Duplicate from from Conceptual Guide--->
 
-### Where to start?
+**Here are some cross-cutting themes to keep in mind as you conduct your OHI+ assessment:**
+
+#### Think Creatively
+
+Humans interact with and depend upon the oceans in complex ways, some of which are familiar and easy to measure, such as providing seafood, transporting goods, or disposing of waste. Other benefits are more difficult to measure, such as the way marine-related jobs indirectly affect coastal communities, how different habitats mediate storm damage or the benefits people receive or perceive simply from living near the ocean. Thinking creatively and exploring the data available can make the Index more representative of reality.
+
+ It is important to think creatively and beyond the interests of a specific institution or primary field of study. Google or other internet search engines are great starting places: investigate what kinds of information are available from government and public records, scientific literature, academic studies, surveys and reports or other sources.
+
+ Data used in the Ocean Health Index spans a wide array of disciplines, both within and outside of oceanography and marine ecology. Therefore, it is necessary to look beyond the most known or obvious data sources to find data relevant for the goals in the region. Discussions with colleagues, literature searches, emails to experts, and search engines are good ways to understand what kinds of data are collected and to hunt for appropriate data.
+
+#### Search for the Appropriate Data
 
 Any assessment will depend on the available data, which requires creative thinking, particularly when ideal data are unavailable. Determining the appropriate scale and defining the study area and any regions within the study area will also depend on available data. The scale and resolution of available data can help inform the scale of the study area to be analyzed and how to divide it into regions.
-
-#### To consider as you get started
 
 Data included to calculate scores are partly based on the philosophical framework of the Ocean Health Index (see Part I), and partly based on data available. Several goals that combine across categories have many potential data sources that could be included (or excluded): in particular the natural products, livelihoods and economies, and habitat based goals. The existence of the data itself will drive a lot of these decisions, but here are some guidelines to help determine if data are appropriate philosophically:
 
@@ -28,19 +29,9 @@ Data included to calculate scores are partly based on the philosophical framewor
 * Do data cover the appropriate spatial scales?
 * Do data cover the appropriate temporal scales?
 
-#### Which data are available?
-
-Humans interact with and depend upon the oceans in complex ways, some of which are familiar and easy to measure, such as providing seafood, transporting goods, or disposing of waste. Other benefits are more difficult to measure, such as the way marine-related jobs indirectly affect coastal communities, how different habitats mediate storm damage or the benefits people receive or perceive simply from living near the ocean. Thinking creatively and exploring the data available can make the Index more representative of reality.
-
-It is important to think creatively and beyond the interests of a specific institution or primary field of study. Google or other internet search engines are great starting places: investigate what kinds of information are available from government and public records, scientific literature, academic studies, surveys and reports or other sources.
-
-Data used in the Ocean Health Index spans a wide array of disciplines, both within and outside of oceanography and marine ecology. Therefore, it is necessary to look beyond the most known or obvious data sources to find data relevant for the goals in the region. Discussions with colleagues, literature searches, emails to experts, and search engines are good ways to understand what kinds of data are collected and to hunt for appropriate data.
-
-#### What scale is appropriate?
+#### Think about Spatial Considerations
 
 Here it is important to think about why is there interest in completing an OHI assessment. If managers or policy makers are interested, at what scale do they work? Where are the political boundaries? These questions are important to keep the OHI assessment relevant, but ultimately data availability will be most important in how to define regional boundaries for the OHI.
-
-### What's important spatially?
 
 There are several spatial considerations you should have prepared before moving forward with the Toolbox. One is your map definitions for use in the assessment and in the WebApps. You must define your map regions and boundary. This can be politically drawn or, if appropriate, biogeographically drawn. Biographic considerations may be important when there are disputed territories or boundary lines in your area. *Note that OHI+ does not take a position on disputed territories, so it is up to you to vet the quality of the maps.*
 
@@ -55,24 +46,17 @@ some history: the 1km buffer was used at the global scale because there was spat
 
 <!---BUFFERS note: a common theme was ‘these are special areas inland, but they’re not considered by the index since they are >1km inland’. us: ‘but you can change that buffer. Define it as is important to you, to your interpretation of ocean health--->
 
-#### Reference Points
-
+#### Keep Reference Points in Mind
 <!---Develop--->
 The decisions on choosing a reference point will be a theme in each of the goal models you develop. The choice of a reference point will affect how the final scores are calculated, and will have to be balanced between limitations of the data and expert judgment to assess the conditions of the various dimensions of ocean health.
 
 In addition to set values, such as maximum or minimum observed value, it's possible to use spatial reference points and temporal reference points. In spatial reference points, you find the highest-scoring region and say that it is perfect. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014). Using temporal reference points, a historical benchmark is used as a the "ideal" point in the past. A third type of reference point is a policy-set target, such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year. In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point--they should be "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
 
-After selecting the type of eref
-
 You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
 
-> For more, see the **Conceptual Guide**
+## Practical Guidance
 
-### Practical Guidance
-
-#### Synergies and Goals to approach together
-
-> TIP: See section, **Assembling a Team**
+### Synergies: Data to Approach Together
 
 Whether you are working goal-by-goal, or data layer by data layer, it is important to consider where you can find synergies in data discovery. For example, while you are looking for data layers for fisheries goals, you may also find data layers for fishing pressures, such as metrics on bycatch or trawling intensity. This will save you time and allow you to start thinking about how to rank pressures and resilience weights on your goals as well. Conceptually, it will help your team build a picture of how your goals are interlocking in a way that is reflective of the actual linkages that exist in the coupled human and natural systems you are studying. Some key examples are listed below, and are further explained in the following sections.
 
@@ -82,15 +66,14 @@ You should do the habitat-based goals together. These include **Carbon Storage**
 
 > If you look at `functions.R`, you will see that the reason this is the case is because the data layer, `Hab_extent`, is used in multiple places in the software:
 
-> * NP
+ * NP
 * FIS
 * CS
 * CP
 
 ![Note that Habitat Extent appears in several goal model functions. ](https://docs.google.com/drawings/d/1HtrwjFi1Lod6B687nNTUPqK-MTAr9uwShooHUIu3Le4/pub?w=790&h=258)
 
-
-#### Linkages: Note the connections between pressures and goals
+#### Linkages: connections between pressures and goals
 
 You should note the connections between your goals and the pressures and resilience that affect them.
 
@@ -101,5 +84,3 @@ Another example is how climate change impacts will appear in your assessment. Cl
 In the case of Global 2012, the **Clean Waters** goal is very much linked to the pressures because the same data layers for pressures are used as the input layers for the status. Note that because trash is also a pressure, it affects other goals as well, including **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**.
 
 These connections will become more clear as you go through the OHI+ assessment process.
-
-***
