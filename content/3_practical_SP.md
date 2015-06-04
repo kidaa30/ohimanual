@@ -1,6 +1,8 @@
-### Practical Considerations for Special Places
+### Practical Considerations for **Sense of Place**
 
-#### Ready to start on the **Lasting Special Places** sub-goal of the **Special Places** Goal?
+#### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
+
+> Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
 
 *Ideal Approach*
 
@@ -24,7 +26,7 @@ You should be thinking about **Resilience** at the same time as you think about 
 
 Once you area ready, you should return to the **Iconic Species** sub-goal of **Lasting Special Places** and think about how to combine the two together. Do you want to use equal or unequal weighting? How do the two components relate to each other?
 
-> In the Global Assessment framework, the **Special Places** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average, or even a different sub-goal instead of Sense of Place.
+> In the Global Assessment framework, the **Special Places** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average, or even a different sub-goal instead of **Sense of Place**.
 
 #### History of the Approach
 
