@@ -34,7 +34,7 @@ in_md = c(
   '3_practical_SP.md', # --> new
   '3_practical_NP.md', # --> Ready
   '3_practical_LE_TR.md', # new
-  '3_practical_FP_MAR_FIS.md', #new
+  '3_practical_FP_MAR_FIS_AO.md', #new
   '3_pressures_resilience.md', # --> Updated with practical guidance
   '3_intro_to_tbx.md',
   '3_file_system.md',
