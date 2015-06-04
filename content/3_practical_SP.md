@@ -1,4 +1,4 @@
-### Practical Considerations for **Sense of Place**
+### Practical Considerations for Sense of Place
 
 #### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
