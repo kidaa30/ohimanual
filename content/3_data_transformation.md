@@ -1,4 +1,4 @@
-## Rescaling your data
+### Rescaling your data
 
 <!---Notes from Github issue 389. Katie, develop--->
 

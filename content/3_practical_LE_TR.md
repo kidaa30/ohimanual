@@ -1,8 +1,8 @@
-### Practical Considerations for Economic Goals and Tourism
+### Practical Considerations for Economic Goals
 
 > The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality. The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in coastal areas.
 
-Some goals in your assessment will draw from economic information. Such goals that you can approach together include the **Livelihoods and Economies** and **Tourism and Recreation** goals. If you have sub-goals for these, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between **Livelihoods and Economies** and **Tourism and Recreation** given their different philosophies.
+Some goals in your assessment will draw from economic information. Such sub-goals that you can approach together include the **Livelihoods** and **Economies**. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between **Livelihoods and Economies** and sometimes even with **Tourism and Recreation** given its different philosophy.
 
 In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends. You also have the chance to factor in the sustainability of the jobs--something that has not yet been done in the Global Approach.
 
@@ -79,6 +79,8 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Int
 **U.S. West Coast (2014)** | The model and reference point were the same as Global 2012. | The approach was the same as Global 2012. |
 
 ****
+
+### Practical Considerations for Tourism
 
 #### Ready to start on **Tourism and Recreation**?
 
