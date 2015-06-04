@@ -1,6 +1,6 @@
 ### Practical Considerations for Special Places
 
-#### Ready to start on the **Lasting Special Places** sub-goal of **Special Places**?
+#### Ready to start on the **Lasting Special Places** sub-goal of the **Special Places** Goal?
 
 *Ideal Approach*
 
@@ -8,7 +8,7 @@ Ideally, you would be able to produce a list of all the places that people withi
 
 *Practical Guidance*
 
-It is important to think creatively about how this goal can be tailored to your region. This sub-goal is intended to be specific to your location, and therefore the approach varies across assessments. Keep in mind, however, that it is a very important goal to express accurately, because it captures how people interact with their coastal places.
+It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a very difficult goal to express accurately, since it captures how people interact with their coastal places.
 
 > In the U.S. West Coast assessment (2014), **Special Places** was one of the most important goals. At the end of the day, how people interact with ‘their ocean’ is fundamentally important to whether they think oceans are healthy or not.
 
