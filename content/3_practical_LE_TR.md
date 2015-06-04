@@ -4,15 +4,11 @@
 
 Some goals in your assessment will draw from economic information. Such goals that you can approach together include the **Livelihoods and Economies** and **Tourism and Recreation** goals. If you have sub-goals for these, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between **Livelihoods and Economies** and **Tourism and Recreation** given their different philosophies.
 
-<<<<<<< HEAD
 In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends. You also have the chance to factor in the sustainability of the jobs--something that has not yet been done in the Global Approach.
 
 > TIP: **You will most likely simplify the given Global models.** This is because you will be looking at local economic scales, you likely will not need to adjust for currency differences, for example, as was done in the Global Assessment through such metrics as the Consumer Price Index and Purchasing Power Parity.
-=======
-In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends.
 
-> TIP: **You will most likely simplify the given Global models.** This is because you will be looking at local economic scales, you likely will no't need to adjust for currency differences, for example, as was done in the Global Assessment.
->>>>>>> d21870dc9f024fe667563aae370be40b4077777d
+In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends.
 
 #### Ready to start on **Livelihoods?**
 
