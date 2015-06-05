@@ -13,3 +13,5 @@
 We access and interact with the Toolbox ecosystem through an online collaborative platform called **GitHub**. GitHub stores the **R** scripts and *.csv* files in a folder called a repository, which is found online and can also be downloaded on your computer and synced with the online version. GitHub tracks changes by all collaborators working on the project through time, and saves all versions for comparison. The section, "**Installing the Toolbox**," provides instruction on how to download GitHub repositories to your computer, but everything is also available online.  
 
 The Toolbox is used to calculate final scores. But, perhaps more importantly, it can also be used to organize an assessment, including data identification and management.  The Toolbox can additionally be used to compare how different management scenarios could affect overall ocean health, which can inform effective strategies for ocean resource management at a local scale.
+
+![The files, or tools, in your OHI+ Toolbox.](https://docs.google.com/drawings/d/1Lp5qlIgEj32HJpRtqcCwPsQmz4LBqJBVhPk8N0yT2cY/pub?w=1456&h=1001)
