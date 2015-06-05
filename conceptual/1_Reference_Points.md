@@ -1,4 +1,4 @@
-##**Reference points**
+## **Reference points**
 
 To assess how well a goal is being delivered, it is necessary to identify the target to which it will be compared. This target is called the reference point. In an Ocean Health Index framework, setting the reference point enables the numeric values relevant for each goal to be scaled between zero and one hundred (where one hundred means that the current status is equal to the target reference point, and zero means that it is as far from the target reference point as is possible). Sharing a common range for scores makes all goal scores comparable. The reference point may be a target value at some time in the past, a comparison with some other location (such as the best performing region), a target established by a treaty or other agreement, or---best of all---a target determined by a scientifically-informed input-output relationship (an equation called a **production function**).
 

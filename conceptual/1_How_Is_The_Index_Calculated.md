@@ -1,4 +1,4 @@
-##**How is the Index calculated?**
+## **How is the Index calculated?**
 
 For each goal, models are developed to best represent the philosophy of that goal using the best available data at the scale of study. The present status that is calculated individually for each goal forms half of that goal’s score.  The other half, called likely future status, is based on three things:
 

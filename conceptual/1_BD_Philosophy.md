@@ -1,10 +1,10 @@
-##**Biodiversity**
+## **Biodiversity**
 
 > The **Biodiversity** goal captures the conservation status of marine species.
 
 **Biodiversity** measures the condition of species and key habitats that support species richness and diversity. It is is measured through two sub-goals: **Species** and **Habitats**. Species were assessed because they are what one typically thinks of in relation to biodiversity, and people value biodiversity in particular for its existence value. But because only a small proportion of marine species worldwide have been mapped and scientifically assessed, habitats are used a proxy for the condition of the broad number of species that depend on them. A simple average of these two sub-goal scores produces the **Biodiversity** goal score in the Global Assessment.
 
-###**Species**
+### **Species**
 
 > The **Species** sub-goal aims to estimate how successfully the richness and variety of marine life is being maintained.
 
@@ -26,7 +26,7 @@ Note that **Biodiversity** can also play a supporting role in **Food Provision**
 
 ***
 
-###**Habitats**
+### **Habitats**
 
 > The **Habitats** sub-goal measures the condition of habitats that are important for supporting a wide array of species diversity.
 

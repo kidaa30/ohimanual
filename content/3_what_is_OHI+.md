@@ -8,7 +8,7 @@ The Ocean Health Index framework presents a highly tailorable approach ready to 
 
 The Index is an assessment tool that provides a common platform for scientifically combining and comparing key elements from all dimensions of the oceans health — biological, physical, economic, and social – to measure how sustainably people are using the ocean. By allowing for a comprehensive and integrated view of marine systems as a way to understand the trade-offs and synergies among these goals, the Index represents a significant advance over conventional single-sector approaches to assessing sustainability as communicated through other kinds of index efforts. Because of this, preparing the conducting phase will require careful thought, consideration, and documentation, throughout this process.
 
-### The Process of OHI+
+###The Process of OHI+
 
 The OHI+ process consists of four distinct phases. In the first phase, you **learned** about the OHI and understood the philosophy behind it and the motivation for conducting your study. In the second phase, you actively **planned** to conduct an OHI+ Assessment. Now, in the third phase, you will **conduct** the assessment by engaging with the science of finding the data, preparing the goal models, and taking the necessary steps to learn the software and produce the results. In the final phase, you will communicate the results of your OHI+ Assessment in order to inform stakeholders who will use its findings.
 
@@ -17,13 +17,13 @@ The OHI+ process consists of four distinct phases. In the first phase, you **lea
 - **Phase 3:** **Conduct** the OH+ Assessment
 - >**Phase 4:** **Communicate** and Inform
 
-#### What to expect when conducting an assessment
+### What to expect when conducting an assessment
 <!---From Conducting_assessment--->
 There are key considerations and processes that will be a part of every assessment, however, the process for conducting each assessment will be unique depending on the local context. For example: what data and indicators are available will determine how goal models can be tailored to the region, and what skillsets and resources are involved will affect the time it takes to complete the assessment.
 
 > In OHI+,it is important for your team doing the study to make the decisions and modifications that are most important for the region, and then defend it clearly what was done and why. At the same, your team should  as creative and insightful as you can be.
 
-#### Where to start when conducting an assessment
+### Where to start when conducting an assessment
 
 You should start by understanding the structure of the global assessment and the data involved will help you think about what should be done differently in your local context.  
 

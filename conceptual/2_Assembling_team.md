@@ -1,6 +1,5 @@
-## Assembling a Team
+## **Assembling a Team**
 
-<!---Add more--->
 The success of your OHI+ assessment will depend on the effectiveness of your team. While every assessment will be done differently--it is always done according to local needs, resources, and priorities--we do have some guidance on suggested ways to go about assembling a team.
 
 It is very important to have, for example, contacts who are experts in the following:

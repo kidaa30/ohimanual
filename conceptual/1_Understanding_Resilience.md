@@ -1,4 +1,4 @@
-##**Understanding Resilience**
+## **Understanding Resilience**
 
 > Ultimately, it is resilience that will help shape the future of ocean health.
 
@@ -12,7 +12,7 @@ As nation states arose, laws and regulations have steadily evolved to meet their
 
 Physical manifestations of resilience also appeared, such as public works projects for worship, defense, transportation, water, sanitation and many others.
 
-####Ideal Approach
+#### Ideal Approach
 
 Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.
 

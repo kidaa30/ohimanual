@@ -1,4 +1,4 @@
-###**Establishing Your Strategy**
+### **Establishing Your Strategy**
 
 Your strategy should be a results-based planning document that details the results and objectives that will be achieved through the assessment and the specific activities, human resources, and funding needed to achieve them.
 
@@ -6,15 +6,15 @@ Having an assessment strategy ensures that financial and human resources are use
 
 Those involved in developing the assessment should use a planning approach that is familiar and comfortable to them. All strategies should at a minimum answer these key questions regardless of the exact approach or timeline:
 
-•	What do we want to achieve by developing an Index assessment?
+* What do we want to achieve by developing an Index assessment?
 
-•	Who will use the strategy, and for what purposes?
+* Who will use the strategy, and for what purposes?
 
-•	Who will be involved?
+* Who will be involved?
 
-•	When will the assessment be completed?
+*	When will the assessment be completed?
 
-•	What funding and support are available?
+*	What funding and support are available?
 
 The assessment planning approach should be appropriate to the local context. It is important to carefully consider the physical, social, political, economic and environmental characteristics of the study area to develop a realistic and achievable plan. The process we recommend in this guide can be followed step by step, but it is better if it is adapted to local needs.
 
