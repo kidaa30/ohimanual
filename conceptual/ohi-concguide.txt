@@ -118,6 +118,20 @@ It is important to note that the scores form you OHI+ assessment can't be compar
 
 > Even in the Global Assessments, the methods are improved every year by increasing goal model robustness, integrating new data, and recalculating the scores with the improved methods both for the current year and, retroactively, for previous years to allow for year-to-year comparisons. The scientific objectivity comes from applying the same methods and reference points to all regions equally, which also allows for valid comparison of performance across countries.
 
+## Overview of the OHI+ WebApp
+
+>In this section, you will get an introduction to the OHI WebApps. When using the WebApp, you can conduct a preliminary assessment and use the built-in functions to compare input layers,  output scores, and change data display options. You will return to the WebApp at the end of the OHI+ process when your team has finalized the calculation methods.
+
+OHI+ WebApps will be very useful for all stages of planning your assessment. The WebApp can be used to **Learn** because it allows for exploration of how the Index works--your team and planning partners can learn what data look like, what map regions are being considered, and ultimately, your team will be able to see how all of the information gathered in your OHI+ assessment will come together. For this reason, the WebApps can be used for **Planning** because they are a communication platform for an assessment team, since information is presented in a manner that is accessible to group members of different disciplines and technical capacities. They will also be kept in mind in the **Conduct** phase, as can be used to set data gathering or goal model development priorities for your assessment. In the final **Communicate** phase, the data outputs from your WebApp will be invaluable as you share your assessment’s data and calculated scores once you have finalized and formatted your data and modified goal models.  
+
+## How you will use the WebApp
+
+**OHI+ WebApps** are websites created to facilitate independent assessments, and one is available for nearly every coastal nation or territory. The WebApps are available through http://ohi-science.org using a three-letter identifier in the URL. For example, Ecuador’s WebApp ("ECU") is found at http://ohi-science.org/ecu. When first exploring a WebApp (for example, http://ohi-science.org/ecu), note that it is possible to **translate** the site into any language that Google provides using the pull-down menu at the top. This will help communication among your team and will facilitate collaboration with partners or stakeholders. You can use the OHI+ WebApp to scope out the planning of your assessment in these initial phases. More importantly, however, it will be useful in the **Conduct** phase when you identify your regions and local priorities, and begin preparing your data, and documenting the decisions that are occurring throughout the process.
+
+![The WebApp start page. Note that it's possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
+
+> Each WebApp displays data layers, which are raw data in this case, as well as the calculated OHI scores based on information extracted from global assessments. As such, they do not provide fine-scale resolution of data for each coastal nation or territory: the scores and data on which they are based are a starting point for an assessment to be conducted by an independent group. These data can be used as a default if better data for the region do not exist, but we encourage you to replace them wherever possible.
+
 ## **Determine the Need and Purpose of Conducting Your OHI+ Assessment**
 
 > Remember that producing the Index is not the end in itself--the  aim is to *achieving improved ocean health.*
@@ -146,11 +160,11 @@ Although the Index framework provides guidelines on how to adapt underlying mode
 
 The Index can also accommodate additional goals if they better reflect what local communities value, although we feel that the ten goals currently defined within the Index are sufficiently broad to capture a vast majority of values. No indicator is exempt from such subjective decisions. The Index’s framework, however, requires one to document and track such assumptions explicitly and thus, contrary to many other existing indices, allows for careful assessment of the sensitivity of results to such decisions.
 
-##**How are the goals weighted?**
+## **How are the goals weighted?**
 
 The goals are currently weighted equally in OHI calculations. However, in your OHI+ assessment the weighting can be changed depending on your local context. Stakeholders may have differing priorities, but when presented with the portfolio of goals used in the Ocean Health Index, these differences can become less pronounced, as was found in a study by Halpern *et al.* (2013) in *Marine Policy*. This would require good data, of course, such as the information collected through a representatively sample survey.
 
-##**How is the Index calculated?**
+## **How is the Index calculated?**
 
 For each goal, models are developed to best represent the philosophy of that goal using the best available data at the scale of study. The present status that is calculated individually for each goal forms half of that goal’s score.  The other half, called likely future status, is based on three things:
 
@@ -172,7 +186,7 @@ Status, trend, likely future status, pressures, and resilience are called ‘dim
 
 ![In the figure, likely future state (in yellow) is the result of the trend, minus the negative effect of pressures (grey), plus the positive effect of resilience (salmon pink)](https://docs.google.com/drawings/d/1GkLZnW8hQJf1KLX89LzViEBU4PkJ8kRqOERt_Fxtwu4/pub?w=864&h=384)
 
-##**Reference points**
+## **Reference points**
 
 To assess how well a goal is being delivered, it is necessary to identify the target to which it will be compared. This target is called the reference point. In an Ocean Health Index framework, setting the reference point enables the numeric values relevant for each goal to be scaled between zero and one hundred (where one hundred means that the current status is equal to the target reference point, and zero means that it is as far from the target reference point as is possible). Sharing a common range for scores makes all goal scores comparable. The reference point may be a target value at some time in the past, a comparison with some other location (such as the best performing region), a target established by a treaty or other agreement, or---best of all---a target determined by a scientifically-informed input-output relationship (an equation called a **production function**).
 
@@ -180,19 +194,19 @@ It can be advantageous to translate a management goal to a maximization or minim
 
 It is important to understand that setting a reference point is a conscious choice. This choice can be informed by the literature and by expert advice, and can be discussed in terms of costs and benefits. However, ultimately there is no optimum and certainly not only one solution, and this can be very uncomfortable. This makes setting a reference point difficult, but even more important to define explicitly.
 
-##**Understanding Status**
+## **Understanding Status**
 
 The status component of each goal is captured through a model that represents the philosophy of the goal in a way that produces findings that are most useful to inform decision-making at the scale of your assessment.
 
 The current status of each goal is determined by comparing the most recent measure of the goal with a goal-specific sustainable reference point. For each goal, as well as for many individual data layers, values are rescaled to reference points, or targets, which serve as benchmarks based on SMART principles: Specific (to the management goal), Measurable, Ambition, Realistic, and Time-bound (Samhouri *et al.* 2012; Perrings *et al.* 2010; 2011).
 
-##**Understanding Trend**
+## **Understanding Trend**
 
 The trend is calculated as the slope of the change in status based on recent data. As such, the trend calculation is not trying to predict the future but only to indicate the likely condition based on a linear relationship.
 
 The trend is in most cases the trend in the last five years of data. The exact number of most recent years can change depending on the data sources, but the general idea is that the trend conveys the recent history of the indicator. It does this because the trend is then used to calculate the likely near-term future state and can show a reaction to policy interventions.
 
-##**Understanding Pressures**
+## **Understanding Pressures**
 
 A pressure is any kind of stressor on the social or ecological system that is harmful for ocean health.
 
@@ -200,7 +214,7 @@ Pressures can change how goals interact with each other. For example, raising fi
 
 Pressures are calcuated as the sum of the ecological and social pressures that negatively affect goal scores. The Index framework calculates pressures by first grouping them into five ecological categories (pollution, habitat destruction, fishing pressure, species pollution, and climate change) and one social category. The reason there are categories is to minimize sampling bias, so that no one kind disproportionately influences the score. They are weighted equally in the global assessment, but in your local assessment they can be changed if there is enough information on how to do so.
 
-##**Understanding Resilience**
+## **Understanding Resilience**
 
 > Ultimately, it is resilience that will help shape the future of ocean health.
 
@@ -214,7 +228,7 @@ As nation states arose, laws and regulations have steadily evolved to meet their
 
 Physical manifestations of resilience also appeared, such as public works projects for worship, defense, transportation, water, sanitation and many others.
 
-####Ideal Approach
+#### Ideal Approach
 
 Ideally, assessments of social resilience would include national-level and as well as local rules and other relevant institutional mechanisms that are meant to safeguard ocean health. The global focus has been on international treaties and indices, so your region should have more localized information. There would also be information as to their effectiveness and enforcement. of more. Information on social norms and community (and other local-scale) institutions (such as tenure or use rights) that influence resource use and management would be useful too.
 
@@ -527,13 +541,13 @@ Due to data constraints, the models described in the Global Assessments mostly u
 
 > In the Global Assessments, it was not possible to assess specific toxic chemicals at the global scale; however regional case studies often might have data available for the quantities and toxicity of a range of chemicals put into watersheds and coastal waters. In addition, where possible and relevant, we recommend including additional component that could not be covered in the models presented in the Global due to data constraints, such as altered sedimentation or turbidity.
 
-##**Biodiversity**
+## **Biodiversity**
 
 > The **Biodiversity** goal captures the conservation status of marine species.
 
 **Biodiversity** measures the condition of species and key habitats that support species richness and diversity. It is is measured through two sub-goals: **Species** and **Habitats**. Species were assessed because they are what one typically thinks of in relation to biodiversity, and people value biodiversity in particular for its existence value. But because only a small proportion of marine species worldwide have been mapped and scientifically assessed, habitats are used a proxy for the condition of the broad number of species that depend on them. A simple average of these two sub-goal scores produces the **Biodiversity** goal score in the Global Assessment.
 
-###**Species**
+### **Species**
 
 > The **Species** sub-goal aims to estimate how successfully the richness and variety of marine life is being maintained.
 
@@ -555,7 +569,7 @@ Note that **Biodiversity** can also play a supporting role in **Food Provision**
 
 ***
 
-###**Habitats**
+### **Habitats**
 
 > The **Habitats** sub-goal measures the condition of habitats that are important for supporting a wide array of species diversity.
 
@@ -620,9 +634,8 @@ Generally funding comes from the public sector, but other assessments have devel
 
 In some other cases foundations, research labs and academic institutions provide the funding. More specifics on funding will be included under the [Strategic Planning](Costs and Financial Planning) section.
 
-## Assembling a Team
+## **Assembling a Team**
 
-<!---Add more--->
 The success of your OHI+ assessment will depend on the effectiveness of your team. While every assessment will be done differently--it is always done according to local needs, resources, and priorities--we do have some guidance on suggested ways to go about assembling a team.
 
 It is very important to have, for example, contacts who are experts in the following:
@@ -822,7 +835,7 @@ The objectives should describe the future conditions after the problem has been 
 
 In defining the objectives, the team should also describe the intended strategies (the how) to reach the desired objectives. These strategies can range from the broad (stakeholder analysis) to the very specific (institutionalization of the Index).
 
-###**Determining the Spatial Scale**
+### **Determining the Spatial Scale**
 
 It is important to remember that the scale of your assessment should match the scale of decision-making.
 
@@ -832,17 +845,17 @@ Index goal scores are calculated at the scale of the reporting unit, which is ca
 
 When deciding the spatial scale of the assessments, the Working Group should consider the following:
 
-•	At what spatial scale are most data collected?
+*	At what spatial scale are most data collected?
 
-•	What are the existing governance or political boundaries that would be relevant? (governance/decision-making boundaries are needed if the Index will be useful for management)
+*	What are the existing governance or political boundaries that would be relevant? (governance/decision-making boundaries are needed if the Index will be useful for management)
 
-•	If managers and/or policy makers are interested, what needs to be measured and why? At what scale do they work?
+*	If managers and/or policy makers are interested, what needs to be measured and why? At what scale do they work?
 
 These questions are important to keep the Index assessment relevant but ultimately data availability will be the most important factor when defining boundaries for the Index.
 
 There is no single criterion for identifying the scale of the study area since the Index can potentially be used at all scales using data, parameters, interests, and goals at the scale of the study.
 
-###**Establishing Your Strategy**
+### **Establishing Your Strategy**
 
 Your strategy should be a results-based planning document that details the results and objectives that will be achieved through the assessment and the specific activities, human resources, and funding needed to achieve them.
 
@@ -850,15 +863,15 @@ Having an assessment strategy ensures that financial and human resources are use
 
 Those involved in developing the assessment should use a planning approach that is familiar and comfortable to them. All strategies should at a minimum answer these key questions regardless of the exact approach or timeline:
 
-•	What do we want to achieve by developing an Index assessment?
+* What do we want to achieve by developing an Index assessment?
 
-•	Who will use the strategy, and for what purposes?
+* Who will use the strategy, and for what purposes?
 
-•	Who will be involved?
+* Who will be involved?
 
-•	When will the assessment be completed?
+*	When will the assessment be completed?
 
-•	What funding and support are available?
+*	What funding and support are available?
 
 The assessment planning approach should be appropriate to the local context. It is important to carefully consider the physical, social, political, economic and environmental characteristics of the study area to develop a realistic and achievable plan. The process we recommend in this guide can be followed step by step, but it is better if it is adapted to local needs.
 

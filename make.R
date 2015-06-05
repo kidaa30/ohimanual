@@ -24,9 +24,9 @@ in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
   '3_what_is_OHI+.md', # --> Exists, new content
   # '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?";
-  '3_overview_webapp.md',
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
+  '3_overview_webapp.md',
   '3_gathering_appropriate_data.md',
   '3_best_approaches.md', 
   '3_practical_HAB_goals_CS_CP.md', # --> Ready
