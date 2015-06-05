@@ -109,7 +109,7 @@ The Toolbox can be launched on your computer so that you can visualize any edits
 
 > TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'.
 
-![You can error-check your data layer registration if you see a 'missing files' warning when running `calculate_scores.R`.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
+![f you see a 'missing files' warning when running `calculate_scores.R`, it means you need to check that you filled you `layers.csv` correctly. This can be a useful error-check.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
 
 ### *scores.csv*
 `scores.csv` contains the calculated scores for the assessment. Currently, these scores were calculated using data for your country from the global 2014 assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area (with region identifier), and are presented in ‘long’ format. Scores can be viewed through the WebApp using the ‘Output Score’ pulldown menu on the 'App' page.
