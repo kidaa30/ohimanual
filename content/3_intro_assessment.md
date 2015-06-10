@@ -5,7 +5,7 @@ output: html_document
 
   >**Section Summary:**
 
-> This section provides an overview of conducting an OHI assessment. In each assessment, goals are scored from 0 to 100 and then aggregated to produce an overall Index score. An assessment requires data, indicators, and priorities that are appropriate for each context.
+> This section provides an overview of conducting an OHI+ assessment. In each assessment, goals are scored from 0 to 100 and then aggregated to produce an overall Index score. An assessment requires data, indicators, and priorities that are appropriate for each context.
 
 > TIP: The process of conducting an OHI assessment is as valuable as the results for policy and management decisions.
 
