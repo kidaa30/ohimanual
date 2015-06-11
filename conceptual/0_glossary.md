@@ -28,9 +28,11 @@ One of ten public goals that are widely recognized for their important benefits 
 
 **Health**
 
-A healthy ocean sustainably delivers a range of benefits to people now and in the future.
+A healthy ocean sustainably delivers a range of benefits to people now and in the future. There has been some debate over the precise definition of the term 'health', but here a healthy ocean is used to mean the ideal state of an OHI assessments.
 
-<!---Julie/Omar: do we have to expand here? There is information in Conc. Guide v2--->
+**Long Format**
+
+The 'long format' describes a type of row and column structure for data layer files. Long format means that every row is an observation, and every column is a variable. The OHI+ Toolbox expects all data layers files to be in long format.
 
 **Mariculture**
 
