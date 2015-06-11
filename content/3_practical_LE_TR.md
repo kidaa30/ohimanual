@@ -1,6 +1,6 @@
 ### Practical Considerations for Economic Goals
 
-> The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality. 
+> The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.
 
 Some goals in your assessment will draw from economic information. Such sub-goals that you can approach together include the **Livelihoods** and **Economies**. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appopriately between **Livelihoods and Economies** and sometimes other goals.
 
@@ -80,7 +80,7 @@ Assessment | Model Description and Reference Point | Evolution of Approach | Int
 
 ****
 
-### Practical Considerations for Tourism
+### Practical Considerations for Tourism and Recreation
 
 > The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in coastal areas.
 
