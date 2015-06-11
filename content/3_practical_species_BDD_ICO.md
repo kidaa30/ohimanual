@@ -1,8 +1,8 @@
 #### Practical Considerations for Species Goals
 
-#### Comparing **Biodiversity, Species** and **Iconic Species**
-
 > In the Global Assessments, the **Species** sub-goal for **Biodiversity** and the **Iconic Species** sub-goal for **Lasting Places** make use of related data sources.
+
+#### Comparing **Biodiversity, Species** and **Iconic Species**
 
 #### *Ideal Approach*
 

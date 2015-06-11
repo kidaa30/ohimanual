@@ -1,8 +1,8 @@
 ### Practical Considerations for Sense of Place
 
-#### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
-
 > Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
+
+#### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
 *Ideal Approach*
 
