@@ -4,7 +4,7 @@
 
 >In this section, you will learn about the most common modifications made to repositories. You will be given examples to follow to help with your own assessment. The most common modifications are changing the pressures and resilience matrices, changing or creating data layers, and changing or removing goals models.
 
-> TIP: You should now have your assessment repository opened and be familiar with the files in the folder.
+> TIP: You should have access to your assessment repository and be familiar with the files in the folder.
 
 As your team finalizes which data should be included in the assessment and begins developing goal models, you can incorporate this information into your repository. Data layer files can be created and updated with any software that handles *.csv* files, but goal models must be updated in R. With any modifications you sync to the online repository, the Toolbox will automatically recalculate goal scores. Calculations can also be done locally and offline by running  `subcountry2014/calculate_scores.R`.
 
@@ -28,6 +28,6 @@ It is generally recommended that you construct a useful workflow with your team 
 
 #### Overview of the Process
 
-The following sections will describe the files included in the Toolbox. You will learn how to start preparing data layers for your assessment and how to start changing goal models. You will learn how the files interact to produce the calculated scores, starting from registering your layers to receiving the final outputs such as the *scores.csv* spreadsheet.
+The following sections will describe the files included in the Toolbox. You will learn how to start preparing data layers for your assessment and how to start changing goal models.  This is an iterative process, and you should start to follow the best approach to the work flow for your assessment. Importantly, you will learn how the files interact to produce the calculated scores, starting from registering your layers to receiving the final outputs such as the *scores.csv* spreadsheet.
 
 ![Recommended steps in which to engage with files in the OHI Toolbox.](https://docs.google.com/drawings/d/155-wj8S-cDsbahZgmn5wJ1WHou0XS-2j_GOiX47QvkI/pub?w=960&h=3500)

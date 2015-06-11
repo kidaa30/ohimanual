@@ -1,11 +1,14 @@
 ## Modifying goal models
 
+![A figure showing the key steps involved in modifying goal models in the Toolbox.](https://docs.google.com/drawings/d/1IAMz4YntLoC60IlJrJDoP-wFvtj5ECijDEgZbf-9DFM/pub?w=960&h=859)
+
 When an existing layer is updated with new data, the Toolbox will automatically incorporate it into the goal calculations after the updated filenames are registered in `layers.csv`. However, if a new layer has been added to the layers folder and registered in `layers.csv`, the Toolbox will not use it unless it is called in a goal model. To integrate any new data layers registered in `layers.csv` you will need to modify the goal model to incorporate the data. Furthermore, in many cases, it will make sense to modify goal models based on data availability and/or local context. For example, the models for regional analyses can often be simplified because of improved data.
 
-**There are two steps to follow when working with goal models:**
+**There are some key steps to follow when working with goal models:**
 
 1. Update `functions.R`
 2. Check and possibly update `goals.csv`
+3. Check if you need to update `pressures_matrix.csv` and `resilience_matrix.csv` when you change a goal model.
 
 ### Update *functions.R*
 
@@ -26,8 +29,7 @@ Changing goal weights will be done here by editing the value in the *weight* col
 
 **When updating layers or goal models, it is important to ensure that information called from `goals.csv` is correct**:
 
-- check the years
-- etc...
+> TIP: In the 'preindex_function' column, you should see what the `year_max`, `status_year`, and `trend_year` say.
 
 ### Example modification:
 
@@ -38,15 +40,14 @@ Suppose your team has decided to add an 'artisanal access' component to the Arti
 3. update the goal call in `goals.csv`
 
 
-> 1. register in `layers.csv`
+> Step 1. Register in `layers.csv`
 
 ![](./fig/new_layer.png)
 
-
-> 2. update goal model
+> Step 2. Update the goal model
 
 ![](./fig/functions_explained.png)
 
-> 3. update goal call in `goals.csv`
+> Step 3. Update goal call in `goals.csv`
 
-[develop]
+![A screenshot of `goals.csv`, used to modify goal model](https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&h=524)

@@ -32,25 +32,30 @@ Within the `subcountry2014` folder area all the inputs required by the Toolbox. 
 
 ![](./fig/layers_csv_registry.png)
 
-When you open `layers.csv`, you’ll see that each row of information represents a specific data layer that has been prepared for the Toolbox. The first columns (*targets, layer, name, description, fld_value, units, filename*) contain information that will be updated by your team as you incorporate your own data and edits; all other columns are generated later by the Toolbox as it confirms data formatting and content. The first columns have the following information:
+When you open `layers.csv`, you’ll see that each row of information represents a specific data layer that has been prepared for the Toolbox. The first columns contain information that will be updated by your team as you incorporate your own data and edits; all other columns are generated later by the Toolbox as it confirms data formatting and content. The first columns are: *targets, layer, name, description, fld_value, units, filename*.
+
+The columns contain the following information:
 
 * **targets** indicates which goal or dimension uses the data layer. Goals are indicated with two-letter codes and sub-goals are indicated with three-letter codes, with pressures, resilience, and spatial layers indicated separately.
- + Food Provision (FP): Fisheries (FIS) and Mariculture (MAR)
-  + Artisanal Fishing Opportunity (AO)
-  + Natural Products (NP)
-  + Coastal Protection (CP)
-  + Carbon Storage (CS)
-  + Livelihoods and Economies (LE): Livelihoods (LIV) and Economies (ECO)
-  + Tourism and Recreation (TR)
-  + Sense of Place: Lasting Special Places (LSP) and Iconic Species (ICO)
-  + Clean Waters (CW)
-  + Biodiversity (BD): Habitats (HAB) and Species (SPP)  
+
+|Goal (CODE)|
+|----|
+ | Food Provision (FP): Fisheries (FIS) and Mariculture (MAR)|
+|Artisanal Fishing Opportunity (AO)|
+|Natural Products (NP)|
+|Coastal Protection (CP)|
+|Carbon Storage (CS)|
+|Livelihoods and Economies (LE): Livelihoods (LIV) and Economies (ECO)|
+|Tourism and Recreation (TR)|
+|Sense of Place: Lasting Special Places (LSP) and Iconic Species (ICO)|
+|Clean Waters (CW)|
+|Biodiversity (BD): Habitats (HAB) and Species (SPP)|
 
 * **layer** is the identifying name of the data layer, which will be used in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`. This is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
 * **name** is a longer title of the data layer; this is displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
 * **description** is further description of the data layer; this is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
-* **fld_value** indicates the units along with the units column.
-* **units** unit of measure in which the data are reported.
+* **fld_value** the units as determined by the column headers in the source file.
+* **units** unit of measure in which the data are reported, to be displayed on outputs later.
 * **filename** is the *.csv* filename that holds the data layer information, and is located in the folder `subcountry2014/layers`.
 
 
@@ -71,24 +76,39 @@ The `conf` (configuration) folder includes R functions (`config.R` and `function
 ![The `conf` folder contains important R functions and *.csv* files. Mac navigation is shown on the left and Windows is shown on the right.](./fig/layers_folder_location_conf.png)
 
 #### *config.R*
-`config.R` is an R script that configures labeling and constants appropriately.
+
+![Icon of config.R](https://docs.google.com/drawings/d/1juBhVRbyILc6xEZfkDSzC04yK2fNDFQ4LXx-Qjwfm8g/pub?w=187&h=105)
+
+The `config.R` is an R script that configures labeling and constants appropriately.
 
 #### *functions.R*
+
+![Icon of `functions.R`](https://docs.google.com/drawings/d/1gfoLvw7i5Offgb7V4VhbYgANLlPMai66DFHmym4w7a8/pub?w=187&h=105)
+
 `functions.R` contains functions for each goal and sub-goal model, which calculate the status and trend using data layers identified as ‘layers’ in `layers.csv`. When you modify or develop new goal models, you will modify `functions.R`.
 
-> TIP: It's useful to skip to different sections of `functions.R` to see how key calculations are being done. See section, **Update *Functions.R***.
+> TIP: It's useful to skip to different sections of `functions.R` to see how key calculations are being done. See section, **Update Functions.R**.
 
 #### *goals.csv*
+
+![Icon of `goals.csv`](https://docs.google.com/drawings/d/1gYfyDAnAZZT75TmnCtMLwUnFUNhtKexm2s6uDC0kihY/pub?w=187&h=105)
+
 `goals.csv` is a list of goals and sub-goals and their weights used to calculate the final score for each goal. Other information includes the goal description that is also presented in the WebApp. `goals.csv` also indicates the arguments passed to `functions.R`. These are indicated by two columns: *preindex_function* (functions for all goals that do not have sub-goals, and functions for all sub-goals) and *postindex_function* (functions for goals with sub-goals).
 
 > TIP: It's important to check the weightings and preindex functions if you're planning to change the goal or sub-goal models.
 
 #### *pressures_matrix.csv*
+
+![Icon of `pressures_matrix.csv`](https://docs.google.com/drawings/d/1aJYRhZTPkQdhs3rBIaxgGs1LdN2yEfJKNsLUUO6D_-c/pub?w=187&h=105)
+
 `pressures_matrix.csv` defines the different types of ocean pressures and the goals they affect.
 
 Each column in the pressures matrix identifies a data layer that is also registered in `layers.csv`: and has a prefix (for example: `po_` for the pollution category).  The pressure data layers are also required to have a value for every region in the study area, with the region scores ranging from 0-1.
 
 #### *resilience_matrix.csv*
+
+![Icon of `resilience_matrix.csv`](https://docs.google.com/drawings/d/1rliotxViHEWhgmAPmb5nOFNGe4Sfi1efPn5lxgluhrY/pub?w=187&h=105)
+
 `resilience_matrix.csv` defines the different types of resilience with the goals that they affect.
 
 Like the pressures matrix, the resilience matrix also has weights depending on the level of protection. However, these weights are in a separate file: `resilience_weights.csv`.
@@ -96,22 +116,34 @@ Like the pressures matrix, the resilience matrix also has weights depending on t
 Each column in the resilience matrix is a data layer that is also registered in `layers.csv`. Resilience layers, like the pressure layers, are also required to have a value for every region in the study area. Resilience layers each have a score between 0-1.
 
 #### *resilience_weights.csv*
+
+![Icon of `resilience_weights.csv`](https://docs.google.com/drawings/d/1mIPQL2ayl7cX2X4WjThpsaLXFrk33Vdu30_w_ZxS6y8/pub?w=187&h=105)
+
 `resilience_weights.csv` describes the weight of various resilience layers, which in Halpern *et al*. 2012 (*Nature*) were determined based on scientific literature and expert opinion.
 
 ### *install_ohicore.R*
+
+![Icon of `install_ohicore.R`](https://docs.google.com/drawings/d/14PEpFIRkSZDAbYc-YtZ29IBn7qMuUMsBLK2eaxwDKfY/pub?w=960&h=105)
+
 This script will install `ohicore`, the engine behind all Toolbox calculations. You will only need to run this script only one time.
 
 ### *launch_app_code.R*
+
+![Icon of `launch_app_code.R`](https://docs.google.com/drawings/d/14azQ7HCFJPpvIojhrNArdf4d__yJ3egDzh1xeu6CJQc/pub?w=187&h=105)
+
 The Toolbox can be launched on your computer so that you can visualize any edits you make while you are offline. To do this, you will run the code in `launch_app_code.R`. Make sure you are in the `subcountry2014` directory at that time: `setwd(~/github/ecu/subcountry2014)`
 
 ### *calculate_scores.R*
+
+![Icon of `calculate_scores.R`](https://docs.google.com/drawings/d/1Wy1Qy1ieBbIVMuEtzBJ651_za41BWTC_JzVkEefDQFQ/pub?w=187&h=105)
+
 `calculate_scores.R` is a script that tells the Toolbox to calculate scores using the *.csv* files in the `layers` folder that are registered in `layers.csv` and the configurations identified in `config.R`. Scores will be saved in `scores.csv`.
 
-> TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'.
-
-![You can error-check your data layer registration if you see a 'missing files' warning when running `calculate_scores.R`.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
+<!---MOVE TO ERROR SECTION. TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'. ![f you see a 'missing files' warning when running `calculate_scores.R`, it means you need to check that you filled out the information in `layers.csv` correctly.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)--->
 
 ### *scores.csv*
+![Icon of `scores.csv`](https://docs.google.com/drawings/d/12gPyH_UBApwJmkUfiOYDeD9YYtiMq9jaqCbjHy6PIS8/pub?w=187&h=105)
+
 `scores.csv` contains the calculated scores for the assessment. Currently, these scores were calculated using data for your country from the global 2014 assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area (with region identifier), and are presented in ‘long’ format. Scores can be viewed through the WebApp using the ‘Output Score’ pulldown menu on the 'App' page.
 
 ### *spatial* folder
@@ -120,5 +152,5 @@ The spatial folder contains a single file, `regions_gcs.js`. This is a spatial f
 ### *layers-empty_swapping-global-mean.csv*
 This file contains a list of data layers that were used in the global assessment while not for your country. Without these data for your country, global averages are included in your `subcountry2014` scenario folder so the Toolbox can calculate scores until you replace these data with appropriate data for your study area. This file is not used anywhere by the Toolbox but is a registry of data layers that should prioritized to be replaced with your own local data layers.
 
-### Relaunching the Toolbox
+### Stand-alone Toolbox software
 After the initial Toolbox setup, further launches of the Toolbox can be done without the software program R. Instead, PC users can double-click the `launchApp.bat` file and Mac users can double-click the `launchApp.command` file.

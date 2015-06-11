@@ -4,6 +4,8 @@
 
 >In this section, you will learn how to successfully download, install, and use the software required to conduct an assessment. You will create a GitHub account and install R, RStudio, git, and the Github desktop  app. OHI assessments are conducted through open-source platforms that allow you to make real-time changes with collaborators, and to track progress so that errors can be corrected and new insights can be shared in the future.
 
+![Before you begin using the Toolbox, you should download and install all necessary software.](https://docs.google.com/drawings/d/1hE5c9r5qUgAdrmzhI652zc_W1WxFVv_S1pX9h5Xyr2A/pub?w=992&h=859)
+
 ## Overview
 
 The **OHI Toolbox** is essentially several folders containing all the files required for an OHI assessment. These folders are stored online on www.github.com, and are called **GitHub repositories**. At this point, you should already be familiar with your assessment’s repository, and all of the files it contains (if not, read the section, "**File System for Assessment Repositories**").  
