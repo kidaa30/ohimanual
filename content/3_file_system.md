@@ -1,42 +1,49 @@
 ## File System for Assessment Repositories
 
-This section is an orientation to the files within your assessment repository. The file system structure is the same whether you view your assessment repository online or after downloading or cloning to your computer (see section, **"Installing the Toolbox"**).
+This section is an orientation to the files within your assessment repository. The file system structure is the same whether you view your assessment repository online or whether you view it on your computer. To view it on your computer you will have to download it or clone it through the appropriate software (see **"Installing the Toolbox"**). Keep in mind that there are different ways to work with your files and remembering to sync your updates will allow your team to collaborate across the necessary platforms.
 
-Throughout this example, we will use Ecuador’s assessment repository as a guide. It's available at https://github.com/OHI-Science/ecu.
+![The file system you will use will be available both on your computer and on the Web.](https://docs.google.com/drawings/d/1bu8B8tMUXNnKHt1PY5ArDgxfbtEAZ9opeFlYkdpgIdA/pub?w=1428&h=1107)
 
-> TIP: Once you know the layout of the repository and the purpose of the files within it, you can plan an appropriate workflow with your team. See the **Using the Toolbox** introduction for more.
+> TIP: Once you know the layout of the repository and the purpose of the files within it, you can plan an appropriate workflow with your team. See the **Using the Toolbox** section for more.
+
+It is helpful to look directly at a repository to get an understanding of what it is and how it works. If you are connected to the Internet, it is good to explore your assessment repository or a sample repository on https://github.com/OHI-Science. As an example here, this guide will use Ecuador’s assessment repository (ECU), available at: https://github.com/OHI-Science/ecu
 
 ### Assessments and scenarios
 
-Your *assessment repository* contains a *scenario folder*, which by default is named `subcountry2014`. This scenario folder contains all the files needed to calculate scores, and they are described in detail below.
+Your *assessment repository* contains a *scenario folder* that has all of the files needed to calculate scores. The scenario folder contains all of the inputs and outputs that you will need to modify. It also contains the files needed to call the `ohi core` repository and its functions. There is only one scenario folder by default. You can create multiple scenario folders that allow you to calculate scores for different assessments. These additional assessments can either be different policy and management scenarios, or they include new data for subsequent years of study. You can save the scores from each of these assessments and use them for analysis. Eventually, you would be able to view and track the changes in ocean health over time.
 
-The scenario folder is named `subcountry2014` because it contains data for your country used in the 2014 global assessment. These data in most cases were attributed equally to all regions within your study area (for example, data used for Ecuador in the global assessment was attributed to all coastal states in the files within `subcountry2014`).
+> See the **Compare Tab** section of the WebApp description for more.
 
-You will be able to rename your scenario folder to better reflect the spatial and temporal scale of your scenario after you have set up your GitHub account. We recommend that the name defines the scale of the regions and the year. Eventually, you will likely have multiple scenario folders that contain data for subsequent years or modifications to explore policy alternatives.
-
+The scenario folder is named `subcountry2014` because it contains the data for your country that was used in the 2014 Global Assessment. Although some data were customized for your region, the data in most cases is replicated in order to fill all regions within your study area. For example, the data used for Ecuador in the Global Assessment is given to all coastal states in the files within `subcountry2014`. This is done simply because every region needs a data point, and every OHI region was given its own repo and scenario. You will be able to rename your scenario folder to reflect the spatial and temporal scale of your scenario. This can be done after someone from your team has made a GitHub account. We recommend that the name defines the scale of the regions and the year; for example, `province2015` could be the folder name for a country with administrative regions by province and a study that was done in the year 2015.
 
 ![](https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=960&h=720)
 
-In the above figure, `ecu` is the **assessment repository** and `subcountry2014` is the **scenario folder**. Note that files with names preceded by a ‘.’ do not appear when not viewing from github.com; this is because these files are specific to GitHub.
+* In the above figure, `ecu` is the **assessment repository** and `subcountry2014` is the **scenario folder**. Note that files with names preceded by a ‘.’ do not appear when using RStudio to view the files; this is because these files are specific to GitHub.
 
-![Navigating the assessment repository. The figure shows Mac folder navigation above and Windows navigation below. ](https://docs.google.com/drawings/d/13536h0d6hahYCBrxIItlG_q-r9FmezfN1lcpf-5BMHc/pub?w=692&h=820)
+![Navigating the assessment repository. The figure shows Mac folder navigation above and Windows navigation below.](https://docs.google.com/drawings/d/13536h0d6hahYCBrxIItlG_q-r9FmezfN1lcpf-5BMHc/pub?w=692&h=820)
 
-Within the `subcountry2014` folder area all the inputs required by the Toolbox. See **Modifying and Creating Data Layers** for more information on the  files you will commonly modify.
+* The `subcountry2014` folder contains all of the inputs needed for the Toolbox. Many of these are default and you will have to change them. See **Modifying and Creating Data Layers** for more information on the files you will modify.
 
-
-### *layers.csv*
-
-> TIP: Keep `layers.csv` handy. It's a very useful reference throughout the assessment process.
-
-`layers.csv` is the registry that manages all data required for the assessment. All relevant data are prepared as a ‘data layer’ and registered in this file. The Toolbox will rely on information from this file to use the data layers and display information on the WebApp. You will update some of the layers in `layers.csv`, and some of them will be auto-generated by the Toolbox code when it's running.
+### Your `Subcountry2014` folder
+#### *layers.csv*
 
 ![](./fig/layers_csv_registry.png)
 
-When you open `layers.csv`, you’ll see that each row of information represents a specific data layer that has been prepared for the Toolbox. The first columns contain information that will be updated by your team as you incorporate your own data and edits; all other columns are generated later by the Toolbox as it confirms data formatting and content. The first columns are: *targets, layer, name, description, fld_value, units, filename*.
+> TIP: Keep `layers.csv` handy. It's a very useful reference throughout the assessment process.
 
-The columns contain the following information:
+The `layers.csv` file is the registry that manages all data required for you assessment. All relevant data are prepared as data layers and then registered in this file. The Toolbox will rely on information from this file to use the data layers and display information on the WebApp. You will update some of the layers in `layers.csv`, and some of them will be auto-generated by the Toolbox code when it's running.
+
+When you open `layers.csv`, you will see that each row of information represents a specific data layer that has been prepared for the Toolbox. The first columns contain information that will be updated by your team as you incorporate your own data and edits; all other columns are generated later by the Toolbox as it confirms data formatting and content. The columns you should most pay attention to are: *targets, layer, name, description, fld_value, units, filename*.
+
+**The most important columns to pay attention to are**:
 
 * **targets** indicates which goal or dimension uses the data layer. Goals are indicated with two-letter codes and sub-goals are indicated with three-letter codes, with pressures, resilience, and spatial layers indicated separately.
+* **layer** is the identifying name of the data layer, which will be used in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`. This is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
+* **name** is a longer title of the data layer; this is displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
+* **description** is further description of the data layer; this is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
+* **fld_value** the units as determined by the column headers in the source file.
+* **units** unit of measure in which the data are reported, to be displayed on outputs later.
+* **filename** is the *.csv* filename that holds the data layer information, and is located in the folder `subcountry2014/layers`.
 
 |Goal (CODE)|
 |----|
@@ -51,26 +58,30 @@ The columns contain the following information:
 |Clean Waters (CW)|
 |Biodiversity (BD): Habitats (HAB) and Species (SPP)|
 
-* **layer** is the identifying name of the data layer, which will be used in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`. This is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
-* **name** is a longer title of the data layer; this is displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
-* **description** is further description of the data layer; this is also displayed on the WebApp under the drop-down menu when the variable type is ‘input layer’.
-* **fld_value** the units as determined by the column headers in the source file.
-* **units** unit of measure in which the data are reported, to be displayed on outputs later.
-* **filename** is the *.csv* filename that holds the data layer information, and is located in the folder `subcountry2014/layers`.
+### *install_ohicore.R*
 
+![Icon of `install_ohicore.R`](https://docs.google.com/drawings/d/14PEpFIRkSZDAbYc-YtZ29IBn7qMuUMsBLK2eaxwDKfY/pub?w=960&h=105)
 
-### *layers* folder
+This script will install `ohicore`, the engine behind all Toolbox calculations. You will need to run this script only once when using the Toolbox. You will need to run it in oder to run goal functions or calculate scores.
+
+### *launch_app_code.R*
+
+![Icon of `launch_app_code.R`](https://docs.google.com/drawings/d/14azQ7HCFJPpvIojhrNArdf4d__yJ3egDzh1xeu6CJQc/pub?w=187&h=105)
+
+The Toolbox can be launched on your computer so that you can visualize any edits you make while you are offline. To do this, you will run the code in `launch_app_code.R`. Make sure you are in the `subcountry2014` directory at that time: `setwd(~/github/ecu/subcountry2014)`
+
+### Your `layers` folder
 The `layers` folder contains every data layer as an individual *.csv* file. The names of the *.csv* files within the layers folder correspond to those listed in the *filename* column of the `layers.csv` file described above. All *.csv* files can be read with text editors or with Microsoft Excel or similar software.
 
 ![The `layers` folder contains every data layer as an individual *.csv* file. Mac navigation is shown on the left and Windows navigation is shown on the right.](https://docs.google.com/drawings/d/151Hw1Eb13T4KgndEKXM31BDjvdbB5JO7VGneqdUwGQU/pub?w=1702&h=476)
 
-Note that each *.csv* file within the `layers` folder has a specific format that the Toolbox expects and requires. Comma separated value files (*.csv* files) can be opened with text editor software, or will open by default by Microsoft Excel or similar software.  
+Note that each *.csv* file within the `layers` folder has been formatted consistently. The Toolbox expects all data layers to be in the correct 'long format' and in separate files. See **Using the Toolbox** for more.
 
-Now, open the `layers/alien_species.csv` file: note the unique region identifier (*rgn_id*) with a single associated *score* or *value*, and that the data are presented in ‘long format’ with minimal columns. See the section on *Formatting Data for the Toolbox* for further details and instructions. Scores can be viewed through the WebApp  using the ‘Input Layer’ pulldown menu on the App page.
+Now, open the `layers/alien_species.csv` file: note the unique region identifier (*rgn_id*) with a single associated *score* or *value*, and that the data are presented in long format with minimal columns. See the section on *Formatting Data for the Toolbox* for further details and instructions. Scores can be viewed through the WebApp  using the ‘Input Layer’ pulldown menu on the App page.
 
 > TIP: You can check your region identifiers (*rgn_id*) in the `rgn_labels.csv` file in the `layers` folder.
 
-### *conf* folder
+### Your `conf` folder
 The `conf` (configuration) folder includes R functions (`config.R` and `functions.R`) and *.csv* files containing information that will be accessed by the R functions (`goals.csv`, `pressures_matrix.csv`, `resilience_matrix.csv`, and `resilience_weights.csv`).
 
 ![The `conf` folder contains important R functions and *.csv* files. Mac navigation is shown on the left and Windows is shown on the right.](./fig/layers_folder_location_conf.png)
@@ -85,7 +96,7 @@ The `config.R` is an R script that configures labeling and constants appropriate
 
 ![Icon of `functions.R`](https://docs.google.com/drawings/d/1gfoLvw7i5Offgb7V4VhbYgANLlPMai66DFHmym4w7a8/pub?w=187&h=105)
 
-`functions.R` contains functions for each goal and sub-goal model, which calculate the status and trend using data layers identified as ‘layers’ in `layers.csv`. When you modify or develop new goal models, you will modify `functions.R`.
+`functions.R` contains the equations for each goal and sub-goal model, which are stored as R functions. These functions calculate the status and trend using data layers identified as ‘layers’ in `layers.csv`. When you modify or develop new goal models, you will modify `functions.R`; you should also be sure to check which other files, such as `pressures_matrix.csv`
 
 > TIP: It's useful to skip to different sections of `functions.R` to see how key calculations are being done. See section, **Update Functions.R**.
 
@@ -121,36 +132,24 @@ Each column in the resilience matrix is a data layer that is also registered in 
 
 `resilience_weights.csv` describes the weight of various resilience layers, which in Halpern *et al*. 2012 (*Nature*) were determined based on scientific literature and expert opinion.
 
-### *install_ohicore.R*
-
-![Icon of `install_ohicore.R`](https://docs.google.com/drawings/d/14PEpFIRkSZDAbYc-YtZ29IBn7qMuUMsBLK2eaxwDKfY/pub?w=960&h=105)
-
-This script will install `ohicore`, the engine behind all Toolbox calculations. You will only need to run this script only one time.
-
-### *launch_app_code.R*
-
-![Icon of `launch_app_code.R`](https://docs.google.com/drawings/d/14azQ7HCFJPpvIojhrNArdf4d__yJ3egDzh1xeu6CJQc/pub?w=187&h=105)
-
-The Toolbox can be launched on your computer so that you can visualize any edits you make while you are offline. To do this, you will run the code in `launch_app_code.R`. Make sure you are in the `subcountry2014` directory at that time: `setwd(~/github/ecu/subcountry2014)`
-
 ### *calculate_scores.R*
 
 ![Icon of `calculate_scores.R`](https://docs.google.com/drawings/d/1Wy1Qy1ieBbIVMuEtzBJ651_za41BWTC_JzVkEefDQFQ/pub?w=187&h=105)
 
 `calculate_scores.R` is a script that tells the Toolbox to calculate scores using the *.csv* files in the `layers` folder that are registered in `layers.csv` and the configurations identified in `config.R`. Scores will be saved in `scores.csv`.
 
-<!---MOVE TO ERROR SECTION. TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'. ![f you see a 'missing files' warning when running `calculate_scores.R`, it means you need to check that you filled out the information in `layers.csv` correctly.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)--->
-
 ### *scores.csv*
 ![Icon of `scores.csv`](https://docs.google.com/drawings/d/12gPyH_UBApwJmkUfiOYDeD9YYtiMq9jaqCbjHy6PIS8/pub?w=187&h=105)
 
 `scores.csv` contains the calculated scores for the assessment. Currently, these scores were calculated using data for your country from the global 2014 assessment. Scores are reported for each dimension (future, pressures, resilience, score, status, trend) for each region in the study area (with region identifier), and are presented in ‘long’ format. Scores can be viewed through the WebApp using the ‘Output Score’ pulldown menu on the 'App' page.
 
-### *spatial* folder
-The spatial folder contains a single file, `regions_gcs.js`. This is a spatial file in the JSON format; it spatially identifies the study area and regions for the assessment. If you plan to modify your study area or regions, you will need to upload a *.js* file with appropriate offshore boundaries. You will need a GIS analyst to do this: see http://ohi-science.org/pages/create_regions.html for some instruction.
+### Your *spatial* folder
+The spatial folder contains a single file, `regions_gcs.js`. This is a spatial file in the JSON format; it spatially identifies the study area and regions for the assessment. If you plan to modify your study area or regions, you will need to upload a *.js* file with appropriate offshore boundaries.
 
-### *layers-empty_swapping-global-mean.csv*
-This file contains a list of data layers that were used in the global assessment while not for your country. Without these data for your country, global averages are included in your `subcountry2014` scenario folder so the Toolbox can calculate scores until you replace these data with appropriate data for your study area. This file is not used anywhere by the Toolbox but is a registry of data layers that should prioritized to be replaced with your own local data layers.
+> You will need a GIS or **Spatial Analyst** to do this: see http://ohi-science.org/pages/create_regions.html for some instruction.
+
+#### *layers-empty_swapping-global-mean.csv*
+This file contains a list of data layers that were used in the Global Assessment that were note used for your country after you have run `calculate_scores.R`. Without these data for your country, global averages are included in your `subcountry2014` scenario folder so the Toolbox can calculate scores until you replace these data with appropriate data for your study area. This file is not used anywhere by the Toolbox but is a registry of data layers that should prioritized to be replaced with your own local data layers.
 
 ### Stand-alone Toolbox software
 After the initial Toolbox setup, further launches of the Toolbox can be done without the software program R. Instead, PC users can double-click the `launchApp.bat` file and Mac users can double-click the `launchApp.command` file.
