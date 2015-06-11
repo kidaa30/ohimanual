@@ -2,7 +2,8 @@
 
 The Toolbox prints messages during its processing to help guide error checking and debugging. Here are a few troubleshooting tips. This section will be updated frequently; please share any problems that you encounter.  
 
-## Error: RStudio won't push to GitHub
+## General Software Errors
+### When RStudio won't push to GitHub
 
 When pushing committed changes within RStudio, would return the error
 * `error: unable to read askpass response from 'rpostback-askpass'`
@@ -49,8 +50,7 @@ Here's how we fixed it: we updated `git.exe` to the latest version, 2.2.1, edite
 Next time you push a commit from RStudio, it should remember the username and password from your test commit in Step 6, and you should be good to go.
 
 
-
-## Loading RWorkspace on Restart
+### Loading RWorkspace on Restart
 
 When you restart your R Session (**Session > Restart R** on a Mac), if you see that it is trying to load `ohicore`, it may give you an error:
 
@@ -69,9 +69,14 @@ You do not want it to load `ohicore` or to save anything in your workspace. You 
 
   > ![](./fig/proj_op3.png)
 
-## Calculating Pressures...
+## Errors when Using the Toolbox
+###Useful Errors when Calculating Scores
 
-### 'The following components for [goal] are not in the aggregation layer [layer]...'
+  TIP: You can use the *layers* function in `calculate_scores.R` to error-check whether you have registered your files in `layers.csv` correctly or not. If you haven't, you will get an error message regarding 'missing files'. ![f you see a 'missing files' warning when running `calculate_scores.R`, it means you need to check that you filled out the information in `layers.csv` correctly.](https://docs.google.com/drawings/d/1c0xQtANDy-rd6y5MOkW7eBNZbN47vvaaMZjYiDDU_0M/pub?w=758&h=665)
+
+### Calculating Pressures...
+
+#### 'The following components for [goal] are not in the aggregation layer [layer]...'
 
 Example:
 
@@ -81,16 +86,16 @@ Example:
 
 This error means you should update your pressures matrix because it expects there to be components that your region does not have.
 
-### 'Error in matrix...'
+#### 'Error in matrix...'
 
 Example:
   > ![](./fig/tblshoot_pressures.png)  
 
 This error means there is an empty column in `pressures_matrix.csv`, and the Toolbox cannot handle empty columns.
 
-## Calculating Resilience ...
+### Calculating Resilience ...
 
-### 'Error in match(x, table, nomatch = OL) : object id_num not found'
+#### 'Error in match(x, table, nomatch = OL) : object id_num not found'
 
   > ![](./fig/error_resil_mtx.png)  
 
