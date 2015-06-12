@@ -25,9 +25,3 @@ The files you will modify are:
 It is generally recommended that you construct a useful workflow with your team when updating data layers for the Toolbox. This process is one that can be done by one person, or by several who are working through GitHub to sync the work. There are overall two main steps to preparing to input your layers into the Toolbox, starting with data layer preparation, and then going into data layer registration. The firs step involves placing files into `layers` folder, and the second is registering those files in `layers.csv`. This file preparation process can occur in tandem with the model modification process. However, it must occur in order for you to run modified goal code using your new input data.
 
 ![Diagram of OHI Toolbox data preparation workflow. You should start by prepping the files, loading them into the `layers` folder when they're ready for the Toolbox, and then registering them in `layers.csv`](https://docs.google.com/drawings/d/1-WB84qsupe4yeqKzeBnOSm9iIW-G7N3EYW0VqqGXORs/pub?w=960&h=720)
-
-#### Overview of the Process
-
-The following sections will describe the files included in the Toolbox. You will learn how to start preparing data layers for your assessment and how to start changing goal models.  This is an iterative process, and you should start to follow the best approach to the work flow for your assessment. Importantly, you will learn how the files interact to produce the calculated scores, starting from registering your layers to receiving the final outputs such as the *scores.csv* spreadsheet.
-
-![Recommended steps in which to engage with files in the OHI Toolbox.](https://docs.google.com/drawings/d/155-wj8S-cDsbahZgmn5wJ1WHou0XS-2j_GOiX47QvkI/pub?w=960&h=3500)

@@ -1,4 +1,4 @@
-### Discovering and Developing Habitat-based Goals
+### Discovering Data and Developing Models for Habitat-based Goals
 
 >Habitat-based goals can be approached together in the data gathering process. Habitats appear in such goals as **Carbon Storage**, **Coastal Protection**, and **Biodiversity**. Your approach will largely depend on the type of data you have.
 
@@ -30,7 +30,7 @@ Overall, the historical **reference point** is particularly important for the ha
 
 ****
 
-#### Ready to start the **Carbon Storage** goal?
+#### Where to start the **Carbon Storage** goal?
 
 *Ideal Approach*
 
@@ -60,7 +60,7 @@ A vital consideration for this goal is **the reference point**. It is an importa
 
 In this case, perhaps your choice of historical reference point may be guided by a policy target as well. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?
 
-#### Ready to start on **Coastal Protection**?
+#### Where to start on **Coastal Protection**?
 
 > **Coastal Protection** aims to assess the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value.
 

@@ -41,3 +41,9 @@ You can use both RStudio and GitHub to engage with the files in the Toolbox. The
 ***
 
 Once scores have been calculated, the Toolbox will automatically update certain pages of your GitHub repository and those changes will be pushed forward to the WebApp. You can then return to the OHI+ WebApp to visualize the results at the end of the process.
+
+#### Overview of the Process
+
+The following sections will describe the files included in the Toolbox. You will learn how to start preparing data layers for your assessment and how to start changing goal models.  This is an iterative process, and you should start to follow the best approach to the work flow for your assessment. Importantly, you will learn how the files interact to produce the calculated scores, starting from registering your layers to receiving the final outputs such as the *scores.csv* spreadsheet.
+
+![Recommended steps in which to engage with files in the OHI Toolbox.](https://docs.google.com/drawings/d/155-wj8S-cDsbahZgmn5wJ1WHou0XS-2j_GOiX47QvkI/pub?w=960&h=3500)

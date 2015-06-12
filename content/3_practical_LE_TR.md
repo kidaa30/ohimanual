@@ -1,4 +1,4 @@
-### Discovering and Developing Livelihoods and Economies
+### Discovering Data and Developing Models for Livelihoods and Economies
 
 > The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.
 
