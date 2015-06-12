@@ -26,21 +26,22 @@ in_md = c(
   # '3_intro_assessment.md', # --> OPTION: Could remove because covered in Conc. Guide. See, "What is OHI+?";
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
-  '3_overview_webapp.md',
-  '3_gathering_appropriate_data.md',
+  '3_overview_webapp.md', #updated;
+  '3_gathering_appropriate_data.md', #ADD
   '3_best_approaches.md', 
-#   '3_practical_HAB_goals_CS_CP.md', # --> Ready
-#   '3_practical_species_BDD_ICO.md', # --> Ready
-#   '3_practical_SP.md', # --> new
-#   '3_practical_NP.md', # --> Ready
-#   '3_practical_LE_TR.md', # new
+#   '3_practical_HAB_goals_CS_CP.md', # --> Ready; table updated;
+#   '3_practical_species_BDD_ICO.md', # --> Ready; table updated;
+#   '3_practical_SP.md', # --> new; table updated;
+#   '3_practical_NP.md', # --> Ready; table updated;
+#   '3_practical_LE_TR.md', # new; table updated;
 #   '3_practical_FP_MAR_FIS_AO.md', #new
+#  '3_practical_CW.md' #new
   '3_pressures_resilience.md', # --> Updated with practical guidance
   '3_intro_to_tbx.md', # newly updated
   '3_file_system.md', # newly updated
   '3_formatting_data.md',
   '3_data_transformation.md', # --> Exists, needs more content
-  '3_install_tbx.md', # ! Need to update
+  '3_install_tbx.md', # Updating
   '3_accessing_github_repos.md',
   '3_github_architecture.md',
   '3_use_tbx.md', # newly updated images
