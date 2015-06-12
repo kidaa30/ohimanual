@@ -1,4 +1,4 @@
-#### Discovering and Developing Natural Products
+### Discovering Data and Developing Models for Natural Products
 
 > The **Natural Products** goal describes how sustainably people harvest non-food products from the sea.
 

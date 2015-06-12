@@ -1,4 +1,4 @@
-#### Discovering and Developing Clean Waters and Pollution
+### Discovering Data and Developing Models for Clean Waters and Pollution
 
 *Ideal Approach*
 

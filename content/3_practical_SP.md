@@ -1,8 +1,7 @@
-### Discovering and developing **Sense of Place**
+### Discovering Data and Developing Models for Sense of Place
+#### Where to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
 > Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
-
-#### Ready to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
 *Ideal Approach*
 
@@ -20,7 +19,7 @@ The main consideration for this sub-goal is the spatial data and the list of pro
 
 Data sources should be specific to your region. International databases, like the World Database of Protected Areas, offer rich information, but they may not be as up-to-date as the list of national parks in your area, and may not have as much information on the quality of protection. If you have more information on quality, you could think about another approach than the thirty percent reference point target.
 
-*Thinking Ahead*
+*Discovering data for resilenece*
 
 You should be thinking about **Resilience** at the same time as you think about **Lasting Special Places** sub-goal of **Special Places**. This is because the **LSP** sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create resilience data layers like Marine Protected Areas (See section, **Pressures and Resilience**).
 
