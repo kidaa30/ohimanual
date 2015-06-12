@@ -1,12 +1,13 @@
 ### Discovering Data and Developing Models for Natural Products
+#### Where to start on **Natural Products**?
 
 > The **Natural Products** goal describes how sustainably people harvest non-food products from the sea.
 
-#### *Ideal Approach*
+*Ideal Approach*
 
 Ideally, quantity, value, and a sustainability rating of the harvest method would be available for every marine and coastally-derived natural product within the regions of a study area. This could include a wide range of products depending on what is harvested in the study area, including corals, shells, seaweeds, aquarium fish, mangrove wood, or any non-food marine product that is harvested within a region. The ideal reference point would be derived from a functional relationship of the sustainability of the harvest for each product relative to the amount of product available in the ecosystem, informed by scientific studies. Without such information, assumptions and expert judgment will need to be made to set the reference point.
 
-#### Ready to start on **Natural Products**?
+*Practical Guidance*
 
 Whether you use the approach from the global assessment or are developing your own new model entirely, there are a few tasks that will remain the same because are key to the philosophy of this goal.
 
