@@ -36,14 +36,14 @@ in_md = c(
 #   '3_practical_LE_TR.md', # new
 #   '3_practical_FP_MAR_FIS_AO.md', #new
   '3_pressures_resilience.md', # --> Updated with practical guidance
-  '3_intro_to_tbx.md',
-  '3_file_system.md',
+  '3_intro_to_tbx.md', # newly updated
+  '3_file_system.md', # newly updated
   '3_formatting_data.md',
   '3_data_transformation.md', # --> Exists, needs more content
-  '3_install_tbx.md',
+  '3_install_tbx.md', # ! Need to update
   '3_accessing_github_repos.md',
   '3_github_architecture.md',
-  '3_use_tbx.md',
+  '3_use_tbx.md', # newly updated images
   '3_use_tbx_to_modify_data_layers.md',
   '3_use_tbx_to_modify_pressures_resilience.md',
   '3_use_tbx_to_modify_goal_models.md',
