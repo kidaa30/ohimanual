@@ -1,4 +1,5 @@
 ### Discovering Data and Developing Models for Clean Waters and Pollution
+#### Where to start on **Clean Waters**?
 
 *Ideal Approach*
 
@@ -8,15 +9,13 @@ Ideally, data would be available and combined from different categories of marin
 
 *Practical Guidance*
 
-> You should use more refined data than the Global Assessment data, because they rely heavily on proxy data for water quality. However, you should follow the same approach of the geometric mean to sum up the data layers that you find.
+You should use more refined data than the Global Assessment data, because they rely heavily on proxy data for water quality. However, you should follow the same approach of the geometric mean to sum up the data layers that you find.
 
-First think about what kind of point and non-point sources of pollution are in your area. Are there known sources of trash and marine debris? Is there a population does not have access to sanitation? Does your wastewater get effectively treated before it is discharged into the environment? How does urban runoff contribute to your local coastal waters?
+First think about what kind of point and non-point sources of pollution are in your area. Are there known sources of trash and marine debris? Is there a population does not have access to sanitation? Does your wastewater get effectively treated before it is discharged into the environment? How does urban runoff contribute to your local coastal waters? You should try to use in-situ measurements of water quality. This could include monitoring data for pathogen levels, chemical contaminants, or even harmful algal blooms. For example, data on the frequency and location of anoxic conditions or eutrophication would be a direct indicator of quality. Indirect indicators are based on the proxies of nutrient input from agriculture or land-based sources. You could also use information on the watershed to calculate inputs into the ocean.
 
-You should try to use in-situ measurements of water quality. This could include monitoring data for pathogen levels, chemical contaminants, or even harmful algal blooms. For example, data on the frequency and location of anoxic conditions or eutrophication would be a direct indicator of quality, rather than an indirect indicator based on the proxy of nutrient input from agriculture or land-based sources. You could also find information upstream, and use information on the watershed to calculate inputs into the ocean.
+If you don't have such information, or have partial information on one of these inputs, you could combine it with population data or model the data to estimate how much of an impact it has on coastal areas. Do you have population density information over time? You could then use this later to calculate the trend.
 
-If you don't have such information, or have partial information on one of these inputs, you could combine it with population data or model the data to estimate how much of an impact--or how much intensity through input--it has on coastal areas. Do you have population density information over time? You could then use this later to calculate the trend.
-
->In the 2012 Global Assessment, these data layers are scores spatially for 3 nautical miles out from shore. This is because it concentrates the effect of the inputs to coastal regions and makes them visible to the shoreline. You can change this value in your spatial analysis.
+>In the 2012 Global Assessment, these data layers are scores spatially for 3 nm out from shore. This is because it concentrates the effect of the inputs to coastal regions and makes them visible to the shoreline. You can change this value in your spatial analysis.
 
 Where possible, you should think about categories of inputs that are not used in the Global Assessments. These include information on toxic algal blooms, oil spills, turbidity or sediment input, and floating trash, and think about how they can fit in to the model areas.
 
@@ -32,7 +31,7 @@ Where possible, you should think about categories of inputs that are not used in
 
 In any case, it is recommended that your categories are combined in a geometric mean as in the Global approach. This guarantees that if any one of the components scores poorly, the higher scores from other components will note hide the effect.
 
-*Thinking Ahead*
+*Discovering pressures and resilience data*
 
 The **Clean Waters** goal is connected to the **Pressures** layers. You should approach the both of them at the same time where possible. (See the sections on **Pressures and Resilience** to understand more.)
 

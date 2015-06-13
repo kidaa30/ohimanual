@@ -1,4 +1,4 @@
-##Example of Food Provision
+## Example of Food Provision
 
 > Draft updated 03-31-15
 

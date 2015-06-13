@@ -1,19 +1,17 @@
 ### Discovering Data and Developing Models for Sense of Place
 #### Where to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
 
-> Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
-
 *Ideal Approach*
 
-Ideally, you would be able to produce a list of all the places that people within your region consider special, and then assess how well they are protected. How well they are protected could be the percentage of area protected, and you could also find how well they are protected using other data. This sub-goal could also be based on the extent to which people partaking in spiritual or religious activities are able to access special places.
+> Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
+
+Ideally, you would be able to produce a list of all the places that people within your region consider special, and then assess how well they are protected. How well they are protected could be the percentage of area protected, and you could also find how well they are protected using other data. This sub-goal could also be based on the extent to which people participate in spiritual or religious activities in an area.
 
 *Practical Guidance*
 
-It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places.
+It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places. A good example to look at is the U.S. West Coast assessment (2014).
 
-> In the U.S. West Coast assessment (2014), **Special Places** was one of the most important goals. At the end of the day, how people interact with ‘their ocean’ is fundamentally important to whether they think oceans are healthy or not.
-
-The main consideration for this sub-goal is the spatial data and the list of protected areas. Typically in assessments, the area of designated protected places relative to a target of thirty percent coastal area protected is used as a measure. Coastal area could be based off a 1 km^2 buffer, as in the Global Assessment, or it could be based on what is reasonable to your area; in any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?
+The main consideration for this sub-goal is the spatial data and the list of protected areas. Typically in assessments, the area of designated protected places relative to a target of thirty percent coastal area protected is used as a measure. Coastal area could be based off a 1 square km buffer, as in the Global Assessment, or it could be based on what is reasonable to your area; in any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?
 
 > In the Brazil Assessment (2014), the **Lasting Special Places** sub-goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
 
