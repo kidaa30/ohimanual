@@ -51,7 +51,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species. | The reference point was the same was Global 2012. | This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.
 **U.S. West Coast (2014)** | The model description and reference point were the same as Global 2012, with regional data available for threat categories. | The same reference point was used as the Global model | This followed the Global model, but used local data.
 
-*Iconic Species sub-goal of **Special Places***
+*Iconic Species sub-goal of **Special Places**
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|

@@ -1,20 +1,10 @@
 ## File System for Assessment Repositories
 
-This section is an orientation to the files within your assessment repository. The file system structure is the same whether you view your assessment repository online or whether you view it on your computer. To view it on your computer you will have to download it or clone it through the appropriate software (see **"Installing the Toolbox"**). Keep in mind that there are different ways to work with your files and remembering to sync your updates will allow your team to collaborate across the necessary platforms.
-
-![The file system you will use will be available both on your computer and on the Web.](https://docs.google.com/drawings/d/1bu8B8tMUXNnKHt1PY5ArDgxfbtEAZ9opeFlYkdpgIdA/pub?w=1428&h=1107)
-
-> TIP: Once you know the layout of the repository and the purpose of the files within it, you can plan an appropriate workflow with your team. See the **Using the Toolbox** section for more.
+This section is an orientation to the files within your assessment repository. The file system organization is the same whether you view your assessment repository at `github.com/OHI-Science` or on your computer.
 
 It is helpful to look directly at a repository to get an understanding of what it is and how it works. If you are connected to the Internet, it is good to explore your assessment repository or a sample repository on https://github.com/OHI-Science. As an example here, this guide will use Ecuador’s assessment repository (ECU), available at: https://github.com/OHI-Science/ecu
 
-### Assessments and scenarios
 
-Your *assessment repository* contains a *scenario folder* that has all of the files needed to calculate scores. The scenario folder contains all of the inputs and outputs that you will need to modify. It also contains the files needed to call the `ohi core` repository and its functions. There is only one scenario folder by default. You can create multiple scenario folders that allow you to calculate scores for different assessments. These additional assessments can either be different policy and management scenarios, or they include new data for subsequent years of study. You can save the scores from each of these assessments and use them for analysis. Eventually, you would be able to view and track the changes in ocean health over time.
-
-> See the **Compare Tab** section of the WebApp description for more.
-
-The scenario folder is named `subcountry2014` because it contains the data for your country that was used in the 2014 Global Assessment. Although some data were customized for your region, the data in most cases is replicated in order to fill all regions within your study area. For example, the data used for Ecuador in the Global Assessment is given to all coastal states in the files within `subcountry2014`. This is done simply because every region needs a data point, and every OHI region was given its own repo and scenario. You will be able to rename your scenario folder to reflect the spatial and temporal scale of your scenario. This can be done after someone from your team has made a GitHub account. We recommend that the name defines the scale of the regions and the year; for example, `province2015` could be the folder name for a country with administrative regions by province and a study that was done in the year 2015.
 
 ![](https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=960&h=720)
 
@@ -24,7 +14,18 @@ The scenario folder is named `subcountry2014` because it contains the data for y
 
 * The `subcountry2014` folder contains all of the inputs needed for the Toolbox. Many of these are default and you will have to change them. See **Modifying and Creating Data Layers** for more information on the files you will modify.
 
-### Your `Subcountry2014` folder
+### The `subcountry2014` folder
+
+There is only one scenario folder by default. You can create multiple scenario folders that allow you to calculate scores for different assessments. These additional assessments can either be different policy and management scenarios, or they include new data for subsequent years of study. You can save the scores from each of these assessments and use them for analysis. Eventually, you would be able to view and track the changes in ocean health over time.
+
+
+The scenario folder is named `subcountry2014` because it contains the data for your country that was used in the 2014 Global Assessment. Although some data were customized for your region, the data in most cases is replicated in order to fill all regions within your study area. For example, the data used for Ecuador in the Global Assessment is given to all coastal states in the files within `subcountry2014`. This is done simply because every region needs a data point, and every OHI region was given its own repo and scenario. You will be able to rename your scenario folder to reflect the spatial and temporal scale of your scenario. This can be done after someone from your team has made a GitHub account. We recommend that the name defines the scale of the regions and the year; for example, `province2015` could be the folder name for a country with administrative regions by province and a study that was done in the year 2015.
+
+![The files in your OHI+ Toolbox.](https://docs.google.com/drawings/d/1Lp5qlIgEj32HJpRtqcCwPsQmz4LBqJBVhPk8N0yT2cY/pub?w=960&h=800)
+
+
+These files fall into different categories: some are *.csv* files and some are R scripts, and some are configuration files. Some files you will modify, and some will you leave intact, such as `install_ohicore.R` which is created and maintained by the OHI+ development team to ensure that your calculations run successfully while the software gets developed. The main place you will spend time will be in **preparing the input data layers** for all of your goal models, pressures, and resiliences. This has partially been indicated for you by the default `prep` folders in your repository. You will then prepare the **registration of the information in the necessarily places**, and at the same time develop the goal models and code. It will be a back-and-forth process, but generally speaking you will prepare your files first and then run the code in order to produce the calculated scores.
+
 #### *layers.csv*
 
 ![](./fig/layers_csv_registry.png)
@@ -78,6 +79,8 @@ The `layers` folder contains every data layer as an individual *.csv* file. The 
 Note that each *.csv* file within the `layers` folder has been formatted consistently. The Toolbox expects all data layers to be in the correct 'long format' and in separate files. See **Using the Toolbox** for more.
 
 Now, open the `layers/alien_species.csv` file: note the unique region identifier (*rgn_id*) with a single associated *score* or *value*, and that the data are presented in long format with minimal columns. See the section on *Formatting Data for the Toolbox* for further details and instructions. Scores can be viewed through the WebApp  using the ‘Input Layer’ pulldown menu on the App page.
+
+<!---JSL add about _sc2014.csv--->
 
 > TIP: You can check your region identifiers (*rgn_id*) in the `rgn_labels.csv` file in the `layers` folder.
 
@@ -151,5 +154,7 @@ The spatial folder contains a single file, `regions_gcs.js`. This is a spatial f
 #### *layers-empty_swapping-global-mean.csv*
 This file contains a list of data layers that were used in the Global Assessment that were note used for your country after you have run `calculate_scores.R`. Without these data for your country, global averages are included in your `subcountry2014` scenario folder so the Toolbox can calculate scores until you replace these data with appropriate data for your study area. This file is not used anywhere by the Toolbox but is a registry of data layers that should prioritized to be replaced with your own local data layers.
 
-### Stand-alone Toolbox software
-After the initial Toolbox setup, further launches of the Toolbox can be done without the software program R. Instead, PC users can double-click the `launchApp.bat` file and Mac users can double-click the `launchApp.command` file.
+![The file system you will use will be available both on your computer and on the Web.](https://docs.google.com/drawings/d/1bu8B8tMUXNnKHt1PY5ArDgxfbtEAZ9opeFlYkdpgIdA/pub?w=1428&h=1107)
+
+
+![Recommended steps in which to engage with files in the OHI Toolbox.](https://docs.google.com/drawings/d/155-wj8S-cDsbahZgmn5wJ1WHou0XS-2j_GOiX47QvkI/pub?w=960&h=3500)
