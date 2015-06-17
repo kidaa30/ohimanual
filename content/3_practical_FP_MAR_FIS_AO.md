@@ -1,12 +1,18 @@
-### Discovering Data and Developing Models for Fisheries Goals
+### Discovering Data and Developing Models for Food Provision and Natural Products
 
->These goals measure the amount of seafood sustainably harvested in your region for human consumption. It should incorporate the quantity of fish caught by the different practices. It should also incorporate how sustainable each practice is. This includes wild-caught commercial fisheries, mariculture, and artisanal-scale fisheries.
+>The sub-goals of Food Provision (Wild-Caught Fisheries and Mariculture) and the Natural Products goal measure the amount of goods sustainably harvested from the sea, whether for human consumption (Food Provision) or trade (Natural Products) in your study area. Goal models are often based on the quantity (tonnes) of goods (fish, invertebrates or non-food items) caught or harvested by  different practices, and should also incorporate a indicator of the sustainability of each practice.
 
-You should find as much data as possible on fish caught in your area. You should try to find data for the main types of fisheries, including **Wild-Caught Fisheries** and ocean-based **Mariculture**. If you do not have formal stock assessments for the species in your area, there are ways to develop estimations using data-poor methods. In any case, you should also attempt to find information on the maximum sustainable yield in your area. The goal aims to maximize the amount of sustainably produced seafood from wild or ocean-cultured stocks, and because of that, any seafood harvest using unsustainable fishing practices or catch levels is penalized.
+The **Food Provision** and **Natural Products** goals aim to maximize the amount of sustainably produced seafood and non-food items from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized. You should find as much data as possible on species caught or harvested in your area. In global assessments, information by species for fisheries, mariculture, and natural products are processed separately before being combined to calculate status scores.
 
-The overall **Food Provsision** model should not change. It should always measure whether seafood from fisheries and mariculture is being harvested at your defined maximum carrying capacity and whether the harvest is remaining sustainable. The contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield in your area.
+The overall **Food Provision** model should not change; it is a combination of fisheries and mariculture scores, with the contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield.
 
-The Global Assessments have studied both commercial fisheries and mariculture. If you found good catch data for artisanal fisheries, you may want to consider different options for how to use it as an additional component in this goal and combine the sub-goals into a weighted indicator. Does one tonne of fish caught through one component mean more than one tonne of fish caught in the others? If this is the case, you should also think about how to apportion the data correctly.
+<!---JSL to add:
+
+-FP by species, NP by type
+-FIS could include recreational or artisanal catch--moved from this section to FIS section below
+-explict that artisanal catch is different from opportunity
+- outline pressures and how NP pressures are by category, and that MAR and FIS could be too
+--->
 
 #### Where to start on **Wild-Caught Fisheries**?
 
@@ -27,6 +33,8 @@ When collecting data on fish landings, it's important to consider how you will d
 >If you are replicating the Global model, you don't want to split the catch among sub-regions; instead, you want to sum catch across all sub-regions, so you can calculate B/Bmsy for the whole population.
 
 The principle of the reference point should not change. You should be creating models that penalize scores for harvesting above the maximum sustainable yield, as defined in your assessment, and scores that penalize for harvesting below the sustainable yield. The penalties vary in the Global models, where overfished species negatively influence scores more than under-fished species do. It is important to also consider buffering around the reference point because of imperfect knowledge about the data. Part of this depends on the type of assumptions you want to make about the ecology of fish species in your area and the impacts upon them from fishing practices. For instance, when all species are exploited simultaneously, fishing pressure on each population might be lower due to changes in interactions between species that occur when a predator population is reduced.
+
+The Global Assessments have studied both commercial fisheries and mariculture. If you found good catch data for recreational or artisanal fisheries, you may want to consider different options for how to use it as an additional component in this goal and combine the sub-goals into a weighted indicator. Does one tonne of fish caught through one component mean more than one tonne of fish caught in the others? If this is the case, you should also think about how to apportion the data correctly.
 
 ORPHAN:
 >The Global Assessments adopt a precautionary estimate of the total amount of sustainably caught seafood by allowing for a 75%-of-BMSY buffer in the score. <!---OAM FIX--->
