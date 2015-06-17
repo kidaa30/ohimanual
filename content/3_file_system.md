@@ -1,27 +1,37 @@
-## File System for Assessment Repositories
+## Assessment repositories: file system organization
 
-This section is an orientation to the files within your assessment repository. The file system organization is the same whether you view your assessment repository at `github.com/OHI-Science` or on your computer.
+This section is an orientation to the files within your assessment repository. The file system organization is the same for all assessment repositories, and can be viewed at `github.com/OHI-Science` or on your computer. While reading this section it is helpful to explore a repository at the same time to become familiar with its contents and structure. The following uses the assessment repository for Ecuador (*ecu*) as an example, available at www.github.com/OHI-Science/ecu.
 
-It is helpful to look directly at a repository to get an understanding of what it is and how it works. If you are connected to the Internet, it is good to explore your assessment repository or a sample repository on https://github.com/OHI-Science. As an example here, this guide will use Ecuador’s assessment repository (ECU), available at: https://github.com/OHI-Science/ecu
+### Assessment repositories
 
+**Assessment repositories** are identified by a three-letter code; Ecuador's assessment repository is called '*ecu*'. Assessment repositories contain several things:
 
+* The **scenario folder** is the most important folder within the repository; by default it is named `subcountry2014`. It contains all of the inputs needed to calculate OHI scores, and you will modify these inputs when conducting your assessment. The scenario folder is explained in detail in this section.
+* All other files in the assessment repository are accessory files. Files with names beginning with a ‘.’ are required for versioning capabilities by GitHub and do not appear when the assessment repository is viewed on your computer.
 
 ![](https://docs.google.com/drawings/d/1eHViTehnAuxSDw1fYI54C3X5YgBktGtaVt71R3OXYeE/pub?w=960&h=720)
 
-* In the above figure, `ecu` is the **assessment repository** and `subcountry2014` is the **scenario folder**. Note that files with names preceded by a ‘.’ do not appear when using RStudio to view the files; this is because these files are specific to GitHub.
-
 ![Navigating the assessment repository. The figure shows Mac folder navigation above and Windows navigation below.](https://docs.google.com/drawings/d/13536h0d6hahYCBrxIItlG_q-r9FmezfN1lcpf-5BMHc/pub?w=692&h=820)
 
-* The `subcountry2014` folder contains all of the inputs needed for the Toolbox. Many of these are default and you will have to change them. See **Modifying and Creating Data Layers** for more information on the files you will modify.
 
-### The `subcountry2014` folder
+### Scenario folders
 
-There is only one scenario folder by default. You can create multiple scenario folders that allow you to calculate scores for different assessments. These additional assessments can either be different policy and management scenarios, or they include new data for subsequent years of study. You can save the scores from each of these assessments and use them for analysis. Eventually, you would be able to view and track the changes in ocean health over time.
+#### Background
 
+Scenario folders contain all files and scripts necessary to calculate OHI scores. There are two file types:
 
-The scenario folder is named `subcountry2014` because it contains the data for your country that was used in the 2014 Global Assessment. Although some data were customized for your region, the data in most cases is replicated in order to fill all regions within your study area. For example, the data used for Ecuador in the Global Assessment is given to all coastal states in the files within `subcountry2014`. This is done simply because every region needs a data point, and every OHI region was given its own repo and scenario. You will be able to rename your scenario folder to reflect the spatial and temporal scale of your scenario. This can be done after someone from your team has made a GitHub account. We recommend that the name defines the scale of the regions and the year; for example, `province2015` could be the folder name for a country with administrative regions by province and a study that was done in the year 2015.
+* ** *.csv* files** contain data inputs or configuration information.
+* ** *.R* scripts** are written in the programming language R and use data inputs processing and calculations.
 
-![The files in your OHI+ Toolbox.](https://docs.google.com/drawings/d/1Lp5qlIgEj32HJpRtqcCwPsQmz4LBqJBVhPk8N0yT2cY/pub?w=960&h=800)
+There is one scenario folder in your assessment repository and it is called `subcountry2014` to indicate that the assessment is conducted at the subcountry scale (province, state, district, etc.), based on data input layers and goal models used in the 2014 global assessment. When conducting your assessment, you can rename your scenario folder to reflect the subcountry regions in your study area and year the assessment was completed. For example, `province2015` would indicate the assessment was conducted for coastal provinces in the year 2015.
+
+Once you complete your assessment with the `subcountry2014` (or equivalent) scenario, further assessments can be done simply by copying the `subcountry2014` folder and renaming it. This can be done for future assessments, for example `subcountry2016` or `subcountry2018`, which eventually would enable you to track changes in ocean health over time. You can also copy scenario folders to explore different policy and management scenarios, for example `subcountry2014_policy1`.
+
+### `subcountry2014` contents
+
+This figure illustrates the files contained within the `subcountry2014` scenario folder.
+
+![File system organization of the Ocean Health Index Toolbox](https://docs.google.com/drawings/d/1YKN2J3HCkw3r8QMFSEHkZhu__YQqOTeWxhSqJ1pHYrI/pub?w=1481&h=1010)
 
 
 These files fall into different categories: some are *.csv* files and some are R scripts, and some are configuration files. Some files you will modify, and some will you leave intact, such as `install_ohicore.R` which is created and maintained by the OHI+ development team to ensure that your calculations run successfully while the software gets developed. The main place you will spend time will be in **preparing the input data layers** for all of your goal models, pressures, and resiliences. This has partially been indicated for you by the default `prep` folders in your repository. You will then prepare the **registration of the information in the necessarily places**, and at the same time develop the goal models and code. It will be a back-and-forth process, but generally speaking you will prepare your files first and then run the code in order to produce the calculated scores.
@@ -73,6 +83,10 @@ The Toolbox can be launched on your computer so that you can visualize any edits
 
 ### Your `layers` folder
 The `layers` folder contains every data layer as an individual *.csv* file. The names of the *.csv* files within the layers folder correspond to those listed in the *filename* column of the `layers.csv` file described above. All *.csv* files can be read with text editors or with Microsoft Excel or similar software.
+
+<!---
+This is true when inputs were indicators that could be allocated equally to all regions within the OHI+ study area. But such equal allocation could not be done when  there are several exceptions due to issues of missing information or information that could not be...
+Although some data were customized for your region, the data in most cases is replicated in order to fill all regions within your study area. For example, the data used for Ecuador in the Global Assessment is given to all coastal states in the files within `subcountry2014`. This is done simply because every region needs a data point, and every OHI region was given its own repo and scenario.--->
 
 ![The `layers` folder contains every data layer as an individual *.csv* file. Mac navigation is shown on the left and Windows navigation is shown on the right.](https://docs.google.com/drawings/d/151Hw1Eb13T4KgndEKXM31BDjvdbB5JO7VGneqdUwGQU/pub?w=1702&h=476)
 

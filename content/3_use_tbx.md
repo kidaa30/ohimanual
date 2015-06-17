@@ -1,5 +1,7 @@
 # Using the Toolbox
 
+<!---JSL: add background here about what modifications should be done, revisiting data layers and _gl2014 v. _sc2014--->
+
 >**Section Summary:**
 
 >In this section, you will learn about the most common modifications made to repositories. You will be given examples to follow to help with your own assessment. The most common modifications are changing the pressures and resilience matrices, changing or creating data layers, and changing or removing goals models.
