@@ -1,4 +1,4 @@
-## Overview of the OHI WebApp
+# Overview of the OHI WebApp
 
 >**Section Summary:**
 

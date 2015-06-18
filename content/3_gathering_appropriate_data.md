@@ -1,4 +1,4 @@
-## Defining Spatial Regions Within the Assessment Area
+# Defining Spatial Regions Within the Assessment Area
 
 It is important to think about which spatial regions to use when conducing your assessment. You should consider some of the questions from the planning phase before you begin to involve GIS or other spatial analysts. If managers or policy makers are going to be involved, at what scale do they work? Where are the political and administrative boundaries in your area? How will political boundaries affect your ability to gather and discover data and indicators? Will the regions change in the future? These questions are important for the future relevance of the assessment.
 
