@@ -29,12 +29,12 @@ in_md = c(
   '3_overview_webapp.md', #updated (6/4/15)
   '3_gathering_appropriate_data.md', # newly updated (6/11/15)
   '3_intro_goalbygoal.md', # new(6/11/15)
-   '3_practical_HAB_goals_CS_CP.md', # updated 6/11
-   '3_practical_species_BDD_ICO.md', # updated 6/11
-   '3_practical_SP.md', # updated 6/11
-   '3_practical_NP.md', # updated 6/11
-   '3_practical_LE_TR.md', # updated 6/11
-   '3_practical_FP_MAR_FIS_AO.md', # updated 6/11
+  '3_practical_HAB_goals_CS_CP.md', # updated 6/11
+  '3_practical_species_BDD_ICO.md', # updated 6/11
+  '3_practical_SP.md', # updated 6/11
+  '3_practical_FP_NP.md', # updated 6/17
+  '3_practical_LE_TR.md', # updated 6/11
+  '3_practical_AO.md', # updated 6/17
   '3_practical_CW.md', # updated 6/11
   '3_pressures_resilience.md', # --> Updated with practical guidance
   '3_intro_to_tbx.md', # updated 6/4, 6/12
