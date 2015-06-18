@@ -79,6 +79,7 @@ The turning point in conducting your assessment comes when you are ready to star
 #### Outcomes of conducting an assessment
 
 Remember that **the process of conducting an OHI assessment is as valuable as the final results.** This is because while conducting an OHI assessment you will identify gaps in knowledge and data, produce decision-relevant information, and create an ocean alliance that combines both knowledge and cultural values across issue-areas and disciplines. Conducting an OHI+ assessment requires engagement from different groups, including research institutions, government agencies, policy groups, non-governmental organizations, and both the civil and private sectors.  
+<<<<<<< HEAD
 
 **Finding the best data and indicators available is crucial for obtaining meaningful findings that can help inform decision-making.**Assessments should incorporate higher-resolution information, local priorities, and preferences wherever possible in order to develop tailored goal models and reference points that produce scores that best reflect local realities. If a goal is not relevant in the local context, it can be excluded. When you change goal models, though, it is important to capture the process in order to justify decisions that will inform the results. Similarly, pressures and resilience measures can be refined using local data and indicators. Final Index scores can only be as good as the input data on which they are based.
 
@@ -101,6 +102,30 @@ Conducting an assessment requires both an understanding of how past assessments 
 
 Navigating through the WebApp can help frame your thinking and introduce you to the structure of inputs that will be required for the Toolbox software.
 
+=======
+
+**Finding the best data and indicators available is crucial for obtaining meaningful findings that can help inform decision-making.**Assessments should incorporate higher-resolution information, local priorities, and preferences wherever possible in order to develop tailored goal models and reference points that produce scores that best reflect local realities. If a goal is not relevant in the local context, it can be excluded. When you change goal models, though, it is important to capture the process in order to justify decisions that will inform the results. Similarly, pressures and resilience measures can be refined using local data and indicators. Final Index scores can only be as good as the input data on which they are based.
+
+At the end of the assessment, you will **produce scores that will require interpretation**. Index scores can be visualized to communicate the results in various ways in order share findings with collaborators and stakeholders. The information output from running the calculations can be analyzed to answer research questions about the state of ocean health. Your team should already be thinking about the expected outcomes and what to do with the final results. This is where previous studies are a useful reference in understanding how to interpret goal scores, which will change according to the local context.
+
+The **amount of time required in conducting an assessment will vary**. This will depend on the composition of your team, the scale of your approach, and the ability and ease with which your team can discover and gather the right information needed to carry out an assessment. The local priorities should both guide the data discovery and goal model development. However, data availability will guide it as well. It will be useful to prepare for the contingencies of information gaps and the technical effort required to conduct the assessment to completion. The different types of skill sets and resources involved will affect the time it takes to complete the assessment.
+
+#### Understanding WebApps and preparing for the Toolbox
+
+The best way to prepare for conducting your assessment is to **begin with understanding the WebApps.** As described in the section, "**Overview of the OHI WebApp**," most coastal countries have a WebApp that was created to facilitate planning and communication during your assessment. The WebApp presents inputs, goal models and calculated scores for each region (subcountry administrative regions are identified by http://gadm.org) visually through maps, histograms, and tables. All inputs presented in a country's WebApps were extracted for each country from the global analysis, and scores were calculated using global goal models. For a finer-scale assessment of ocean health in your region, goal models may need to be adapted to incorporate available data and indicator inputs for each region in your study area. However, if better data are not available, you can use the inputs provided from the global assessment.
+
+<!---I cut this last sentence because I think it gets a bit ahead of itself, maybe it could go somewhere later on:
+Then, to dive deeper into data layers and goal models, you can explore your assessment's online repository, which stores all the information presented through the WebApp.  --->
+
+WebApps are powered by the **OHI Toolbox**, which organizes data inputs and calculates scores. The Toolbox enables groups to work independently using the OHI framework to capture local information and knowledge. The Toolbox is what links inputs to the WebApps and produces the final output scores. The Toolbox enables the framework to be customized to an area of interest, incorporating goals, information, and priorities for defining and measuring ocean-derived benefits that are relevant to the chosen spatial scale. The information is then presented as output data as well as the WebApps, which can be used for orientation throughout the process, data visualization, and final reporting of your results to a broader audience.
+
+## How to use the OHI Manual to start your assessment
+
+Conducting an assessment requires both an understanding of how past assessments have been completed and innovation to capture important characteristics of your study area using the information available. You can start by understanding the structure of completed assessments at global and smaller scales and the models that were created with the information available. Understanding the approaches in different contexts will help you think about what should be done similarly and differently in your local context. Identifying local characteristics and priorities in your study area will help you determine the relevant goals to be assessed.
+
+Navigating through the WebApp can help frame your thinking and introduce you to the structure of inputs that will be required for the Toolbox software.
+
+>>>>>>> a6f80d7a27e3277870b7227643f0e1c8875093f9
 This Manual will guide you through the process with the following information:
 
 <!---we can complete this list so it's in line with the sections in the manual. OM: this has been updated; do we want to make it feel longer like a TOC or keep it shorter?-->
