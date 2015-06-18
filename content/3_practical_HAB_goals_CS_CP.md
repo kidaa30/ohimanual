@@ -4,6 +4,8 @@
 
 *Ideal Approach*
 
+The goal models for Carbon Storage, Coastal Protection, and Habitats developed for global assessments will likely not change in OHI+ assessments.
+
 Ideally, information on the area extent (square kilometers) and condition of every habitat type would be available. All habitats will be included in the Habitats sub-goal of Biodiversity, but only habitats contributing to storing carbon will be included in Carbon Storage and only habitats that provide protection to coastal shorelines will be included in Coastal Protection. The reference point for habitat-based goals will likely be temporal, meaning you will compare the current area of these habitats to some area in the past, and thus historic data are needed. Reference points could also be set by with a proportion increase (or decrease) of known conditions.
 
 *Practical Guidance*

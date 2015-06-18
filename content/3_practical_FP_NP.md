@@ -2,9 +2,24 @@
 
 >The sub-goals of Food Provision (Wild-Caught Fisheries and Mariculture) and the Natural Products goal measure the amount of goods sustainably harvested from the sea, whether for human consumption (Food Provision) or trade (Natural Products) in your study area. Goal models are often based on the quantity (tonnes) of goods (fish, invertebrates or non-food items) caught or harvested by  different practices, and should also incorporate a indicator of the sustainability of each practice.
 
-The **Food Provision** and **Natural Products** goals aim to maximize the amount of sustainably produced seafood and non-food items from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized. You should find as much data as possible on species caught or harvested in your area. In global assessments, information by species for fisheries, mariculture, and natural products are processed separately before being combined to calculate status scores.
+*Ideal Approach*
+
+The **Food Provision** and **Natural Products** goals aim to maximize the amount of sustainably produced seafood and non-food items from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized. Ideally, you would have information about the quantity of species caught or harvested (tonnes), the effort involved (particularly important for the Fisheries sub-goal) the practices used (fishing gear, mariculture inputs, extraction methods) and the spatial extent where the practices occur (fishing locations, mariculture farms).  the species caught or harvested in your area:. In global assessments, information by species for fisheries, mariculture, and natural products are processed separately before being combined to calculate status scores.
 
 The overall **Food Provision** model should not change; it is a combination of fisheries and mariculture scores, with the contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield.
+
+*Practical guidance*
+
+The first thing to consider is **what species are fished, cultured or extracted in your study area**. <!---develop--->
+
+Next, **gather as much information about these species as possible**. The aim is to quantify how much is taken, and from where, with which practices. You will need at least catch or harvest information (tonnes), but you will be able to develop more accurate models if you also have information about effort, practices, and locations. <!---develop further--->
+
+Setting **reference points** will depend on the types of information you have. <!---develop this a bit more here, but then more specifically in sub-sections below--->
+
+**Pressures and resilience** measures must be considered as well. What pressures act on the harvesting of these species? If information allows, pressures and resilience measures can act on different species, group of species, or practices separately, as is done with Natural Products. Fishing or harvesting practices can also act as pressures for other goals, for example destructive fishing practices can impact habitat-based goals and genetic escapes from mariculture practices can affect Fisheries and Biodiversity. <!---develop further--->
+
+
+
 
 <!---JSL to add:
 
@@ -16,9 +31,9 @@ The overall **Food Provision** model should not change; it is a combination of f
 
 #### Where to start on **Wild-Caught Fisheries**?
 
-*Ideal Approach*
-
 >The **Wild-Caught Fisheries** sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption.
+
+*Ideal Approach*
 
 Ideally, you would find data for catch and effort of every commercial and recreationally-fished species in your area. You would also be able to find the functional relationship between fish population size, or biomass, and its maximum sustainable yeld (BMSY). Then, fisheries catch and effort information would be used to calculate the present biomass against BMSY would be used to set the reference point. The current status would be calculated using the present state of every individual species and combining each species together as the weighted proportion of the total catch.
 
@@ -60,9 +75,9 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 
 *Ideal Approach*
 
-Ideally, you would find information on the total area available for mariculture. This could be in terms of s physical area or area based on siting priorities. You would also find information on the sustainability of the mariculture practices. This is important because mariculture competes for space with many other ocean uses, including fishing, tourism, and other activities. This approach would not penalize regions that have less geographic area available for mariculture, though places with fewer sheltered bays or lower primary production could be at a disadvantage.
+Ideally, you would find information about the footprint and practices, on the total area available for mariculture. This could be in terms of s physical area or area based on siting priorities. You would also find information on the sustainability of the mariculture practices. This is important because mariculture competes for space with many other ocean uses, including fishing, tourism, and other activities. This approach would not penalize regions that have less geographic area available for mariculture, though places with fewer sheltered bays or lower primary production could be at a disadvantage.
 
-!Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential (where its maximum potential is estimated in different ways depending on the assessment).
+Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential (where its maximum potential is estimated in different ways depending on the assessment).
 
 *Practical Guidance*
 
