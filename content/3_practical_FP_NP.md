@@ -29,17 +29,23 @@ Setting **reference points** will depend on the types of information you have. <
 - outline pressures and how NP pressures are by category, and that MAR and FIS could be too
 --->
 
-#### Where to start on **Wild-Caught Fisheries**?
+#### Additional considerations for the **Wild-Caught Fisheries** sub-goal
 
 >The **Wild-Caught Fisheries** sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption.
 
-*Ideal Approach*
-
-Ideally, you would find data for catch and effort of every commercial and recreationally-fished species in your area. You would also be able to find the functional relationship between fish population size, or biomass, and its maximum sustainable yeld (BMSY). Then, fisheries catch and effort information would be used to calculate the present biomass against BMSY would be used to set the reference point. The current status would be calculated using the present state of every individual species and combining each species together as the weighted proportion of the total catch.
+It would be ideal to include catch and effort information for commercially, recreationally, and artisanally fished species in your area, although most completed assessments have only been able to include catch information from commercial fisheries due to data availability limitations.
 
 *Practical Guidance*
 
-The type of modeling you will do will depend on the type of data you find. If your assessment relies on catch data alone, it is highly recommended to reference the Global 2013 approach rather than the 2012 approach (Halpern *et al.* 2012).  The Global 2013 used a fisheries modeling method for data-poor sources following *Martell & Froese* (2013). You can find data for catch-per-unit effort data, and then create a functional relationship to determine the reference point.
+Fisheries science is a discipline that in part aims to estimate the amount of fish that can sustainably be extracted from the sea. For this reason, it is important to consult with fisheries experts in your study area. Fisheries experts will be able to advise how to best estimate the maximum amount of catch that can be sustainably fished, and the information available will determine what type of modeling to take. There are many different modeling approaches, and most are based on either catch alone, or catch-per-unit-effort.
+
+If only catch data are available, it is highly recommended to follow the approach in the 2013 global assessment (Halpern *et al.* 2015) rather than the 2012 global assessment (Halpern *et al.* 2012). All global assessments use national fisheries catches reported to the Food and Agricutural Organization (FAO), and the 2013 global assessment used the fisheries modeling method for data-poor sources developed by *Martell & Froese* (2013). With this method, fisheries catch information would be used to calculate the population biomass (B), and its maximum sustainable yeld (BMSY). The reference functional relationship between fisheries catch and effort information would be used to calculate the present biomass against BMSY would be used to set the reference point. The current status would be calculated using the present state of every individual species and combining each species together as the weighted proportion of the total catch.
+
+
+You can find data for catch-per-unit effort data, and then create a functional relationship to determine the reference point.
+
+
+
 
 > At a global scale, catch, effort, and MSY estimates are not available for either commercial, artisanal or recreational fishing: only landings data for commercial fisheries are available through the United Nations Food and Agriculture program (UN FAO). You should be able to find more localized data.
 
