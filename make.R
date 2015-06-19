@@ -23,7 +23,7 @@ wd = '~/github/ohimanual/content'
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
   #'3_what_is_OHI+.md', # --> masked 6/16/15
-  '3_intro_assessment.md', # updated 6/16/15
+  '3_intro_assessment.md', # updated 6/18/15
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   '3_overview_webapp.md', # updated 6/18/15
