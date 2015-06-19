@@ -1,6 +1,6 @@
 ## Modifying goal models
 
-<!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections: ![A figure showing the key steps involved in modifying goal models in the Toolbox.](https://docs.google.com/drawings/d/1IAMz4YntLoC60IlJrJDoP-wFvtj5ECijDEgZbf-9DFM/pub?w=960&h=859)--->
+<!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections. Remove this comment if you want to make it public: ![A figure showing the key steps involved in modifying goal models in the Toolbox.](https://docs.google.com/drawings/d/1IAMz4YntLoC60IlJrJDoP-wFvtj5ECijDEgZbf-9DFM/pub?w=960&h=859)--->
 
 When an existing layer is updated with new data, the Toolbox will automatically incorporate it into the goal calculations after the updated filenames are registered in `layers.csv`. However, if a new layer has been added to the layers folder and registered in `layers.csv`, the Toolbox will not use it unless it is called in a goal model. To integrate any new data layers registered in `layers.csv` you will need to modify the goal model to incorporate the data. Furthermore, in many cases, it will make sense to modify goal models based on data availability and/or local context. For example, the models for regional analyses can often be simplified because of improved data.
 

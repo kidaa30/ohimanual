@@ -2,29 +2,29 @@
 
 > The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.
 
-Some goals in your assessment will draw from economic information. Such sub-goals that you can approach together include the **Livelihoods** and **Economies**. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appropriately between **Livelihoods** and **Economies**.
+Some goals in your assessment will draw from socio-economic information. Such sub-goals that you can approach together include the **Livelihoods** and **Economies**. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appropriately between **Livelihoods** and **Economies**.
 
 In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends. You also have the chance to factor in the sustainability of the jobs if you have that information.
 
 > **You will most likely simplify the given Global models.** This is because you will be looking at local economic scales, you likely will not need to adjust for currency differences, for example, as was done in the Global Assessment through such metrics as the Consumer Price Index and Purchasing Power Parity.
 
-In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends.
+In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, use time-periods that account for cycles in the economy. You could also process the data to eliminate the “noise” from fluctuations and capture more persistent trends.
 
 #### Where to start on **Livelihoods**?
 
-> The **Livelihoods** sub-goal describes livelihood quantity and quality.
+> The **Livelihoods** sub-goal describes livelihood quantity and quality for people living on the coast.
 
 Ideally, this sub-goal would speak to the quality and quantity of marine jobs in an area. It would encompass all the marine sectors that supply jobs and wages to coastal communities, incorporating information on the sustainability of different sectors while also telling about the working conditions and job satisfaction. The jobs and revenue produced from marine-related industries directly benefit those who are employed, and also those who gain indirect value from related economic and social impacts of a stable coastal economy, such as community identity and tax revenue. You should capture the indirect as well as direct benefits from jobs, wages and revenue from coastal communities.
 
 *Practical Guidance*
 
-The first step of this goal is to **identify the marine-related sectors in your area**. There are jobs that are directly connected to the marine environment, such as shipping, fishing, longshore workers, but also some that are connected indirectly, such as suppliers and supporting industries. For example, the sectors for which data were found in the Global Assessment included tourism, commercial fishing, marine mammal watching, aquarium fishing, water and tidal energy jobs, mariculture, transportation and shipping, ports and harbors, ship and boatbuilding. Much of the data on wages came from the International Labour Organization.
+The first step of this goal is to **identify the marine-related sectors in your area**. There are jobs that are directly connected to the marine environment, such as shipping, fishing, longshore workers, but also some that are connected indirectly, such as suppliers and supporting industries. For example, the sectors for which data were found in the Global Assessment included tourism, commercial fishing, marine mammal watching, aquarium fishing, water and tidal energy jobs, mariculture, transportation and shipping, ports and harbors, ship and boatbuilding. Data on wages came from the International Labour Organization in the Global Assessment.
 
 After you have identified which jobs are in your area, you will want to find some **measure of their direct and indirect benefits**. There are two broad kinds of data you should be looking for. The first are direct data that feed into the model equations. These are jobs and wages data for the direct benefits of jobs. This includes the number of jobs in each area, and the wages or income for such jobs. You could find such information from you local national statistical office, or economics bureaus, for example. The second are data that show the indirect benefits of these jobs to the local communities. This can be found directly or  indirectly through the use of economic multipliers. With multipliers you can attempt to estimate the revenue generated by jobs more broadly associated with marine sectors. It's encouraged to use economic multipliers from the literature.
 
-> You can multiply the number of fishermen by an economic multiplier to estimate larger economic effects. This is because the fishing industry provides indirect jobs beyond just the jobs of the fishermen, ranging from gear manufacturing companies to restaurants and movie theaters where the fishermen spend their income.
+> One way to use economic multipliers is to multiply the number of fishermen by a multiplier to estimate larger economic effects. This is because the fishing industry provides indirect jobs beyond just the jobs of the fishermen, ranging from gear manufacturing companies to restaurants and movie theaters where the fishermen spend their income.
 
-Next you must think about how to use the data to **infer quality and quantity of jobs**. Do you have data going back in time? If so, can you check to see how wages per sector have changed over time? If all of the sectors change in the same way, for instance, they might show broader economic trends.
+Next you must think about how to use the data to **infer quality and quantity of jobs**. Do you have data going back in time so that you can see how wages per sector have changed over time? If all of the sectors change in the same way, for instance, this might show broader economic trends that you should account for.
 
 #### Where to Start on **Economies**?
 
@@ -32,13 +32,13 @@ Next you must think about how to use the data to **infer quality and quantity of
 
 > The **Economies** sub-goal captures the economic value associated with marine industries using revenue from marine sectors.
 
-Ideally, revenue data would be collected for all coastal regions, and traced from sectors both directly and indirectly related to marine industries. When these data are not available it is possible to use revenue data at a larger scale and adapt them to a coastal area based on the population distribution. The reference point in this sub-goal will likely be set as a moving-window temporal approach.
+Ideally, revenue data would be collected for all coastal regions, and traced from sectors both directly and indirectly related to marine industries. When these data are not available it is possible to use revenue data at a larger scale and adapt them to a coastal area based on the population distribution. The reference point in this sub-goal will likely be set with a moving-window temporal approach.
 
 *Practical Guidance*
 
-This goal can draw from a number of data sources. In your area there may be a national economics bureau or statistics office that has sector-specific revenue data.  You need to mainly find revenue data for the marine sectors in your area, after you have already identified the sectors. A number of sectors were not included in the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others.
+This goal can draw from a number of data sources. In your area there may be a national economics bureau or statistics office that has sector-specific revenue data. You need to mainly find revenue data for the marine sectors in your area after you have identified the sectors. A number of sectors were not included in the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others.
 
-These goals also ones that might lead you to find resilience metrics. There are many economic indices and some might be appropriate for your area. For example, the Global Competitiveness Index was used in the Global Assessment as a resilience for this goal because it means that marine jobs are more likely to be maintained if an area gets a good score on the Competitiveness Index.
+These goals also ones that might lead you to find resilience metrics that can be used throughout your assessment. There are many economic indices and some might be appropriate for your area. For example, the Global Competitiveness Index was used in the Global Assessment as a resilience for this goal because it means that marine jobs are more likely to be maintained if an area gets a good score on the Competitiveness Index.
 
 *Reference Points for the Economic Goals*
 
@@ -50,7 +50,7 @@ These goals also ones that might lead you to find resilience metrics. There are 
 
 If you are following the Global approach, the reference points for the **Livelihoods** sub-goal should be set using temporal approach by comparing the current conditions to the past. They could also be done in a spatial comparison to compare regions to the highest observed incomes in your area. In the **Economies** sub-goal, revenue has a moving target temporal comparison; we highly recommend that this remains a temporal comparison so that a specific place is compared to its performance in the past and not to anywhere else.
 
-It is highly recommended that you keep the reference point for jobs as a temporal comparison, and only use a spatial comparison for wages. Comparing the number of jobs across different places, for instance, would require at the very least adjusting values by the size of the workforce in each location.
+**It is highly recommended that you keep the reference point for jobs as a temporal comparison, and only use a spatial comparison for wages** Comparing the number of jobs across different places, for instance, would require at the very least adjusting values by the size of the workforce in each location.
 
 One way to do the temporal comparison is to have a moving-window approach by comparing the value in the current year to values in previous years. If using a temporal approach, you must consider how far back in time to go. The Global Assessments used a five-year moving-window because it is intended to capture short-term changes in the trajectory. But then you must consider, if that amount of time would represent economic trends. If there is a not economic downturn, do you want to reward an increasing number of jobs, or reward maintaining the same number of jobs?
 
@@ -80,7 +80,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 
 >The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in coastal areas.
 
-This goal will necessarily draw from different data sources than the Global Assessment, and so it is encourage to look at what other OHI+ and regional assessments have done. This goal demonstrates the flexibility of the OHI+ approach, so you are encouraged to think creatively.
+This goal will necessarily draw from different data sources than the Global Assessment, and so it is encouraged to look at what other OHI+ and completed assessments have done. This goal demonstrates the flexibility of the OHI+ approach, so you are encouraged to think creatively when considering developing this goal model.
 
 *Ideal Approach*
 
