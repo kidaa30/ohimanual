@@ -2,19 +2,19 @@
 
 >**Section Summary:**
 
->Your team should keep the WebApp in mind throughout the **Conduct** phase. The information in the WebApp can guide your team as you define spatial regions, discover and gather data and indicators, develop goal models, and set reference points. At the end of the process, the data you feed into the WebApp will be used share your assessment's scores and results.
+>Your team should be familiar with the structure of the WebApp since it demonstrates how information is organized and displayed. As you update inputs with local information, you can view these updates with the WebApp.
 
-**OHI+ WebApps** are websites created to facilitate independent assessments. The WebApp is a good starting point when preparing to conduct an assessment. It is also meant to be used in the final steps of the conducting phases for communicating and visualizing results. For this reason, it is good to think about how your work can feed into the WebApp throughout the course of this phase.
+**OHI+ WebApps** are websites created to facilitate independent assessments. The WebApp is a good starting point when preparing to conduct an assessment because you can easily navigate how information is organized and displayed. The WebApp is also meant to be used to visualize and communicate results. For this reason, it is good to think about how your work can feed into the WebApp throughout this phase.
 
-The WebApp displays information about the underlying data as well as the results of the final Index scores. The underlying data are raw data known as **data layers** that are used in all of the OHI calculations. These data layers exist for all components of the goal models, including the pressures and resilience. They are the common format used by the software and will be where your team spends time in preparation. By default, the WebApp only displays data layers and score information that has been extracted from the latest Global Assessment. This information has been simplified to a smaller scale geographically. The default display therefore does not provide fine resolution nor does it guarantee accurate data for each nation or territory. You will have to work to improve this default information. These data can be used as inputs into your assessment only in the cases where no better information for a region exists; however, it is always encouraged to improve the given information wherever possible. **Having the best data that are tailored to the local context will ensure that you get the best results for your assessment.**
+The WebApp displays input information (data and indicators) as well as final OHI scores. When prepared and formatted for the OHI, inputs are called **layers** and are used in all OHI calculations, including goal models,  pressures and resilience. By default, the WebApp only displays layers and score information that have been extracted from the latest global assessment and allocated to subcountry regions with the study area. The default display therefore does not provide fine resolution nor does it guarantee accurate data for each study area. You will substitute these layers with higher-quality information at the local scale in your assessment. However, the default layers can be used as inputs into your assessment in cases where no better information exists. **Having the best data that are tailored to the local context will ensure that you get the best results for your assessment.**
 
-The WebApp is powered by the **OHI Toolbox**, which organizes all of the data inputs and uses the appropriate software to calculate Index scores. The Toolbox is where you will actively work to format data layers and develop and modify goal models later on in the conducting process. The Toolbox then links your input data and the OHI software within the WebApp to produce the displays that can be used for orientation throughout the process.
+The WebApp is powered by the **OHI Toolbox**, which organizes all of the data layers and uses the appropriate software to calculate Index scores. The Toolbox is where you will actively work to format data layers and develop and modify goal models later on in the conducting process. The Toolbox then links your input data and the OHI software within the WebApp to produce the displays that can be used for orientation throughout the process.
 
-A default WebApp is available for every coastal nation and territory that was in the Global Assessment. The WebApps are available through http://ohi-science.org by adding a three-letter identifier to the ohi-science URL. For example, Ecuador’s WebApp (ECU) is found at: http://ohi-science.org/ecu
+A default WebApp is available for most coastal nations that were included in global assessments. The WebApps are available from http://ohi-science.org by adding a three-letter identifier to the ohi-science URL. For example, Ecuador’s WebApp (ECU) is found at: http://ohi-science.org/ecu
 
-![The WebApp start page. Note that it's possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
+![The WebApp start page. Note that it is possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
 
-> *Remember that this information is public by default, and you must choose to sign up for a premium option to make it private.*
+> *Remember that this information is publicly available by default. When you conduct an assessment, you can choose a premium option to make it private.*
 
 The WebApp homepage provides tabs for you to explore your data, regions, and calculated scores. The main pages are **Apps**, **Regions**, **Layers**, **Goals**, and **Scores**. A quick reference on how to navigate the WebApp is available through the **Docs** link at the bottom of the page.
 
@@ -34,7 +34,7 @@ It is important to note that the provided WebApps do not claim to take a stance 
 
 ### The App Page
 
-The App page allows you to explore the input data layers and calculated output scores for each region in the study area. The page presents data and scores from the Global Assessment that are applied to each sub-country region in the study area by default. In order to explore data and scores, you can select them on the left to view their attributes and you can also visualize them in a number of ways on this page.
+The App page allows you to explore the input data layers and calculated output scores for each region in the study area. The page presents data and scores from the global assessment that are applied to each sub-country region in the study area by default. In order to explore data and scores, you can select them on the left to view their attributes and you can also visualize them in a number of ways on this page.
 
 The App page allows you to view displays through the **Data** and **Compare** tabs. The **Data tab** provides summary information on each data layer and metadata descriptions that accompany them. The **Compare tab** is mainly used for comparing output scores when modifications are made to the underlying data or models.
 
@@ -42,7 +42,7 @@ The App page allows you to view displays through the **Data** and **Compare** ta
 
 #### Overview of display options
 
-The Data tab displays input data layer or calculated scores for each goal parameter. It presents the information through a *Map*, *Histogram*, or *Table*. These options are available as sub-tabs on the Data tab page. The *Map* sub-tab is the default display option for the Data tab, and all data presented are drawn from the Global Assessments by default. This means they are either directly duplicated across regions, or the raw values are down-scaled using area- or population-weightings. The *Histogram* sub-tab likewise draws from the same data source, but it displays a histogram of observed values with a smoothed line added. The *Table* sub-tab also draws from the same data but offers information in a tabular form.
+The Data tab displays input data layer or calculated scores for each goal parameter. It presents the information through a *Map*, *Histogram*, or *Table*. These options are available as sub-tabs on the Data tab page. The *Map* sub-tab is the default display option for the Data tab, and all data presented are drawn from the global assessments by default. This means they are either directly duplicated across regions, or the raw values are down-scaled using area- or population-weightings. The *Histogram* sub-tab likewise draws from the same data source, but it displays a histogram of observed values with a smoothed line added. The *Table* sub-tab also draws from the same data but offers information in a tabular form.
 
 **Data displayed in the Map sub-tab:**
 

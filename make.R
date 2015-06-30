@@ -7,16 +7,16 @@ library(knitr)
 library(rmarkdown)
 library(stringr)
 
-redo_website = F # T if do push update to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
+redo_website = F # T if push to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
 
 
-# copy ohimanual/README.md into ohimanual/content/README.md
-stopifnot(file.copy('~/github/ohimanual/content/README.md', 
+# copy ohimanual/README.md into ohimanual/conduct_manual/README.md
+stopifnot(file.copy('~/github/ohimanual/conduct_manual/README.md', 
                     '~/github/ohimanual/README.md', overwrite=T))    
 
 # set variables ----
 title = 'The Ocean Health Index Assessment Manual'
-wd = '~/github/ohimanual/content'
+wd = '~/github/ohimanual/conduct_manual'
 
 # Version below, June 12, 2015:
 
@@ -85,30 +85,20 @@ out_md = 'ohi-manual.md'
 
 # cleanup original ----
 
-## rename some .md files
-for (f in list.files(getwd(), glob2rx('*.md'))){
+## within a file, rename some .md files
+for (f in list.files(getwd(), glob2rx('*.md'))){ # f = list.files(getwd(), glob2rx('*.md'))[1]
 
   s = readLines(f, warn=F, encoding='UTF-8')
-  # s = str_replace_all(s, fixed('using_the_ohi_toolbox_app.md'), fixed('toolbox_app_overview.md'))
-  # s = str_replace_all(s, fixed('accessing_a_repo_without_GitHub.md'), fixed('accessing_a_repo_without_github.md'))
-  # s = str_replace_all(s, fixed('accessing_a_repo.md'), fixed('accessing_a_repo_with_github.md'))
-  # s = str_replace_all(s, fixed('calculate_regional_assessment_score.md'), fixed('use_tbx_regional_assessment.md'))
-  # s = str_replace_all(s, fixed('regional_assessments_intro.md'), fixed('conduct_regional_assessment.md'))
-  # s = str_replace_all(s, fixed('conduct_regional_assessment.md'), fixed('regional_assessments_intro.md'))
-  # s = str_replace_all(s, fixed('regional_assessments_intro.md'), fixed('regional_assessment_intro.md'))
-  # s = str_replace_all(s, fixed('github_repos.md'), fixed('install_tbx_regional_assessment.md'))
-  # s = str_replace_all(s, fixed('toolbox_app_overview.md'), fixed('overview_toolbox_app.md'))
   s = str_replace_all(s, fixed('regional_assessment_intro.md'), fixed('intro_regional_assessment.md'))
   writeLines(s, f)
 }
 
-
-
-# rename *.png
-setwd('~/github/ohimanual/content/fig')
-for (f in list.files(getwd(), glob2rx('zfig_*'))){
-  file.rename(f, str_replace(f, 'zfig_',''))
+# rename filenames
+setwd(wd)
+for (f in list.files(getwd(), glob2rx('3_*'))){ #f = list.files(getwd(), glob2rx('3_*'))[1]
+  file.rename(f, str_replace(f, '3_',''))
 }
+
 # update fig paths in *.md
 setwd(wd)
 for (f in list.files(getwd(), glob2rx('*.md'))){
@@ -179,20 +169,6 @@ if (redo_website) {
   file.copy('fig', '~/github/ohi-science.github.io/manual', overwrite=T, recursive=T)
   system('cd ~/github/ohi-science.github.io; git pull; git add -A; git commit -m "update manual"; git push')
 }
-
-## to resize already existing figures. Check folder paths.
-# dir.create('~/github/ohimanual/content/fig/_resized', showWarnings=F)
-# for (f in list.files('~/github/ohimanual/content/fig/_originals','*.\\.png$')){ # f = list.files('~/github/ohimanual/content/fig','*.\\.png$')[1]
-#   f_old = file.path('~/github/ohimanual/content/fig/_originals', f)
-#   f_new = file.path('~/github/ohimanual/content/fig/_resized', f)
-#   dpi = 72
-#   width_in = 10
-#   height_in = 6
-#   if (!file.exists(f_new)){
-#     system(sprintf("convert -density %d -resize '%dx%d' %s %s", dpi, width_in * dpi, height_in * dpi, f_old, f_new))
-#   }
-# }
-
 
 # render docx ----
 render(
