@@ -9,7 +9,7 @@ output: html_document
 
   >**Summary:**
 
-> This guide provides an overview of conducting an OHI+ assessment to produce Index scores. An assessment involves discovering the data and developing the models for Index goals and using the information within the Toolbox and WebApp software. This process is explained in this guide.
+> This guide provides an overview of conducting an OHI+ assessment. An assessment involves incorporating information from your study area into goal models to calculate Ocean Health Index (OHI) scores using the OHI Toolbox software and WebApp. This process is explained in this guide.
 
 ## Where you are in the process
 
@@ -24,25 +24,26 @@ output: html_document
 
 ## Why you are conducting an assessment
 
-> Remember that the process of conducting an OHI+ assessment is as valuable as the final results. Documenting decisions made, as well as the challenges and successes encountered along the way, can lead to better understanding of the system and help guide future assessments.
+> Remember that the process of conducting an OHI+ assessment is as valuable as the final results. Documenting decisions made, as well as the challenges and successes encountered along the way, can lead to better understanding of the system, help inform management decisions, and guide future assessments to track changes through time.
 
-**The Ocean Health Index (OHI) framework** allows you to synthesize  the information and priorities relevant to your local context. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results. The first completed assessment for a study area is valuable because it establishes a baseline and highlights the state of information quality and availability in an area. Any subsequent assessments carried out through time are also valuable because they can be used to track and monitor changes in ocean health. With this in mind, the **Conduct** phase will require careful thought and consideration along the way, and we encourage documentation and scripting to be done within the OHI Toolbox to facilitate the transparency and reproducibility of future assessments.
+**The OHI framework** allows you to synthesize  the information and priorities relevant to your local context. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results. The first completed assessment for a study area is valuable because it establishes a baseline and highlights the state of information quality and availability in an area. Any subsequent assessments carried out through time are also valuable because they can be used to track and monitor changes in ocean health. With this in mind, the **Conduct** phase will require careful thought and consideration along the way, and we encourage documentation and scripting to be done within the OHI Toolbox to facilitate the transparency and reproducibility of future assessments.
 
-Each OHI assessment should have a purpose. One of the typical reasons for carrying out an independent assessment is to have an impact on policy and management decisions, and for this reason it is very important to have explicitly defined spatial boundaries. Assessments can be more relevant to policy and management when they are conducted at the spatial scales in which policy decisions are made. These spatial scales could include political subdivisions like countries, states, provinces, or they could even include ecological regions such as bays. The **regions** and the overall **study area** are definitions that will be used throughout the data collecting and preparation phases, and these definitions will guide the output of the final results. In the OHI framework, goal scores are calculated for regions separately and then combined to produce an overall OHI score for each study area. The number of regions varies with each assessment's study area; completed assessments have had between one and 221 regions.
+Each OHI assessment should have a clear purpose. One of the typical reasons for carrying out an independent assessment is to have an impact on policy and management decisions, and for this reason it is very important to have explicitly defined purpose. Additionally, assessments can be more relevant to management when they are conducted at the spatial scales in which policy decisions are made. These spatial scales could include political subdivisions like countries, states, provinces, or they could even include ecological regions such as bays. The **regions** and the overall **study area** are definitions that will be used throughout the assessment. The study area is the entire spatial boundary of your assessment, while the regions are the smaller subdivisions within the study area. In the OHI framework, goal scores are calculated for regions separately and then combined to produce an overall OHI score for each study area. The number of regions varies with each assessment's study area; completed assessments have had between one and 221 regions.
+
 
 ## What to expect when conducting an assessment
 
-> It is important to make science-driven decisions and modifications that are most important for your study area, and to clearly document what was done and why. Your team should as creative and insightful as you can be while working within the bounds of informational and technical limitations.
+> It is important to include information that best represents your study area, and to make science-driven decisions and clearly document what was done and why. Your team should as creative and insightful as you can be while working within the bounds of informational and technical limitations.
 
-There are **key processes and considerations** that will be a part of every assessment. Every assessment should build from the lessons learned of completed assessments and identify what local characteristics need to be included in a study. This is done partly by comparing the local situation to the example situations in the literature; it is also done by comparing the default information provided in the WebApp to what is known about local realities. After you have outlined and identified local characteristics and priorities, you should prepare to use the Toolbox software and fit the data you have found to be formatted correctly for that software. Finally, once working with the information within the Toolbox, your team will constantly udpate and improve the methods of the assessment before being able to calculate the final results. The last thing you will do is visualize the outputs once more in the WebApp and in the charts and displays that can be shared with other partners and collaborators. Above all, you should be prepared to **know that this process takes time and is an iterative approach**.
+There are **key processes and considerations** that will be a part of every assessment. Every assessment should build from the lessons learned of previously completed assessments and identify what local characteristics need to be included in a study. This is done partly by comparing the local situation to the example situations in the literature; it is also done by comparing the default information provided in the WebApp to what is known about local realities. After you have outlined and identified local characteristics and priorities, you should prepare to use the Toolbox software and fit the data you have found to be formatted correctly for that software. Finally, once working with the information within the Toolbox, your team will constantly udpate and improve the methods of the assessment before being able to calculate the final results. The last thing you will do is visualize the outputs once more in the WebApp's maps and flower plots that can be shared with other partners and collaborators. Above all, you should be prepared to **know that this process takes time and is an iterative approach**.
 
-The time required to conduct an assessment is not set in stone. On average, assessments have taken between one and a half and three years, but that will vary depending on the a number of factors such as the size and composition of your team and  the challenges encountered in discovering and gathering information. The scale of data processing and goal model modifications needed before you will be able to actively use the information available also affects the amount of time it takes to conduct the assessment. The skill sets of the team members and the amount of technical resources available if another factor. You should think about which team members are needed at what stage of the process, including an R user, a spatial analyst, and those who will be familiar with GitHub.
+The time required to conduct an assessment is not set in stone. On average, assessments have taken between one and a half and three years, but that will vary depending on the a number of factors such as the size and composition of your team and  the challenges encountered in discovering and gathering information. The scale of data processing and goal model modifications needed before you will be able to actively use the information available also affects the amount of time it takes to conduct the assessment. The skill sets of the team members and the amount of technical resources available if another factor. You should think about which team members are needed at what stage of the process, including an R programmer, a spatial analyst, and those who will be familiar with GitHub.
 
 #### Understanding completed OHI assessments
 
 It is important to **understand completed OHI assessments** before you can begin tailoring the approach to your needs. By looking at specific uses of the OHI, you can identify how information was found and how it is presented in the results. You can also get a sense of what kinds of research questions are useful to ask. In many cases, studying completed OHI assessments will inform your approaches for discovering data and developing goal models later on in the process, and it is good to keep the literature readily available since you will likely be returning to it throughout this process.
 
-The OHI framework was developed through collaboration and iteration too. Your assessment can leverage the collective knowledge and insight used in the methods of the Global Assessment by Halpern *et al*. in *Nature* (2012) as well as the subsequent assessments conducted annually (in 2013, 2014, and ongoing). Each annual Global Assessment has improved upon some of the goal models based on better data availability or a better understanding of the systems involved. Several smaller-scale assessments have been completed that are highly informative as well, and particularly for regional scale assessments. The following studies been published with supplemental online materials, and are available at http://ohi-science.org:
+The OHI framework was developed through collaboration and iteration. Your assessment can leverage the collective knowledge and insight used in the methods of the Global Assessment by Halpern *et al*. in *Nature* (2012) as well as the subsequent assessments conducted annually (in 2013, 2014, and ongoing). Each annual Global Assessment has improved upon some of the goal models based on better data availability or a better understanding of the systems involved. Several smaller-scale assessments have been completed that are highly informative as well, and particularly for regional scale assessments. The following studies been published with supplemental online materials, and are available at http://ohi-science.org:
 
 * **Global**
   - Halpern et al. (2012) An index to assess the health and benefits of the global ocean. *Nature*.
@@ -54,51 +55,50 @@ The OHI framework was developed through collaboration and iteration too. Your as
 * **Fiji**
   - Selig et al. (2015) Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji. *Ecosystem Services*
 
+Additionally, several OHI+ assessments have been done. As information is available about those assessments they will be posted on http://ohi-science.org.
 
-> TIP: The OHI+ development team is prepared to provide guidance for assessments. Please be familiar with past approaches and documentation before requesting guidance from the OHI team.
+> TIP: The OHI+ development team is prepared to provide guidance for assessments. Please be familiar with past approaches and documentation when requesting guidance.
 
 #### Identifying local characteristics and priorities
 
 The initial actions of an assessment involve **identifying local characteristics and priorities**. This means considering all of the elements unique to your local context. What are the key issues that should be included for your assessment to be credible, useful, and meaningful at the same time? What are the types of coastal habitats in your area that should be included in order to more accurately represent your ecology? How do people typically relate to the ocean in your area in terms of social and cultural patterns? These are the kinds of questions you should consider prior to discovering the data and gathering the indicators that will be needed to fulfill the goal models.
 
-This idea means that the ability to find information should not be the only guiding force as you develop your approach. You should always try to keep in mind the social and ecological characteristics and priorities that are the most relevant for your area, even though data gaps and information limitations will influence your approach along the way. This is important because knowing these issues beforehand will make all of the other parts of conducting the process easier; not only will you have to decide which goals are relevant in the first places, but you will also have to decide later on which social and ecological stressors are relevant, and how much of a relative impact they have on each of the moving parts of the Index. Knowing what you want to include beforehand will help drive your search for data and indicators and make it go more smoothly, yet keep in mind that what is available will ultimately determine how goal models can be developed for your area.
+It is important to identify the social and ecological characteristics and priorities that are the most relevant for your study area, even though data that directly measure those characteristics may not be available. But these characteristics may be able to be captured with indirect measures, called proxies. Therefore, knowing which characteristics you want to represent before you start your assessment may remove some of the bias that could occur if the assessment was only based on known available information.
 
 #### Determining goals to be assessed
 
-Once you have identified local characteristics important to your study area, consider whether all goals included in the Global Assessment are applicable to your assessment. Should new goals or sub-goals be added? Should a goal that is not relevant to your study area be removed completely? Should a goal or sub-goal be given more or less weighting compared to other goals or sub-goals in the final Index score? These decisions should happen while beginning your assessment and before you become more constrained with what kinds of information are available. At the point where you have determined the goals to be assessed, you will likely modify existing goal models or develop a new ones based on the accessible information as you prepare to use the Toolbox and associated software. Sometimes encountering difficulties in data availability will send you back to these questions.
+Once you have identified local characteristics important to your study area, consider whether all goals included in the Global Assessment are applicable to your assessment. Should new goals or sub-goals be added? Should a goal that is not relevant to your study area be removed completely? Should a goal or sub-goal be given more or less weighting compared to other goals or sub-goals in the final Index score? These decisions should happen while beginning your assessment and before you become more constrained with what kinds of information are available. At the point where you have determined the goals to be assessed, you will likely modify existing goal models or develop a new ones based on the accessible information. Sometimes encountering difficulties with data availability will lead you to different data sources and indirect measures and will require the models to be redeveloped.
 
 #### Discovering data and developing goal models
 
-The actual approach to conducting your assessment will depend on data availability and it will require an iterative process of improvement. It will also require creative thinking and problem-solving abilities among your team. There are many decisions to be made when gathering data. This is because your data will come from disparate sources, and you will have to engage experts to help identifying good proxies and indicators, deciding reference points, and developing goal models. OHI+ assessments should incorporate higher-resolution information where possible, and always be guided by local priorities preferences to develop tailored goal models and reference points that produce scores that best reflect local realities. Similarly, pressures and resilience measures can be refined using local data and indicators.
+The actual approach to conducting your assessment will depend on data availability and it will likely require an iterative process to incorporate the best available information into a model that captures the philosophy of the goals. It will also require creative thinking and problem-solving abilities among your team. There are many decisions to be made when gathering data. This is because your data will come from disparate sources, and you will have to engage experts to help identifying good proxies and indicators, deciding reference points, and developing goal models. OHI+ assessments should incorporate higher-resolution information where possible, and always be guided by local priorities preferences to develop tailored goal models and reference points that produce scores that best reflect local realities. Similarly, pressures and resilience measures can be refined using local data and indicators. There are many data inputs that can be included in the OHI framework. The process of discovering and gathering so many different kinds of data and indicators is an important step that you will return to as you continue to conduct the assessment. This is where having a collaborative team that can work across disciplines will be key.
 
-There are many data inputs included in the OHI framework. The process of discovering and gathering so many different kinds of data and indicators is an important step that you will return to as you continue to conduct the assessment. This is where having a collaborative team that can work across issue-areas will be useful. The goal models you develop will also be an important process that occurs with data discovery and it is important to document the decisions being made along the way. Documenting the decisions is important because the deliberations involved are a key part of goal model development. Keep in mind that both of these broad steps are part of the same overall process of conducting the methods of the assessment. It is an iterative process that will not necessary be linear, which is why your team should be prepared for all of the moving parts and the length of time required in conducting an assessment. At the same time, documenting these decisions is important for the communication of the methods in the ultimate sharing of the results.
+How goal models are developed and reference points set should also be considered when discovering data. Discovering data and developing goal models is an iterative process because how goals are modeled will depend on the data available, and you may return to the data discovery phase to see if other options are available to produce the best possible model. Documenting these decisions is important for the communication of the methods in the ultimate sharing of the results.
 
 #### Using the Toolbox software
 
 <!---
 JSL: I've done some restructuring but haven't developed fully. OM: started a bit, but could be taken further.
 --->
-The **OHI Toolbox** is the main software used for organizing and processing information, documenting decisions made, calculating scores, and visualizing results. It was created to facilitate the goal score and Index calculation as well as the organization of information and transparency of the approach. The Toolbox is built with open-source software, meaning that it is freely available for you to use able to be modified to meet your needs. You will access the software from online and will use several free software tools to conduct your assessment in a collaborative, transparent, and reproducible manner.
 
-Accompanying the OHI Toolbox is the **OHI+ WebApp**, which is a visualization tool that displays input information and calculated scores in several ways, including an interactive map. Most coastal countries have a WebApp that was created to facilitate planning and communication during your assessment. The WebApp visually presents inputs, goal models and calculated scores for each defined region through maps, histograms, and tables. All inputs presented in a country's WebApps were extracted for each country from the global analysis, and scores were calculated using Global Goal models.
+The **OHI Toolbox** is the main software used for organizing and processing information, documenting decisions made, calculating scores, and visualizing results. It was created to facilitate score calculations as well as the organization of information and transparency of the approach. The Toolbox is built with open-source software, meaning that it is freely available for you to use able to be modified to meet your needs. You will access the software from online and will use several free software tools to conduct your assessment in a collaborative, transparent, and reproducible manner.
 
-The software should be used when your team is ready to apply to your prepared informational inputs. The steps of carefully preparing and gathering data layers, indicators, and developing goal models can be done independently of the actual software use; however, learning how to use the software when you are ready to organize your files and information can be very useful. Not all members of your team will need to use all of the different platforms, and different members may have expertise in one or more of the tools. They each have their own particular uses and strenghts; for instance, RStudio is useful for engaging directly with the files that run the calculations, and GitHub is useful for tracking the changes in goal model development through time.
+Accompanying the OHI Toolbox is the **OHI+ WebApp**, which is a visualization tool that displays input information and calculated scores in several ways. Most coastal countries have a WebApp that was created to facilitate planning and communication during your assessment. The WebApp visually presents inputs, goal models and calculated scores for each defined region through interactive maps, histograms, and tables. All inputs presented in a country's WebApps were extracted for each country from the global analysis, and scores were calculated using Global Goal models.
+
+The Toolbox software should be used when your team is ready to apply to your prepared informational inputs. The steps of carefully preparing and gathering data layers, indicators, and developing goal models can be done independently of the actual software use; however, learning how to use the software when you are ready to organize your files and information can be very useful. Not all members of your team will need to use all of the different platforms, and different members may have expertise in one or more of the tools.
 
 The WebApp is a widely useful communication tool and that is why it is presented first in this guide. Not all team collaborators may be involved with Toolbox calculations or goal model development, but they will all certainly want to see the final results. The WebApp will help you convey the findings and it will orient the component parts that go into building the Index.
 
 #### Outcomes of conducting an assessment
 
-**The process of conducting an OHI assessment is as valuable as the final results.** This is because while conducting an OHI assessment you will bring together all of the meaningful information for ocean health together to the same place. In doing so, you will have a census of existing information and also will identify gaps in knowledge and data that in itself can help identify priorities for management or monitoring. With your team and advisors, you could also create an ocean alliance that combines both knowledge and cultural values across issue-areas and disciplines. Conducting an OHI+ assessment can engage many different groups, including research institutions, government agencies, policy groups, non-governmental organizations, and both the civil and private sectors.  
+**The process of conducting an OHI assessment is as valuable as the final results.** This is because while conducting an OHI assessment you will bring together all of the meaningful information for ocean health together to the same place. In doing so, you will have a census of existing information and will also identify knowledge and data gaps that alone is a benefit of conducting an assessment. With your team and advisors, you could also create an ocean alliance that combines both knowledge and cultural values across disciplines. Conducting an OHI+ assessment can engage many different groups, including research institutions, government agencies, policy groups, non-governmental organizations, and both the civil and private sectors.  
+Your completed assessment will produce OHI scores for each goal for every region in your study area, and scores within the assessment can be compared with each other. These scores will not be quantitatively comparable to those of other OHI assessments because they differ in the underlying inputs, goal models, and reference points. The only *quantitative* comparisons can be made within an assessment, whether between regions or through time. However, *qualitative* comparisons between different OHI assessments can be  made because the scores are an indication of how far a region is to achieving its own targets. For instance, a score of seventy in one study area should mean that that country is seventy percent of the way to achieving its perceived ideal state of ocean health, but what that ideal state is will differ between study areas..
 
-Your completed assessment will have OHI scores for each region in your study area that can be compared with each other. These scores will not be quantitatively comparable to those of other OHI assessments because they differ in the underlying inputs, goal models, and reference points. The only *quantitative* comparisons between territories or countries across that can be made occur in the Global Assessment when the same data and methods are being applied to all countries. A quantitative comparison is also possible for the same region through time when the same methods are applied. However, all OHI assessments can be *qualitatively* compared because the scores are an indication of how far a region is to achieving its own targets. That is why the process of preparing the data and setting the right targets is so important.  For instance, a score of seventy in one country should mean that that country is seventy percent of the way to achieving its perceived ideal state of ocean health.
-
-The final scores can be visualized using the WebApp. This is valuable for interpreting calculated scores and communicating results with collaborators and stakeholders. The information can be visualized in a number of ways, including through data tables, maps, and through the flower plots of used in goal score communication in the literature. Once you have the scores and outputs, you must then use it appropriately to achieve the stated aims of your OHI study. The output created from running the calculations will usually be analyzed to answer research questions about the state of ocean health. This can include questions on the state of the environment or on considering management scenarios and policy options; usually it can consist of both. In any case, your team should already be thinking about the expected outcomes and what to do with the final results even before beginning to prepare all of the input information. This is where previous studies are a useful reference in understanding how to interpret goal scores, which will change according to the local context.
-
-The resulting scores should be understood in the context of repeated assessments. The scores you produce will be the scores that describe that particular starting scenario, including all of its available data, its reference points, and its underlying assumptions. This is where storing the information and cataloguing that particular scenario will be useful. You can conduct an assessment for the following year by following the same methods and using updated data. Once you do this, you can compare and track how scores have changed over time in your area. These repeated assessments are the most valuable for tracking the better and worse changes that have occurred in your area in terms of ocean health.
+Scores can be visualized using the WebApp with interactive maps and flower plots, which helps interpret calculated scores and communicate results. Subsequent assessments will use the same methods and reference points, but incorporating updated data. Repeated assessments enable you to compare and track how scores have changed over time, with the aim of ultimately informing policy to improve ocean health.
 
 ## How to use the OHI Manual to start your assessment
 
-Conducting an assessment requires both an understanding of how past assessments have been completed and innovation to capture important characteristics of your study area using the information available. You can start by understanding the structure of completed assessments at global and smaller scales and the models that were created with the information available. Understanding the approaches in different contexts will help you think about what should be done similarly and differently in your local context. Identifying local characteristics and priorities in your study area will help you determine the relevant goals to be assessed.
+Conducting an assessment requires both an understanding of how past assessments have been completed and the innovation to capture important characteristics of your study area using the information available. You can start by understanding the structure of completed assessments at global and smaller scales and the models that were created with the information available. Understanding the approaches in different contexts will help you think about what should be done similarly and differently in your local context. Identifying local characteristics and priorities in your study area will help you determine the relevant goals to be assessed.
 
 Navigating through the WebApp can help frame your thinking and introduce you to the structure of inputs that will be required for the Toolbox software.
 
@@ -121,93 +121,87 @@ This Manual will guide you through the process with the following information:
 
 >**Section Summary:**
 
->Your team should keep the WebApp in mind throughout the **Conduct** phase. The information in the WebApp can guide your team as you define spatial regions, discover and gather data and indicators, develop goal models, and set reference points. At the end of the process, the data you feed into the WebApp will be used share your assessment's scores and results.
+>Your team should be familiar with the structure of the WebApp since it demonstrates how information is organized and displayed. As you update inputs with local information, you can view these updates with the WebApp.
 
-**OHI+ WebApps** are websites created to facilitate independent assessments. The WebApp is a good starting point when preparing to conduct an assessment. It is also meant to be used in the final steps of the conducting phases for communicating and visualizing results. For this reason, it is good to think about how your work can feed into the WebApp throughout the course of this phase.
+**OHI+ WebApps** are websites created to facilitate independent assessments. The WebApp is a good starting point when conducting an assessment because you can easily navigate how information is organized and displayed. The WebApp is also meant to be used to visualize and communicate results.
 
-The WebApp displays information about the underlying data as well as the results of the final Index scores. The underlying data are raw data known as **data layers** that are used in all of the OHI calculations. These data layers exist for all components of the goal models, including the pressures and resilience. They are the common format used by the software and will be where your team spends time in preparation. By default, the WebApp only displays data layers and score information that has been extracted from the latest Global Assessment. This information has been simplified to a smaller scale geographically. The default display therefore does not provide fine resolution nor does it guarantee accurate data for each nation or territory. You will have to work to improve this default information. These data can be used as inputs into your assessment only in the cases where no better information for a region exists; however, it is always encouraged to improve the given information wherever possible. **Having the best data that are tailored to the local context will ensure that you get the best results for your assessment.**
+The WebApp displays input information (data and indicators) as well as final OHI scores. When prepared and formatted for the OHI, inputs are called **layers** and are used in all OHI calculations, including goal models,  pressures and resilience. By default, the WebApp only displays layers and score information that have been extracted from the latest global assessment and allocated to subcountry regions with the study area. The default display therefore does not provide fine resolution nor does it guarantee accurate data for each study area. You will substitute these layers with higher-quality information at the local scale in your assessment. However, the default layers can be used as inputs into your assessment in cases where no better information exists. **Incorporating the best information possible will generate results that best represent your study area.**
 
-The WebApp is powered by the **OHI Toolbox**, which organizes all of the data inputs and uses the appropriate software to calculate Index scores. The Toolbox is where you will actively work to format data layers and develop and modify goal models later on in the conducting process. The Toolbox then links your input data and the OHI software within the WebApp to produce the displays that can be used for orientation throughout the process.
+The WebApp is powered by the **OHI Toolbox**, which organizes all of the layers and calculates Index scores. The Toolbox is where you will actively work to prepare and format layers and develop goal models, which can then be displayed with the WebApp.
 
-A default WebApp is available for every coastal nation and territory that was in the Global Assessment. The WebApps are available through http://ohi-science.org by adding a three-letter identifier to the ohi-science URL. For example, Ecuador’s WebApp (ECU) is found at: http://ohi-science.org/ecu
+A default WebApp is available for most coastal nations. A list of available WebApps can be found at http://ohi-science.org/subcountry, and each WebApp will have a three-letter identifier. For example, Ecuador’s WebApp (ECU) is found at http://ohi-science.org/ecu. Note that it is possible to translate the page into your language of choice.
 
-![The WebApp start page. Note that it's possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
+![The WebApp start page. Note that it is possible to translate the page into your language of choice.](https://docs.google.com/drawings/d/11Gojqw0Xz4kUo_uM1Y699EKO3qN_dae0w93ICzXJ2Pg/pub?w=960&h=720)
 
-> *Remember that this information is public by default, and you must choose to sign up for a premium option to make it private.*
+> *Remember that this information is publicly available when stored on free GitHub accounts. If you would like your assessment to be private, you can choose a premium option.*
 
-The WebApp homepage provides tabs for you to explore your data, regions, and calculated scores. The main pages are **Apps**, **Regions**, **Layers**, **Goals**, and **Scores**. A quick reference on how to navigate the WebApp is available through the **Docs** link at the bottom of the page.
+The WebApp homepage provides tabs for you to explore your data, regions, and calculated scores. The main pages are **App**, **Regions**, **Layers**, **Goals**, and **Scores**, which were described in the **Conceptual Guide**. The App page is described more below.
 
-The interactive **App** page allows you to explore input and output variables. The inputs are data layers and the outputs are calculated scores for each part of the Index for each region in the study area. This page is where you should spend your initial exploration. By choosing input data layers you can see the range of values for a given variable and you can also see information about data sources. More detailed information about the default goal models and the calculation methods is found in the other pages on the site.
+The interactive **App** page allows you to explore input and output variables. The inputs are the layers and the outputs are calculated scores for each goal and dimension of the Index for each region in the study area. This page is where you should start your exploration. By choosing input layers you can see the range of values for a given variable and you can also see information about data sources. More detailed information about the default goal models and the calculation methods is found in the other pages of the WebApp.
 
-The information displayed on the website is stored online in a **GitHub repository.** GitHub is an open-source development platform that allows multiple users to collaborate, track changes, and share their work to prepare data files and write code. Some members of your team will use GitHub to track data layer preparation and view the history of changes made in this process. It also a a way for your team to document the decisions made in the course of this conducting phase. Any changes made to files contained within the GitHub repository will be automatically displayed on the WebApp for other team members and collaborators to view. The history of these changes is also stored on this platform as an archive, and it can be used to display changes made over time (See the section on **GitHub** for how to modify files using this platform).
+The information displayed on the website is stored online in a **GitHub repository.** GitHub is an open-source development platform that allows multiple users to collaborate, track changes, and share their work to prepare data files and write code. Some members of your team will use GitHub to track layer preparation and view the history of changes made in this process. It also a a way for your team to document the decisions made during your assessment. Any changes made to files contained within the GitHub repository will be automatically displayed on the WebApp for other team members and collaborators to view. The history of these changes is also stored on this platform as an archive, and it can be used to display changes made over time (See the section on **GitHub** for how to modify files using this platform).
 
-When your team has finalized preparing both the data layers and modifying the goal models, these data and scores will be visualized through the WebApp.
+## Defining and displaying regions
 
-## Using the WebApp to help define regions
+WebApps display subcountry regions within each study area. The boundaries for these subcountry regions are usually states, provinces, or districts reported to Global Administrative Areas (GADM: www.gadm.org). These land-based regions are extended offshore to divide the Exclusive Economic Zones (EEZs) into offshore regions of the study area. Offshore regions are important for Index calculations, in part because scores for each region are combined using the offshore area to weight the average of the final Index score. You can redefine these regional boundaries; these subcountry regions have been provided as a starting point. To redefine the boundaries you will need a spatial analyst; details are below.
 
-The WebApp displays a list of default sub-country regions. These sub-country regions are usually defined as states, provinces, or territories. The regions are extended offshore by default in order to divide the Exclusive Economic Zones (EEZs) of coastal study areas into offshore regions. The offshore regions are an important part of the Index calculations, and so you should think about whether their definitions are appropriate for your area. These sub-country regions have been provided as a starting point mainly because they are consistent with the scale at which policy decisions are made. However, it is possible to change these boundaries to fit your on local characteristics. The boundaries can be defined as administrative or geographical unit as required by your assessment. This is possible because you can customize the inputs to the WebApp's spatial files. You will most likely need a spatial analyst to help do this when beginning to conduct the assessment.
+It is important to note that the provided WebApps do not claim to take a stance on disputed territories. The boundaries for all EEZs were identified by MarineRegions.org (http://www.marineregions.org), and  subcountry regions were identified by the Global Administrative Regions database (http://gadm.org).
 
-It is important to note that the provided WebApps do not claim to take a stance on disputed territories. The boundaries for all EEZs were identified by MarineRegions.org (http://www.marineregions.org). The largest sub-country regions were identified by the Global Administrative Regions database (http://gadm.org).
+## Exploring inputs and outputs with the WebApp's App page
 
-## Using the WebApp to discover data, develop goal models, and set reference points
+The App page allows you to explore the input layers and calculated output scores for each region in the study area. The page presents data and scores from the global assessment that are applied to each subcountry region in the study area by default. In order to explore data and scores, you can select them on the left to view their attributes and you can also visualize them in a number of ways on this page.
 
-### The App Page
-
-The App page allows you to explore the input data layers and calculated output scores for each region in the study area. The page presents data and scores from the Global Assessment that are applied to each sub-country region in the study area by default. In order to explore data and scores, you can select them on the left to view their attributes and you can also visualize them in a number of ways on this page.
-
-The App page allows you to view displays through the **Data** and **Compare** tabs. The **Data tab** provides summary information on each data layer and metadata descriptions that accompany them. The **Compare tab** is mainly used for comparing output scores when modifications are made to the underlying data or models.
+The App page allows you to view displays through the **Data** and **Compare** tabs. The **Data tab** provides summary information on each layer and metadata descriptions that accompany them. The **Compare tab** is mainly used for comparing output scores when modifications are made to the underlying data or models.
 
 ### The App's Data tab
 
 #### Overview of display options
 
-The Data tab displays input data layer or calculated scores for each goal parameter. It presents the information through a *Map*, *Histogram*, or *Table*. These options are available as sub-tabs on the Data tab page. The *Map* sub-tab is the default display option for the Data tab, and all data presented are drawn from the Global Assessments by default. This means they are either directly duplicated across regions, or the raw values are down-scaled using area- or population-weightings. The *Histogram* sub-tab likewise draws from the same data source, but it displays a histogram of observed values with a smoothed line added. The *Table* sub-tab also draws from the same data but offers information in a tabular form.
+The Data tab displays input layer or calculated scores for each goal parameter. It presents the information through a *Map*, *Histogram*, or *Table*. These options are available as sub-tabs on the Data tab page. The *Map* sub-tab is the default display option for the Data tab, and all data presented are drawn from the global assessments by default. This means they are either directly duplicated across regions, or the raw values are down-scaled using offshore area- or population-weightings. The *Histogram* sub-tab likewise draws from the same data source, but it displays a histogram of observed values with a smoothed line added. The *Table* sub-tab also draws from the same data but offers information in a table.
 
 **Data displayed in the Map sub-tab:**
 
-![The Map subtab. Click on  'Map'  to see a geographic view of your assessment region. Colors indicate scores or values for your input layers or output scores.](https://docs.google.com/drawings/d/1SzyHRaHqNWyr_6fji5RcY-nYtN5x5HSTjSgl4tFty44/pub?w=959&h=405)
+![The Map sub-tab. Click on 'Map'  to see a geographic view of your assessment region. Colors indicate scores or values for your input layers or output scores. This example shows Index scores for each region in Ecuador.](https://docs.google.com/drawings/d/1SzyHRaHqNWyr_6fji5RcY-nYtN5x5HSTjSgl4tFty44/pub?w=959&h=405)
 
-The *Map* displays data for every region as defined in the assessment scenario. A  legend is displayed in the lower right-hand corner of the map to explain the meaning of the colors presented. The range of values will change when variables are selected, and the colors will automatically change to create a visual scale of reference.
+The *Map* displays data for every region. A  legend is displayed in the lower right-hand corner of the map to explain the meaning of the colors presented. The range of values will change when variables are selected, and the colors will automatically change to match that range.
 
 **Data displayed in the Histogram sub-tab:**
 
-![Click on *Histogram* to see the distribution of your data or scores, after selecting a variable layer on the left. This example shows the Species sub-goal scores for the study regions of Ecuador.](https://docs.google.com/drawings/d/10TGLNEWQpGcUHeLwT06kJUSUcMEa2tb1IwFaauf6Fmk/pub?w=959&h=415)
+![The Histogram sub-tab. Click on 'Histogram' to see the distribution of layers or scores after selecting a variable layer on the left. This example shows the Species sub-goal scores for the study regions of Ecuador.](https://docs.google.com/drawings/d/10TGLNEWQpGcUHeLwT06kJUSUcMEa2tb1IwFaauf6Fmk/pub?w=959&h=415)
 
 The *Histogram* shows the distribution of values of the selected variable as the number of observations for each value bin (shown as white bars) and it also automatically creates a smoothed density function (shown as pink shading).
 
-**Data displayed in the Table subtab:**
+**Data displayed in the Table sub-tab:**
 
-![Click on 'Table' to see a table of your data or scores, after selecting a variable layer on the left. This example shows the Species sub-goal scores for the study regions of Ecuador.](https://docs.google.com/drawings/d/12CC5Q7YXweoKw39lHkRjBGcoEVsw3bWuuJPVdzxFRAc/pub?w=960&h=419)
+![The Table sub-tab. Click on 'Table' to see a table of your data or scores, after selecting a variable layer on the left. This example shows the Species sub-goal scores for the regions of Ecuador.](https://docs.google.com/drawings/d/12CC5Q7YXweoKw39lHkRjBGcoEVsw3bWuuJPVdzxFRAc/pub?w=960&h=419)
 
 The *Table* displays the variable's value for each region in the study area. It provides an identifying code (*rgn_id*), name (*rgn_name*), and value (*value*) for each observation. The variables are also searchable since you can use the textbox at the bottom of the page to filter the results displayed.
 
 #### Overview of variable options
 
-When you choose the variables to be displayed, you will also see summary descriptions for the data layer. These descriptions, statistics, and metadata for the chosen fields are displayed below the drop-down menus on the left side of the page.
+When you choose the variables to be displayed, you will also see summary descriptions for the layer. These descriptions, statistics, and metadata for the chosen fields are displayed below the drop-down menus on the left side of the page.
 
 ![Overview of the Data tab. Choose the variable you would like to explore through the drop-down menus on the left-hand side of the page. Once you select either input data or an output score, you can view a description and summary of values below.](https://docs.google.com/drawings/d/17YGGl8ZGa7vB7MJTLGwCOL6yh2Ap-OZOK9iVsI-ez4M/pub?w=960&h=374)
 
-> TIP: The data layer descriptions that you will produce later in the conducting phase will appear here.
+> TIP: As you prepare new layers, your updated descriptions will appear here.
 
-The first selection you should make from the drop-down menus is the variable type. This means you can choose either **Input Layer** or **Output Score**. The **Input Layer** will show the data layer used for a particular target you select. The targets in this case are either goals, pressures, resilience, or spatial information. The **Output Score** will show calculated scores for the alternative target selections you will make. In this case, the targets are Index or goal scores. In either case, you then have the option to further refine your variable search by either going into a specific layer or a specific dimension, respectively, that's used in the overall Index calculations. If you do not make a selection, the **Output Score** is displayed by default.
+The first selection you should make from the drop-down menus is the variable type. This means you can choose either **Input Layer** or **Output Score**. The **Input Layer** will show the layer used for a particular target you select. The targets in this case are either goals, pressures, resilience, or spatial information. The **Output Score** will show calculated scores for the alternative target selections you will make. In this case, the targets are Index or goal scores. In either case, you then have the option to further refine your search by either going into a specific layer or a specific dimension that is used in the overall Index calculations. If you do not make a selection, the **Output Score** is displayed by default.
 
-For example, if you select **Output Score** as the variable type, you will then be able to choose a target goal or sub-goal, and then you will be able to choose the OHI dimension to be displayed. Remember that the dimensions are status, trend, pressures, resilience, future state, and score. In this way you can understand the calculation of the goal scores.
+For example, if you select **Output Score** as the variable type, you will then be able to choose a target goal or sub-goal, and then you will be able to choose the OHI dimension to be displayed. Remember that the dimensions are status, trend, pressures, resilience, future state, and score. In this way you can investigate the components that combine to create the goal scores.
 
-As another example, if you select **Input Layer** as the variable type, you will be able to choose a target such as a goal and a specific data layer associated with that goal. If that input layer has multiple categories of input types, or if it has multiple years of information available, you will be able to select more specific information. If you do not make a selection, the default setting is the first alphabetical category and the most recent year available.
+As another example, if you select **Input Layer** as the variable type, you will be able to choose a target such as a goal and a specific layer associated with that goal. If that input layer has multiple categories of input types, or if it has multiple years of information available, you will be able to select more specific information. If you do not make a selection, the default setting is the first alphabetical category and the most recent year available.
 
 ![Overview of the variable options. You can choose to select and view either `input layers` or `output scores`.](./fig/overview_variable_options2.png)
 
 ### The App’s Compare tab
 
-The **Compare** tab allows you to compare differences in calculated scores based on changes you have made to the underlying data layers. These changes can be made to the values of the data layers themselves, or they can be changes made by changing the goal models. Any component you change is tracked through the archiving system of **GitHub** (See the section on **GitHub**) and each version of the changes be visualized here. You can take advantage of this ability to compare one saved version of your calculated Index output to another version of your calculated output. This is done to compare the how changes made to your data or indicators for goals, pressures, or resilience would affect the resulting scores.
+The **Compare** tab allows you to compare differences in calculated scores based on changes you have made to the underlying layers. These changes can be the values of the layers themselves, or they can be from changing the goal models. Any component you change is tracked through the archiving system of **GitHub** (See the section on **GitHub**) and each version of the changes be visualized here. You can take advantage of this ability to compare one saved version of your calculated Index output to another version of your calculated output. This is done to compare the how changes made to your data or indicators for goals, pressures, or resilience would affect the resulting scores.
 
-You can use this in two ways. One way is use this as an experimentation to guide the process of conducting the assessment itself. This is because visualizing differences is extremely helpful for error checking and for sharing tests to the data among your technical team. Another way to use the **Compare** tab is to compare different management scenario to how changes in your assumptions would impact score results. These changes could occur in the goal models themselves, such as through changes to targets or reference points, or they could be changes made to the values of pressures and resilience layers, for example. Once you have created the outputs, you can visualize theme on this page.
-
-More context on the use of this function can be found in the section, **Using the Toolbox**.
+You can use this in two ways. One way is use this is to visualize updates as you make them: viewing differences is extremely helpful for error checking and for sharing tests to the data among your technical team. Another way to use the Compare tab is to compare different management scenario to how changes in your assumptions would impact score results. These changes could occur in the goal models themselves, such as through changes to targets or reference points, or they could be changes made to the values of pressures and resilience layers, for example.
 
 ![You can use the OHI+ WebApp's 'Compare' tab to error check, and check the outcomes of alternate scenarios of your assessment.](https://docs.google.com/drawings/d/1qF9SDqLFxcH2znkpCa6rkhGnD0Az1uC52a1Bwvzqrgo/pub?w=960&h=581)
 
-The App page also offers the ability to view different **branches** or **scenarios** in the upper left-hand corner of the page. This is an option that you will take advantage of later on in the **Conduct** phase, and it is good to think about so you can plan the assessment appropriately. The **branches** refer to unique copies of a GitHub repository where information is stored. Each branch is a copy of a repository that is meant to be modified independently of other branches. This is done to ensure that changes made to one branch will not affect the information in another branch. This allows for active collaboration and offers a way to archive different outputs to Index calculations. For example, the *published* branch shows information that has been vetted for sharing, while the *draft* branch can be used for experimentation. These branches can be merged together at any time, and that is typically done when important milestones in the conducting process are reached. The *subcountry* folders displayed also offer another way to compartmentalize outcomes by allowing you to compare different *scenarios* within the same branch of your repository.
+The App page also offers the ability to view different **branches** or **scenarios** in the upper left-hand corner of the page. The **branches** refer to unique copies of a GitHub repository where information is stored. Each branch is a copy of a repository that is meant to be modified independently of other branches. This is done to ensure that changes made to one branch will not affect the information in another branch. This allows for active collaboration and offers a way to archive different outputs to Index calculations. For example, the *published* branch shows information that has been vetted for sharing, while the *draft* branch can be used for experimentation. These branches can be merged together at any time, and that is typically done when important milestones in the assessment process are reached. The *subcountry* folders displayed also offer another way to compartmentalize outcomes by allowing you to compare different *scenarios* within the same branch of your repository.
 
 > The App displays a *published* branch by default. It is recommended work on the *draft* branch until your assessment is finalized. When it is finalized, you can then merge the *draft* branch with the *published* branch.  
 
@@ -338,618 +332,6 @@ There are a lot of existing data that contribute to our scientific understanding
 * **Time series data are not long enough to calculate a trend or a reference point** (when a historical reference point is most appropriate). For the U.S. West Coast, the current extent of seagrass habitats was available, however, these do not exist for previous points in time in most areas, so could not be used to calculate the trend or set a historical reference point. Therefore, we estimated the trend in health of seagrass habitats using as a proxy the trend in the main stressor (i.e., turbidity). In other words, we assumed that the rate of seagrass loss was directly proportional to the rate of increase in turbidity. Similar solutions may be used to estimate trends in your own assessment, if there is scientific support for assuming that the trend of what we want to assess (or the relationship between the current state and the state in the reference year) has a strong relationship with the trend of the proxy data available.
 
 <!---Option: JSL develop the discussion of searching not only for strict data within your country to use, but studies that have been done anywhere in the world, demonstrating relationships between different things (eg camaroneras effects on mangrove condition)--->
-
-## Developing Goal Models and Setting Reference Points
-
-Once you have determined which goals are assessed and have begun searching for data and indicators, you can start to develop goal models and set reference points. The decision tree of the data discovery process also applies here: first consider how goals can be tailored to your local context before you consider replicating what was done in the Global Assessments. It is always better to use local goal model and reference point approaches where possible.
-
-### Developing multiple goal models at the same time
-
-<!--- Hi Omar, I think that this categories discussion is important to develop as its own subsection. I've added a comment below; I can think about this and develop. OM: That would be great!--->
-
-You can develop some goal models simultaneously, for example, the habitat-based goals. **Carbon Storage**, **Coastal Protection**, and the **Habitats sub-goal of Biodiversity** all rely on the same underlying data, and their models can be developed together. This will be efficient and help streamline the data search. A spatial analyst can do the file manipulation to create the spatial layers that get used for these goals using the same source material. This will greatly expedite your data layer preparation. If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of certain goals. That is a consideration when assembling your team and planning your workflow.
-
-<!---JSL, is this too technical? Can we save this for the more technical descriptions of goal model development that are to come? TIP: If you look at `functions.R`, you will see that the reason this one data layer, `Hab_extent`, is used in multiple places in the software, meaning that once you have that data you can use it in several goal models. In the Global Assessment, `Hab_extent` is called upon in **Natural Products**, **Wild-Caught Fisheries**, **Carbon Storage**, and **Coastal Protection**.
-![Note that Habitat Extent appears in several goal model functions. ](https://docs.google.com/drawings/d/1HtrwjFi1Lod6B687nNTUPqK-MTAr9uwShooHUIu3Le4/pub?w=790&h=258)--->
-
-### Identifying linkages between goals and pressures
-
-You should note the linkages between your goals and the pressures and resilience that affect them while you are developing your model approach. The team members who are developing goals should think about the pressures that act upon those goals at the time that they are data-gathering, and they should think about the data sources that could be used to provide pressures information. However, it may be most useful when someone specific gathers all of the data for pressures, since pressures affect multiple goals.
-
-For example, when developing the **Wild-Caught Fisheries** goal model it is possible to prepare some of the pressures layers that affect multiple goals. This is because the goal model will require catch data, which may be the same data source for information on commercial high- and low-bycatch data. Bycatch data are used as pressures layers that affect multiple goals, including **Livelhoods and Economies** and **Biodiversity**. It is important to remember these linkages as you go through the data discovery process.
-
-You may also start searching for pressures data rather than data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the same data layers for pressures are used as the input layers for the status. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**.
-
-These linkages will become more clear as you go through the OHI+ assessment process.
-
-### Keeping Reference Points in Mind
-
-The decisions on choosing a reference point will be a theme in each of the goal models you develop. The choice of a reference point will affect how the final scores are calculated, and must be balanced between knowledge of the system, expert judgment, and limitations of the data and to assess the conditions of the various dimensions of ocean health.
-
-Once you find data, always consider how you would set the reference point. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? It is also possible to use spatial reference points. With spatial reference points, a region within the study area with the highest input values could be set as a perfect (score of 100), and all others are scaled to it. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014). Using temporal reference points, a historical benchmark is used as a the "ideal" point in the past. A third type of reference point is a policy-set target, such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year. In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point. S.M.A.R.T. criteria means they should be "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
-
-You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
-
-
-<!---
-#### Goals with Components
-
-JSL text cut from the developing multiple goals section is pasted below. Here we could develop the ideas about when to have a sub-goal like FIS and MAR and when to have components like habitat types in HAB, etc. I can think about how to word this.
-
-Several goals will combine the type of data you find across categories: these include in particular the **Natural Products**, **Livelihoods and Economies**, and habitat-based goals. The existence of the data itself will drive a lot of these decisions, but here are some guidelines to help determine if data are appropriate philosophically for your goal models:
-
-* Do the data represent something truly ocean-based, and natural (i.e. not man-made)?
-* How would the reference point be calculated?
-* Do data cover the appropriate spatial scales?
-* Do data cover the appropriate temporal scales?
---->
-
-#### How to Use This Section
-
-The Ocean Health Index team has a gained knowledge from working with groups conducting independent OHI+ assessments. Your OHI+ assessment will also be valuable for adding to the body of knowledge on how to develop better goal model and score calculations where appropriate. By presenting specific guidance in the following sections, we hope to encourage discussion on the best approaches to conducting your own assessment.
-
-The following sections will guide you through searching for data sources and indicators for the goal models used in the Global Assessments. They will start off with a summary of what the goal is intending to measure with a reminder of the philosophies and  key concepts to keep in mind in order to orient your process.  The descriptions are then followed by questions to consider, and these are then followed by discussion on how to use gathered information in the practical considerations for each goal model approach.
-
->We provide recommendations for how to approach data discovery and goal model development broadly for goals that have been conducted commonly across OHI+ assessments and the Global Assessment.
-
-You should make sure you have prepared the first steps in starting an OHI+ assessment. The data discovery approaches are based on the philosophical framework of the Ocean Health Index (See the **Conceptual Guide**). If you haven't already read about the goal philosophies in the OHI **Conceptual Guide**, you should read it before actively developing goal models. You should already have an understanding now of the reason for doing an OHI+, and you should have a sense of your local characteristics and priorities that will determine which goals need to be assessed. You may also wish to read about **Assembling a Team** and **Strategy** because this is where you may wish bring your technical teams together for the **Conduct** process. You should also have checked out the WebApp and already be familiar with its capabilities to keep your end-goal in mind.
-
-Below you will concrete examples from the main OHI studies to-date and you can use them as guides for how to go about your own goal model development. You can change these approaches. You should use the best judgment to capture their philosophies when changing them. Keep in mind that some goal models are intended to remain the same across most assessments, and other goals are recommended to be changed where you have better data or more  information. These descriptions are not proscriptive in all cases, but they are meant to be illustrative. Use them as a menu of options from which to compare the status of your own data and indicators. Also keep in mind that this is a longer process than is presented here; your team should be prepared at this stage to do both the scoping and the thinking on the actual science behind conducting the assessment.
-
->Throughout this section, you can use the **Examples of the Approach** to identify use-case scenarios that may be useful for your assessment. If you are lacking certain kinds of data, for example, you may be able to find a precedent from the examples in order to inform your own approach. These examples are both instructive and illustrative.
-
-### Discovering Data and Developing Models for Habitat-based Goals
-
->Habitat-based goals should be considered together during the data gathering process because the same data underly three goals: **Carbon Storage**, **Coastal Protection**, and **Biodiversity**. Goal models to date have depended on the area (square kilometers) of each habitat type in each region, the condition of each habitat, and a weighting to distinguish how different habitats contribute to each goal.
-
-*Ideal Approach*
-
-The goal models for Carbon Storage, Coastal Protection, and Habitats developed for global assessments will likely not change in OHI+ assessments.
-
-Ideally, information on the area extent (square kilometers) and condition of every habitat type would be available. All habitats will be included in the Habitats sub-goal of Biodiversity, but only habitats contributing to storing carbon will be included in Carbon Storage and only habitats that provide protection to coastal shorelines will be included in Coastal Protection. The reference point for habitat-based goals will likely be temporal, meaning you will compare the current area of these habitats to some area in the past, and thus historic data are needed. Reference points could also be set by with a proportion increase (or decrease) of known conditions.
-
-*Practical Guidance*
-
-The first thing to consider with habitats is **what habitats are in your study area**, both in the coastal regions and offshore. In the global assessments, data were available for mangroves, coral reefs, seagrass beds, salt marshes, sea ice, or subtidal soft-bottom habitats, but there are likely other important habitats in your region.
-
-Once you determine what habitats are in your area, you will need information about **the area extent of each habitat within each region of your study area**. You should consider whether and how far they go offshore and inland. Spatial data are preferred: you will be able to calculate the total square kilometers of each habitat within each region. You will need to determine how far offshore and inland certain habitats contribute to each goal. For example, in global assessments mangrove area within 1 kilometer of the coastline were included in Coastal Protection, Carbon Storage and Biodiversity, but this distance could change in OHI+ assessments or be different for each goal.
-
-> TIP: Do you have maps that show current habitat distributions and maps that show historical habitat distributions? If so, you could extract that data for each of your regions to get a current and reference area. You could also use summarized habitat data that exists in tables or are already compiled in another source.
-
-The **condition** of the habitats can be measured in different ways, depending on the data available. The intent is to track not only how much of a habitat there is (the km2 area) but also how well each habitat is doing. Indicators of condition could include information about habitat density, susceptibility to pathogens, or other impacts such as change in species composition or growth rates from impacts such as overgrazing. Has there been a study assessing habitat integrity or condition specifically in your area? In global assessments, direct information about coral condition was not available so it was based on the percentage of "living cover" on a coral reef relative to the potential range of the reef. Mean predicted values for each region from 1985-1987 were set as reference points.
-
-Habitats can be **weighted** to distinguish that they contribute unequally to the amount of protection they provide and the amount of carbon they sequester. The weights of the habitats in global assessments comes from the literature, and it is possible to use the same weighting scheme. However, if you include different habitats you will need to find information to support additional weights.
-
-If possible, you will want to gather habitat area and condition data through time so that you can calculate the **trend**. Ideally, there will be enough years of data to directly calculate the recent change in habitat condition as the trend. This isn't always the case, and proxies or estimates might need to be used. For example, due to spotty salt marsh data we created trend categories of increasing (0.5), stable (0), and decreasing (-0.5) based on available data.
-
-The **reference point** will likely be based on historic habitat area coverage and condition, with the assumption that habitat destruction has been and still is occurring and the target is to return to some point in the past. You will need historical data for this, from satellites, published papers, or even hand-drawn maps. The challenge is to find a reference point that is both *ambitious* and *realistic* (based on the S.M.A.R.T. principles: see **Conceptual Guide**), usind the data available. If data allow, it will be possible to set a reference point that is more ambitious than that used in global assessments.
-
-> Example: In the U.S. West Coast assessment (2014), researchers went to the local public library to find hand-drawn maps of historical salt marsh and sand dune extents in California.
-
-You will need to include area and condition data specific to your study area and not rely on the global data provided. This is because the habitat data provided for your assessment are either over-representative by allocating the study area's data equally to each subcountry region, or can be misrepresentative by allocating a proportion of those data to each subcountry region (based on the offshore area of each region to the total area). Either case assumes that if a habitat was present in the country, it could be found anywhere (which is not the case with study areas that span many degrees of latitude), and the first case inflates the habitat coverage in the study area.
-
-There are many potential **pressures and resilience** measures to consider as well. What pressures can reduce the area or condition of the different habitat types? Pressures and resilience measures will act on each habitat type separately, so it is important to think of what affects each individual habitat types. Are any of the habitats in your study area invasive, exerting pressure on other goals?
-
-#### Additional considerations for the **Carbon Storage** goal
-
-For the Carbon Storage goal it is possible to include weights based on the relative ability of different habitats to store carbon. Only habitats that store carbon are included.
-
->TIP: Understanding habitat carbon storage rates is an area of ongoing research. The capacity for habitats to store carbon varies, and depends on the morphology of plants in the system.
-
-*Practical Guidance*
-
-In terms of **habitat types** for the Carbon Storage goal, it is recommended to search for mangroves, saltmarshes, and seagrasses because these are viewed as carbon-sequestering habitats that are both ecologically threatened and sensitive to policy responses. Are there other carbon-sequestering habitats present in your study area? You should remember that we recommend using habitats that can store carbon on the order of 100 years, thereby limiting the types of habitat types you will need.
-
-> TIP: If you look at your default data on the WebApp, you will see **Carbon Storage** information presented for **mangroves**, **salt marshes**, and **seagrass** even if there are no mangroves in your area: the area will be 0. You will not be scored on these if they are not in your area.
-
-**Contribution** is how much each habitat stores relatively to the others--such as the rates of carbon uptake as measured by empirical data. For this you would have to search the literature and find ratios of organic nutrient uptake between habitats, and you would have to make sure these studies represent your study area. For example, were the studies done with a young mangrove forest, or an older one, which might have different growth rates?
-
-The **goal status model** for Carbon Storage developed for global assessments will likely be appropriate for independent assessments. Knowing the area and the condition of of carbon-storing habitats are the two components that are most important.
-
-Your **reference point** could be guided by a policy target instead of a historic reference point. For example, are there any climate change policies in your area, with defined targets and objectives? Are there any restoration or carbon storage projects in your area? Do any organizations offer guidance on the amount of carbon storage your management policies should be aiming for?
-
-> Example: In global assessments, the condition of mangroves was assessed as the current hectares of mangrove coverage divided by the reference hectares (calculated from 1980 to 2005). Seagrass condition was calculated as the current percent cover of habitat divided by the reference percentage cover from 1975 to 2010.  
-
-#### Additional considerations for the **Coastal Protection** goal
-
-For the Coastal Protection goal, it is possible to include weights based on the relative ability of different habitats to protect the coastline. Only habitats that protect coastlines are included.
-
-*Practical Guidance*
-
-Coastal Protection aims to assess the amount of protection provided by marine and coastal habitats against flooding and erosion to coastal areas that people value. This definition does not include man-made structures such as sea-walls because they are not regarded as sustainable and likely destroyed habitat.
-However, there can be many **habitat types** included in Coastal Protection goal. In global assessments, coral, mangroves, saltmarshes, seagrasses, and seaice were included. Habitats were **weighted** based on their protective ability identified by www.naturalcapitalproject.org. Depending on the habitats you include, you will need to find additional weights.
-
-The **goal status model** for Coastal Protection developed for global assessments will likely be appropriate for independent assessments. However, it could be possible to somehow incorporate the differences in vulnerability between subcountry regions. Vulnerability can be quantified as the ability to evacuate, economic ability to reconstruct in case of damage. Physical properties may be available in OHI+ assessments, allowing for more a detailed understanding of the protective ability, and likelihood of exposure for each habitat type in different portions of the coastline.
-
-
-#### Additional considerations for the **Habitats** sub-goal of Biodiversity
-
-The Habitats sub-goal includes all habitats in the study area.
-
-*Practical Guidance*
-
-**Habitats** is included in the Biodiversity goal to provide a more complete picture of diversity in the system. This is because in global assessments assessed species data were limited and the diversity of habitats can be included with the assumption that healthier habitats mean healthier species. Therefore if you have comprehensive species assessments in your area you may not need to include habitat information as a sub-goal, instead only including living habitats (algae, corals) along with species.
-
-#### Examples of the Approach
-
-*Carbon Storage Goal*
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** |  Seagrasses, tidal marshes and mangroves, were assessed. The whole extent of mangroves was included, including parts on land or in river deltas. The status was measured as a function of its current condition relative to a reference condition and a variable that weights the relative contribution of each habitat type to total carbon storage.  | Reference conditions were set as the current condition or area of coastal plant habitat coverage relative to that in ~1980. Relative contribution was measured as the amount of area each habitat covers relative to the total area covered by all three habitats given available data. | This was not a very ambitious reference point.
-**Global 2013** | The goal model was the same as in Global 2012. Mangrove data included 1km inland in addition to 1km offshore.  | The reference point was the same as Global 2012. | There were improvements in data processing.
-**Brazil (2014)** | The goal model was the same as in Global 2012. The greatest data gaps were for sea grasses. | Different reference points were set for each habitat. For salt marshes, the reference year was 1975; mangroves, 1980; salt marshes, 1979 - 1981. Estimations were used to retroactively determine the reference condition for mangroves and salt marshes. | The same approach was used as in Global 2012, with local data used as available.
-**U.S. West Coast (2014)** | Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used. | Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s. | The study required reconstructions of historic habitat extents in order to set more ambitious targets.
-
-*Coastal Protection Goal*
-
-Assessment | Model Description and Reference Point | Evolution of Approach | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The habitats included mangroves, coral reefs, seagrasses, salt marshes, and sea ice. The status was calculated as a function of the amount or condition of marine habitat relative to reference states and the ranked protective ability of each habitat type. | The reference point compares the current extent and condition to their condition in the early 1980s. | This focused on the EEZ scale and assumed that all coastal areas have equal value and equal vulnerability.
-**Global 2013** | The goal model was the same as in Global 2012. | The reference was the same as Global 2012. | This approach followed the Global 2012 approach.
-**Brazil (2014)** | The 12 nmi boundary was used for each habitat type for mangroves, seagrasses, coral reefs, and salt marshes. Only costal portions were used for mangroves. The total reported extent divided by the coastal area of each state was used for seagrasses. For coral reefs we calculated the extent per coastal waters of each state using maps of coral reef distribution. The salt marsh extents for some states were from national statistics. | The reference condition was the mean of the predicted values for 1985-1987 using regional estimations for coral reefs. The ‘current’ condition or health was the mean of the predicted values for 2008-2010.  | Same goal model as Global 2012, while using local data.
-**U.S. West Coast (2014)** | Salt marshes, seagrasses, and sand dunes were included. | Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s.  | Same as Global 2012, with more ambitious reference points for target habitat coverage.
-
-*Biodiversity, Habitats sub-goal*
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was assessed for all habitats for mangroves, coral reefs, seagrass beds, salt marshes, sea ice edge, and subtidal soft-bottom habitats. Status was assessed as the average of the condition estimates for each habitat present in a region. | The reference years were between  1980-1995 and the current years were between 2001-2010. The current condition was compared 1980 for salt marshes and sand dunes, and it varied by site for seagrasses. | Anomalous values occurred due to data availability issues. A significant amount of pre-processing of the habitat data was needed to fill data gaps and resolve data quality issue
-**Global 2013** | The goal model was the same as 2012. | The reference was the same as Global 2013. | The same model as 2012 was used.
-**Brazil (2014)** | The goal model was the same as as Global 2012 for mangroves, coral reefs, seagrass beds, salt marshes, and subtidal soft-bottom habitats. | The timeframes between current and reference condition varied across habitats using a 20-year gap. | Information from a few point estimates had to be used to infer the health of many habitats.
-**U.S. West Coast (2014)** | Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used. | Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s. | The study required reconstructions of historic habitat extents in order to set more ambitious targets.
-
-### Discovering Data and Developing Models for Species Goals
-#### Comparing **Biodiversity, Species** and **Iconic Species**
-
-> In the Global Assessments, the **Species** sub-goal for **Biodiversity** and the **Iconic Species** sub-goal for **Lasting Places** make use of related data sources.
-
-*Ideal Approach*
-
-Ideally, you would find data for all species present in your region including information on their habitat ranges along with scientific studies that speak to the health of their populations. You would also ideally have a list of species that are valued as iconic by coastal communities as a subset of the list of species that are present in your area. Since different species are be iconic to different groups, defining which species are iconic can be challenging when it's a cultural question. You might have to find information from experts or local customs and tradition.
-
-#### Where to start on species goals?
-
-You should start by trying to **find spatial information for species that occur in your area and determine whether or not they have been scientifically assessed and given a conservation status**. For the **Biodiversity** goal, it is important to note that you can only use species for which there are both spatial data and an assessment. The International Union for the Conservation of Nature (IUCN) provides global species assessments that indicate the conservation status of species. These range from species of Least Concern to Critically Endangered to Extinct. You can turn values like as these into numbers and use them as weighting factors in your calculations. You should use unbiased scientific data sources where possible. [AquaMaps](http://aquamaps.org/) offers data for species ranges that have also been used in the Global Assessments. However, good marine species data are lacking at global scale and so wherever there are [spatial data from IUCN](http://www.iucnredlist.org/technical-documents/spatial-data), the Global Assessments prefer it over AquaMaps. For regional assessments, local studies of marine species status and local datasets are best here. The spatial information can be a range map with simple presence or absence information, or it can have more detailed data. You can complement the species list search with a scientific literature search to see if anyone has scored the species status in a way that you can use.
-
->For example, the OHI Antarctic Seas Assessment (2014) assessed thirty-five iconic species. These included bowhead, minke, fin, gray, and humpback whales, and polar bears. Walruses were not included in the High Seas Assessment because they were determined to be data-deficient by the IUCN.
-
-Once you have the full list of assessed species, you need to determine a subset for the **Iconic Species** sub-goal of **Sense of Place**. You may have to consider a few approaches. For instance, are there known "indicator species" in your area? Are there species that are culturally held as valuable? Do any species appear on the currency or postage stamps? In practice, **Iconic Species** are usually a subset of the broader list of species in an area, and so you should be able to find **Iconic Species** after having found assessed species data for the **Species** sub-goal of the **Biodiversity** goal first.
-
-Alternatively, you can figure out which iconic species are present, and then use another kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.
-
-> Local experts are often consulted to determine what **Iconic Species** are in an area. In the Fiji Assessment (2014), experts identified thirty-three species. In the U.S. West Coast study (2014), local experts identified seventeen species.
-
-The choice of inclusion of iconic species in your list can be subjective. You could also come up with specific inclusion criteria, for instance, that would filter a list of species or filter a subset of the gathered data for **Biodiversity**, and then you could use this new list in the **Sense of Place** goal. This would be a more rigorous approach because then it could be documented and you could replicate the study in future assessments.
-
-#### Defining spatial regions and map considerations
-
-Once you have gathered the data, the treatment of it will matter for the model and goal score calculation. Do you know how the data were collected? Do you have information on sampling effort? If you don't know, you may not be sure whether changes in condition are due to monitoring efforts or biodiversity change, and you therefore may want to consider the uncertainty of your model.
-
-In any case, the original logic of the **Species** sub-goal of the **Biodiversity** goal is to represent the species present relative to the proportion of their range within a given region. The goal is to summarize extinction risk for an area across assessed species, and assign it appropriately so that the loss of species scores poorly. You should consider whether the impacts to local species status are linear or non-linear. Will drawing borders affect how your scores are assigned?
-
-When considering how to change the model, you should think about the outcome of the score on your decisions. For instance, will weighting a "Critically Endangered" species higher on the scale result in the inclusion or exclusion of more rare species? Will the way you aggregate spatial data to summarize extinction risk for your area take into account the influence of species with smaller ranges size, or will that information be lost in the averaging process? An inherent disadvantage for conservation may occur when rare species get rarer in the future, and will therefore have a relatively small influence on the score while common species drive the results.
-
-> Range size has an impact on score results. For example, if you use the current model, none of the cone snail species listed below will have a big impact on the **Species** sub-goal score because to their small range size that covers one cell of map area. However,  the 0.8 score for *Conus roeckeli* shows that it is a rare species as assessed by the IUCN. On the other hand, the coral *Acropora palmata* is also rare and yet covers a large range.
-
-Scientific name | IUCN Category | Trend | Map Cells
----------------|-----------------------------|-------------------|----|
-*Conus salreiensis* | Critically Endangered |  Decreasing | 1
-*Conus trochulus* |  NearThreatened |  Unknown | 1
-*Conus roeckeli* | Least Concern | Unknown | 1
-*Acropora palmata* | Critically Endangered | Stable | 1158
-
-You should also think about the reference point for scores that signal poor **Biodiversity** status. You can use the same threshold as the Global Assessments which say that places with extinction risk scores greater than seventy-five percent will get scores of zero. This is an estimation based on the literature of mass extinctions (e.g., Barnosky *et al*., 2011) and could be applied across scales. You don’t need all species extinct for there to be a zero, so you will have to choose how to rescale it, and whether the risk effects are linear or nonlinear.
-
-#### Examples of the Approaches
-
-*Species sub-goal of Biodiversity goal*
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status of assessed species was calculated as the area- and threat status-weighted average of the number of threatened species within each 0.5-degree global grid cell. Species distribution and threat category data came from the IUCN Global Marine Species Assessment.  | The reference point was to have all species at a risk status of Least Concern. We scaled the lower end of the biodiversity goal to be 0 when 75% species are extinct. | There were no measures of integrity measures included. The species chosen represents a partial sample of overall species diversity.
-**Global 2013** | The goal model was the same as Global 2012. There were data updates available for 15 out of 6080 species. | The reference point was the same as Global 2012. | Updates were available for data used for this sub-goal.
-**Brazil (2014)** | The status of 504 assessed species was calculated as the threat status-weighted average of species occurring in the Brazilian EEZ. The sub-goal was calculated at the national level, giving equal weight to all species occurring in Brazilian waters. Threat weights were assigned based on the IUCN threat categories status of each species. | The reference point was the same was Global 2012. | This study substituted global assessment data for regional data whenever available. This study did not weight by area of occurrence as in Global 2012 because distribution maps were not available for all species.
-**U.S. West Coast (2014)** | The model description and reference point were the same as Global 2012, with regional data available for threat categories. | The same reference point was used as the Global model | This followed the Global model, but used local data.
-
-*Iconic Species sub-goal of **Special Places**
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species. | The reference point is to have the risk status as Least Concern. | The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.
-**Global 2013** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
-
-### Discovering Data and Developing Models for Sense of Place
-#### Where to start on the **Lasting Special Places** sub-goal of the **Sense of Place** Goal?
-
-*Ideal Approach*
-
-> Remember, **Sense of Place** has another sub-goal, **Iconic Species**, which is described in the *Species goals* section.
-
-Ideally, you would be able to produce a list of all the places that people within your region consider special, and then assess how well they are protected. How well they are protected could be the percentage of area protected, and you could also find how well they are protected using other data. This sub-goal could also be based on the extent to which people participate in spiritual or religious activities in an area.
-
-*Practical Guidance*
-
-It is important to think about how this goal can be tailored to your region. This sub-goal is intended to be meaningful and specific to your location. Keep in mind, however, that it is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places. A good example to look at is the U.S. West Coast assessment (2014).
-
-The main consideration for this sub-goal is the spatial data and the list of protected areas. Typically in assessments, the area of designated protected places relative to a target of thirty percent coastal area protected is used as a measure. Coastal area could be based off a 1 square km buffer, as in the Global Assessment, or it could be based on what is reasonable to your area; in any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?
-
-> In the Brazil Assessment (2014), the **Lasting Special Places** sub-goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
-
-Data sources should be specific to your region. International databases, like the World Database of Protected Areas, offer rich information, but they may not be as up-to-date as the list of national parks in your area, and may not have as much information on the quality of protection. If you have more information on quality, you could think about another approach than the thirty percent reference point target.
-
-*Discovering data for resilenece*
-
-You should be thinking about **Resilience** at the same time as you think about **Lasting Special Places** sub-goal of **Special Places**. This is because the **LSP** sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create resilience data layers like Marine Protected Areas (See section, **Pressures and Resilience**).
-
-Once you area ready, you should return to the **Iconic Species** sub-goal of **Lasting Special Places** and think about how to combine the two together. Do you want to use equal or unequal weighting? How do the two components relate to each other?
-
-> In the Global Assessment framework, the **Special Places** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average, or even a different sub-goal instead of **Sense of Place**.
-
-#### Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected. | The reference point is 30% protection for both land and sea areas.| It was assumed that it is possible to protect up to 30% of areas.
-**Global 2013** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
-
-### Discovering Data and Developing Models for Food Provision and Natural Products
-
->The sub-goals of Food Provision (Wild-Caught Fisheries and Mariculture) and the Natural Products goal measure the amount of goods sustainably harvested from the sea, whether for human consumption (Food Provision) or trade (Natural Products) in your study area. Goal models are often based on the quantity (tonnes) of goods (fish, invertebrates or non-food items) caught or harvested by  different practices, and should also incorporate a indicator of the sustainability of each practice.
-
-*Ideal Approach*
-
-The **Food Provision** and **Natural Products** goals aim to maximize the amount of sustainably produced seafood and non-food items from wild or ocean-cultured stocks; any unsustainable extractive practices is penalized. Ideally, you would have information about the quantity of species caught or harvested (tonnes), the effort involved (particularly important for the Fisheries sub-goal) the practices used (fishing gear, mariculture inputs, extraction methods) and the spatial extent where the practices occur (fishing locations, mariculture farms).  the species caught or harvested in your area:. In global assessments, information by species for fisheries, mariculture, and natural products are processed separately before being combined to calculate status scores.
-
-The overall **Food Provision** model should not change; it is a combination of fisheries and mariculture scores, with the contribution of each type of practice to the overall score is weighted by its relative contribution to the total seafood yield.
-
-*Practical guidance*
-
-The first thing to consider is **what species are fished, cultured or extracted in your study area**. <!---develop--->
-
-Next, **gather as much information about these species as possible**. The aim is to quantify how much is taken, and from where, with which practices. You will need at least catch or harvest information (tonnes), but you will be able to develop more accurate models if you also have information about effort, practices, and locations. <!---develop further--->
-
-Setting **reference points** will depend on the types of information you have. <!---develop this a bit more here, but then more specifically in sub-sections below--->
-
-**Pressures and resilience** measures must be considered as well. What pressures act on the harvesting of these species? If information allows, pressures and resilience measures can act on different species, group of species, or practices separately, as is done with Natural Products. Fishing or harvesting practices can also act as pressures for other goals, for example destructive fishing practices can impact habitat-based goals and genetic escapes from mariculture practices can affect Fisheries and Biodiversity. <!---develop further--->
-
-
-
-
-<!---JSL to add:
-
--FP by species, NP by type
--FIS could include recreational or artisanal catch--moved from this section to FIS section below
--explict that artisanal catch is different from opportunity
-- outline pressures and how NP pressures are by category, and that MAR and FIS could be too
---->
-
-#### Where to start on **Wild-Caught Fisheries**?
-
->The **Wild-Caught Fisheries** sub-goal describes the amount of wild-caught seafood harvested and its sustainability for human consumption.
-
-*Ideal Approach*
-
-Ideally, you would find data for catch and effort of every commercial and recreationally-fished species in your area. You would also be able to find the functional relationship between fish population size, or biomass, and its maximum sustainable yeld (BMSY). Then, fisheries catch and effort information would be used to calculate the present biomass against BMSY would be used to set the reference point. The current status would be calculated using the present state of every individual species and combining each species together as the weighted proportion of the total catch.
-
-*Practical Guidance*
-
-The type of modeling you will do will depend on the type of data you find. If your assessment relies on catch data alone, it is highly recommended to reference the Global 2013 approach rather than the 2012 approach (Halpern *et al.* 2012).  The Global 2013 used a fisheries modeling method for data-poor sources following *Martell & Froese* (2013). You can find data for catch-per-unit effort data, and then create a functional relationship to determine the reference point.
-
-> At a global scale, catch, effort, and MSY estimates are not available for either commercial, artisanal or recreational fishing: only landings data for commercial fisheries are available through the United Nations Food and Agriculture program (UN FAO). You should be able to find more localized data.
-
-When collecting data on fish landings, it's important to consider how you will divide the data among regions. You should try to assess each fish species by its entire population across all regions.  The status in the Global 2013 model was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/BMSY). This ratio is conventionally used to inform fisheries management. This approach adopts the population biomass at MSY (BMSY) as a single-species reference point, which by various assessment frameworks is considered conservative (Frœse *et al*. 2011). If you are in a situation where you are working from port landings data alone, you may have to find out where the boats are registered to fish to estimate locations.
-
->If you are replicating the Global model, you don't want to split the catch among sub-regions; instead, you want to sum catch across all sub-regions, so you can calculate B/Bmsy for the whole population.
-
-The principle of the reference point should not change. You should be creating models that penalize scores for harvesting above the maximum sustainable yield, as defined in your assessment, and scores that penalize for harvesting below the sustainable yield. The penalties vary in the Global models, where overfished species negatively influence scores more than under-fished species do. It is important to also consider buffering around the reference point because of imperfect knowledge about the data. Part of this depends on the type of assumptions you want to make about the ecology of fish species in your area and the impacts upon them from fishing practices. For instance, when all species are exploited simultaneously, fishing pressure on each population might be lower due to changes in interactions between species that occur when a predator population is reduced.
-
-The Global Assessments have studied both commercial fisheries and mariculture. If you found good catch data for recreational or artisanal fisheries, you may want to consider different options for how to use it as an additional component in this goal and combine the sub-goals into a weighted indicator. Does one tonne of fish caught through one component mean more than one tonne of fish caught in the others? If this is the case, you should also think about how to apportion the data correctly.
-
-ORPHAN:
->The Global Assessments adopt a precautionary estimate of the total amount of sustainably caught seafood by allowing for a 75%-of-BMSY buffer in the score. <!---OAM FIX--->
-
-Since Global 2012, several new data-poor approaches have been developed to assess fisheries that leverage globally-available information (Costello et al., 2012; Martell & Frœse, 2013; Thorson et al., 2013). The catch-MSY approach improves upon the method used in Global 2012 in that it leverages a mechanistic understanding of the connection between harvest dynamics and population dynamics and uses this to infer stock depletion levels as a function of both historical patterns in catch and of species-specific resilience traits (see also Thorson et al. 2013). In addition, this model is more informative in the case of developing fisheries, whereas the previous approach assumed a perfect score in cases where a peak with successive decline had yet to be observed.
-
-> For Global 2012 and Global 2013, the formulae show that a stock receives a score of zero if either it is completely depleted (B/BMSY = 0) or if it is completely under-fished (B/ BMSY = 3.35, with 3.35 representing the local currently observed maximum value). Any past or future B/ BMSY values greater than 3.35, as well as the species with this maximum value, would receive a zero score for food provision to denote that the species is severely under-fished.
-
-This more complex (although still data poor) approach better takes into account species-specific fishery dynamics.  In addition, the scores for each population were combined using a geometric mean, which ensures that smaller, rarer populations have more weight and thus biodiversity of the catch is taken into account as well. The estimates of B/BMSY were obtained by applying a model developed by Martell & Frœse, (2013), and referred to as the “catch-MSY” method. This approach adopts the population biomass at MSY (BMSY) as a single-species reference point, which by various assessment frameworks is considered conservative (e.g., Frœse et al. 2011).
-
-#### Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------|
-**Global 2012** | The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species. | The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/BMSY is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/BMSY is within 0.5 points of 1.  | The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.
-**Global 2013** | The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/BMSY) using the catch-MSY model. Single-species values of B/ BMSY were aggregated using a geometric mean. | The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest. | The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.
-**Brazil (2014)** | The status was calculated in the same manner as Global 2012, with a modified sustainability term. | As in Global 2012, the reference point is based on an estimate mMSY. | This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.
-**U.S. West Coast (2014)** | The status was based on B/BMSY for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors. |  The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks. | This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello *et al.* 2012) to obtain B/ BMSY values for the remaining stocks.
-
-#### Where to start on **Mariculture**?
-
->**Mariculture** measures the ability to reach the highest levels of seafood gained from farm-raised facilities without damaging the ocean's ability to provide fish sustainably now and in the future.
-
-*Ideal Approach*
-
-Ideally, you would find information about the footprint and practices, on the total area available for mariculture. This could be in terms of s physical area or area based on siting priorities. You would also find information on the sustainability of the mariculture practices. This is important because mariculture competes for space with many other ocean uses, including fishing, tourism, and other activities. This approach would not penalize regions that have less geographic area available for mariculture, though places with fewer sheltered bays or lower primary production could be at a disadvantage.
-
-Higher scores reflect high food provisioning in a sustainable manner, while not compromising the water quality in the farmed area and not relying on wild populations to feed or replenish the cultivated species. A score of 100 means that a region is sustainably harvesting the greatest amount of farmed seafood possible based on its own potential (where its maximum potential is estimated in different ways depending on the assessment).
-
-*Practical Guidance*
-
-This goal requires spatial information. You would have to find maps determining where coastal activities are allowed, or find other kind of data that tells you the usage restrictions for activities in your waters. You would also have to find assessments that have been made to identify the coastal and offshore habitats that are appropriate for each intended type of mariculture species.
-
-The reference point for will depend on your context. You should try to account for the full potential extent of mariculture in your marine areas. This could be based on a number of variables such as the habitat suitability for each cultured species, the distance from the coast, information on which habitat is suitable, and how local preferences favor the allotment of marine space to mariculture versus to ports, hotels, beaches, tourism, or other uses. This definition of space therefore can be physical or social. Keep in mind that in the Global approach, a low score can indicate one of two things – that species are being farmed in an unsustainable manner or that regions are not maximizing the potential to farm in their marine territorial waters.
-
-<!---Setting a spatial reference point in this way assumes that because China is able to produce such a high proportion of mariculture to its coastal area, all regions should be able to as well, given current ecological and technological conditions. This also assumes that it is socially desirable for all regions to produce farmed species at this level, which is likely not true for all regions.Global 2012 compared all areas to that with the highest observed production density after the sustainability coefficient was applied, based on the assumption that all coastal area in each region could be developed for mariculture at the same production density as the reference region (i.e., China) and that maximum potential productivity per unit of area is similar across ecosystems and regions.--->
-
-> The 2012 Global Assessment included the entire area of the coastline assuming that mariculture could be developed everywhere. This was done because there was not information about social limitations for how much coastal area could be allotted to mariculture.
-
-<!---OAM FIX---> There was a significant change between Global 2012 and Global 2013 to improve the reference point. The coastal population was factored in to the reference point. This shows that you should think about how to improve methods constantly.The reference point approach was to was on harvested tonnes per coastal inhabitant (with coastal defined as within 25 km inland), under the assumption that production depends on the presence of coastal communities that can provide the labor force, infrastructures, and economic demand to support the development and economic viability of mariculture facilities. Thus, two regions with an equal number of coastal inhabitants harvesting an equal tonnage of cultured seafood should score the same, even if one is larger than the other, as the productivity is commensurate to each region’s socio-economic potential to develop mariculture. Stated another way, mariculture development is assumed to scale proportionally with coastal population as a proxy for local demand and potential logistic limitations to farm development, e.g., presence of infrastructures, coastal access, and locally available workforce.
-
-<!--- Global 2012 compared all areas to that with the highest observed production density after the sustainability coefficient was applied, based on the assumption that all coastal area in each region could be developed for mariculture at the same production density as the reference region (i.e., China) and that maximum potential productivity per unit of area is similar across ecosystems and regions. This caused regions with extensive proportions of coastline where mariculture is unsuitable for biological reasons (e.g., the water freezes for large part of the year) or logistical reasons (e.g., scarcely inhabited), such as Canada, to be unduly penalized.--->
-
-#### Examples of the Approach
-
-*Mariculture*
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------|
-**Global 2012** | Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008). | The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China. | Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.
-**Global 2013** | This study used a model similar to the Global 2012. |  The reference point approach was harvested tonnes per coastal inhabitant scaled to the 95th percentile observed, Thailand. Here coastal was defined as "within 25 km inland." This was done under the assumption that production depends on the presence of coastal communities. | This study differs from Global 2012 because of the reference point. |
-**Brazil (2014)** | The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area. |  Reference points were set for each species. | In this study it was possible to use both biophysical constraints and social preferences.
-**U.S. West Coast (2014)** | The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region. | The reference point was a target level of production increase as proposed by NOAA | The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.
-
-<!---6-17-15 This has been switched with AO--->
-#### Where to start on **Natural Products**?
-
-> The **Natural Products** goal describes how sustainably people harvest non-food products from the sea.
-
-*Ideal Approach*
-
-Ideally, quantity, value, and a sustainability rating of the harvest method would be available for every marine and coastally-derived natural product within the regions of a study area. This could include a wide range of products depending on what is harvested in the study area, including corals, shells, seaweeds, aquarium fish, mangrove wood, or any non-food marine product that is harvested within a region. The ideal reference point would be derived from a functional relationship of the sustainability of the harvest for each product relative to the amount of product available in the ecosystem, informed by scientific studies. Without such information, assumptions and expert judgment will need to be made to set the reference point.
-
-*Practical Guidance*
-
-Whether you use the approach from the global assessment or are developing your own new model entirely, there are a few tasks that will remain the same because are key to the philosophy of this goal.
-
-The first is to identify **identify which products are in your study area.** For example, does your study area have corals, ornamental fishes, sponges? Does your area yield medicines from the sea, or other products that are not used for nutrition under **Food Provision**? Does your area harvest drinking water from the ocean through desalination plants? Is there a kelp or seaweed industry in your area? If there are multiple uses of the product, you must also consider what proportion of the product is used for food, and what proportion is used for other purposes. As another example, oil from marine mammals was considered but excluded from the global models, but if a region has a considerable amount of mammal oil harvest, they should include it in the calculation, keeping in mind that the sustainability of this type of harvest is likely to be low and should be reflected in the score.
-
-The second task is to think about **where these products are harvested and how much of them are harvested** in these areas through a period of time. You should find spatial representation of these products, which can be done by knowing where they are derived from. Do they come from certain habitats (in the case of coral) or animals (in the case of fish oil)? This information will help calculate the sustainability of the harvest of eah natural product.  harvest amounts and the spatial data are used to calculate **exposure** further on, and can also be used to set the **relative weighting** between the products. These spatial data may have already been used in other goals, or they may lead you to find useful data that can be used in other parts of the assessment (See **Best Approaches**).
-
-The second task is to think about **where these products are harvested and how much of them are harvested** in these areas through a period of time. You will have to assign geographic representation of these products, which can be done by knowing where they are derived from, ideally, or by assigning relative weightings. Do they come from certain habitats (in the case of coral) or animals (in the case of fish oil)? This information will help calculate the sustainability of the harvest of each natural product.  harvest amounts and the spatial data are used to calculate **exposure** further on, and can also be used to set the **relative weighting** between the products. These spatial data may have already been used in other goals, or they may lead you to find useful data that can be used in other parts of the assessment (See **Best Approaches**).
-
-The third component is to try to find the **sustainability** coefficients of the identified products. It is possible to measure sustainability in a number of different ways. Quantitative information can be used, or expert judgment, perhaps based on information or rough estimates of how sustainable the harvest method is, which is what was done in Global 2012. We based the sustainability component on the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).  In the absence of these, we borrowed general principles from fisheries models to provide rough estimates. If these are given values you could simplify the model, or they could be derived from two factors, **exposure and risk**. The **exposure** will come from the spatio-temporal harvest amount data already prepared, and the **risk** will come from the scientific literature or a developed indicator. For both of those cases, the values can be calculated in separate equations as part of your data preparation process.
-
-![Natural Products goal model from OHI Global Assessment 2013](https://docs.google.com/drawings/d/1JFU166u9J8-bYDxeEJPKoZjHOnUtOsz4GlsxlMgKsQo/pub?w=594&h=100)
-
-> Global assessments borrow principles from fisheries science to make estimates of product sustainability. In the Global 2013 assessment the sustainability component was derived from the historical maximum harvest recorded, the maximum harvesting density recorded, and risk status assessments by the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES).
-
-One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (**SMART** principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that.
-
-One very important thing to consider at this point is your **reference point for the relative harvest amount**. The relative harvest of your data is multiplied by the sustainability coefficient in the last step. Setting the reference point is a decision your team must make based on the available data and an inferred functional relationship between the harvest of the product and the amount in the system. Understanding the patterns in harvest can help inform how to set the reference point. For example, knowing whether harvesting effort was constant or whether product yields changed due to the market demand and not the availability. This information could help inform whether it is more appropriate to set the reference point as the peak yield of the time-series, or some percentage above or below, or some other approach that is both ambitious and realistic (**SMART** principles). The decision you make for the reference point should be based on the trend of the data; for instance, if your harvests have only increased over time, which may be indicative of an emerging economy, you will have to account for that. <!--Added explicit case where only increase in trend. I think having a graph of harvest yields as a time series, by product, would be a helpful visual.-->
-
-Example: The Global assessment used the following information in the Natural Products equations:
-
-product | relative tonnes (1) | weighting (2) | Exposure (3) | Risk (4)
-----------|---------------------|-------------|--------------|------
-coral | FAO |  FAO | coral habitat | all 1
-sponges | FAO | FAO | coral + rocky reef habitat | all 0
-ornamentals | FAO | FAO | coral + rocky reef habitat | 1 if blast/cyanide fishing, otherwise 0
-fish oil | FAO | FAO | fish score/100 | --
-shells | FAO | FAO | coral + rocky reef habitat | all 0
-seaweeds | FAO | FAO | rocky reef habitat | --
-
-#### Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Lessons Learned
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The products used were coral, ornamental fish, fish oil, seaweeds and marine plants, shells, and sponges. Data were from the UN FAO. Each category was weighted by the sustainability of harvest. For the status of each product, we assessed the most recent harvest (in metric tons) per region relative to a fraction of the maximum value (in 2008 USD) ever achieved in that region. | A score of 100 would indicate that a region’s natural product yield equals 65% of its historic maximum. |  Some products of interest had no data available.
-**Global 2013** | The goal model had the same approach as Global 2012, with updated data processing. | The reference point was the same as the Global 2012. | The study produced new gapfilling methods. This used estimated US dollar values of harvested products from the tonnage reported, or the tonnage harvested based on a product’s reported economic value.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | This goal was not included in this assessment due to lack of data availability. | N/A | There were too few data available on local-scale harvest, and in the past had occurred mostly in one Californian region. Including this goal in the assessment would have lowered the overall Index score.
-
-### Discovering Data and Developing Models for Livelihoods and Economies
-
-> The **Coastal Livelihoods and Economies** goal rewards productive coastal economies that avoid the loss of ocean-dependent livelihoods while maximizing livelihood quality.
-
-Some goals in your assessment will draw from economic information. Such sub-goals that you can approach together include the **Livelihoods** and **Economies**. If you have sub-goals for this theme, you will have to decide how to weight them in the goal score. If you find jobs, wages, and revenue data broadly, you will have to decide how to apportion it appropriately between **Livelihoods** and **Economies**.
-
-In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends. You also have the chance to factor in the sustainability of the jobs if you have that information.
-
-> **You will most likely simplify the given Global models.** This is because you will be looking at local economic scales, you likely will not need to adjust for currency differences, for example, as was done in the Global Assessment through such metrics as the Consumer Price Index and Purchasing Power Parity.
-
-In your regional assessment, there is the opportunity to study the behavior of economic trends in your area. You can examine time-series with greater detail and, for example, establish a different time-periods that reflect economic cycles in your area, or even process the data to eliminate the “noise” from fluctuations and capture more persistent trends.
-
-#### Where to start on **Livelihoods**?
-
-> The **Livelihoods** sub-goal describes livelihood quantity and quality.
-
-Ideally, this sub-goal would speak to the quality and quantity of marine jobs in an area. It would encompass all the marine sectors that supply jobs and wages to coastal communities, incorporating information on the sustainability of different sectors while also telling about the working conditions and job satisfaction. The jobs and revenue produced from marine-related industries directly benefit those who are employed, and also those who gain indirect value from related economic and social impacts of a stable coastal economy, such as community identity and tax revenue. You should capture the indirect as well as direct benefits from jobs, wages and revenue from coastal communities.
-
-*Practical Guidance*
-
-The first step of this goal is to **identify the marine-related sectors in your area**. There are jobs that are directly connected to the marine environment, such as shipping, fishing, longshore workers, but also some that are connected indirectly, such as suppliers and supporting industries. For example, the sectors for which data were found in the Global Assessment included tourism, commercial fishing, marine mammal watching, aquarium fishing, water and tidal energy jobs, mariculture, transportation and shipping, ports and harbors, ship and boatbuilding. Much of the data on wages came from the International Labour Organization.
-
-After you have identified which jobs are in your area, you will want to find some **measure of their direct and indirect benefits**. There are two broad kinds of data you should be looking for. The first are direct data that feed into the model equations. These are jobs and wages data for the direct benefits of jobs. This includes the number of jobs in each area, and the wages or income for such jobs. You could find such information from you local national statistical office, or economics bureaus, for example. The second are data that show the indirect benefits of these jobs to the local communities. This can be found directly or  indirectly through the use of economic multipliers. With multipliers you can attempt to estimate the revenue generated by jobs more broadly associated with marine sectors. It's encouraged to use economic multipliers from the literature.
-
-> You can multiply the number of fishermen by an economic multiplier to estimate larger economic effects. This is because the fishing industry provides indirect jobs beyond just the jobs of the fishermen, ranging from gear manufacturing companies to restaurants and movie theaters where the fishermen spend their income.
-
-Next you must think about how to use the data to **infer quality and quantity of jobs**. Do you have data going back in time? If so, can you check to see how wages per sector have changed over time? If all of the sectors change in the same way, for instance, they might show broader economic trends.
-
-#### Where to Start on **Economies**?
-
-*Ideal Approach*
-
-> The **Economies** sub-goal captures the economic value associated with marine industries using revenue from marine sectors.
-
-Ideally, revenue data would be collected for all coastal regions, and traced from sectors both directly and indirectly related to marine industries. When these data are not available it is possible to use revenue data at a larger scale and adapt them to a coastal area based on the population distribution. The reference point in this sub-goal will likely be set as a moving-window temporal approach.
-
-*Practical Guidance*
-
-This goal can draw from a number of data sources. In your area there may be a national economics bureau or statistics office that has sector-specific revenue data.  You need to mainly find revenue data for the marine sectors in your area, after you have already identified the sectors. A number of sectors were not included in the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others.
-
-These goals also ones that might lead you to find resilience metrics. There are many economic indices and some might be appropriate for your area. For example, the Global Competitiveness Index was used in the Global Assessment as a resilience for this goal because it means that marine jobs are more likely to be maintained if an area gets a good score on the Competitiveness Index.
-
-*Reference Points for the Economic Goals*
-
-|L&E component | Type of Reference | Reference Point Example
-|-----|-----|-----|
-| Number of jobs | Temporal | Current number of jobs minus number of jobs five years before |
-| Wages | Spatial | Highest observed value across reporting units |
-| Revenue | Temporal| Current revenue compared to past revenue |
-
-If you are following the Global approach, the reference points for the **Livelihoods** sub-goal should be set using temporal approach by comparing the current conditions to the past. They could also be done in a spatial comparison to compare regions to the highest observed incomes in your area. In the **Economies** sub-goal, revenue has a moving target temporal comparison; we highly recommend that this remains a temporal comparison so that a specific place is compared to its performance in the past and not to anywhere else.
-
-It is highly recommended that you keep the reference point for jobs as a temporal comparison, and only use a spatial comparison for wages. Comparing the number of jobs across different places, for instance, would require at the very least adjusting values by the size of the workforce in each location.
-
-One way to do the temporal comparison is to have a moving-window approach by comparing the value in the current year to values in previous years. If using a temporal approach, you must consider how far back in time to go. The Global Assessments used a five-year moving-window because it is intended to capture short-term changes in the trajectory. But then you must consider, if that amount of time would represent economic trends. If there is a not economic downturn, do you want to reward an increasing number of jobs, or reward maintaining the same number of jobs?
-
-#### Examples of the Approaches
-
-***Livelihoods***
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|---------------------------------------|
-**Global 2012** | This was measured as the number of direct and indirect jobs across sectors within a region plus the average purchasing power parity (PPP)-adjusted wages within each sector. Jobs were summed across sectors and wages were averages across sectors within each region. | The reference point for jobs was a temporal comparison using a moving-window value; the reference point for wages was the highest average annual wage observed across all reporting units. A score of 100 indicated that the number of marine jobs had not reduced relative to the number five years previously, and that the wages in the area were the highest anywhere. | The goal model assumed there was no-net-loss of jobs in order to account for broader economic trends. The economic multipliers were used for jobs and revenue but not wages.
-**Global 2013** | The model was similar to Global 2012, with some simplifications. | The reference point was the same as Global 2012. | The approach was the same as Global 2012 except for a few simplifications in multipliers, wage data, and jobs data. This was done because of data availability and in order to correct for national macroeconomic events across all sectors.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | This goal follows the same model as in Global 2012, using local data for the sectors of living resources, tourism and recreation, shipping and transport, marine related construction, and ship and boat building or repair. Data and sector-specific multipliers came from the National Ocean Economics Program (NOEP). | The reference point was the same as in Global 2012. | This study followed the Global 2012 approach but used local data. It recognized that sectors and economic activity within a region can be influenced by activities outside the region.
-
-***Economies***
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status used the total adjusted revenue generated directly and indirectly from each sector at current and reference time points. | In the economies sub-goal, revenue had a moving target temporal comparison. A score of 100 would indicate that revenue has not decreased compared to its value five years previous. The years used for GDP data were based on the average current year and average reference year across the sector data sources. | The study accounted for a region's GDP trend. The economic multipliers were used for jobs and revenue but not wages. The study assumed that sector-specific job and revenue multipliers were static and globally consistent, but distinct for developed versus developing regions.
-**Global 2013** | The model was same as Global 2012, with a few simplifications;  revenue data were adjusted by dividing by GDP per region, reported in 2013 USD. | The reference point was the same as Global 2012. | The approach was the same as Global 2012, with simplifications.
-**Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-**U.S. West Coast (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
-
-
-### Discovering data and developing models for Tourism and Recreation
-#### Where to start on **Tourism and Recreation**?
-
->The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in coastal areas.
-
-This goal will necessarily draw from different data sources than the Global Assessment, and so it is encourage to look at what other OHI+ and regional assessments have done. This goal demonstrates the flexibility of the OHI+ approach, so you are encouraged to think creatively.
-
-*Ideal Approach*
-
-Ideally, you would find information for how the ocean in your area is used and enjoyed by local residents and tourists alike, thereby capturing the full range of values and touristic and recreational activities. Models will vary because there are many ways to potentially measure the delivery of this goal. The type of reference point used will depend on the data available.
-
-*Practical Guidance*
-
-Your approach will be different than the Global Assessments. The **Tourism and Recreation** goal shows how flexible the OHI+ approach is to adapting models with improved data or approaches. It is best to study examples for this goal, such as the U.S. West Coast Assessment (2014) and Brazil Assessment (2014). For example, in the Brazil Assessment the density of hotel employees per state was used as a metric to determine how well touristed coastal areas were. This was better than using international travel information, as was used in the Global Assessment, because for a large country like Brazil, internal travel would not have been accounted for.
-
-There are potentially dozens of variables that affect the number of people that engage in tourism and recreation within a region and where they go. These include local and global economies, infrastructure to support the activities, promotion of particular locations, safety and security, and even political stability. If you can't find information on visitors, can you find information on access as a proxy for visitors? Do people have access to boating areas, or to surfing spots? Are the visitors there for both pleasure and business? For this goal you can use population data to distribute other kinds of data you may find.
-
-*Reference Points*
-
-The reference point used will depend upon the types of data incorporated into the model. Does your country have growth rate targets? Do you want to increase tourism, or instead ensure it does not decline?
-
-#### Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | This goal measured the number of international tourists arriving by airline to coastal regions, accounting for their average length of stay, and adjusting by population size. The data were found through international airline arrivals and the Tourism Competitiveness Index (TTCI) from the World Economic Forum. | This study used a spatial comparison reference point that compares each region to the best performing regions. To compare regions, arrivals were divided by the region’s population. | There were data limitations that were comprehensive data available on a global scale. This approach did not account for domestic tourism.
-**Global 2013** | The study used the direct employment in the tourism industry relative to total labor force and used the TTCI. | The reference point was the best scoring region across all years and rescaled all other regions across all years to that score. All regions above this score received a status score of 100. | A new model was developed using employment in the tourism sector as a proxy for the total number of people engaged in coastal tourism and recreation. It involved assumptions, but these data were of better quality and closer to what this goal is trying to capture than those used in Global 2012.
-**Brazil (2014)** | The model developed for Global 2012 was changed to use information on hotel employees for each coastal municipality. The status was measured for each coastal state as the density of hotel jobs in coastal areas. | The reference value used was the highest status value across all states over the time series, which was Rio de Janeiro in 2011. | The goal model assumes that the majority of coastal hotels are located in proximity to the shoreline, and that the number of hotel employees is directly proportional to the volume of tourists an area receives.
-**U.S. West Coast (2014)** | There were data available for changes in participation in 19 different marine and coastal specific recreational activities over time. These observations were used to produce a predictive model that was employed to estimate participation rates in recent years. | The reference point was temporal, compared to 2000. | The approach took advantage of  time-series data. Participation rates more closely matched the intent of this goal and were a more robust proxy than international tourist arrivals data, and the reference point was spatial instead of temporal.
-
-### Discovering Data and Developing Models for Artisanal Opportunities
-#### Where to start on **Artisanal Opportunities**?
-<!---6-17-15 This has been switched with NP--->
-*Ideal Approach*
-
-Ideally, this goal would include some measure of how easy or hard it is for fishermen to access ocean resources when they need them and a quantified evaluation of the sustainability of harvest of all nearshore stocks used by artisanal fishers. The type of reference point you use will depend on the data available.
-
-*Practical Guidance*
-
-You should include data that are distinct from the catch data used in other areas of **Food Provision**. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.
-
->For example, in the Baltic Sea region, **Artisanal Opportunities** is very closely connected to **Tourism and Recreation** since there are a lot of locals and tourists using the shared sea for enjoyment. You will have to decide how to apportion the data.
-
-Here, you will want to find proxy data for *access* in whatever way best suits your areas. This could be drawn from physical, economic, regulatory, or stock condition data as an indication of availability. A combination of all of these would be best to more accurately speak to the philosophy, but is is usually limited by data.s
-
-> For example, in the U.S. West Coast Assessment (2014), three metrics were used to define **Artisanal Opportunity** that you can use to study:
-
-| Type of Access | Data Used | Reference Point |
-|-----|------|-------|
-| Physical | Number of coastal access points per mile | 1 coastal access point per mile |
-| Economic | Change in gas price over time | No change in gas price |
-| Resource | Condition of fish stocks through NOAA Fish Stock Index | Perfect sustainability score on FSI |
-
-The **reference point for this goal** would likely be a metric of having full access to the resource. Keep in mind that the access is for people, and therefore a marine protected area may not count towards full access.
-
-ORPHAN
-global 2012
-The need for artisanal fishing could potentially be driven by any number of socio-economic factors, but the most wide-spread reason is the need for food either directly or through undocumented local trade which correlates well with poverty level. Data on how many people live below the poverty level are not available for many regions. Therefore, we used an analogous proxy that is more complete globally: per capita gross domestic product (pcGDP) adjusted by the purchasing power parity (PPP).
-
-The sustainability of artisanal fishing practices could be approximated by using the status of the species that are targeted by artisanal fishermen. Unfortunately data on harvest from artisanal fisheries are often unavailable so we were unable to include this term in the calculation of this goal; we include it here for conceptual completeness.
-
-A score of 100 means that a region is addressing and meeting the needs that people and communities have to fish artisanally by implementing government policies that permit or encourage them to do so, providing appropriate access to near-shore areas, and maintaining the species targeted in good health.
-
-. There are no data available on the number of people actively participating in artisanal fishing activities, nor a good approximation of what a reasonable reference condition would be that would allow to model ‘demand’ for artisanal fishing opportunities were these data available.
-
-#### Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------|
-**Global 2012** | The status was the demand as estimated by poverty levels. The data were measured by the gross domestic product (GDP) per capita, adjusted by the purchasing power parity as a proxy for undocumented trade. The supply was estimated using an indicator that ranked how well regions regulated and supported artisanal fishing, as part of a study by Mora *et al.* (2009). | The reference point was having supply greater than demand so that unmet demand is 0. This meant that all demand for artisanal fishing was allowed or achieved. | The trend was driven by the change over time in PPPpcGDP as a proxy for demand. This assessment did not incorporate a specific measure of the health of the targeted species or of sustainability of practices.
-**Global 2013** | The approach was the same was Global 2012 | The reference point was the same as Global 2012. | There were no data updates available to change the method.
-**Brazil (2014)** | The model was simplified to reflect the primary driver of opportunity as the availability of fish to be captured, as measured by the condition of stocks. This model was based solely on the sustainability index calculated using the exploitation status of species. All species were considered possible targets of artisanal fishing activities. | The reference point for artisanal fishing opportunities was an established target of 1.0. This meant all stocks are categorized as either Developing or Fully Exploited. | The analysis used national stock status information. It did not include poverty because of the high variation in the country. In addition, it assumes that access to fishing is largely open because permitting and regulations are not restricted.
-**U.S. West Coast (2014)** | This study developed a model using three key variables of physical and economic access to coastal areas, and access to biological resources. The physical accesses was shore-based fishing measured by percent of coastline within a mile coastal access points. Economic access was no increase in fuel price compared to income. Biological access was the health of the fish stocks.. | The target here is to maximize the amount of public access along the coast, therefore a perfect score results when each part of a region’s coastline has a coastal access point within 1 mile. The study calculated these scores using a raster map allocation. | This approach did not model demand or have species-specific information. It assumed that as long as there are no obstacles to pursuing artisanal fishing, the goal was fully achieved. These data better capture the nature of small-scale fisheries in the study area than the Global model.
-
-### Discovering Data and Developing Models for Clean Waters and Pollution
-#### Where to start on **Clean Waters**?
-
-*Ideal Approach*
-
-> The **Clean Waters** goal captures the degree to which local waters are unpolluted by natural and human-made causes.
-
-Ideally, data would be available and combined from different categories of marine pollution to best capture the factors that can cause waters to become unsuitable for recreation, enjoyment, and other purposes. The type of reference point used will depend on the data available, although a functional relationship would be best for setting limits to uses.
-
-*Practical Guidance*
-
-You should use more refined data than the Global Assessment data, because they rely heavily on proxy data for water quality. However, you should follow the same approach of the geometric mean to sum up the data layers that you find.
-
-First think about what kind of point and non-point sources of pollution are in your area. Are there known sources of trash and marine debris? Is there a population does not have access to sanitation? Does your wastewater get effectively treated before it is discharged into the environment? How does urban runoff contribute to your local coastal waters? You should try to use in-situ measurements of water quality. This could include monitoring data for pathogen levels, chemical contaminants, or even harmful algal blooms. For example, data on the frequency and location of anoxic conditions or eutrophication would be a direct indicator of quality. Indirect indicators are based on the proxies of nutrient input from agriculture or land-based sources. You could also use information on the watershed to calculate inputs into the ocean.
-
-If you don't have such information, or have partial information on one of these inputs, you could combine it with population data or model the data to estimate how much of an impact it has on coastal areas. Do you have population density information over time? You could then use this later to calculate the trend.
-
->In the 2012 Global Assessment, these data layers are scores spatially for 3 nm out from shore. This is because it concentrates the effect of the inputs to coastal regions and makes them visible to the shoreline. You can change this value in your spatial analysis.
-
-Where possible, you should think about categories of inputs that are not used in the Global Assessments. These include information on toxic algal blooms, oil spills, turbidity or sediment input, and floating trash, and think about how they can fit in to the model areas.
-
-| Input | Related data |
-|-----|----------|
-| Nutrients | Modeled plumes from land-based nitrogen inputs, fertilizer usage, algal blooms, eutrophication |
-| Pathogens | Access to sanitation, population density, wastewater treatment |
-| Chemicals | Organic pesticides, inorganic pesticides, toxic chemicals, chemicals from shipping, urban runoff |
-| Trash | Floating trash, plastic inputs, uncollected waste |
-| Other | Turbidity, altered sedimentation |
-
-*Keep the Model*
-
-In any case, it is recommended that your categories are combined in a geometric mean as in the Global approach. This guarantees that if any one of the components scores poorly, the higher scores from other components will note hide the effect.
-
-*Discovering pressures and resilience data*
-
-The **Clean Waters** goal is connected to the **Pressures** layers. You should approach the both of them at the same time where possible. (See the sections on **Pressures and Resilience** to understand more.)
-
->In the Global Assessment, marine debris from plastic pollution is one of the pressures layers. The same data are also used in the **Clean Waters** goal, but they are inverted such that a low value of debris is a high score in the goal. This is commonly done for these interchangeable data layers.
-
-## Examples of the Approach
-
-Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
----------------|------------------------------------------------|-----------------------------|-------------------|
-**Global 2012** | The status was calculated as the geometric mean of four components, eutrophication (nutrients), chemicals, pathogens and marine debris.  | This goal scores highest when the contamination level is zero. A score of 100 indicates the contamination level is zero. |  The lack of direct measurements meant that modeled and proxy data were used. The status of this goal was also used in the pressures layers.  
-**Global 2013** | The model was same as Global 2012, with a few simplifications;  revenue data were adjusted by dividing by GDP per region, reported in 2013 USD. | The reference point was the same as Global 2012. | The approach was the same as Global 2012, with simplifications.
-**Brazil (2014)** | The goal model and reference point were the same as Global 2012. Data used to model the components for eutrophication (nutrients) and chemicals was the same as in Global 2012, while pathogens and debris were localized to state level data.  | The reference point approach was the same as Global 2012.  | The study used better, or more local, data than the Global.
-**U.S. West Coast (2014)** | The model was the same as Global 2012, with regional instead of global data. | The reference point was set as the number of days when beaches were closed to bathers because pathogen counts were higher than state standards. | The study used more local data than the Global. |
 
 ## Pressures and resilience
 
@@ -1479,7 +861,7 @@ In theory, one would favor deciding the reference point based on as many observa
 
 >In this section, you will learn how to successfully download, install, and use the software required to conduct an assessment. You will create a GitHub account and install R, RStudio, git, and the Github desktop  app. OHI assessments are conducted through open-source platforms that allow you to make real-time changes with collaborators, and to track progress so that errors can be corrected and new insights can be shared in the future.
 
-![Before you begin using the Toolbox, you should download and install all necessary software.](https://docs.google.com/drawings/d/1hE5c9r5qUgAdrmzhI652zc_W1WxFVv_S1pX9h5Xyr2A/pub?w=992&h=859)
+<!---OM: this is an optional new figure; drafts are commented like so in each of the Tbx sections. Remove this comment if you want to make it public: ![Before you begin using the Toolbox, you should download and install all necessary software.](https://docs.google.com/drawings/d/1hE5c9r5qUgAdrmzhI652zc_W1WxFVv_S1pX9h5Xyr2A/pub?w=992&h=859)--->
 
 ## Overview
 
@@ -1781,7 +1163,7 @@ It is generally recommended that you construct a useful workflow with your team 
 
 ## Modifying and creating data layers
 
-![A figure showing key steps in the process of creating and preparing your data layers.](https://docs.google.com/drawings/d/1faQjNMY3Z_R2X2U53hQ9ChqhxlyEa3xRe8jz5FnXsbU/pub?w=960&h=859)
+<!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections. Remove this comment if you want to make it public: ![A figure showing key steps in the process of creating and preparing your data layers.](https://docs.google.com/drawings/d/1faQjNMY3Z_R2X2U53hQ9ChqhxlyEa3xRe8jz5FnXsbU/pub?w=960&h=859)--->
 
 Data layers are *.csv* files and are located in the `[assessment]/subcountry2014/layers` folder. Remember that all data layers provided in your repository are extracted from the global 2014 assessment.
 
@@ -1991,7 +1373,7 @@ If the general resilience categories are relevant to the habitat, the next step 
 
 ## Modifying goal models
 
-![A figure showing the key steps involved in modifying goal models in the Toolbox.](https://docs.google.com/drawings/d/1IAMz4YntLoC60IlJrJDoP-wFvtj5ECijDEgZbf-9DFM/pub?w=960&h=859)
+<!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections. Remove this comment if you want to make it public: ![A figure showing the key steps involved in modifying goal models in the Toolbox.](https://docs.google.com/drawings/d/1IAMz4YntLoC60IlJrJDoP-wFvtj5ECijDEgZbf-9DFM/pub?w=960&h=859)--->
 
 When an existing layer is updated with new data, the Toolbox will automatically incorporate it into the goal calculations after the updated filenames are registered in `layers.csv`. However, if a new layer has been added to the layers folder and registered in `layers.csv`, the Toolbox will not use it unless it is called in a goal model. To integrate any new data layers registered in `layers.csv` you will need to modify the goal model to incorporate the data. Furthermore, in many cases, it will make sense to modify goal models based on data availability and/or local context. For example, the models for regional analyses can often be simplified because of improved data.
 
