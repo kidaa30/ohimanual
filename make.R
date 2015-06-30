@@ -22,38 +22,38 @@ wd = '~/github/ohimanual/conduct_manual'
 
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
-  #'3_what_is_OHI+.md', # --> masked 6/16/15
-  '3_intro_assessment.md', # ready to push! 6/19
+  #'what_is_OHI+.md', # --> masked 6/16/15
+  'intro_assessment.md', # ready to push! 6/19
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
-  '3_overview_webapp.md', # updated 6/18/15
-  '3_gathering_appropriate_data.md', # newly updated (6/11/15)
-  '3_intro_goalbygoal.md', # new(6/11/15)
-  '3_practical_HAB_goals_CS_CP.md', # updated 6/11
-  '3_practical_species_BDD_ICO.md', # updated 6/11
-  '3_practical_SP.md', # updated 6/11
-  '3_practical_FP_NP.md', # updated 6/17
-  '3_practical_LE_TR.md', # updated 6/11
-  '3_practical_AO.md', # updated 6/17
-  '3_practical_CW.md', # updated 6/11
-  '3_pressures_resilience.md', # --> Updated with practical guidance
-  '3_intro_to_tbx.md', # updated 6/4, 6/12
-  '3_file_system.md', # updated 6/4, 6/12
-  '3_formatting_data.md',
-  '3_data_transformation.md', # in development, needs more content from @katlongo
-  '3_install_tbx.md', # updated 6/4, 6/12; in development;
-  '3_accessing_github_repos.md',
-  '3_github_architecture.md',
-  '3_use_tbx.md', # updated 6/10; in development with new images; 
-  '3_use_tbx_to_modify_data_layers.md',
-  '3_use_tbx_to_modify_pressures_resilience.md',
-  '3_use_tbx_to_modify_goal_models.md',
-  '3_use_tbx_to_modify_goal_models_practical.md', # --> Exists, add more
-  '3_use_tbx_to_remove_goal_models.md',
-  '3_use_tbx_to_modify_goals_categories.md',
-  '3_example_modifications_with_tbx.md',
-  '3_frequently_asked_questions.md', # --> To be updated
-  '3_toolbox_troubleshooting.md')
+  'overview_webapp.md', # ready to push! 6/30
+  'gathering_appropriate_data.md', # newly updated (6/11/15)
+  #'intro_goalbygoal.md', # new(6/11/15)
+  #'practical_HAB_goals_CS_CP.md', # updated 6/11
+  #'practical_species_BDD_ICO.md', # updated 6/11
+  #'practical_SP.md', # updated 6/11
+  #'practical_FP_NP.md', # updated 6/17
+  #'practical_LE_TR.md', # updated 6/11
+  #'practical_AO.md', # updated 6/17
+  #'practical_CW.md', # updated 6/11
+  'pressures_resilience.md', # --> Updated with practical guidance
+  'intro_to_tbx.md', # updated 6/4, 6/12
+  'file_system.md', # updated 6/4, 6/12
+  'formatting_data.md',
+  'data_transformation.md', # in development, needs more content from @katlongo
+  'install_tbx.md', # updated 6/4, 6/12; in development;
+  'accessing_github_repos.md',
+  'github_architecture.md',
+  'use_tbx.md', # updated 6/10; in development with new images; 
+  'use_tbx_to_modify_data_layers.md',
+  'use_tbx_to_modify_pressures_resilience.md',
+  'use_tbx_to_modify_goal_models.md',
+  'use_tbx_to_modify_goal_models_practical.md', # --> Exists, add more
+  'use_tbx_to_remove_goal_models.md',
+  'use_tbx_to_modify_goals_categories.md',
+  'example_modifications_with_tbx.md',
+  'frequently_asked_questions.md', # --> To be updated
+  'toolbox_troubleshooting.md')
 out_md = 'ohi-manual.md'
 
 # Version below, April 15, 2015:
@@ -83,40 +83,21 @@ out_md = 'ohi-manual.md'
 #   'toolbox_troubleshooting.md')
 # out_md = 'ohi-manual.md'
 
-# cleanup original ----
+# cleanup functions within files and for filenames ----
 
 ## within a file, rename some .md files
-for (f in list.files(getwd(), glob2rx('*.md'))){ # f = list.files(getwd(), glob2rx('*.md'))[1]
-
-  s = readLines(f, warn=F, encoding='UTF-8')
-  s = str_replace_all(s, fixed('regional_assessment_intro.md'), fixed('intro_regional_assessment.md'))
-  writeLines(s, f)
-}
+# for (f in list.files(getwd(), glob2rx('*.md'))){ # f = list.files(getwd(), glob2rx('*.md'))[1]
+# 
+#   s = readLines(f, warn=F, encoding='UTF-8')
+#   s = str_replace_all(s, fixed('regional_assessment_intro.md'), fixed('intro_regional_assessment.md'))
+#   writeLines(s, f)
+# }
 
 # rename filenames
-setwd(wd)
-for (f in list.files(getwd(), glob2rx('3_*'))){ #f = list.files(getwd(), glob2rx('3_*'))[1]
-  file.rename(f, str_replace(f, '3_',''))
-}
-
-# update fig paths in *.md
-setwd(wd)
-for (f in list.files(getwd(), glob2rx('*.md'))){
-
-  s = readLines(f, warn=F, encoding='UTF-8')
-  s = str_replace_all(s, fixed('](zfig_'), fixed('](./fig/'))
-  writeLines(s, f)
-
-}
-
-# move contents of /toolbox_manual/ folder out
-for (f in list.files(getwd(), glob2rx('*.md'))){
-
-  s = readLines(f, warn=F, encoding='UTF-8')
-  s = str_replace_all(s, fixed('/toolbox_manual/'), fixed('/'))
-  writeLines(s, f)
-
-}
+# setwd(wd)
+# for (f in list.files(getwd(), glob2rx('*.md'))){ #f = list.files(getwd(), glob2rx('*.md'))[1]
+#   file.rename(f, str_replace(f, '3_',''))
+# }
 
 
 # helper functions ----
