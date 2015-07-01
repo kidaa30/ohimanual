@@ -27,6 +27,7 @@ in_md = c(
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   'overview_webapp.md', # ready to push! 6/30
+  'defining_spatial.md', # ready to push! 7/01
   'gathering_appropriate_data.md', # newly updated (6/11/15)
   #'intro_goalbygoal.md', # new(6/11/15)
   #'practical_HAB_goals_CS_CP.md', # updated 6/11
