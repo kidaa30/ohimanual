@@ -48,7 +48,7 @@ in_md = c(
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
-  'use_tbx_to_modify_goal_models_practical.md', # --> Exists, add more
+  # 'use_tbx_to_modify_goal_models_practical.md', # --> Exists, add more
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',

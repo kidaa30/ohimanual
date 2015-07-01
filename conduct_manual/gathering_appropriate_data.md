@@ -1,16 +1,4 @@
-# Defining Spatial Regions Within the Assessment Area
-
-It is important to think about which spatial regions to use when conducing your assessment. You should consider some of the questions from the planning phase before you begin to involve GIS or other spatial analysts. If managers or policy makers are going to be involved, at what scale do they work? Where are the political and administrative boundaries in your area? How will political boundaries affect your ability to gather and discover data and indicators? Will the regions change in the future? These questions are important for the future relevance of the assessment.
-
-There are several spatial considerations you should have prepared before moving forward with the Toolbox later the process. One is your map definitions for use in the assessment itself and for display in the WebApps. You must check the definitions of your map regions and boundaries even when they have been pre-prepared for you the default OHI Toolbox setup. You should have your spatial analyst prepare the files that best suit your needs. If political boundaries are not appropriate in all areas, there might be other boundaries like biomes or biogeographic considerations you can use. These may be useful when there are disputed territories or undefined border regions in your area.
-
-> Note that the OHI+ tools do not intend to take a stance on disputed territories. The boundaries defer to the judgment of the original map data providers. It is up to you to decide on the quality of the maps.
-
-You may need to prepare spatial data files for your assessment. Not all goals will require spatial data. When considering it, you should be conscientious of how it is presented: is it in square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data?
-
-Once you have maps, you may also need to define buffer zones. Buffers are distances from shore, both inland and offshore, that can be used in the OHI Toolbox calculations to assess impacts more accurately. For example, mangrove forests were assessed at 1km inland and 1km offshore in the latest Global Assessment in order to approximate aspects of their importance for carbon storage. Buffer zones could also be defined by visual distance. The main thing to do is remember that you are trying to capture ocean health, so going too far inland may no longer relate to ocean health. Perhaps fixed buffer distance might not be appropriate, and it might better to follow the actual path of a habitat extent; this will be up to your team. You will also consider these questions further when you are changing and developing your goal models.
-
-## Discovering and Gathering Appropriate Data and Indicators
+# Discovering and Gathering Appropriate Data and Indicators
 
 The OHI+ approach spans disciplines and integrates diverse data to give a comprehensive assessment of ocean health. A hallmark of the OHI is that it uses freely-available data and indicators to create the models that capture the philosophies of individual goals. The quality of the data matter because the accuracy of Index scores is a reflection of input data quality and the amount of information available for the study area. **Including the best available data and indicators is very important throughout this process.**
 
