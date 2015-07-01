@@ -1,13 +1,16 @@
 # Defining spatial boundaries
 
-Defining spatial boundaries for the study area and all regions is a very important step in the assessment process. Boundary definitions should match the purpose of the assessment and be informed by the scale at which information is available. **It is possible to redefine the spatial boundaries for your study area and regions.** The boundaries displayed in your WebApp** are provided by default using subcountry region definitions from Global Administrative Areas (GADM: www.gadm.org).
+Defining spatial boundaries for the reporting regions (study area and regions) is a very important step in the assessment process. It is important because all data, analyses, and results will be at this spatial scale. Boundary definitions should match the purpose of the assessment and be informed by the scale at which information is available.
 
-Having regions appropriately defined is important for your assessment because tabular data are often repo
-Tabular and spatial data, clipping.
+**It is possible to redefine the spatial boundaries for your study area and regions.** The boundaries displayed in your WebApp** are provided by default using subcountry region definitions from Global Administrative Areas (GADM: www.gadm.org).
+
+> Note that the OHI does not take a stance on disputed territories. The boundaries are defined by the original map data providers.
 
 <!---BB's clipping fig--->
 
-<!---fig of clipping spatial data--->
+<!---fig of clipping spatial data,
+Having regions appropriately defined is important for your assessment because tabular data are often repo
+Tabular and spatial data, clipping.--->
 
 There is no limit to the number of regions that can exist within the study area; the size and number are only constrained by data availability and the utility of having scores calculated for a particular region. Although it is possible to assess only one region in the study area (i.e. the region is the assessment area, this might not be ideal because it eliminates the possibility of making comparisons or identifying geographic priorities within the study area.
 
@@ -51,31 +54,6 @@ So I am guessing that is all that is really needed.--->
 
 ### Buffers
 
-When drawing your regions, it is also a good idea to create inland and offshore buffers that will be used to extract data in your assessment. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that 'coastal' had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.  
+When drawing your regions, it is also a good idea to create inland and offshore buffers that will be used to extract data in your assessment. Buffers are not necessary for display in the WebApp but they will be important for later layer preparation. For example, the global assessment used coastal population information, and raster data were available for entire countries. This meant that 'coastal' had to be defined: for global assessments it was defined as 25 miles from the coast. To extract just the coastal population from the population raster file, we created a 25 mile inland buffer for each reporting region. But to extract mangrove data for each region from raster files, global assessments used 1km inland and 1km offshore as the buffer.  
 
-At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1 km inland, 25 miles inland, 1km offshore, 3 nm offshore.
-
-
-<!---these aren't necessary for the WebApp but they will be important for later analyses--->
-
-## Steps to change spatial boundaries
-
-
-
-
-
-
-But if not, you'll have to do the following steps with the help of a spatial analyst.
-
-ArcGIS, QGIS, R.
-
-
-One of the first steps of performing a regional Ocean Health Index analysis is determining the boundaries for the reporting regions.  This is important because all data, analyses, and results will be at this spatial scale.
-
-It is important to think about which spatial regions to use when conducing your assessment. You should consider some of the questions from the planning phase before you begin to involve GIS or other spatial analysts. If managers or policy makers are going to be involved, at what scale do they work? Where are the political and administrative boundaries in your area? How will political boundaries affect your ability to gather and discover data and indicators? Will the regions change in the future? These questions are important for the future relevance of the assessment.
-
-There are several spatial considerations you should have prepared before moving forward with the Toolbox later the process. One is your map definitions for use in the assessment itself and for display in the WebApps. You must check the definitions of your map regions and boundaries even when they have been pre-prepared for you the default OHI Toolbox setup. You should have your spatial analyst prepare the files that best suit your needs. If political boundaries are not appropriate in all areas, there might be other boundaries like biomes or biogeographic considerations you can use. These may be useful when there are disputed territories or undefined border regions in your area.
-
-> Note that the OHI+ tools do not intend to take a stance on disputed territories. The boundaries defer to the judgment of the original map data providers. It is up to you to decide on the quality of the maps.
-
-You may need to prepare spatial data files for your assessment. Not all goals will require spatial data. When considering it, you should be conscientious of how it is presented: is it in square kilometers, or by a kind of region such as an EEZ or other identifier? Do you have better local data than global satellite or modeled data?
+At this point, you may not know which buffers you will need, as they depend on the data available, your goal models and definitions. Some buffers used in the global assessments were 1km inland, 25miles inland, 1km offshore, 3nm offshore.
