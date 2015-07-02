@@ -383,6 +383,7 @@ writing code with others. In that case, it’s a good idea to agree on a common
 style up-front. Since no style is strictly better than another, working with
 others may mean that you’ll need to sacrifice some preferred aspects of your style.
 
+
 The Ocean Health Index is founded upon principles of open-source science, so our code should be not just available, but legible to others.  For OHI+, we expect people to modify code to implement new goal models, and we may need to provide support in developing and debugging their code.
 
 Certain coding techniques are more efficient than others (e.g. in R, looping across elements in a vector is much slower than operating on the entire vector at once), but rarely does OHI code push any performance envelopes.  Much more of our time is spent writing code, translating old code into new models, and debugging.  Transparent, readable code will save more time in the future than a perfectly-optimized but opaque algorithm.  
