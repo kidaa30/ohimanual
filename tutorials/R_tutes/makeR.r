@@ -6,7 +6,7 @@ library(rmarkdown)
 library(stringr)
 
 # set variables ----
-title = 'OHI and R Tutorials'
+title = 'R Tutorials for OHI'
 wd = '~/github/ohimanual/tutorials/R_tutes'
 in_md = c(
   'R_tutes_intro.md',
@@ -23,7 +23,7 @@ cat_md = function(
 
   if (file.exists(out_md)) unlink(out_md)
 
-  cat('---\n', 'title: ', title, '\n---\n\n', sep='', file=out_md, append=T)
+  # cat('---\n', 'title: ', title, '\n---\n\n', sep='', file=out_md, append=T)
 
   for (md in files_md){
     cat(paste(c(readLines(md),'',''), collapse='\n'), file=out_md, append=T)

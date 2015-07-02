@@ -1,8 +1,4 @@
----
-title: OHI and R Tutorials
----
-
-# Introduction
+# R Tutorials for OHI
 
 Ocean Health Index R code uses several packages and best practices to faciliate
 understanding and collaboration. These approaches are presented here, along with

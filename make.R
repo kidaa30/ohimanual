@@ -54,6 +54,7 @@ in_md = c(
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
   'frequently_asked_questions.md', # --> To be updated
+  'R_tutes_all.md', # added 7/02
   'toolbox_troubleshooting.md')
 out_md = 'ohi-manual.md'
 
