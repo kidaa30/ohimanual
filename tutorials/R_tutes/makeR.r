@@ -34,3 +34,8 @@ cat_md = function(
 setwd(wd)
 cat_md(in_md, out_md)               # use own md ordered file listing , output to out_md
 pfx = tools::file_path_sans_ext(out_md)
+
+# move copy to ohimanual/conduct_manual 
+stopifnot(file.copy(file.path(wd, out_md), 
+                    file.path('~/github/ohimanual/conduct_manual', out_md), overwrite=T))    
+
