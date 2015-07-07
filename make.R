@@ -53,6 +53,7 @@ in_md = c(
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
+  # 'update_webapp.md', # to be completed and added
   'frequently_asked_questions.md', # --> To be updated
   'R_tutes_all.md', # ready to push 7/02
   'toolbox_troubleshooting.md')
