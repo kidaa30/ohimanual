@@ -1,4 +1,4 @@
-# Coding style 
+### Coding style 
 
 > Code unto others as you would have them code unto you.
 
@@ -26,7 +26,7 @@ Check out Hadley Wickham's [style guide: ](http://r-pkgs.had.co.nz/style.html)
 * How many of these suggestions are second-nature to you? how many are you guilty of breaking?
 * Note that these are guidelines, not rules; non-stylish code can still work.  
 
-## Best practices for coding in OHI assessments:
+#### Best practices for coding in OHI assessments:
 
 * use a consistent format for variable names, filenames, function names, etc.
     * `lower_case_with_underscores` (preferred) or `camelCase` (ok I suppose)
@@ -53,7 +53,7 @@ Check out Hadley Wickham's [style guide: ](http://r-pkgs.had.co.nz/style.html)
 * if you are working on an older script, spend a few extra minutes to update it according to these best practices
     * technical debt - you can do it quickly or you can do it right.  Time saved now may cost you or someone else more time later.
 
-## Writing functions
+#### Writing functions
 http://nicercode.github.io/guides/functions/
 Why write functions?
 * name a chunk of code for easier reading
@@ -64,6 +64,5 @@ What makes a good function:
 * Performs a single operation
 * Uses intuitive names
 
-## Directories and files
-    * Store files in a folder called 'github' in your home directory; access it with `~/github` so that 
-    different users with different operating systems can work smoothly with your files
+#### Directories and files
+    * Store files in a folder called 'github' in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files

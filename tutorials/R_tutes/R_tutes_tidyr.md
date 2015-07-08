@@ -1,4 +1,4 @@
-#`tidyr` functions
+### `tidyr` functions
 
 'Tidy' up your messy data using `tidyr` to make it easier to work with.  The
 'tidy tools' functions in the `dplyr` package work best with tidy data.
@@ -36,8 +36,10 @@ through `dplyr` and `tidyr` basics
 * [R data wrangling cheat sheet:](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 A quick reference guide to `tidyr` and `dplyr` functions
 
-## tidyr::gather()
-### Description
+#### tidyr::gather()
+
+**Description**  
+
 `gather()` takes data organized in rows and collapses them into a column format (a
 key column and a value column), duplicating all other columns as needed. Use
 `gather()` when your data is organized in "wide" format, in which some of your
@@ -48,7 +50,8 @@ more convenient for examining data in a table format.
 
 Note: `gather()` essentially replaces `melt()` in `plyr` package.
 
-### Example
+**Example**  
+
 The sample data set (see intro) contains harvest data of a number of marine
 commodities, separated by country, commodity, and year.  In its original form,
 the harvest data (in tonnes) is spread across five different harvest years.

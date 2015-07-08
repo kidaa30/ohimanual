@@ -1,4 +1,4 @@
-# R Tutorials for OHI
+## R Tutorials for OHI
 
 Ocean Health Index R code uses several packages and best practices to faciliate
 understanding and collaboration. These approaches are presented here, along with
@@ -9,7 +9,7 @@ introduces you to typical coding practices commonly seen in OHI scripts and func
 
 Also see the accompanying R script to test examples using these packages. 
 
-## R Very Basics:
+### R Very Basics:
 * Have you already downloaded and installed [R](http://www.r-project.org/)?
 * Have you already downloaded and installed [RStudio](http://www.rstudio.com/)?
 * Have you walked through the excellent interactive tutorials

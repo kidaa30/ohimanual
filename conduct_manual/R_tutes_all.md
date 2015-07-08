@@ -1,4 +1,4 @@
-# R Tutorials for OHI
+## R Tutorials for OHI
 
 Ocean Health Index R code uses several packages and best practices to faciliate
 understanding and collaboration. These approaches are presented here, along with
@@ -9,13 +9,13 @@ introduces you to typical coding practices commonly seen in OHI scripts and func
 
 Also see the accompanying R script to test examples using these packages. 
 
-## R Very Basics:
+### R Very Basics:
 * Have you already downloaded and installed [R](http://www.r-project.org/)?
 * Have you already downloaded and installed [RStudio](http://www.rstudio.com/)?
 * Have you walked through the excellent interactive tutorials
 from [swirl](http://swirlstats.com/students.html)?
 
-#`tidyr` functions
+### `tidyr` functions
 
 'Tidy' up your messy data using `tidyr` to make it easier to work with.  The
 'tidy tools' functions in the `dplyr` package work best with tidy data.
@@ -53,8 +53,10 @@ through `dplyr` and `tidyr` basics
 * [R data wrangling cheat sheet:](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 A quick reference guide to `tidyr` and `dplyr` functions
 
-## tidyr::gather()
-### Description
+#### tidyr::gather()
+
+**Description**  
+
 `gather()` takes data organized in rows and collapses them into a column format (a
 key column and a value column), duplicating all other columns as needed. Use
 `gather()` when your data is organized in "wide" format, in which some of your
@@ -65,7 +67,8 @@ more convenient for examining data in a table format.
 
 Note: `gather()` essentially replaces `melt()` in `plyr` package.
 
-### Example
+**Example**  
+
 The sample data set (see intro) contains harvest data of a number of marine
 commodities, separated by country, commodity, and year.  In its original form,
 the harvest data (in tonnes) is spread across five different harvest years.
@@ -91,7 +94,7 @@ data_long <- data_wide %>% gather(year, tonnes, -Country, -Commodity, -Trade)
 
 ![wide data to long data using gather() and spread()](https://docs.google.com/drawings/d/1VaZdLWK0NwAkov4sEytZLRpOUAndb3_NZOA4-n1HNIo/pub?w=948&h=499)
 
-# `dplyr` functions
+### `dplyr` functions
 
 The `dplyr` package includes a number of functions to easily, quickly, and
 intuitively wrangle your data. Here is a quick introduction with examples from data used in the Ocean Health Index.
@@ -126,8 +129,10 @@ Other `dplyr` references:
 * [swirl tutorial package:](http://swirlstats.com/students.html) A tutorial package built directly into R.  Section 2: 'Getting and Cleaning Data' runs you through `dplyr` and `tidyr` basics
 * [R data wrangling cheat sheet:](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) a quick reference guide to `tidyr` and `dplyr` functions
 
-## %>% operator
-### Description
+#### %>% operator
+
+**Description**  
+
 The `%>%` operator allows you to 'pipe' or 'chain' a number of function calls,
 in which the output dataframe of one function is fed directly into the next
 function as the input dataframe.
@@ -141,7 +146,8 @@ avoid creating temporary variables in the middle to capture the output. This
 works because the output from every `dplyr` function is a data frame and the
 first argument of every `dplyr` function is a data frame.
 
-### Usage
+**Usage**  
+
 ```
 data_out <- f(data_in, args)
   # standard function call
@@ -159,7 +165,8 @@ data_out <- data_in %>%
   # see how pretty it looks?
 ```
 
-### Example
+**Example**  
+
 ```
 ### Bad!  Nested functions: read from inside out - hard to decipher
   h_recent_totals1 <- arrange(mutate(filter(group_by(harvest, country, commodity),
@@ -182,8 +189,9 @@ data_out <- data_in %>%
     arrange(country, commodity)
 ```
 
-## dplyr::select()
-### Description
+#### dplyr::select()
+
+**Description**  
 
 `select()` allows you to choose specific columns/variables from your dataset,
 and drop all others.  Alternately, you can select specific variables to drop,
@@ -191,7 +199,7 @@ leaving others in place.  `rename()` is a relative of `select()` that allows
 you to rename variables, while leaving all variables in place.
 
 
-### Example
+**Examples**  
 
 The sample dataset  includes the annual harvest, in tonnes, of a number of
 commodities exported by two countries.  Type of trade provides no information
@@ -229,14 +237,17 @@ The `harvest` data is fed into `select()`, and the output is fed into
 variable `harvest1`.
 ![using select() and rename() to organize variables in a data set](https://docs.google.com/drawings/d/14uc-1Pgaosfh5kPllJRf_sRXbiGWL4RcBqASqAG5f2E/pub?w=898&h=286)
 
-## dplyr::filter()
-### Description
+#### dplyr::filter()
+
+**Description**  
+
 `filter()` allows you to select observations (rows) that match search criteria,
 using values in specified variables (columns).  Drops all observations that do
 not match the criteria.
 * Use logical operators & and | to filter on multiple criteria simultaneously
 
-### Example
+**Example**  
+
 ```
 harvest_vnm  <- harvest %>%
   filter(country == 'Vietnam')
@@ -247,13 +258,16 @@ h_vnm_recent <- harvest %>%
   ### filter with multiple criteria: selects 'Vietnam' data from 2009 or later.
 ```
 
-## dplyr::arrange()
-### Description
+#### dplyr::arrange()
+
+**Description**  
+
 `arrange()` sorts observations (rows) based upon a specified variable or list of
 variables.  Does not actually change the data in any way, only the appearance.
 Useful for inspecting your data after each processing step.
 
-### Example
+**Example**  
+
 ```
 harvest_sorted <- harvest %>%
   arrange(country, commodity, year)
@@ -264,14 +278,17 @@ harvest_sorted <- harvest %>%
   ### Sorts harvest values by most recent year (descending order)
 ```
 
-## dplyr::mutate()
-### Description
+#### dplyr::mutate()
+
+**Description**  
+
 `mutate()` is a powerful and useful tool for processing data.  You can add new
 variables or modify existing variables, using all variety of functions to
 perform operations on the dataset. `mutate()` works well with `group_by()` to
 perform calculations and analysis at a group level rather than dataset level.
 
-### Example
+**Example**  
+
 From the sample data set (see figure below), we would like to:
 
 * Remove the 'X' from the 'year' values.
@@ -306,8 +323,9 @@ can convert the character strings to numeric where applicable. Similar for
 `as.integer(...)`
 
 
-## dplyr::summarize()
-### Description
+#### dplyr::summarize() ( or summarise() )
+
+**Description**  
 
 `summarize()` combines multiple values of a variable into a single summary
 value. `summarize()` works well with `group_by()` - for grouped data, each
@@ -319,7 +337,8 @@ maintain individual observations, consider creating a summary variable using
 `mutate()` instead.
 * `NA` values can be problematic - use `na.rm=TRUE` or similar methods.
 
-### Example
+**Example**  
+
 To determine the total harvest of each country, for each commodity:
 ```
 h_summary <- harvest %>%
@@ -329,8 +348,9 @@ h_summary <- harvest %>%
 ```
 
 
-## dplyr::group_by()
-### Description
+#### dplyr::group_by()
+
+**Description**  
 
 `group_by()` allows you to easily group a dataset by one or more variables/columns.  
 By itself, it does nothing to change your data.  But once your dataset has
@@ -348,7 +368,8 @@ first, then sorts within each group.
 practice to use the `ungroup()` function to remove the groupings, to avoid
 unintended consequences due to forgotten `group_by()` calls.
 
-### Example
+**Example**  
+
 If you want to find the total tonnage harvested for each commodity for each
 country, you would want to group by country and by commodity, and then perform
 a `sum()` function on the grouped data.  Two options presented here:
@@ -371,7 +392,7 @@ h_tot_mut <- harvest %>%
 ```
 ![group_by to find group-level information](https://docs.google.com/drawings/d/1enHrgXWhpHz3FsURncMI5UB8LKoXLvXFPAcU25pDOSc/pub?w=745&h=285)
 
-# Coding style 
+### Coding style 
 
 > Code unto others as you would have them code unto you.
 
@@ -382,7 +403,6 @@ author, it’ll usually have multiple readers. This is especially true when you�
 writing code with others. In that case, it’s a good idea to agree on a common
 style up-front. Since no style is strictly better than another, working with
 others may mean that you’ll need to sacrifice some preferred aspects of your style.
-
 
 The Ocean Health Index is founded upon principles of open-source science, so our code should be not just available, but legible to others.  For OHI+, we expect people to modify code to implement new goal models, and we may need to provide support in developing and debugging their code.
 
@@ -400,7 +420,7 @@ Check out Hadley Wickham's [style guide: ](http://r-pkgs.had.co.nz/style.html)
 * How many of these suggestions are second-nature to you? how many are you guilty of breaking?
 * Note that these are guidelines, not rules; non-stylish code can still work.  
 
-## Best practices for coding in OHI assessments:
+#### Best practices for coding in OHI assessments:
 
 * use a consistent format for variable names, filenames, function names, etc.
     * `lower_case_with_underscores` (preferred) or `camelCase` (ok I suppose)
@@ -427,7 +447,7 @@ Check out Hadley Wickham's [style guide: ](http://r-pkgs.had.co.nz/style.html)
 * if you are working on an older script, spend a few extra minutes to update it according to these best practices
     * technical debt - you can do it quickly or you can do it right.  Time saved now may cost you or someone else more time later.
 
-## Writing functions
+#### Writing functions
 http://nicercode.github.io/guides/functions/
 Why write functions?
 * name a chunk of code for easier reading
@@ -438,7 +458,6 @@ What makes a good function:
 * Performs a single operation
 * Uses intuitive names
 
-## Directories and files
-    * Store files in a folder called 'github' in your home directory; access it with `~/github` so that 
-    different users with different operating systems can work smoothly with your files
+#### Directories and files
+    * Store files in a folder called 'github' in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files
 
