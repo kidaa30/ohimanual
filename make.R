@@ -18,17 +18,15 @@ stopifnot(file.copy('~/github/ohimanual/conduct_manual/README.md',
 title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/conduct_manual'
 
-# Version below, June 12, 2015:
-
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
   #'what_is_OHI+.md', # --> masked 6/16/15
-  'intro_assessment.md', # ready to push 6/19
+  'intro_assessment.md', # ready to push 7/06
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   'intro_webapp.md', # ready to push 6/30
   'defining_spatial.md', # ready to push 7/01 --- but can be updated with new figs
-  'gathering_appropriate_data.md', # JSL to review
+  'assemble_inputs.md', # ready to push 7/08
   #'intro_goalbygoal.md', # new(6/11/15)
   #'practical_HAB_goals_CS_CP.md', # updated 6/11
   #'practical_species_BDD_ICO.md', # updated 6/11
@@ -37,8 +35,8 @@ in_md = c(
   #'practical_LE_TR.md', # updated 6/11
   #'practical_AO.md', # updated 6/17
   #'practical_CW.md', # updated 6/11
-  'pressures_resilience.md', # --> JSL to review
-  'intro_to_tbx.md', # JSL to review
+  #'pressures_resilience.md', # --> JSL to review
+  'intro_to_tbx.md', # ready to push 7/08. Could add more, see notes. 
   'file_system.md', # JSL to review
   'formatting_data.md',
   #'data_transformation.md', # JSL to review
@@ -53,10 +51,10 @@ in_md = c(
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
-  # 'update_webapp.md', # to be completed and added
-  'frequently_asked_questions.md', # --> To be updated
+  'update_webapp.md', # ready to push 7/08
   'R_tutes_all.md', # ready to push 7/02
-  'toolbox_troubleshooting.md')
+  'toolbox_troubleshooting.md',
+  'frequently_asked_questions.md') # --> To be updated
 out_md = 'ohi-manual.md'
 
 # cleanup functions within files and for filenames ----
@@ -137,7 +135,7 @@ render(
 render(
   out_md,
   pdf_document(
-    toc = T, toc_depth = 4, number_sections = T,
+    toc = T, toc_depth = 3, number_sections = T,
     fig_width = 6.5, fig_height = 4.5, fig_crop = TRUE,
     fig_caption = T, highlight = "default", template = "default",
     keep_tex = F, latex_engine = "pdflatex",
@@ -148,5 +146,5 @@ render(
 
 # message regarding redo_website ----
 
-print(sprintf('ohi-science.org/manual was updated: %s', redo_website))
-if(redo_website ==F) print("to update ohi-science.org/manual, change the 'redo_website' variable from FALSE to TRUE")
+cat(sprintf('ohi-science.org/manual was updated: %s', redo_website))
+if(redo_website ==F) cat("to update ohi-science.org/manual, change the 'redo_website' variable from FALSE to TRUE")
