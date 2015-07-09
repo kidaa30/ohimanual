@@ -11,12 +11,12 @@ redo_website = F # T if push to ohi-science.org/manual; F if do not push. Displa
 
 
 # move copy of README.md 
-stopifnot(file.copy('~/github/ohimanual/conduct_manual/README.md', 
+stopifnot(file.copy('~/github/ohimanual/3_conduct_manual/README.md', 
                     '~/github/ohimanual/README.md', overwrite=T))    
 
 # set variables ----
 title = 'The Ocean Health Index Assessment Manual'
-wd = '~/github/ohimanual/conduct_manual'
+wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
