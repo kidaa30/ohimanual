@@ -21,40 +21,40 @@ wd = '~/github/ohimanual/conduct_manual'
 in_md = c(
   # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
   #'what_is_OHI+.md', # --> masked 6/16/15
-  'intro_assessment.md', # ready to push 7/06
+  'intro_assessment.md',                             # reviewed for 07/09 push
   # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
   #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
-  'intro_webapp.md', # ready to push 6/30
-  'defining_spatial.md', # ready to push 7/01 --- but can be updated with new figs
-  'assemble_inputs.md', # ready to push 7/08
-  #'intro_goalbygoal.md', # new(6/11/15)
-  #'practical_HAB_goals_CS_CP.md', # updated 6/11
-  #'practical_species_BDD_ICO.md', # updated 6/11
-  #'practical_SP.md', # updated 6/11
-  #'practical_FP_NP.md', # updated 6/17
-  #'practical_LE_TR.md', # updated 6/11
-  #'practical_AO.md', # updated 6/17
-  #'practical_CW.md', # updated 6/11
-  #'pressures_resilience.md', # --> JSL to review
-  'intro_to_tbx.md', # ready to push 7/08. Could add more, see notes. 
-  'file_system.md', # JSL to review
+  'intro_webapp.md',                                 # reviewed for 07/09 push
+  'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
+  'assemble_inputs.md',                              # reviewed for 07/09 push
+  #'intro_goalbygoal.md',                            # TODO: review and update
+  #'practical_HAB_goals_CS_CP.md',                   # TODO: review and update
+  #'practical_species_BDD_ICO.md',                   # TODO: review and update
+  #'practical_SP.md',                                # TODO: review and update
+  #'practical_FP_NP.md',                             # TODO: review and update
+  #'practical_LE_TR.md',                             # TODO: review and update
+  #'practical_AO.md',                                # TODO: review and update
+  #'practical_CW.md',                                # TODO: review and update
+  #'pressures_resilience.md',                        # TODO: review and update JSL 
+  'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
+  'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
-  #'data_transformation.md', # JSL to review
-  'install_tbx.md', # JSL to review
-  'accessing_github_repos.md',
+  #'data_transformation.md',                         # TODO: review and update JSL 
+  'install_tbx.md', # ready to push 7/09
+  'accessing_github_repos.md',                       # TODO: review and update
   'github_architecture.md',
   'use_tbx.md', # JSL to review
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
-  # 'use_tbx_to_modify_goal_models_practical.md', # JSL to review
+  # 'use_tbx_to_modify_goal_models_practical.md',    # TODO: review and update JSL 
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
-  'update_webapp.md', # ready to push 7/08
-  'R_tutes_all.md', # ready to push 7/02
-  'toolbox_troubleshooting.md',
-  'frequently_asked_questions.md') # --> To be updated
+  'update_webapp.md',                                # reviewed for 07/09 push
+  'R_tutes_all.md',                                  # reviewed for 07/09 push
+  'toolbox_troubleshooting.md',                      # TODO: review and update
+  'frequently_asked_questions.md')                   # TODO: review and update
 out_md = 'ohi-manual.md'
 
 # cleanup functions within files and for filenames ----

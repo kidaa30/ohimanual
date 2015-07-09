@@ -1,6 +1,6 @@
 # Defining spatial boundaries
 
-Defining spatial boundaries for the reporting regions (study area and regions) is a very important step in the assessment process. It is important because all data, analyses, and results will be at this spatial scale. Boundary definitions should match the purpose of the assessment and be informed by the scale at which information is available.
+Defining spatial boundaries for the reporting regions (study area and regions) is a very important step in the assessment process. It is important because all data, analyses, and results will be at this spatial scale, and boundaries may be used to aggregate or disaggregate information reported at spatial scales different from your regions. Boundary definitions should match the purpose of the assessment and be informed by the scale at which information is available.
 
 **It is possible to redefine the spatial boundaries for your study area and regions.** The boundaries displayed in your WebApp** are provided by default using subcountry region definitions from Global Administrative Areas (GADM: www.gadm.org).
 
@@ -12,7 +12,7 @@ Defining spatial boundaries for the reporting regions (study area and regions) i
 Having regions appropriately defined is important for your assessment because tabular data are often repo
 Tabular and spatial data, clipping.--->
 
-There is no limit to the number of regions that can exist within the study area; the size and number are only constrained by data availability and the utility of having scores calculated for a particular region. Although it is possible to assess only one region in the study area (i.e. the region is the assessment area, this might not be ideal because it eliminates the possibility of making comparisons or identifying geographic priorities within the study area.
+There is no limit to the number of regions that can exist within the study area; the size and number are only constrained by data availability and the utility of having scores calculated for a particular region. Although it is possible to assess only one region in the study area (i.e. the region is the assessment area), this might not be ideal because it eliminates the possibility of making comparisons or identifying geographic priorities within the study area.
 
 ## Drawing spatial boundaries
 

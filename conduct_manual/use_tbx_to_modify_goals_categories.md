@@ -87,6 +87,6 @@ In addition: Warning messages:
 1: Grouping rowwise data frame strips rowwise nature
 2: In left_join_impl(x, y, by$x, by$y) :
   joining factors with different levels, coercing to character vector
-  ```
+```
 
 This error can be fixed by updating `config.r` with a layer identifying the appropriate categories.
