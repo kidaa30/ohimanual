@@ -5,39 +5,30 @@ library(rmarkdown)
 library(stringr)
 
 # set variables ----
-title = 'The Ocean Health Index Conceptual Guide'
-wd = '~/github/ohimanual/1_learn_concguide'
-
+title = 'The Ocean Health Index Planning Guide'  # change title??
+wd = '~/github/ohimanual/2_plan'
 
 
 in_md = c(
-  # 'Phase_1.md',   # currently this file is in 0_orientation; JSL not sure it fits here?
-  'What_is_OHI.md',
-  'Understand_Scales_of_Assessement.md',
-  'WebApp_intro.md',
-  'Determine_the_Need_and_Purpose.md',
-  'Why_ten_goals.md',
-  'How_Are_Goals_Weighted.md',  
-  'How_Is_The_Index_Calculated.md',
-  'Reference_Points.md',
-  'Understanding_Status.md',
-  'Understanding_Trend.md',
-  'Understanding_Pressures.md',
-  'Understanding_Resilience.md',
-  'Pres_Resi_interactions.md',
-  'FP_Philosophy.md',
-  'AO_Philosophy.md',
-  'NP_Philosophy.md',
-  'CS_Philosophy.md',
-  'CP_Philosophy.md',
-  'LE_Philosophy.md',
-  'TR_Philosophy.md',
-  'SP_Philosophy.md',
-  'CW_Philosophy.md',
-  'BD_Philosophy.md')
+  #'Phase_2.md',     # currently this file is in 0_orientation; JSL not sure it fits here?
+  'Understand_Requirements_for_Assessment.md',
+  'Funding.md',
+  'Assembling_team.md', # --> Developing; fix
+  'Data_Requirements.md',
+  'Planning_and_Partnering.md',
+  'Who_Should_Be_Involved.md',
+  'Conducting_a_Stakeholder_Analysis.md',
+  'Introducing_Concept_to_Stakeholders.md',
+  'Considerations_for_Joint_Planning.md',
+  'Vision.md',
+  'Objectives.md',
+  'Spatial_Scale.md',
+  'Strategy.md',
+  'Costs_and_Financial_Planning.md',
+  'Adaptive_Management.md')
   # summarzing ending             # add some kind of summary
 
-out_md = 'ohi-concguide.md' # <- this is the output "final" file.
+out_md = 'ohi-plan.md' # <- this is the output "final" file.
 
 
 # helper functions ----

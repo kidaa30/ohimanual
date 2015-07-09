@@ -5,39 +5,21 @@ library(rmarkdown)
 library(stringr)
 
 # set variables ----
-title = 'The Ocean Health Index Conceptual Guide'
-wd = '~/github/ohimanual/1_learn_concguide'
-
+title = 'The Ocean Health Index Communication Guide'  ### title??
+wd = '~/github/ohimanual/4_communicate'
 
 
 in_md = c(
-  # 'Phase_1.md',   # currently this file is in 0_orientation; JSL not sure it fits here?
-  'What_is_OHI.md',
-  'Understand_Scales_of_Assessement.md',
-  'WebApp_intro.md',
-  'Determine_the_Need_and_Purpose.md',
-  'Why_ten_goals.md',
-  'How_Are_Goals_Weighted.md',  
-  'How_Is_The_Index_Calculated.md',
-  'Reference_Points.md',
-  'Understanding_Status.md',
-  'Understanding_Trend.md',
-  'Understanding_Pressures.md',
-  'Understanding_Resilience.md',
-  'Pres_Resi_interactions.md',
-  'FP_Philosophy.md',
-  'AO_Philosophy.md',
-  'NP_Philosophy.md',
-  'CS_Philosophy.md',
-  'CP_Philosophy.md',
-  'LE_Philosophy.md',
-  'TR_Philosophy.md',
-  'SP_Philosophy.md',
-  'CW_Philosophy.md',
-  'BD_Philosophy.md')
+  # 'Phase_4.md',   # currently this file is in 0_orientation; JSL not sure it fits here?
+  'Outreach_and_Communications.md',
+  'Communication_and_Outreach_Strategy.md',
+  'Disseminating_Findings.md',
+  'Communicate_Results_with_Partners.md',
+  'Develop_and_Implement_Policies_and_Management_Interventions_that_Respond_to_the_Priorities.md',
+  'Monitor_and_Re-evaluate_to_Determine_Policy_Effectiveness_and_Set_New_Priorities.md')
   # summarzing ending             # add some kind of summary
 
-out_md = 'ohi-concguide.md' # <- this is the output "final" file.
+out_md = 'ohi-communicate.md' # 
 
 
 # helper functions ----
