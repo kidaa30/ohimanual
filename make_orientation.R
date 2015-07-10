@@ -3,6 +3,7 @@
 library(knitr) # install.packages("knitr")
 library(rmarkdown)
 library(stringr)
+# Also required if you get the pdflatex error: www.tug.org/mactex
 
 # set variables ----
 title = 'The Ocean Health Index Communication Guide'  ### title??

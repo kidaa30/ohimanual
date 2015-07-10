@@ -6,6 +6,7 @@
 library(knitr)
 library(rmarkdown)
 library(stringr)
+# Also required if you get the pdflatex error: www.tug.org/mactex
 
 redo_website = F # T if push to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
 
