@@ -19,7 +19,8 @@ in_md = c(
   'Monitor_and_Re-evaluate_to_Determine_Policy_Effectiveness_and_Set_New_Priorities.md')
   # summarzing ending             # add some kind of summary
 
-out_md = 'ohi-communicate.md' # 
+out_md = 'ohi-communicate.md' 
+
 
 
 # helper functions ----
@@ -52,4 +53,3 @@ render(
     includes = NULL, pandoc_args = NULL),
   clean=T, quiet=F,
   output_file = paste0(pfx, '.pdf'))
-

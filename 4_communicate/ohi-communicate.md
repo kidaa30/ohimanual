@@ -2,7 +2,7 @@
 title: The Ocean Health Index Communication Guide
 ---
 
-##**Outreach and Communications**
+## Outreach and Communications 
 
 It is important to have a clear communications strategy for how you will communicate the results of your assessment to your various audiences. You will want to tailor your message and platform to your various audiences, choosing the tools that will best suit your objective or call to action for each group. In order to do this, it is helpful to revisit your stakeholders analysis and identify key messages and recommendations that are relevant to
 relevant to each group.
@@ -11,7 +11,7 @@ In terms of influencing policy change, in addition to highlighting key findings 
 
 Keeping this in mind, you must then develop your communications and outreach strategy.
 
-###**Communications and Outreach Strategy**
+### Communications and Outreach Strategy
 
 Your strategy will consist of both the creation of materials to communicate the findings of the assessment as well as an outreach plan that details how you will position yourself with your various audiences to gain leverage.
 
@@ -45,37 +45,37 @@ Examples of how to increase your presence include:
 
 *	Be available to support ocean and coastal resource management planning and/or policy development processes
 
-##**Disseminating Findings**
+## Disseminate Findings
 
 Once assessments have been completed it is critical to spend just as much time and energy planning how you will communicate the findings of your assessment to your multiple audiences.
 
 Since one of the main purposes of running an assessment is to inform decision-making, it is imperative that the results be properly communicated in reports or scientific publications. To do this, first consider how these decisions are made and the people that make them. In order to effectively convey your findings to this demographic, you must package it in a way that is compatible with an ecosystem-based management approach.
 
-An ecosystem-based management approach outlines a series of principles to guide management towards long-term sustainability of, in this case, marine and coastal ecosystems. This information seeks to assist decision makers in taking steps toward sustainably managing their coastal resources. For more information on how to set up and implement an ecosystem-based management approach, consult this [guide](http://www.unep.org/pdf/GPA/Ecosystem_based_Management_Markers_for_Assessing_Progress.pdf) created by the United Nations Environment Program.
+An ecosystem-based management approach outlines a series of principles to guide management towards long-term sustainability of, in this case, marine and coastal ecosystems. This information seeks to assist decision makers in taking steps toward sustainably managing their coastal resources. For more information on how to set up and implement an ecosystem-based management approach, consult the guide at www.unep.org/pdf/GPA/Ecosystem_based_Management_Markers_for_Assessing_Progress.pdf created by the United Nations Environment Program.
 
 When disseminating the results of your assessment to policy makers, focus on the main threats for each goal as well as proposed actions to increase resilience scores. Remember, your audience may not have a solid background on the subject you are discussing so you will have to create reports that are quickly and clearly state the issues and solutions you have identified.
 
-When identifying ways to increase resilience scores, it can be helpful to run a few scenarios that would illustrate how scores might react to various policy changes. An example of this can be found in the [U.S. West coast case study](http://www.oceanhealthindex.org/Apps/OHI/Vault/Output?VaultID=7899&ts=1422972909) in which two policy scenarios were run.
+When identifying ways to increase resilience scores, it can be helpful to run a few scenarios that would illustrate how scores might react to various policy changes. 
 
 It is crucial to the success of these assessments to consistently re-assess your study region on an annual basis to see how it is responding to management decisions. It is only through continued monitoring of these resources that you will better understand how effective your management strategy and policies are and it is only through effective communication that informed decisions can be made.
 
-##**Communicate Results with Partners and Others**
+## Communicate Results with Partners and Others
 
-It is important to begin your communications with a strategy. The first thing you’ll want to do is go back to your [stakeholder analysis](link to conducting a stakeholder analysis section), breaking your stakeholders up into different groups. A good way to group your stakeholders is by their objectives. Think about the different needs of each group of your stakeholders. What information does each group need from you to meet their objectives or to perform your desired action/outcome? These groups should include decision makers, funders, the general public/news outlets, as well as other stakeholders that are important to your assessment. The quickest way to create these groups is to look back at your [stakeholder management sheet](http://www.mindtools.com/pages/article/newPPM_08.htm).
+It is important to begin your communications with a strategy. The first thing you’ll want to do is go back to your stakeholder analysis, breaking your stakeholders up into different groups. A good way to group your stakeholders is by their objectives. Think about the different needs of each group of your stakeholders. What information does each group need from you to meet their objectives or to perform your desired action/outcome? These groups should include decision makers, funders, the general public/news outlets, as well as other stakeholders that are important to your assessment. The quickest way to create these groups is to look back at your stakeholder management sheet at http://www.mindtools.com/pages/article/newPPM_08.htm.
 
 Once you have identified your different groups and clarified the objectives for each, begin brainstorming different channels you can use for your communications and sorting them by which would be most appropriate for each group. For example, stakeholders involved in decision making and planning that you would like to help engage in informed management actions would be more receptive to a well-laid out report rather than a newsletter, article or social media post.
 
 After selecting the proper communication tool for each group, begin planning the messages for each group. Here it might be helpful to start with the broadest group and end with the most specific. For each group, aim to answer questions such as: What are the main facts that the audience needs to know? How much background does your audience already have on this topic? When will these facts need to be communicated? What is the best channel to reach the audience?
 
-Make sure that each message is tailored to specifically cover the needs of your audience. For example, what are the absolutely necessary facts that a policy maker will need to know from your assessment to help them better manage your marine resources? How can you convey this information in the most direct, easily accessible way? This message will vastly differ from the one sent to the general public, whose main aim will be to increase awareness of ocean health and resource management. For examples, a past Ocean Health Index Global Assessment press release can be found [here](http://www.pacificlife.com/content/dam/paclife_corp/crp/public/about_pacific_life/foundation_community/strategic_focus/healthy_oceans/081512_Ocean_Health_Index_Media_Release.pdf) and the report for policy makers from our West coast case study can be found [here](http://www.oceanhealthindex.org/Apps/OHI/Vault/Output?VaultID=7899&ts=1422972909).
+Make sure that each message is tailored to specifically cover the needs of your audience. For example, what are the absolutely necessary facts that a policy maker will need to know from your assessment to help them better manage your marine resources? How can you convey this information in the most direct, easily accessible way? This message will vastly differ from the one sent to the general public, whose main aim will be to increase awareness of ocean health and resource management. For examples, a past Ocean Health Index Global Assessment press release can be found at www.pacificlife.com/content/dam/paclife_corp/crp/public/about_pacific_life/foundation_community/strategic_focus/healthy_oceans/081512_Ocean_Health_Index_Media_Release.pdf and the report for policy makers from our West coast case study can be found at www.oceanhealthindex.org/Apps/OHI/Vault/Output?VaultID=7899&ts=1422972909
 
 It is important to remember that you may also want to include some of your stakeholders in this process. Partnering with some of your stakeholders might give you access to a broader demographic to help you amplify your message. You may also reach out to the Ocean Health Index team to collaborate on ways that they can help you amplify your message.
 
-For more information on how to identify and communicate with various stakeholders, use planning and strategy tools such as the ones listed under “[Communications Skills](http://www.mindtools.com/page8.html)” on the site [Mind Tools](http://www.mindtools.com/).
+For more information on how to identify and communicate with various stakeholders, use planning and strategy tools such as the ones listed under "Communications Skills" at www.mindtools.com/.
 
-##**Develop and Implement Policies and Management Interventions that Respond to the Priorities**
+## Develop and Implement Policies and Management Interventions that Respond to the Priorities
 
-A well-designed and executed Ocean Health Index assessment should provide important information to stakeholders and decision-makers. In most cases the assessment findings can be used to identify geographic priorities among the regions assessed and sectorial priorities, both within the regions and for the entire study area. The technical team who conducted the assessment should work in collaboration with decision-makers to assess several management scenarios to determine how the Index can be used to identify cost-effective interventions, and to understand the tradeoffs among goals and the consequences for overall ocean health.
+A well-designed and executed Ocean Health Index assessment should provide important information to stakeholders and decision-makers. In most cases the assessment findings can be used to identify geographic priorities among the regions assessed and sectorial priorities, both within the regions and for the entire study area. The technical team who conducted the assessment should work in collaboration with decision-makers to assess several management scenarios to determine how the Index can be used to identify cost-effective interventions, and to understand the tradeoffs among goals and the consequences for overall ocean health.
 
 Lessons learned from U.S. West Coast Assessment:
 
@@ -87,9 +87,13 @@ As you consider courses of management and policy action, it might be also benefi
 
 <!---Could link to WebApp's "Compare" tab description here--->
 
-##**Monitor and Re-evaluate to Determine Policy Effectiveness and Set New Priorities**
+## Monitor and Re-evaluate to Determine Policy Effectiveness and Set New Priorities 
 
-If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for  assessment.  We also highlight the importance of ongoing and future  monitoring that will provide robust data relevant to ocean health assessment. 
+If the Index were adopted as a management tool, recalculating scores
+regularly could reveal whether management actions had the intended effect on both
+overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for the assessment.
+We also highlight the importance of ongoing and future monitoring that will provide robust data relevant to ocean health assessment.
 
-Other more complex, emergent tradeoffs become visible only when the Index is measured over time and one can track how goal scores change in similar or opposite directions. Because of the complexity of ecosystem responses, full attribution of a change in one goal causing a change in another goal is difficult, but such patterns can provide insight on where to direct further exploration of such possible tradeoffs. The ability to calculate past status scores, and then correlate changes in the Index with past management actions, illustrates a key way it can be used to assess management effectiveness. If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for assessment. Therefore, you should plan to conduct Ocean Health Index assessments on regular intervals (every year, two years, five years, etc.) This will allow you to determine the effectiveness of your ocean health interventions and will help inform [adaptive management](http://www.fs.fed.us/pnw/pubs/pnw_gtr654.pdf) strategies: an iterative management process where your actions are constantly adapting to the changing environment.
+
+Other more complex, emergent tradeoffs become visible only when the Index is measured over time and one can track how goal scores change in similar or opposite directions. Because of the complexity of ecosystem responses, full attribution of a change in one goal causing a change in another goal is difficult, but such patterns can provide insight on where to direct further exploration of such possible tradeoffs. The ability to calculate past status scores, and then correlate changes in the Index with past management actions, illustrates a key way it can be used to assess management effectiveness. If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for assessment. Therefore, you should plan to conduct Ocean Health Index assessments on regular intervals (every year, two years, five years, etc.) This will allow you to determine the effectiveness of your ocean health interventions and will help inform adaptive management strategies: an iterative management process where your actions are constantly adapting to the changing environment. See http://www.fs.fed.us/pnw/pubs/pnw_gtr654.pdf. 
 
