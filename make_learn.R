@@ -13,6 +13,16 @@ wd = '~/github/ohimanual/1_learn_concguide'
 
 in_md = c(
   # 'Phase_1.md',   # currently this file is in 0_orientation; JSL not sure it fits here?
+  
+  # Note to Erich: These are a few files that were removed from the Manual (Phase 3)--we'll need to 
+  # make sure they are covered Guide (Phase 1):
+  
+  # '~/github/ohimanual/README.md',
+  # '~/github/ohimanual/3_conduct_manual/what_is_OHI+.md',
+  # '~/github/ohimanual/3_conduct_manual/conduct_assessment.md',
+  # '~/github/ohimanual/3_conduct_manual/before_conduct_assessment.md',
+  
+  
   'What_is_OHI.md',
   'Understand_Scales_of_Assessement.md',
   'WebApp_intro.md',
