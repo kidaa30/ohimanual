@@ -1,9 +1,9 @@
-## **What is the Ocean Health Index?**
+# **What is the Ocean Health Index?** <!---I merged this contect with Phase_0) since its repeated)
 
-The Ocean Health Index scores important **Goals** of ocean health. The Ocean Health Index defines a healthy ocean as one that can sustainably deliver a range of benefits to people now and in the future, while not compromising the state of the oceans and coasts. A healthy ocean in this definition, however, is not necessarily a pristine ocean, although the Index allows for pristine systems as well as sustainably used systems to score highly. In fewer words, the OHI is about balancing priorities.
+**The Ocean Health Index scores important Goals of ocean health. The Ocean Health Index defines a healthy ocean as one that can sustainably deliver a range of benefits to people now and in the future, while not compromising the state of the oceans and coasts. A healthy ocean in this definition, however, is not necessarily a pristine ocean, although the Index allows for pristine systems as well as sustainably used systems to score highly. In fewer words, the OHI is about balancing priorities.**
 
 <!---From Steve's post--->
-Scores reflect how well coastal regions optimize their potential ocean benefits and services in a sustainable way. A score of 100 means that the evaluated system achieved its defined target for that goal and is sustainably delivering all of the specified benefits and is likely to continue doing so in the near future. A score of 0 means that global data were available, but that the country either did not achieve any of the available benefits or that the benefits it did obtain were gained in an unsustainable manner.
+**Scores reflect how well coastal regions optimize their potential ocean benefits and services in a sustainable way. A score of 100 means that the evaluated system achieved its defined target for that goal and is sustainably delivering all of the specified benefits and is likely to continue doing so in the near future. A score of 0 means that global data were available, but that the country either did not achieve any of the available benefits or that the benefits it did obtain were gained in an unsustainable manner.**
 
 Because the Index compares scores against the available data within the scope of a given study area, it presents a highly tailorable framework and can match an assessment's geographic scope. It is a structured approach, but the structure may change appropriately with each new interpretation.
 

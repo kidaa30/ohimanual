@@ -1,22 +1,28 @@
 # Phase Two: Plan an OHI Assessment
 
-This document contains the steps of the second of four phases in conducting an assessment. In this section you will be guided through how to:
+> **Phase two** is intended to help you organize the appropriate resources and gather the key stakeholders, so conducting the assessment is as smooth of a process as possible. Remember that an effective assessment will include the input, values, and perspectives from stakeholders of various backgrounds, so it is important you spend time identifying who should be involved in the process and discussions. Also, it is important that you have a good understanding of the time commitment, the required funds, and the human resources needed to successfully develop your assessment. Although not necessary, we recommend you develop a proposal or working plan for your assessment, as this will help you and those involved to keep the activities along a pre-established timeline.
 
-> Understand the Requirements of Conducting an Assessment
+In this section you will be guided through how to:
+
+- Understand the requirements of conducting an assessment
   - Funding
-  - Data Availability
+  - Data availability
+  - Technical capacities required in the team
+  - Examples of timelines, budgets, and team compositions of independent assessments in various countries
 
-> Planning and Partnering with Decision Makers
-  - Who Should Be Involved?
-  - Conducting a Stakeholder Analysis
-  - Introducing the OHI+ Concept to Key Stakeholders
 
-> Strategic Planning
-   - Considerations for Joint Planning
+- Planning and partnering with decision makers
+  - Who should be involved?
+  - Conducting a stakeholder analysis
+  - Introducing the OHI+ concept to key stakeholders
+
+
+- Strategic Planning
+   - Considerations for joint planning
    - Vision
    - Objectives
-   - Spatial Scale
+   - Spatial scale
    - Strategy
-   - Task Timeline
-   - Costs and Financial Planning
-   - Adaptive Management
+   - Task timeline
+   - Costs and financial planning
+   - Adaptive management
