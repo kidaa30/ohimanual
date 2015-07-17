@@ -21,10 +21,15 @@ And each has a `make.r` file that will combine all the files within each of the 
 - make_orientation.R
 - make_plan.R
 
+
 ### Workflow
 
-- edit individual files in Atom, save, commit, push to GitHub.
-- can also run the appropriate `make.r` file to see how the whole combined file. Currently `3_conduct_manual` is the only folder that will be pushed online (to [http://ohi-science.org/manual]), but when we are ready, all will.
+- in Atom edit individual files, save, commit, push to GitHub.
+- in RStudio, run the appropriate `make.r` file to see the 'stitched' file. You will need pdflatex installed: do this at [www.tug.org/mactex]()
+- In Preview: view the stitched file as a .pdf (you can also view the stitched .md in Atom)
+
+(Note: currently `3_conduct_manual` is the only folder that will be pushed online (to [http://ohi-science.org/manual]), but when we are ready, all will.
+
 
 
 ## `ohimanual` is written in Markdown (.md)

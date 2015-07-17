@@ -6,24 +6,21 @@
 library(knitr)
 library(rmarkdown)
 library(stringr)
+# Also required if you get the pdflatex error: www.tug.org/mactex
 
 redo_website = F # T if push to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
 
 
 # move copy of README.md 
-stopifnot(file.copy('~/github/ohimanual/3_conduct_manual/README.md', 
-                    '~/github/ohimanual/README.md', overwrite=T))    
+# stopifnot(file.copy('~/github/ohimanual/3_conduct_manual/README.md', 
+#                     '~/github/ohimanual/README.md', overwrite=T))    
 
 # set variables ----
 title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
-  # 'README.md', # ---> Removed because covered in Conc. Guide; new portal
-  #'what_is_OHI+.md', # --> masked 6/16/15
   'intro_assessment.md',                             # reviewed for 07/09 push
-  # 'conduct_assessment.md', # --> Removed because sub-sections moved into appropriate Phases (see .md)
-  #'before_conduct_assessment.md', # --> Removed because covered in Conc. Guide (see .md)
   'intro_webapp.md',                                 # reviewed for 07/09 push
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
