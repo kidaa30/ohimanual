@@ -1,4 +1,4 @@
-# **What is the Ocean Health Index?** <!---I merged this contect with Phase_0) since its repeated)
+# **What is the Ocean Health Index?** <!---I merged this contect with Phase_0) since its repeated) - we should delete this section_EJP --->
 
 **The Ocean Health Index scores important Goals of ocean health. The Ocean Health Index defines a healthy ocean as one that can sustainably deliver a range of benefits to people now and in the future, while not compromising the state of the oceans and coasts. A healthy ocean in this definition, however, is not necessarily a pristine ocean, although the Index allows for pristine systems as well as sustainably used systems to score highly. In fewer words, the OHI is about balancing priorities.**
 
