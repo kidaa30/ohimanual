@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # Introduction
 
 The phases in this portal are designed to build your capacity to autonomously develop an an assessment. The information is organized along the four interdependent phases of an OHI+ assessment:
+=======
+# A brief introduction to the Ocean Health Index
+>>>>>>> 801c0e2eb505296a4fba8f5c29a58c7a074a1547
 
 - **Phase 1 Learn about OHI**: understand the philosophy and conceptual underpinnings of the Ocean Health Index framework and establish the motivation for conducting your study
 - **Phase 2 Plan an OHI+ Assessment**: develop a robust project action plan or proposal, detailing your objectives, activities, resources needed, and timeline
@@ -9,7 +13,13 @@ The phases in this portal are designed to build your capacity to autonomously de
 
 > Note: The amount of time required to do an OHI+ Assessment will vary depending on local processes
 
+<<<<<<< HEAD
 Following the steps in this portal will allow you to create and use an OHI+ assessment as a decision-support tool, monitor the status and trends of all ocean and coastal elements (ecological, economic, social, and physical), and understand the consequences of management and policy interventions.
+=======
+Marine management today requires establishing comprehensive management objectives that maximize the ocean-derived benefits delivered to people while at the same time keeping oceans healthy. This requires a dynamic cycle of understanding current conditions, developing and enacting strategic management, and understanding how conditions have changed in response. In tandem, there is a growing global trend to developing ecological, social, and economic indicators to measure and track changes on various issues. However, this approach does not capture the interactions that exist between all of these fields.
+
+OHI was developed to support these growing needs by providing a framework that quantifies how well ocean-derived benefits are delivered to people now and in the future. The Index provides a common platform to measure how sustainably people are using the ocean. The Index integrates information (data and indicators) from various fields into a single framework and offers various metrics to allow decision-makers to determine the appropriate balance of priorities among multiple uses to ensure that oceans can continue to sustainably deliver a range of benefits and services to people now and in the future. The framework also allows users to better understand the cumulative pressures and resilience factors affecting, both negatively and positively, the status of various ocean elements. By synthesizing all of these parameters in a single framework, the Index offers users a comprehensive and integrated view of marine systems as a way to understand the trade-offs and synergies among various goals. This represents a significant advance over conventional single-sector approaches to assessing sustainability as communicated through other kinds of index efforts.
+>>>>>>> 801c0e2eb505296a4fba8f5c29a58c7a074a1547
 
 ## How to use this portal: the Task Timeline
 
@@ -17,7 +27,11 @@ When conducting an assessment, is it useful to use our timeline as a guide, know
 
 ![The Task Timeline shows the steps recommended in conducting Ocean Health Index assessments. It gives an overview of the **Phases** of the project and the colors offer recommendations for the types of skills needed at different stages of the process.](./Figures/task_timeline-01.png)
 
+<<<<<<< HEAD
 The Task Timeline shows the steps recommended in conducting Ocean Health Index assessments. It gives an overview of the **Phases** of the project and the colors offer recommendations for the types of skills needed at different stages of the process. The amount of time actually required required to do an assessment will vary depend on a number of factors, such as the ease of data access and the number of people working on the assessment. The process may be slowed by unforeseen challenges such as technical issues with software and dead-ends in the data search, among other things.
+=======
+## Why develop an independent assessment and how can the Ocean Health Index be used for decision-making?
+>>>>>>> 801c0e2eb505296a4fba8f5c29a58c7a074a1547
 
 The team will usually consist of scientists, programmers, and a core management team (or working group), who must all work together to produce the results. For example, gathering appropriate data for each status, pressure, and resilience layer requires serious thinking about how to calculate reference points while at the same time as determining the validity and usability of the datasets.
 
