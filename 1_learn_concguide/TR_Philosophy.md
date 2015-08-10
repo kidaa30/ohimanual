@@ -1,14 +1,14 @@
 ## **Tourism and Recreation**
 
-> The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in coastal areas.
+> The **Tourism and Recreation** goal captures the value people have for experiencing and taking pleasure in marine and coastal areas.
 
 #### Philosophy
 
-This goal measures the value people have for experiencing and taking pleasure in coastal and ocean areas. Tourism, travel, and recreation are major drivers of thriving coastal communities and they also offer a measure of how much people value ocean systems. By electing to visit a coastal area rather than an inland area, people express their preference for visiting these places over others. Ideally, tourism and recreation could continue indefinitely if it is done in a sustainable manner.
+Tourism, travel, and recreation are major drivers of thriving coastal communities and they also offer a measure of how much people value ocean systems. By electing to visit a coastal area rather than an inland area, people express their preference for visiting these places over others. Ideally, tourism and recreation could continue indefinitely if it is done in a sustainable manner.
 
-#### Ideal Approach
+#### Ideal Approach <!--- I don't think this is the ideal approach--->
 
-Ideally there would be data available specifically for employment in coastal tourism industries, however the best data available at a global scale report total number of jobs, not just coastal jobs, within the travel and tourism industries. These data include jobs that are directly connected to the tourism and travel industry, for both leisure and business. This could include accommodation services, food and beverage services, retail trade, transportation services, and cultural, sports and recreational services, and could exclude investment industries and suppliers. There would also be information on how the ocean is used for enjoyment by both local residents and tourists, thereby capturing the full value of touristic and recreational activities.
+This goal can take different approaches depending on the availability of data. The ideal approach would directly measure the tourism and recreation activities people engage in such as visiting beaches and marine parks, surfing, SCUBA diving, snorkeling, marine mammal watching, canoeing, kayaking, boating, fishing, sailing, swimming, etc. In most cases, however, such information is not available, so you can use proxy data to estimate the value in experiencing tourism and recreation. One of the best approaches to doing so us using employment in coastal tourism as an indirect way to capture tourism health. This focus assumes that robust proportional employment in tourism is strongly correlated with a strong tourism sector. Therefore, you could use data for employment in coastal tourism industries, which could include accommodation services, food and beverage services, retail trade, transportation services, and cultural, sports and recreational services, and could exclude investment industries and suppliers. You could also include information on how the ocean is used for enjoyment by both local residents and tourists, thereby capturing the full value of touristic and recreational activities.
 
 #### Keep in Mind
 
@@ -16,4 +16,4 @@ Ideally there would be data available specifically for employment in coastal tou
 
 Models will vary greatly depending on data available; there are many ways to potentially measure the delivery of this goal.
 
-> Unfortunately it was not possible to determine the proportion of jobs affiliated with strictly leisure travel in the Global 2013, for example. It was assumed all travel and tourism employment was related to tourism and recreation values. Additionally, it is true that not every tourist stays in a hotel and not everyone staying in a hotel is a tourist.
+> Unfortunately it was not possible to determine the proportion of jobs affiliated with strictly leisure travel in the 2013 Global Assessment, for example. It was assumed all travel and tourism employment was related to tourism and recreation values. Additionally, it is true that not every tourist stays in a hotel and not everyone staying in a hotel is a tourist.

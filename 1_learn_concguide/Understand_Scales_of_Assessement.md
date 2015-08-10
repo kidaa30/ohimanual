@@ -4,7 +4,7 @@
 
 ### The Global assessment and your OHI+
 
-> Your assessment will be an example of an Ocean Health Index+ (OHI+) assessment.
+> By conducting a study, you will be developing an Ocean Health Index Independent Assessment (OHI+) at a regional scale. Most OHI+ assessments take place at subnational scales (states, provinces, municipalities) and then are aggregated at a national scale. However, you can implement the OHI methodology at any scale from global, to transboundary regions, to subnational areas.
 
 OHI+ assessments are conducted by independent groups such as yours that use the Index framework to measure ocean health in their own regions, countries, states, and communities. Your OHI+ assessment is different from the Global Assessments because they are meant to fit your local context. The purpose of conducting these independent assessments is that they be used by managers in your area to incorporate information and priorities at the spatial scale where policy and management decisions are made.
 

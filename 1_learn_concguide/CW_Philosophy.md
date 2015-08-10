@@ -8,7 +8,7 @@
 
 #### Ideal Approach
 
-Ideally, data would be available and combined from many different categories of marine pollution to best capture the factors that can cause waters to become unsuitable for recreation or other purposes. There would be data available across various classes of contaminants, including organic pollutants, inorganic pollutants, metals, oils, turbidity, and trash. Having good data from each of the desired categories, such as those culled from a repeated effort at monitoring the conditions of the coasts, would be ideal. For the reference point, a functional relationship would be best for setting hard use limits.
+Use data from many different categories of marine pollution to best capture the factors that can cause waters to become unsuitable for recreation or other purposes. Seek data on various classes of contaminants, including organic pollutants, inorganic pollutants, metals, oils, turbidity, and trash. Having good data from each of the desired categories, such as those pulled from a repeated effort at monitoring the conditions of the coasts, would be ideal. For the reference point, a functional relationship would be best for setting hard use limits, but you may also set a scientifically established threshold or policy.
 
 #### Keep in Mind
 
