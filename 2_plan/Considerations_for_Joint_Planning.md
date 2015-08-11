@@ -1,4 +1,4 @@
-##**Considerations for Joint Planning**
+## Considerations for Joint Planning
 
 Collaborative assessment planning is an effective approach to ensuring that the assessment will be useful for decision-making. Strengthening scientist-decision maker partnerships creates opportunities for applying research findings to improve ocean health.
 
@@ -20,4 +20,4 @@ Collaborative assessment planning is an effective approach to ensuring that the 
 
 •	Create a budget that includes a communications component to cover costs of nationally disseminating findings: providing briefings about findings and applications of if the Index to agencies, decision-makers, and managers who will use the Index
 
-•	Allocate ~fifteen% of the budget to science outreach and communications; travel, time, meeting costs, planning, production of materials
+•	Allocate ~15% of the budget to science outreach and communications; travel, time, meeting costs, planning, production of materials

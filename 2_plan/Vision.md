@@ -1,4 +1,4 @@
-###**Establishing the Vision**
+### Establishing the Vision
 
 Producing the Index is not the end goal: It is merely a process toward the true end goal – achieving improved ocean health.
 
@@ -6,9 +6,9 @@ Index findings can be used by decision-makers to establish ocean health outcomes
 
 Establishing a vision is the first step, and will help identify outstanding important issues that may need to be addressed later on. Here, it is important to think about why is there interest in completing an Index assessment. For example:
 
-* What are the existing stakeholder problems, needs, and interests that need to be addressed?
+* What are the existing stakeholder problems, needs, and interests that need to be addressed? Are there conflicting uses of ocean and coastal resources?
 
-* Is the objective to use the findings to reform policies and/or practices?
+* Is the objective to use the findings to reform policies and/or improve practices?
 
 * Are there any specific management priorities established through government mandates, private sector initiatives, and/or international treaty obligations that would especially benefit from an Index assessment?
 

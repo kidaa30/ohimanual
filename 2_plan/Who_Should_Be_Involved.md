@@ -1,4 +1,4 @@
-###**Who Should Be Involved?**
+### Who Should Be Involved?
 
 The assessment process will require a dedicated and interested group of individuals to lead the initiative. This core team, tasked with detailing the process, may include managers, government officials, community members, nongovernmental representatives, and others.
 
@@ -10,32 +10,33 @@ Ensuring continuous transparency and participatory opportunities is essential to
 
 Participant stakeholders could include, but are not limited to, the following:
 
-**Scientific/Academic institutions**
+**Scientific/Academic institutions:**
 
 - University research centers
-
+- Independent or government scientific institutions and consulting firms
 - Government statistics departments
 
-**Government**
+**Government:**
 
-- Ministry/Department of:
+- Ministry/Department/Agencies:
   - Environment
   - Production
   - Planning
   - Fisheries/aquaculture
   - Tourism
+  - Finance
+  - Health
 
 
 - Agencies:
   - Ocean commission
-  -Water
+  - Water
+  - Environmental protection
 
-**Non-Governmental Organizations/Civil Society**
+**Non-Governmental Organizations, Civil Society, Private Sector:**
 
 - Coastal community leaders/associations
-
 - Fishing associations
-
 - Tourism associations
-
-- Conservation non-profits
+- Conservation non-governmental organizations (NGOs)
+- Ocean dependent industries (mariculture, ports, )

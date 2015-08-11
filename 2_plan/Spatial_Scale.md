@@ -1,8 +1,6 @@
-### **Determining the Spatial Scale**
+### Determining the Spatial Scale
 
-It is important to remember that the scale of your assessment should match the scale of decision-making.
-
-Most assessments focus on political boundaries, since most agencies and organizations gather and report data at this spatial scale.
+It is important to remember that the scale of your assessment should match the scale of decision-making. Most assessments focus on political boundaries, since most agencies and organizations gather and report data at this spatial scale, however, assessments can be conducted at any spatial scale including transboundary areas and ecoregions.
 
 Index goal scores are calculated at the scale of the reporting unit, which is called a ‘region’ and then combined using a weighted average to produce the score for the overall area assessed, called a ‘study area’.
 

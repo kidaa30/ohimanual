@@ -1,11 +1,11 @@
-###**Data Requirements**
+### Data Requirements
 
 <!---Link to Data section of the Manual--->
 
-Time-series data are needed for the four components of each goal: Status, future trend, pressures, and resilience.
+Time-series data are needed for the four components of each goal: Status, trend, pressures, and resilience.
 
  Data required for status and trend:
-  - Fisheries mariculture harvest
+  - Fisheries and mariculture harvest
   - Natural products harvest
   - Need and ability for small-scale fishing
   - Coastal habitats extend and condition

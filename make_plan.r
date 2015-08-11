@@ -36,11 +36,11 @@ out_md = 'ohi-plan.md' # <- this is the output "final" file.
 cat_md = function(
   files_md = setdiff(list.files(getwd(), glob2rx('*.md')), out_md),
   out_md  = '_all_.md'){
-  
+
   if (file.exists(out_md)) unlink(out_md)
-  
+
   cat('---\n', 'title: ', title, '\n---\n\n', sep='', file=out_md, append=T)
-  
+
   for (md in files_md){
     cat(paste(c(readLines(md),'',''), collapse='\n'), file=out_md, append=T)
   }
@@ -48,7 +48,7 @@ cat_md = function(
 
 # concatenate md ----
 setwd(wd)
-cat_md(in_md, out_md)               
+cat_md(in_md, out_md)
 pfx = tools::file_path_sans_ext(out_md)
 
 # render pdf ----
@@ -62,4 +62,3 @@ render(
     includes = NULL, pandoc_args = NULL),
   clean=T, quiet=F,
   output_file = paste0(pfx, '.pdf'))
-
