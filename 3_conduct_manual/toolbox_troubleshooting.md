@@ -3,11 +3,15 @@
 The Toolbox prints messages during its processing to help guide error checking and debugging. Here are a few troubleshooting tips. This section will be updated frequently; please share any problems that you encounter.  
 
 ## General Software Errors
-### When RStudio won't push to GitHub
+### rpostback-askpass error
 
-When pushing committed changes within RStudio, would return the error
-* `error: unable to read askpass response from 'rpostback-askpass'`
-* `fatal: could not read Username for 'https://github.com': Device not configured`
+Sometimes when RStudio won't push committed changes to GitHub, RStudio displays an `rpostback-askpass` error:
+
+```
+error: unable to read askpass response from 'rpostback-askpass'
+fatal: could not read Username for 'https://github.com': Device not configured
+```
+
 ![Error screen window: 'error: unable to read askpass response'.](https://docs.google.com/drawings/d/1_yPk-eiJz-9P1VO0Z50bGQSTERM2aKcq6U_un3MlUO4/pub?w=819&h=107)
 
 Here's how we fixed it: we updated `git.exe` to the latest version, 2.2.1, edited the search path to point to the new version, made sure the *git* credential.helper was configured to be able to access the OS X keychain, and pushed a test commit from terminal to store the username and password in the keychain, where it can be accessed from other apps like RStudio. Easy peasy!

@@ -53,3 +53,5 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Markdown): 'Markdown is a lightwe
 - making notes that will not be rendered:  
 ` <!---Anything between these symbols is a comment--->`. See the raw `.md` file to see a secret message
  <!---Secret message: this is a comment--->
+ - subscripts
+   A subscript written like this: `B<sub>MSY</sub>` renders like this: B<sub>MSY</sub>

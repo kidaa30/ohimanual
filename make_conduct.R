@@ -26,13 +26,13 @@ in_md = c(
   'assemble_inputs.md',                              # reviewed for 07/09 push
   #'intro_goalbygoal.md',                            # TODO: review and update
   #'practical_HAB_goals_CS_CP.md',                   # TODO: review and update
-  #'practical_species_BDD_ICO.md',                   # TODO: review and update
+  #'practical_species_BDD_ICO.md',                   # TODO: review and update JSL ICO/LSP #476
   #'practical_SP.md',                                # TODO: review and update
-  #'practical_FP_NP.md',                             # TODO: review and update
+  #'practical_FP_NP.md',                             # TODO: review and update JSL #392, #367 #52 #488
   #'practical_LE_TR.md',                             # TODO: review and update
   #'practical_AO.md',                                # TODO: review and update
   #'practical_CW.md',                                # TODO: review and update
-  #'pressures_resilience.md',                        # TODO: review and update JSL 
+  #'pressures_resilience.md',                        # TODO: review and update JSL #148
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
@@ -40,7 +40,7 @@ in_md = c(
   'install_tbx.md', # ready to push 7/09
   'accessing_github_repos.md',                       # TODO: review and update
   'github_architecture.md',
-  'use_tbx.md', # JSL to review
+  'use_tbx.md',                                      # TODO: review and update JSL
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
