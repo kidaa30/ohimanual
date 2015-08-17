@@ -8,9 +8,9 @@ The following materials will be needed to influence decision making:
 
  -	Summary of findings: present paper findings to wider audience, press, managers, and various decision-makers
 
- -	Policy paper/report/memos: provide recommendations to key decision-makers
+ -	Policy paper/report/memos: provide recommendations to key decision-makers. Provide clear recommendations on data and knowledge gaps, priority geographies and themes, and management interventions to address pressures and resilience
 
- -	Website: in local language(s) and English (optional)
+ -	Website: in local language(s) and English (optional). For this, we have developed an free website publisher tool for you to use. If you are interested in using this template, please contact programs@oceanhealthindex.org.
 
  -	Fact-sheets & printed materials
 
