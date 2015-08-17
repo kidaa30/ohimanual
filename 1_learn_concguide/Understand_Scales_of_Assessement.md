@@ -1,6 +1,7 @@
 ## **Understand the scales of assessment**
 
 ![Scores are calculated for each region and combined to produce a total score for the study area. Data or indicators are required for every region.](https://docs.google.com/drawings/d/1RsamVf-p5nSUS8_w--uU5I2717tqMPlhc3JEbW8Rvkg/pub?w=677&h=446)
+<!---edit this image--->
 
 ### The Global assessment and your OHI+
 

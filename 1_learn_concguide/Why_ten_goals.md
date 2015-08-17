@@ -1,8 +1,8 @@
-##**Why Ten Goals?**
+## Why Ten Goals? <!---rewrite this section--->
 
 The Index did not set out to have ten goals. As you may have already noticed, OHI moves away from the concepts of ocean health that only consider ecological attributes by including social, cultural, and economic dimensions. The process of reviewing literature (particularly policy documents) revealed that for many cultures ocean health often involves human dimensions: healthy communities, thriving economies, preservation of cultural habits, etc. In creating an inventory of all elements that are considered part of a healthy ocean under this wider definition, various categories began to evolve. Many components were folded into these categories (notaly ecological and social pressures and resilience measures), which when combined with the process of assessing management targets for healthy oceans, resulted in the ten goals (and eight sub-goals) that make up the Index. Regions where some goals are not relevant can (and should) be assessed based only on the remaining goals. The Index is flexible to the inclusion of different or additional goals, something we have not yet encountered but is certainly possible.
 
-###Changing Goal Models <!---I feel this might be premature here--->
+### Changing Goal Models <!---I feel this might be premature here--->
 
 In this portal we provide guidelines on how to adapt goal models to available regional data, using simpler models or different proxies when necessary. However, we cannot prescribe which available regional data sets are preferred, what goal models are more appropriate, or which reference points, proxy data, and goal weights should be used. Making these decisions effectively requires involving local experts of the study area to provide opinions and direction towards an outcome most representative of ocean health in the study area. Our team can help guide you and offer technical support as you make these decisions.
 

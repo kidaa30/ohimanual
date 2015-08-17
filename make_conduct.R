@@ -11,9 +11,9 @@ library(stringr)
 redo_website = F # T if push to ohi-science.org/manual; F if do not push. Displays T/F after rendering all
 
 
-# move copy of README.md 
-# stopifnot(file.copy('~/github/ohimanual/3_conduct_manual/README.md', 
-#                     '~/github/ohimanual/README.md', overwrite=T))    
+# move copy of README.md
+# stopifnot(file.copy('~/github/ohimanual/3_conduct_manual/README.md',
+#                     '~/github/ohimanual/README.md', overwrite=T))
 
 # set variables ----
 title = 'The Ocean Health Index Assessment Manual'
@@ -36,7 +36,7 @@ in_md = c(
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
-  #'data_transformation.md',                         # TODO: review and update JSL 
+  #'data_transformation.md',                         # TODO: review and update JSL
   'install_tbx.md', # ready to push 7/09
   'accessing_github_repos.md',                       # TODO: review and update
   'github_architecture.md',
@@ -44,7 +44,7 @@ in_md = c(
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
-  # 'use_tbx_to_modify_goal_models_practical.md',    # TODO: review and update JSL 
+  # 'use_tbx_to_modify_goal_models_practical.md',    # TODO: review and update JSL
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
@@ -52,6 +52,7 @@ in_md = c(
   'R_tutes_all.md',                                  # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
   'frequently_asked_questions.md')                   # TODO: review and update
+  # 'tempnotes_b_resilience.md'                        # TODO: review and update
 out_md = 'ohi-manual.md'
 
 # cleanup functions within files and for filenames ----

@@ -1,4 +1,4 @@
-## **Interactions: Pressures and Resilience**
+## Interactions: Pressures and Resilience
 
 Pressures and resilience layers interact with an indicator to increase or decrease its likely future state. From a management perspective, there are only two ways of increasing the **Likely Future State**: increase resilience measures and/or decrease pressures. Overtime, the effects of these management actions will change the current state of the goal and the trend, resulting in higher scores. This would be most visible through multiple years of engagement with an OHI assessment.
 

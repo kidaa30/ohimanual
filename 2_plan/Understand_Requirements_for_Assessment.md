@@ -9,8 +9,8 @@ The lead organizer of the proposed assessment may want to begin by with a stakeh
 
 Under the section **Assembling a Team** you can learn more about the skillsets required for an effective Technical Team.
 
-Procuring funding and creating a budget that is informed by the task timeline will also aid in smart spending and decrease the likelihood that funding will run out before the process is completed. For more information on procuring funding and to see how assessments have been funded in the past, click [here](Funding)
+Procuring funding and creating a budget that is informed by the task timeline will also aid in smart spending and decrease the likelihood that funding will run out before the process is completed.
 
 The availability of local data is perhaps the single most important requirement for conducting an OHI+ assessment.
 
-Index scores are a reflection of data quality, and thus, accessing the best data available is of the highest importance. Data from existing environmental, social, and economic indicators may be used. All data will be rescaled to specific reference points (targets) before being combined therefore setting these reference points at the appropriate scale is a fundamental component of any assessment. This requires the interpretation of the philosophy of each Index goal and sub-goal using the best available data and indicators. Click [here](Data Requirements) to see a list of data required to conduct an assessment.
+Index scores are a reflection of data quality, and thus, accessing the best data available is of the highest importance. Data from existing environmental, social, and economic indicators may be used. All data will be rescaled to specific reference points (targets) before being combined therefore setting these reference points at the appropriate scale is a fundamental component of any assessment. This requires the interpretation of the philosophy of each Index goal and sub-goal using the best available data and indicators. For your reference, you may look at a list of the data layers used in the 2014 Global Assessment for Ecuador at http://ohi-science.org/ecu/layers/

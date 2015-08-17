@@ -1,4 +1,4 @@
-## **How is the Index calculated?**
+## How is the Index calculated?
 
 For each goal, the **current status** is a mathematical model developed to best capture the philosophy of that goal using the best available data at the scale of study. The **current status** is calculated individually for each goal and represents half of a goal’s total score.  The other half is the **likely future status**, which is based on three things:
 
@@ -8,7 +8,7 @@ For each goal, the **current status** is a mathematical model developed to best 
 
 * **Resilience**: social and ecological elements (or actions) that can and reduce pressures, and maintain or raise future benefits (e.g. treaties, laws, enforcement, habitat protection)
 
-![](./Figures/Trend_Pressure_Resilience.png)
+![](./Figures/Trend_Pressure_Resilience.png) <!---edit this image--->
 
 The **current status** (50% of total score) of each goal is determined by comparing the most recent measure of the goal against a goal-specific sustainable **Reference Point**.
 

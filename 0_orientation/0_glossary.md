@@ -1,6 +1,6 @@
 # Glossary
 
-<!---Taken from Conceptual Guide v2 -- I think this needs to be a separate section that people can easily access --->
+<!---move to resources page on ohi-science.org --->
 
 Given the complexity and hierarchical nature of the Index, we have defined a number of terms with precise meanings to help with communication and clarity. Terms are listed in hierarchical order from broad to specific; terms not listed here are presumed to carry their expected and typical meaning.
 
