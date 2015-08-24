@@ -1270,7 +1270,7 @@ To completely remove the carbon storage goal from Index calculations, you will d
 
 ## Modifying the pressures matrix for goals with categories
 
-###Background
+### Background
 
 The pressures and resilience matrix tables identify which pressures and resilience measures (layers) are relevant to which goals and how they are weighted. But pressures and resilience measures can also affect the components within a goal differently. When that is the case, those components can have individual entries (rows) in the pressures and resilience matrix tables and will have pressures and resilience scores calculated individually for each component.
 
@@ -1283,9 +1283,9 @@ Goal | Category         | layer indicated in `config.r`
 NP   | product types    | np_harvest_product_weight
 CS   | habitat types    | cs_habitat_extent
 CP   | habitat types    | cp_habitat_extent_rank
-HAB  | habitat types    | le_sector_weight
+HAB  | habitat types    | hab_presence
 LIV  | industry sectors | le_sector_weight
-ECO  | industry sectors | hab_presence
+ECO  | industry sectors | le_sector_weight
 
 
 If you have modified any of the category types in the matrix tables of the above goals, or added new category types to any goals, you will likely need to update the layer indicated in `config.r`. It is also possible to identify individual categories in other goals than those listed above. For example, in the mariculture sub-goal, you could specify the pressures on nearshore mariculture separately from offshore mariculture.
