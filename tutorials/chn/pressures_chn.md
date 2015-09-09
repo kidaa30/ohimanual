@@ -1,5 +1,3 @@
-This is a Chinese-translation of the same document Mel made for the CHN team: 
-
 ### 压力计算
 #### Part 1: 简单例子
 
@@ -12,13 +10,10 @@ This is a Chinese-translation of the same document Mel made for the CHN team:
     
 环境压力总共有五种类别：污染（po)， 生境破坏（hd)， 捕鱼压力(fp)， 物种（sp), 气候变暖（cc)。 每种类别又由几种压力层来构成。比如，气候变暖有四个压力层：海平面温度（cc_sst), 紫外线（cc_uv), 海平面上升（slr)，海洋酸性化（cc_acid)。 
 
-Social pressures only have one category (ss).  And, for OHI global, there is only one pressure layer (ss_wgi), which makes the calculations nice and straightforward.
-
 社会压力只有一个类别（ss)。 并只有一个压力层（ss_wgi)。 
 
 ##### 压力计算的
-In the toolbox, the following functions calculate pressures:
-工具箱里，有这样几个文件是用来计算压力的： 
+工具箱里，有这样几个文件是用来计算压力的（ohicore/R) 
   
 *Calculate All*: This calculates status/trend, goal index, global scores, resilience, and pressures.  Specifically, it calls the *CalculatePressuresAll* function.
 * *CalculatePressuresAll*: This aspect of the function loops through each goal and determines how to deal with it based on whether there are components and other variables.  It calls: *CalculatePressuresScore*
@@ -29,10 +24,10 @@ In the toolbox, the following functions calculate pressures:
 这是压力矩阵的头几栏，可能很小:
 ![image](https://cloud.githubusercontent.com/assets/5685517/9638993/8bdb6e2a-515e-11e5-9133-39aac417e6e9.png)
 
-##### Environmental pressures
-These are calculated for each of the 5 general categories of environmental pressures (po, fp, cc, sp, hd).
+##### 环境压力
+每个类别都是分别这样计算的 (po, fp, cc, sp, hd）。我们以 fp(捕鱼）为例
 
-*STEP 1*: 每个环境压力的类别都是这样计算。我们以 fp(捕鱼）为例：
+*STEP 1*: 调出举重和压力层的分数
 这是FIS 目标， fp 类别的举重，每个省都有：
 ![image](https://cloud.githubusercontent.com/assets/5685517/9639119/41b92a0c-515f-11e5-9373-3910b28eab61.png)
 
@@ -51,7 +46,7 @@ These are calculated for each of the 5 general categories of environmental press
 *STEP 5*: 现在，所有类别的得分被整合。我们用STEP4中得来的加权评分 。每个类别的举重是这个类别中压力层的举重的最大值：
 ![image](https://cloud.githubusercontent.com/assets/5685517/9640452/8736a918-5166-11e5-81c3-fdf1df8f9fa2.png)
 
-加权举重后的 FIS 环境压力：
+加权平均后的 FIS 环境压力：
 ![image](https://cloud.githubusercontent.com/assets/5685517/9640465/9a869514-5166-11e5-8f73-98786b78671e.png)
 
 ##### 社会压力
