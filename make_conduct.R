@@ -32,7 +32,7 @@ in_md = c(
   #'practical_LE_TR.md',                             # TODO: review and update
   #'practical_AO.md',                                # TODO: review and update
   #'practical_CW.md',                                # TODO: review and update
-  #'pressures_resilience.md',                        # TODO: review and update JSL #148
+  #'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
