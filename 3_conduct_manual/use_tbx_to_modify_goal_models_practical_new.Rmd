@@ -1,0 +1,37 @@
+---
+title: "use_tbx_to_modify_goal_models_practical.md"
+output: html_document
+---
+
+#### Setup
+Before getting started on the R codes, make sure that you followed instructions on OHI Manual, starting from accessing github repositories, until modifying goal models, which means:  
+ + install the latest versions of R, RStudio, and GitHub
+ + Synchronize GitHub and Rstudio 
+ + Updated data layers, pressure, and resilience in both layers folder and layers.csv
+
+#### Model modification
+once you’ve done the setup, you can start model modifications. We will use CHN Carbon Storage goal as an example. 
+
+1. Open CHN-province 2015 in RStudio
+1. Run install_ohicore.R --> only needs to be done once to load all the background functions for OHI
+1. Run calculate.scores.R line all the way through `Load Scenario Layers` 
+1. Go to conf folder, open functions.R --> where all the status and trend calculations occur
+1. Go to CS section by clicking on CS 
+1. load temporary libraries (dplyr and tidyr)
+1. explain the code line by line
+first we identify and select the data layers we need. to identify the data layers: 542-545; note that the layer names are what we set up in layers.csv. now the toolbox will look for those layers 
+select the correct data layers from layers folder: 546
+to check that we selected the right data: head(D); summary(D)
+after we select the data, here is how we manipulate the data. first, we combine all the data layers into one data file (show the end product)
+side note: the %>% means chaining, a operator from dplyr, to simplify coding writing. So that multiple functions can be written top-down, left-right. To read more about it: http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html on chaining
+we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
+right now, the data are in rows, and we want to make each layer into a column (show data on R of what this means). We use spread in the tidyr package to do that. (note that we wrote tidyr:: spread, to show that the command spread comes from tidyr package). in this command, the key= variable to become column headers, which is layer. value= data, which is val_num. for more info on spread, see cheat sheet, and ?spread
+now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. 
+first we calculate condition*contribution*extent for each habitat in each region. we use the function mutate, which adds a new column to the original table. 
+eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
+next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice. 
+now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers. 
+after we calculate the score, there is one more step to create a new table for the status score called r.status and format the it to match the style of the other goals. (show the outcome table in green). again we’ll use the mutate function to add in two new columns: goal and dimension. Then we select only the columns we need, with the select function. now, the status calculation is done! 
+in addition to status, we also need to calculate trend. we use the first table we made today, rk, which contains the raw data for all habitats in all regions. we first aggregate the data by region using group_by, then add two new columns for the trend calculation and the score, using summarize. 
+similar to status, trend scores need to be properly formatted to match the rest of the goal trends. we’ll create a new table called r.trend with the scores we just calculated. again, we use mutate and select, as shown here. 
+now we’ve successfully calculated status and trend, the last thing we need to do is combine them into one table called scores. we combine r.status and r.trend by first binding by rows (rbind). 
