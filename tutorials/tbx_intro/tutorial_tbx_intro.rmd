@@ -30,7 +30,7 @@ The **OHI Toolbox** facilitates the highly collaborative OHI assessment process 
 
 >  **The OHI Toolbox = assessment-repo + ohicore**:
 
-* **your assessment repository** you will edit with your data, goal models, and updated pressures & resilience matices.
+* **your assessment repository** you will edit with your data, goal models, and updated pressures & resilience matrices.
 * **the *ohicore* repository** you will not edit: it provides the underlying functionality of the Toolbox and WebApps. 
 
 ## The Toolbox and WebApps
