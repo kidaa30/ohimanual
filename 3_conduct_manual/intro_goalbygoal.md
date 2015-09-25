@@ -4,30 +4,50 @@ Once you have determined which goals are assessed and have begun searching for d
 
 ### Developing multiple goal models at the same time
 
-<!--- Hi Omar, I think that this categories discussion is important to develop as its own subsection. I've added a comment below; I can think about this and develop. OM: That would be great!--->
+Goals can be assessed independent of one another. As each goal model is developed and data gathered, it can be assessed without affecting other goals.
 
-You can develop some goal models simultaneously, for example, the habitat-based goals. **Carbon Storage**, **Coastal Protection**, and the **Habitats sub-goal of Biodiversity** all rely on the same underlying data, and their models can be developed together. This will be efficient and help streamline the data search. A spatial analyst can do the file manipulation to create the spatial layers that get used for these goals using the same source material. This will greatly expedite your data layer preparation. If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of certain goals. That is a consideration when assembling your team and planning your workflow.
+ However, you can develop some goal models simultaneously. For example, the habitat-based goals. **Carbon Storage**, **Coastal Protection**, and the **Habitats sub-goal of Biodiversity** all rely on the same underlying data, and their models can be developed together. This will help streamline the data search. A spatial analyst can create the spatial layers used for these goals with the same source material. This will greatly expedite your data layer preparation. If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of certain goals. That is a consideration when assembling your team and planning your workflow. For more details, please see the goal-specific sections.
 
-<!---JSL, is this too technical? Can we save this for the more technical descriptions of goal model development that are to come? TIP: If you look at `functions.R`, you will see that the reason this one data layer, `Hab_extent`, is used in multiple places in the software, meaning that once you have that data you can use it in several goal models. In the Global Assessment, `Hab_extent` is called upon in **Natural Products**, **Wild-Caught Fisheries**, **Carbon Storage**, and **Coastal Protection**.
+<!---OMAR: TIP: If you look at `functions.R`, you will see that the reason this one data layer, `Hab_extent`, is used in multiple places in the software, meaning that once you have that data you can use it in several goal models. In the Global Assessment, `Hab_extent` is called upon in **Natural Products**, **Wild-Caught Fisheries**, **Carbon Storage**, and **Coastal Protection**.
 ![Note that Habitat Extent appears in several goal model functions. ](https://docs.google.com/drawings/d/1HtrwjFi1Lod6B687nNTUPqK-MTAr9uwShooHUIu3Le4/pub?w=790&h=258)--->
-
-### Identifying linkages between goals and pressures
-
-You should note the linkages between your goals and the pressures and resilience that affect them while you are developing your model approach. The team members who are developing goals should think about the pressures that act upon those goals at the time that they are data-gathering, and they should think about the data sources that could be used to provide pressures information. However, it may be most useful when someone specific gathers all of the data for pressures, since pressures affect multiple goals.
-
-For example, when developing the **Wild-Caught Fisheries** goal model it is possible to prepare some of the pressures layers that affect multiple goals. This is because the goal model will require catch data, which may be the same data source for information on commercial high- and low-bycatch data. Bycatch data are used as pressures layers that affect multiple goals, including **Livelhoods and Economies** and **Biodiversity**. It is important to remember these linkages as you go through the data discovery process.
-
-You may also start searching for pressures data rather than data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the same data layers for pressures are used as the input layers for the status. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**.
-
-These linkages will become more clear as you go through the OHI+ assessment process.
 
 ### Keeping Reference Points in Mind
 
 The decisions on choosing a reference point will be a theme in each of the goal models you develop. The choice of a reference point will affect how the final scores are calculated, and must be balanced between knowledge of the system, expert judgment, and limitations of the data and to assess the conditions of the various dimensions of ocean health.
 
-Once you find data, always consider how you would set the reference point. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? It is also possible to use spatial reference points. With spatial reference points, a region within the study area with the highest input values could be set as a perfect (score of 100), and all others are scaled to it. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014). Using temporal reference points, a historical benchmark is used as a the "ideal" point in the past. A third type of reference point is a policy-set target, such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year. In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point. S.M.A.R.T. criteria means they should be "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
+Once you find data, always consider how you would set the reference point. Generally there are three types of reference points:
++ _Temporal_: A historical benchmark is used as a the "ideal" point in the past.
++ _Spatial_: A region within the study area with the highest input values could be set as a perfect (score of 100), and all others are scaled to it. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014).
++ _Policy-set target_: Such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year.
+
+Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
 
 You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
+
+**_How to use the reference point in a model_**
+
+ It's best to explicitly include the reference point in the model equation whenever possible. For example, Carbon Storage goal model is written like this:
+![](http://i.imgur.com/JN58oqB.png)
+where C<sub>r</sub> is the reference condition of each habitat. See goal-specific sections for more examples.
+
+### Identifying pressures and resilience
+
+You should note the linkages between your goals and the pressures and resilience that affect them while you are developing your model approach. The team members who are developing specific goals should think about the pressures that act upon those goals as they are data-gathering, and they should think about the data sources that could provide pressures information. However, it may be most useful when one team member gathers all of the data for pressures, since the same pressures affect multiple goals.
+
+<!-- Ning: maybe we can move this detailed information to the pressure/resilience section.  -->
+Some pressure data are the same or closely-related to data for goals. For example, when developing the **Wild-Caught Fisheries** goal model requires catch data, which may be the same data source for information on commercial high- and low-bycatch data. Bycatch data are used as pressures layers that affect **Livelhoods and Economies** and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the input layers for the status are used as pressure layers. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**. It is important to remember these linkages as you go through the data discovery process.
+
+You should also start searching for pressures data independent from data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**.
+
+These linkages will become more clear as you go through the OHI+ assessment process.
+
+<!-- Ning: What about Resilience? It's trickier to gather resilience data, but it's good to start thinking about resilience from the beginning.
+
+I saw there is a tempnotes_b_reslilience which has information on resilience. I can edit it and move some information over if you think it's good.
+
+Also there are theoretical questions about resilience, but it is a discussion for another day. Does resilience mean measures to keep things the way it is (eg. grants for AO fishermen to keep fishing), or ways to help people adapt and change (eg. grants for AO fishermen to start aquaculture)?  -->
+
+
 
 
 <!---
