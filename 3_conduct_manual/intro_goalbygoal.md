@@ -20,7 +20,7 @@ Once you find data, always consider how you would set the reference point. Gener
 + _Spatial_: A region within the study area with the highest input values could be set as a perfect (score of 100), and all others are scaled to it. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014).
 + _Policy-set target_: Such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year.
 
-Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: "Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."
+Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: _"Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."_
 
 You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
 
@@ -32,10 +32,10 @@ where C<sub>r</sub> is the reference condition of each habitat. See goal-specifi
 
 ### Identifying pressures and resilience
 
-You should note the linkages between your goals and the pressures and resilience that affect them while you are developing your model approach. The team members who are developing specific goals should think about the pressures that act upon those goals as they are data-gathering, and they should think about the data sources that could provide pressures information. However, it may be most useful when one team member gathers all of the data for pressures, since the same pressures affect multiple goals.
+While you are developing your model approach, you should note the linkages between your goals and the pressures and resilience that affect them. It is recommended to begin gathering data of pressure and resilience from the start of the assessment. The team members who are developing specific goals should think about the pressures that act upon those goals as they are data-gathering, and they should think about the data sources that could provide pressures information. However, it may be most useful when one team member gathers all of the data for pressures, since the same pressures often affect multiple goals. See **Pressure and Resilience** section of this chapter for more information. (Link to this section)
 
 <!-- Ning: maybe we can move this detailed information to the pressure/resilience section.  -->
-Some pressure data are the same or closely-related to data for goals. For example, when developing the **Wild-Caught Fisheries** goal model requires catch data, which may be the same data source for information on commercial high- and low-bycatch data. Bycatch data are used as pressures layers that affect **Livelhoods and Economies** and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the input layers for the status are used as pressure layers. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**. It is important to remember these linkages as you go through the data discovery process.
+Some pressure data are the same or closely-related to data for goals. For example, the **Wild-Caught Fisheries** goal model requires catch data, which may be the same data source for information on commercial high- and low-bycatch data, which are used as pressures layers that affect **Livelhoods and Economies** and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the input layers for its status are used as pressure layers. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**. It is important to remember these linkages as you go through the data discovery process.
 
 You should also start searching for pressures data independent from data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**.
 
@@ -43,7 +43,7 @@ These linkages will become more clear as you go through the OHI+ assessment proc
 
 <!-- Ning: What about Resilience? It's trickier to gather resilience data, but it's good to start thinking about resilience from the beginning.
 
-I saw there is a tempnotes_b_reslilience which has information on resilience. I can edit it and move some information over if you think it's good.
+I saw the tempnotes_b_reslilience. I can edit it and move some information over if you think it's good.
 
 Also there are theoretical questions about resilience, but it is a discussion for another day. Does resilience mean measures to keep things the way it is (eg. grants for AO fishermen to keep fishing), or ways to help people adapt and change (eg. grants for AO fishermen to start aquaculture)?  -->
 
