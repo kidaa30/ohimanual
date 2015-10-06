@@ -79,19 +79,21 @@ tonnage in each row.
 into a single column called 'tonnes' and note the year of harvest in a new column
 called 'year'.
 
-In this example (see figure), the original wide data is transformed into long
-data using the command:
+The example in the figure below shows how the original wide data is transformed into long
+data using the command `gather`. Here are two ways of acheiving this: 
+
+1. Here, information from columns X2007 through X2011 are gathered into a single column called `year`, and the information in each column are put into a new column called `tonnes`.
 
 ```
 data_long <- data_wide %>% gather(year, tonnes, X2007:X2011)
-  ### Gathers columns X2007 through X2011 into a single column called 'year';
-  ### the values from each column are put into a new column called 'tonnes'.
-
-data_long <- data_wide %>% gather(year, tonnes, -Country, -Commodity, -Trade)
-  ### Same results; the '-' unselects the named columns, so they will not
-  ### be gathered; all other columns are gathered into 'year' and 'tonnes'.
 ```
 
+2. Here, the `-` unselects the named columns, so they will not be gathered; all other columns are gathered into columns named `year` and `tonnes`. This approach will  yield the same result. 
+
+```
+data_long <- data_wide %>% gather(year, tonnes, -Country, -Commodity, -Trade)
+```
+  
 ![wide data to long data using gather() and spread()](https://docs.google.com/drawings/d/1VaZdLWK0NwAkov4sEytZLRpOUAndb3_NZOA4-n1HNIo/pub?w=948&h=499)
 
 ### `dplyr` functions

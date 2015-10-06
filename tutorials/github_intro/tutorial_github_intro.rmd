@@ -6,7 +6,7 @@ output: ioslides_presentation
 
 ## Introduction  
 
-[**GitHub**](htpps://github.com) is a collaborative platform for version control. It has synching capabilities like Dropbox, but with added functionality since multiple users (with permission) can edit documents. GitHub saves all versions with editing users identified,  modifications attributed, complementary edits merged. There are many ways to investigate past versions, all of which can be reinstated at any time. 
+[**GitHub**](https://github.com) is a collaborative platform for version control. It has synching capabilities like Dropbox, but with added functionality since multiple users (with permission) can edit documents. GitHub saves all versions with editing users identified,  modifications attributed, complementary edits merged. There are many ways to investigate past versions, all of which can be reinstated at any time. 
 
 There are many resources available for learning GitHub: Hadley Wickham has a great instructions in his [book](http://r-pkgs.had.co.nz/git.html) and [webinars](http://www.rstudio.com/resources/webinars/).
 
