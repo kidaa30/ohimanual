@@ -32,7 +32,7 @@ in_md = c(
   #'practical_LE_TR.md',                             # TODO: review and update
   #'practical_AO.md',                                # TODO: review and update
   #'practical_CW.md',                                # TODO: review and update
-  #'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1
+  #'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
@@ -44,7 +44,7 @@ in_md = c(
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
-  # 'use_tbx_to_modify_goal_models_practical.md',    # TODO: review and update JSL
+  #'use_tbx_to_modify_goal_models_practical_new.md',  #updated by NJM 9/15
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
@@ -52,7 +52,6 @@ in_md = c(
   'R_tutes_all.md',                                  # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
   'frequently_asked_questions.md')                   # TODO: review and update
-  # 'tempnotes_b_resilience.md'                        # TODO: review and update
 out_md = 'ohi-manual.md'
 
 # cleanup functions within files and for filenames ----
@@ -100,6 +99,7 @@ render(
     toc=T, toc_depth=3),
   clean=T, quiet=F,
   output_file = paste0(pfx, '.html'))
+if (redo_website) {
 cat(sprintf('---
 layout: page
 title : Manual
@@ -114,7 +114,6 @@ cat(
   file='~/github/ohi-science.github.io/manual/index.html',
   append=T)
 # #file.copy(paste0(pfx, '.html'), '~/github/ohi-science.github.io/manual/index.html', overwrite=T)
-if (redo_website) {
   dir.create('~/github/ohi-science.github.io/manual/fig', showWarnings=F)
   file.copy('fig', '~/github/ohi-science.github.io/manual', overwrite=T, recursive=T)
   system('cd ~/github/ohi-science.github.io; git pull; git add -A; git commit -m "update manual"; git push')

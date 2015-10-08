@@ -32,13 +32,17 @@ Add access your 'bash profile' by typing:
 pico ~/.bash_profile
 ```
 
-You are now able to edit your ‘bash profile’. Type:
+You are now able to edit your ‘bash profile’ and your screen will change; it will look like this:
+
+> ![](https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&h=384)
+
+Now type:
 
 ```
 export PATH=/usr/local/git/bin:$PATH
 ```
 
-Exit pico by typing:
+Exit pico by entering:
 
 > control-X  
 y  
@@ -135,9 +139,9 @@ You will then work locally on your own computer, modifying the files in the repo
 
 > TIP: While you can edit files in the online GitHub repository, we do not recommend this. It is good practice to track changes through commits and syncing.
 
-The example below illustrates GitHub's collaborative workflow with the `ohi-israel` repo owned by `OHI-Science`:
+The example below illustrates GitHub's collaborative workflow:
 
-> > > ![](./fig/clone_push_pull.png)
+>>![](https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&h=480)
 
 **All changes within your local repository will be tracked by GitHub regardless of the software you use to make the changes**. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. We recommend doing as much data manipulation as possible in a programming language like R, to maximize transparency and reproducibility. When modifying R scripts such as `functions.R`, you will need to work in R.
 

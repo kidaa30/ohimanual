@@ -3,7 +3,9 @@
 <!---6-17-15 This has been switched with NP--->
 *Ideal Approach*
 
-Ideally, this goal would include some measure of how easy or hard it is for fishermen to access ocean resources when they need them and a quantified evaluation of the sustainability of harvest of all nearshore stocks used by artisanal fishers. The type of reference point you use will depend on the data available.
+Ideally, this goal would include some measure of of how easy or hard it is for fishermen to access ocean resources when they need them and the sustainability of harvest of all nearshore stocks used by artisanal fishers. The type of reference point you use will depend on the data available.
+
+<!-- Ning: should we include the most recent goal model here? -->
 
 *Practical Guidance*
 

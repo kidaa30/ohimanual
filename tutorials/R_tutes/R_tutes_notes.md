@@ -64,5 +64,18 @@ What makes a good function:
 * Performs a single operation
 * Uses intuitive names
 
+<<<<<<< HEAD:R_tutes/R_tutes_notes.md
+
+##Misc helpful or common or confusing functions
+* switch vs list?
+* ifelse?
+* apply functions?
+
+## Omar and Ning's Ques 
+* line 69 R_tubes_tidyr.R, why not save year as.numeric (vs. as.integer)? any functional differences?
+* added a line 31: data_wide = data, which wasn't defined before
+* line 86: doesn't arrange by alphabetical order? 
+=======
 #### Directories and files
     * Store files in a folder called 'github' in your home directory; access it with `~/github` so that users with different operating systems can work smoothly with your files
+>>>>>>> 742e9f83d0b12a5b52722a9b105c35987129ff0a:tutorials/R_tutes/R_tutes_notes.md
