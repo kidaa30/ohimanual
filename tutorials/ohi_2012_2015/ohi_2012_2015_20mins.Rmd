@@ -1,0 +1,181 @@
+---
+title: 'The Ocean Health Index<br /> 2012-2015'
+author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br /> lowndes@nceas.ucsb.edu"
+output: ioslides_presentation
+---
+
+
+## The Ocean Health Index
+
+![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
+
+<!---
+Most people have heard of the OHI because of Halpern et al 2012
+
+-->
+
+## The Ocean Health Index
+
+![](https://docs.google.com/drawings/d/1emeqxgwGgE0GHSLzlP0i--Fqe8s-v7o5GyZTM-UWZJU/pub?w=768&h=480)
+
+<!---
+But since 2012 there have been 5 full-time researchers, and we have completed many more assessments through space and time.
+-->
+## The Ocean Health Index
+
+![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
+
+<!---
+But since 2012 there have been 5 full-time researchers, and we have completed many more assessments through space and time.
+Plus, we have developed open-source software tools and at training program. And independent groups are doing their own. 
+How did this come to be?
+I'm going to tell the story of the past 3 years, what OHI has come to be
+-->
+
+## Outline
+
+- Motivation for developing OHI
+- OHI Framework
+- OHI Toolbox
+- Support for independent assessments
+- Best practices for conducting assessments
+
+## Motivation for developing OHI
+
+![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)
+
+- 
+- Cumulative Human Impacts is only the negatives, what about the positives?
+- Policy mandates to 'keep oceans healthy' 
+- What is a 'healthy ocean'? Must be defined 
+
+<!---
+important to define what you're trying to do
+explict with humans included--not conservation oriented
+not monitoring. need to have human decisions in there of 'what is good'
+-->
+
+## OHI Framework
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+
+## OHI Framework: definition
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+<span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span> <br /> <br />
+
+ - a healthy ocean is not 'pristine'  
+ - human priorities are explicit
+ - assesses a range of benefits, called 'goals'
+
+<!---
+definition of ocean health
+-->
+
+## OHI Framework: goal scores
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+- goal scores are based on **status** and **likely future state**
+- pressures and resilience can affect multiple goals
+
+![](https://docs.google.com/drawings/d/1QRZjVzoQpkouiz_6R0tuO9Bf-ymUmw3TwXOzP6CIIuQ/pub?w=768&h=288)
+
+<!---
+status + likely future state (made up of 5-year trend and pressures and resilience)
+-->
+
+## OHI Framework: context-specific 
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+- ocean benefits are categorized into a suite of **goals**
+
+![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
+
+## OHI Framework: context-specific 
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+- which goals are important?
+- what are key characteristics of the area?
+- what are cultural priorities?
+- what are pressures affecting these goals?
+- what resilience measures are important?
+## OHI Framework
+
+scores are calculated for each goal and region, then combined
+
+![](https://docs.google.com/drawings/d/1yYTF0KUqe4UFuMKMkvzIM0-TyJh46xFFs13SViIuaqA/pub?w=768&h=480)
+
+## OHI Framework
+
+scores are calculated for each goal and region, then combined
+
+![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
+
+<!---
+step by step through data requirements and models per region-->
+
+## OHI Framework
+
+This framework can be modified to suit different contexts
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+
+We promote:
+
+- **transparency** about which decisions were made and why 
+- **reproducibility** through access to detailed methods and computational code
+- **repeatability** by the ability to modify methods and computational code
+- **communicability** through visualization to wide audiences
+
+## OHI Toolbox
+
+open-source tools for analysis, visualization and communication 
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+
+## OHI Toolbox: R package
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- R package to calculate scores: 
+    - [github.com/ohi-science/ohicore](https://github.com/ohi-science/ohicore)
+
+## OHI Toolbox: context-specific
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- Information is entered into a structured repository:
+    - Example [github.com/ohi-science/gye](https://github.com/ohi-science/gye)
+
+## OHI Toolbox: website
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- Methods and scores are displayed on a website:
+    - Example [ohi-science.org/gye](http://ohi-science.org/gye)
+
+
+## Support for independent assessments
+
+[**ohi-science.org**](http://ohi-science.org)
+
+![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
+
+## Best practices for OHI assessments
+
+Figure of best practices ms 4 'steps'
+
+<!---
+best practices for any assessment 
+define a framework for how to comprehensively incoporate all important components. Do this BEFORE thinking about data
+look for data that can be used in your framework. Direct and Indirect
+develop model equations for how to represent your framework with the information you have. STICK TO THE PLAN
+document and share all decisions with writing and computational code. 
+-->
+
