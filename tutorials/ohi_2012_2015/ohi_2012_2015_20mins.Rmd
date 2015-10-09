@@ -4,7 +4,6 @@ author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br />
 output: ioslides_presentation
 ---
 
-
 ## The Ocean Health Index 2012
 
 ![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
@@ -41,6 +40,12 @@ we've also tested it at different spatial scales and different degrees of data q
 
 ## The Ocean Health Index 2012-2015
 
+![](https://docs.google.com/drawings/d/1mjMnxoNtihK6fV0OTgBo2fwG_f6yWN95RqDtYYdykjM/pub?w=768&h=480)
+
+<!---s--->
+
+## The Ocean Health Index 2012-2015
+
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
 <!---
@@ -52,8 +57,8 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 ## Outline
 
 - Motivation for developing OHI
-- OHI assessment framework
-- OHI toolbox
+- OHI: an assessment framework
+- OHI Toolbox
 - Support for independent assessments
 
 ## Motivation for developing OHI
@@ -127,50 +132,62 @@ Ten goals were identified as important for global assessments:<br />
 
 ![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
 
+## OHI Framework
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
+
+**Identify information (data/indicators) to include AFTER context-specific decisions have been made.** 
+
+- information should fit into the framework; the framework should not be built around available information (biases)
+- remain true to the planned goals
+    - include indirect (proxy) information
+    - highlight knowledge gaps
+
 
 ## OHI Framework: scores
 
 ![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
 
 - OHI scores are on a unitless scale from 0-100
-- visualized with maps and 'flower plots'
+- visualized with maps and flower plots
 ![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
 
-## OHI Scores: conceptual overview
 
-information is required for all regions in an assessment area
+## OHI calculations overview
+
+Information is required for all regions in an assessment area
 
 ![](https://docs.google.com/drawings/d/1zZhw3DA_lVvKXfa978URjf5YDXizlkVuWNTltLjJv9g/pub?w=768&h=480)
 
 
-## OHI Scores: conceptual overview
+## OHI calculations overview
 
-the same model is used for all regions 
+The same model is used for all regions 
 
 ![](https://docs.google.com/drawings/d/15VlmW1U8FpvGKrTQFsZCeHTlGSFDcF9n1dOXW45v-ok/pub?w=768&h=480)
 
-## OHI Scores: conceptual overview
+## OHI calculations overview
 
-scores for a single goal are calculated for each region
+Scores are calculated for each region for a single goal
 
 ![](https://docs.google.com/drawings/d/1yYTF0KUqe4UFuMKMkvzIM0-TyJh46xFFs13SViIuaqA/pub?w=768&h=480)
 
-## OHI Scores: conceptual overview
+## OHI calculations overview
 
-scores are calculated for all goals for every region
+Scores are calculated for each region for all goals
 
 ![](https://docs.google.com/drawings/d/1NLjtCCb5gsxCf4zmo5BXbOxL76Sj_xJyXWcHATzCOQk/pub?w=768&h=480)
 
 
-## OHI Scores: conceptual overview
+## OHI calculations overview
 
-goal scores are averaged into index scores for each region
+Goal scores are averaged into index scores for each region
 
 ![](https://docs.google.com/drawings/d/1pMoErOVLLj9stC9KUMqGCyVL-BHgOVzYoPnwzRJ2-j0/pub?w=768&h=480)
 
-## OHI Scores: conceptual overview
+## OHI calculations overview
 
-assessment index score is the average of region index scores
+Assessment index score is the average of region index scores
 
 ![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
 
@@ -209,20 +226,15 @@ step by step through data requirements and models per region-->
 
 ## OHI Assessments
 
-OHI framework is flexible to suit assessments in different contexts. Our software tools facilitate calculations, and GitHub allows for organization, remote collaboration, and versioning. 
+The OHI framework is standardized, yet modifiable to suit assessments in different contexts.<br /><br />
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
 
 
 ## OHI Assessments
 
-OHI framework is flexible to suit assessments in different contexts. Our software tools facilitate calculations, and GitHub allows for organization, remote collaboration, and versioning. <br /><br />
-
-We promote:
-
-- **transparency** about which decisions were made and why 
-- **reproducibility** through access to detailed methods and computational code
-- **repeatability** by the ability to modify methods and computational code
-- **communication** with visualization for wide audiences
-
+The OHI framework is standardized, yet modifiable to suit assessments in different contexts.
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+The Toolbox and GitHub facilitate assessment calculations, but also organization, remote collaboration, and documentation.
 
 ## Support for independent assessments
 
@@ -232,9 +244,10 @@ All resources are at [**ohi-science.org**](http://ohi-science.org)
 
 ## Support for independent assessments
 
-![](https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&h=288)<br />
+![](https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&h=288)
 
 **Contact us**<br /><br />
 Julie Lowndes: lowndes@nceas.ucsb.edu<br /><br />
-Ning Mendes: mendes@nceas.ucsb.edu<br />
+Ning Mendes: mendes@nceas.ucsb.edu<br /><br />
+Erich Pacheco: epacheco@conservation.org
 
