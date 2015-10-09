@@ -136,7 +136,7 @@ Ten goals were identified as important for global assessments:<br />
 
 ![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
 
-**Identify information (data/indicators) to include AFTER context-specific decisions have been made.** 
+**Make context-specific decisions BEFORE gathering information (data/indicators).** 
 
 - information should fit into the framework; the framework should not be built around available information (biases)
 - remain true to the planned goals
