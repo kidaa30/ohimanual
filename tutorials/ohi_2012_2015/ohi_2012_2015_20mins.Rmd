@@ -5,28 +5,45 @@ output: ioslides_presentation
 ---
 
 
-## The Ocean Health Index
+## The Ocean Health Index 2012
 
 ![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
 
 <!---
-Most people have heard of the OHI because of Halpern et al 2012
-
+Most people have heard of the OHI because of Halpern et al 2012.
+3 years, interdisciplinary partnerships. It made a splash
 -->
 
-## The Ocean Health Index
+
+## The Ocean Health Index 2012
+
+![](https://docs.google.com/drawings/d/1Q-RhWm-ypn9JPo-KWYbq_jT7buhgUw4ar7ogHUZU3lU/pub?w=768&h=480)
+
+<!---
+but we've been busy since then
+-->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1Krym79W1-i4gJZ3jtGWVVkZfUtjRwmNxw3HG_3SiwpE/pub?w=768&h=480)
+
+<!---
+But since 2012 there have been 5 full-time researchers, and we have repeated the global assessment through time
+-->
+
+## The Ocean Health Index 2012-2015
 
 ![](https://docs.google.com/drawings/d/1emeqxgwGgE0GHSLzlP0i--Fqe8s-v7o5GyZTM-UWZJU/pub?w=768&h=480)
 
 <!---
-But since 2012 there have been 5 full-time researchers, and we have completed many more assessments through space and time.
+we've also tested it at different spatial scales and different degrees of data quality
 -->
-## The Ocean Health Index
+
+## The Ocean Health Index 2012-2015
 
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
 <!---
-But since 2012 there have been 5 full-time researchers, and we have completed many more assessments through space and time.
 Plus, we have developed open-source software tools and at training program. And independent groups are doing their own. 
 How did this come to be?
 I'm going to tell the story of the past 3 years, what OHI has come to be
@@ -35,24 +52,27 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 ## Outline
 
 - Motivation for developing OHI
-- OHI Framework
-- OHI Toolbox
+- OHI assessment framework
+- OHI toolbox
 - Support for independent assessments
-- Best practices for conducting assessments
 
 ## Motivation for developing OHI
 
-![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)
+![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)<br />
 
-- 
+- Cumulative Human Impacts is only the negatives, what about the positives?
+
+
+## Motivation for developing OHI
+
+![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)<br />
+
 - Cumulative Human Impacts is only the negatives, what about the positives?
 - Policy mandates to 'keep oceans healthy' 
-- What is a 'healthy ocean'? Must be defined 
+- What is a 'healthy ocean'? Must define in order to measure
 
 <!---
 important to define what you're trying to do
-explict with humans included--not conservation oriented
-not monitoring. need to have human decisions in there of 'what is good'
 -->
 
 ## OHI Framework
@@ -62,24 +82,23 @@ not monitoring. need to have human decisions in there of 'what is good'
 
 ## OHI Framework: definition
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144) <br /><br />
 
 <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span> <br /> <br />
 
  - a healthy ocean is not 'pristine'  
  - human priorities are explicit
- - assesses a range of benefits, called 'goals'
+ - assesses a range of benefits, categorized as 'goals'
 
 <!---
 definition of ocean health
 -->
 
-## OHI Framework: goal scores
+## OHI Framework: score calculations
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
 
-- goal scores are based on **status** and **likely future state**
-- pressures and resilience can affect multiple goals
+- score calculations: **current status** + **likely future state**
 
 ![](https://docs.google.com/drawings/d/1QRZjVzoQpkouiz_6R0tuO9Bf-ymUmw3TwXOzP6CIIuQ/pub?w=768&h=288)
 
@@ -89,93 +108,133 @@ status + likely future state (made up of 5-year trend and pressures and resilien
 
 ## OHI Framework: context-specific 
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
 
-- ocean benefits are categorized into a suite of **goals**
-
-![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
-
-## OHI Framework: context-specific 
-
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+**Context specific decisions:** 
 
 - which goals are important?
+- how should they ideally be measured?
 - what are key characteristics of the area?
 - what are cultural priorities?
 - what are pressures affecting these goals?
-- what resilience measures are important?
-## OHI Framework
+- what mitigates these pressures (resilience)?
 
-scores are calculated for each goal and region, then combined
+## OHI Framework: context-specific 
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
+
+Ten goals were identified as important for global assessments:<br />
+
+![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
+
+
+## OHI Framework: scores
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
+
+- OHI scores are on a unitless scale from 0-100
+- visualized with maps and 'flower plots'
+![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
+
+## OHI Scores: conceptual overview
+
+information is required for all regions in an assessment area
+
+![](https://docs.google.com/drawings/d/1zZhw3DA_lVvKXfa978URjf5YDXizlkVuWNTltLjJv9g/pub?w=768&h=480)
+
+
+## OHI Scores: conceptual overview
+
+the same model is used for all regions 
+
+![](https://docs.google.com/drawings/d/15VlmW1U8FpvGKrTQFsZCeHTlGSFDcF9n1dOXW45v-ok/pub?w=768&h=480)
+
+## OHI Scores: conceptual overview
+
+scores for a single goal are calculated for each region
 
 ![](https://docs.google.com/drawings/d/1yYTF0KUqe4UFuMKMkvzIM0-TyJh46xFFs13SViIuaqA/pub?w=768&h=480)
 
-## OHI Framework
+## OHI Scores: conceptual overview
 
-scores are calculated for each goal and region, then combined
+scores are calculated for all goals for every region
+
+![](https://docs.google.com/drawings/d/1NLjtCCb5gsxCf4zmo5BXbOxL76Sj_xJyXWcHATzCOQk/pub?w=768&h=480)
+
+
+## OHI Scores: conceptual overview
+
+goal scores are averaged into index scores for each region
+
+![](https://docs.google.com/drawings/d/1pMoErOVLLj9stC9KUMqGCyVL-BHgOVzYoPnwzRJ2-j0/pub?w=768&h=480)
+
+## OHI Scores: conceptual overview
+
+assessment index score is the average of region index scores
 
 ![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
 
 <!---
 step by step through data requirements and models per region-->
 
-## OHI Framework
-
-This framework can be modified to suit different contexts
-
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
-
-We promote:
-
-- **transparency** about which decisions were made and why 
-- **reproducibility** through access to detailed methods and computational code
-- **repeatability** by the ability to modify methods and computational code
-- **communicability** through visualization to wide audiences
-
 ## OHI Toolbox
-
-open-source tools for analysis, visualization and communication 
 
 ![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
 
+- open-source tools for analysis, visualization + communication 
+- tools are shared through the collaborative platform **GitHub**  
 
 ## OHI Toolbox: R package
 
 ![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
 
-- R package to calculate scores: 
+- Open-source software (R package) to calculate scores
     - [github.com/ohi-science/ohicore](https://github.com/ohi-science/ohicore)
 
 ## OHI Toolbox: context-specific
 
 ![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
 
-- Information is entered into a structured repository:
-    - Example [github.com/ohi-science/gye](https://github.com/ohi-science/gye)
+- Context-specific info stored in a structured GitHub repository
+    - Ecuador ex: [github.com/ohi-science/gye](https://github.com/ohi-science/gye)
+    - Chile ex: [github.com/ohi-science/chl](https://github.com/ohi-science/chl)
 
 ## OHI Toolbox: website
 
 ![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
 
-- Methods and scores are displayed on a website:
-    - Example [ohi-science.org/gye](http://ohi-science.org/gye)
+- Website to display methods and scores
+    - Ecuador ex: [ohi-science.org/gye](http://ohi-science.org/gye)
+    - Chile ex: [ohi-science.org/chl](http://ohi-science.org/chl)
+
+## OHI Assessments
+
+OHI framework is flexible to suit assessments in different contexts. Our software tools facilitate calculations, and GitHub allows for organization, remote collaboration, and versioning. 
+
+
+## OHI Assessments
+
+OHI framework is flexible to suit assessments in different contexts. Our software tools facilitate calculations, and GitHub allows for organization, remote collaboration, and versioning. <br /><br />
+
+We promote:
+
+- **transparency** about which decisions were made and why 
+- **reproducibility** through access to detailed methods and computational code
+- **repeatability** by the ability to modify methods and computational code
+- **communication** with visualization for wide audiences
 
 
 ## Support for independent assessments
 
-[**ohi-science.org**](http://ohi-science.org)
+All resources are at [**ohi-science.org**](http://ohi-science.org) 
 
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
-## Best practices for OHI assessments
+## Support for independent assessments
 
-Figure of best practices ms 4 'steps'
+![](https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&h=288)<br />
 
-<!---
-best practices for any assessment 
-define a framework for how to comprehensively incoporate all important components. Do this BEFORE thinking about data
-look for data that can be used in your framework. Direct and Indirect
-develop model equations for how to represent your framework with the information you have. STICK TO THE PLAN
-document and share all decisions with writing and computational code. 
--->
+**Contact us**<br /><br />
+Julie Lowndes: lowndes@nceas.ucsb.edu<br /><br />
+Ning Mendes: mendes@nceas.ucsb.edu<br />
 
