@@ -4,7 +4,7 @@ author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br />
 output: ioslides_presentation
 ---
 
-## The Ocean Health Index 2012
+## The Ocean Health Index 2012 
 
 ![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
 
