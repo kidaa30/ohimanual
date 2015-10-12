@@ -4,6 +4,10 @@ author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br />
 output: ioslides_presentation
 ---
 
+<!---
+This presentation now includes notes to improve for the 40 min version.
+--->
+
 ## The Ocean Health Index 2012 
 
 ![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
@@ -11,6 +15,9 @@ output: ioslides_presentation
 <!---
 Most people have heard of the OHI because of Halpern et al 2012.
 3 years, interdisciplinary partnerships. It made a splash
+Focus not only on that there was a paper, but what they may have heard of.
+The score is 70! what does that mean?--Define scale 1-100. Then explain the structure. it's made up of goals
+Casey: explain that it's made of goals and it's a framework
 -->
 
 
@@ -28,6 +35,11 @@ but we've been busy since then
 
 <!---
 But since 2012 there have been 5 full-time researchers, and we have repeated the global assessment through time
+Give examples of goals and follow them through. 
+Introduce the idea of goals and give exs throughout for a few Fisheries and Tourism. Use these to talk about the reference points, concrete points. Also helps illustrate how ref point is not pristine. And how the ref point isn't max ever: it's msy
+
+
+ref points as well-informed as possible. based on literature if nothing else
 -->
 
 ## The Ocean Health Index 2012-2015
@@ -91,7 +103,7 @@ important to define what you're trying to do
 
 <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span> <br /> <br />
 
- - a healthy ocean is not 'pristine'  
+ - a healthy ocean is not necessarily 'pristine'  
  - human priorities are explicit
  - assesses a range of benefits, categorized as 'goals'
 
@@ -143,7 +155,14 @@ Ten goals were identified as important for global assessments:<br />
     - include indirect (proxy) information
     - highlight knowledge gaps
 
+<!---give example of proxy data
 
+Good questions--talk to Courtney about the talking points
+
+
+
+
+--->
 ## OHI Framework: scores
 
 ![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
@@ -179,6 +198,12 @@ Scores are calculated for each region for all goals
 ![](https://docs.google.com/drawings/d/1NLjtCCb5gsxCf4zmo5BXbOxL76Sj_xJyXWcHATzCOQk/pub?w=768&h=480)
 
 
+
+<!---Huge amount of time on Ref pts
+4 types
+and carry the thread with FIS and TR
+--->
+
 ## OHI calculations overview
 
 Goal scores are averaged into index scores for each region
@@ -207,6 +232,20 @@ step by step through data requirements and models per region-->
 
 - Open-source software (R package) to calculate scores
     - [github.com/ohi-science/ohicore](https://github.com/ohi-science/ohicore)
+    
+    <!----show a nice diagram, don't take them there then take them there
+    take the time to draw this out with cartoons. 
+    No github navigation
+    
+    
+    grey out any part of these boxes that i'm talking about
+    don't spend much time on ohicore etc. Everything that you are responsible for is in this box
+    
+    
+    redo diagram so fewere words, colors, time-scale/what ohi+ peopel are responsible for, etc
+    
+    
+    --->
 
 ## OHI Toolbox: context-specific
 
@@ -223,6 +262,10 @@ step by step through data requirements and models per region-->
 - Website to display methods and scores
     - Ecuador ex: [ohi-science.org/gye](http://ohi-science.org/gye)
     - Chile ex: [ohi-science.org/chl](http://ohi-science.org/chl)
+
+<!---frame this as a test question: so that when you are clicking through the audience follows what you're looking for
+follow FIS and TR
+--->
 
 ## OHI Assessments
 
@@ -246,8 +289,46 @@ All resources are at [**ohi-science.org**](http://ohi-science.org)
 
 ![](https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&h=288)
 
+
+<!---give example of proxy data
+
+Summary slide
+
+livign breathing thing
+reflects core values
+
+
+--->
+
 **Contact us**<br /><br />
 Julie Lowndes: lowndes@nceas.ucsb.edu<br /><br />
 Ning Mendes: mendes@nceas.ucsb.edu<br /><br />
 Erich Pacheco: epacheco@conservation.org
 
+<!---
+make this more than just contact us
+For more info, 
+w other info, pubs
+contacts
+
+
+
+"it's about the process"
+it gives you a framework for thinking about all these things. You've had to think about the ocean in 10 diff ways and you've had to catelog all the things that go in and out, what's missing. So the scores at the end is just the final
+And this helps the process because for managers to think about how to improve those numbers, they need to understand the process
+''the scientist in me like the process' and the 'manager in me likes the scores'. but really you need to communicate both
+
+
+
+Other really good question: 
+Q for BH/Court: pressures and resilience and trend. why do you have that if it's already in there? 
+it gives the policy makers a lever. The past includes the past resiliences, but if you need to change the trajectory of the scores. Isolate the part you can act on. 
+
+PULL FAQ for ohi-science.org? Like Jorge's ref points, Jaide's comparing TR regions with diff ref points. 
+
+What good does it do to compare LA to Oregon? To get an overall feel, you cn
+
+Q about weightings
+
+
+--->
