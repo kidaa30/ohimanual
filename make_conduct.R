@@ -21,7 +21,7 @@ wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
   'intro_assessment.md',                             # reviewed for 07/09 push
-  'intro_webapp.md',                                 # reviewed for 07/09 push
+  'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
   #'intro_goalbygoal.md',                            # TODO: review and update
