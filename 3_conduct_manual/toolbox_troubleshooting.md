@@ -54,6 +54,37 @@ Here's how we fixed it: we updated `git.exe` to the latest version, 2.2.1, edite
 Next time you push a commit from RStudio, it should remember the username and password from your test commit in Step 6, and you should be good to go.
 
 
+### Git not detected on system path
+
+After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:
+
+![Error screen window:'Git was not detected on the system path'](./fig/git_not_detected.png)
+
+It is important to make sure you do in fact have git installed on your computer first. You can do this by opening up terminal (Mac OSX) or the cmd line (Windows) and typing:
+
+  * `$ which git` for Mac/Linux,
+  * `$ where git` for Windows
+  
+These commands will tell you where the `git.exe` file is located. Typically it will look something like this: `/usr/local/git/bin/git` or `/usr/bin/git` or some variation of those.
+
+Once confirming the location of `git.exe` you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:
+
+![](./fig/RStudio_git_svn.png)
+
+In the Git executable area, fill in the path to your git.exe. If RStudio does not let you manually enter your path, select Browse... and navigate to the `git.exe` file. If you are not able to navigate to the file it is likely a hidden file. 
+
+On a Mac, to make hidden files visible, close RStudio and do the following:
+
+  * Open Terminal found in Finder > Applications > Utilities.
+  * In Terminal, paste the following: defaults write com.apple.finder AppleShowAllFiles YES.
+  * Press return.
+  * Hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
+
+And then reopen RStudio, go to Preferences -> Git/SVN -> Browse... and you should be able to navigate to the `git.exe`
+
+You will then need to create an RSA Key. You can do this by clicking on 'Create RSA Key...' at the bottom of the Git/SVN panel, then 'View public key'. Copy the key you see, and add it to your GitHub account by using the instructions provided [here](https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account).
+
+
 ### Loading RWorkspace on Restart
 
 When you restart your R Session (**Session > Restart R** on a Mac), if you see that it is trying to load `ohicore`, it may give you an error:
