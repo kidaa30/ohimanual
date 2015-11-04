@@ -18,6 +18,7 @@ The decisions on choosing a reference point will be a theme in each of the goal 
 Once you find data, always consider how you would set the reference point. Generally there are three types of reference points:
 + _Temporal_: A historical benchmark is used as a the "ideal" point in the past.
 + _Spatial_: A region within the study area with the highest input values could be set as a perfect (score of 100), and all others are scaled to it. It's also possible to set a different reference point for each region of your study area, as was done in the U.S. West Coast study (2014).
++ _Functional_: Scientifically sound target, such as sustainable catch yield.
 + _Policy-set target_: Such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year.
 
 Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: _"Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."_
