@@ -1,0 +1,81 @@
+---
+title: "Intro to Brewing"
+output: html_document
+---
+
+**`brew`** is an R package that provides a templating system for text reporting. ([vignette](https://cran.r-project.org/web/packages/brew/brew.pdf))
+
+Note: when you are really brewing, it probably makes more sense to do this from a `.R` file, not `.Rmd`.
+
+
+(also note: fyi the R `brew` package is different from 'homebrewing', which is something ohi-webapp creation also uses from the command line to run imageMagick to resize images.)
+
+
+## Example README:
+
+[chn's reports/README.md](https://github.com/OHI-Science/chn/blob/draft/province2015/reports/README.md)
+
+This was made from a template, let's take a look: 
+
+- by convension we put a `.brew` before the `.md`
+
+[template reports/README_reports.brew.md](https://github.com/OHI-Science/ohi-webapps/blob/master/README_reports.brew.md)
+
+
+OK, so how do we set those variables: 
+
+```{r}
+
+# libraries
+library(knitr)
+library(brew) # install.packages('brew')
+
+# directories
+dir_webapps  = '~/github/ohi-webapps'
+dir_tutorial = '~/github/ohimanual/tutorials/brew_intro'
+
+# read in data
+sc_studies = read.csv(file.path(dir_webapps, 'custom/sc_studies_custom.csv'))
+kable(sc_studies)
+
+# select some variables
+keys = sc_studies$sc_key
+
+for (key in keys) { # key = 'chn'
+  
+  i             = which(sc_studies$sc_key==key)
+  sc            = sc_studies[i,]
+  
+  study_area = sc$sc_name; study_area
+  scenario   = sc$default_scenario; scenario
+  year       = sc$year; year
+  html_name  = paste0(study_area, year); html_name
+
+}
+
+```
+
+
+## And brew!
+just one line of code, really: 
+
+```{r}
+for (key in keys) { # key = 'bhi'
+  
+  i             = which(sc_studies$sc_key==key)
+  sc            = sc_studies[i,]
+  
+  study_area = as.character(sc$sc_name); study_area
+  scenario   = sc$default_scenario; scenario
+  year       = sc$year; year
+  html_name  = paste0(study_area, year); html_name
+  
+  
+  brew(file.path(dir_webapps,  'README_reports.brew.md'), 
+       file.path(dir_tutorial, paste0('README_',study_area, '.md')))
+  
+}
+
+
+```
+
