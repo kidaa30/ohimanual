@@ -24,7 +24,7 @@ in_md = c(
   'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
-  #'intro_goalbygoal.md',                            # TODO: review and update
+  'intro_goalbygoal.md',                             # reviewed 11/09
   #'practical_HAB_goals_CS_CP.md',                   # TODO: review and update
   #'practical_species_BDD_ICO.md',                   # TODO: review and update JSL ICO/LSP #476
   #'practical_SP.md',                                # TODO: review and update
