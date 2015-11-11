@@ -4,9 +4,6 @@ author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br />
 output: ioslides_presentation
 ---
 
-<!---
-This presentation now includes notes to improve for the 40 min version.
---->
 
 ## The Ocean Health Index 2012 
 
@@ -16,10 +13,20 @@ This presentation now includes notes to improve for the 40 min version.
 Most people have heard of the OHI because of Halpern et al 2012.
 3 years, interdisciplinary partnerships. It made a splash
 Focus not only on that there was a paper, but what they may have heard of.
-The score is 70! what does that mean?--Define scale 1-100. Then explain the structure. it's made up of goals
-Casey: explain that it's made of goals and it's a framework
 -->
 
+## The Ocean Health Index 2012 
+
+- scores a suite of benefits to humans ('goals') from 0-100
+- ten goals scored in global assessments
+- flower plots illustrate each goal scores <br />
+
+![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
+
+
+<!---
+background about OHI scoring
+-->
 
 ## The Ocean Health Index 2012
 
@@ -36,6 +43,7 @@ but we've been busy since then
 <!---
 But since 2012 there have been 5 full-time researchers, and we have repeated the global assessment through time
 Give examples of goals and follow them through. 
+
 Introduce the idea of goals and give exs throughout for a few Fisheries and Tourism. Use these to talk about the reference points, concrete points. Also helps illustrate how ref point is not pristine. And how the ref point isn't max ever: it's msy
 
 
@@ -54,22 +62,24 @@ we've also tested it at different spatial scales and different degrees of data q
 
 ![](https://docs.google.com/drawings/d/1mjMnxoNtihK6fV0OTgBo2fwG_f6yWN95RqDtYYdykjM/pub?w=768&h=480)
 
-<!---s--->
+<!---
+Plus, we have developed open-source software tools and at training program.
+--->
 
 ## The Ocean Health Index 2012-2015
 
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
 <!---
-Plus, we have developed open-source software tools and at training program. And independent groups are doing their own. 
+And independent groups are doing their own. 
 How did this come to be?
 I'm going to tell the story of the past 3 years, what OHI has come to be
 -->
 
 ## Outline
 
-- Motivation for developing OHI
-- OHI: an assessment framework
+- Motivation for developing the Ocean Health Index (OHI)
+- OHI, the assessment framework
 - OHI Toolbox
 - Support for independent assessments
 
@@ -94,12 +104,12 @@ important to define what you're trying to do
 
 ## OHI Framework
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)
+![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
 
 ## OHI Framework: definition
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144) <br /><br />
+![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192) <br />
 
 <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span> <br /> <br />
 
@@ -113,11 +123,11 @@ definition of ocean health
 
 ## OHI Framework: score calculations
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
+![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)<br />
 
 - score calculations: **current status** + **likely future state**
 
-![](https://docs.google.com/drawings/d/1QRZjVzoQpkouiz_6R0tuO9Bf-ymUmw3TwXOzP6CIIuQ/pub?w=768&h=288)
+![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=960&h=540)
 
 <!---
 status + likely future state (made up of 5-year trend and pressures and resilience)
@@ -329,6 +339,11 @@ PULL FAQ for ohi-science.org? Like Jorge's ref points, Jaide's comparing TR regi
 What good does it do to compare LA to Oregon? To get an overall feel, you cn
 
 Q about weightings
+
+
+To add re reference points:
+Reference points are set specifically to the local context to capture stakeholder priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions
+
 
 
 --->
