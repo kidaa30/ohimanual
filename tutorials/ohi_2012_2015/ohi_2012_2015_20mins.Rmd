@@ -96,48 +96,76 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 
 - Cumulative Human Impacts is only the negatives, what about the positives?
 - Policy mandates to 'keep oceans healthy' 
-- What is a 'healthy ocean'? Must define in order to measure
+- What is a 'healthy ocean'? Must define to measure
 
 <!---
 important to define what you're trying to do
 -->
 
-## OHI Framework
+## Motivation for developing OHI
 
-![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+**Need for an assessment method that:** 
+
+- **defines 'healthy'**; 
+- **has an explicit structure + purpose** to identify what is included;
+- **evaluates social and ecological elements** relevant for policy;
+
+## Motivation for developing OHI
+
+**Need for an assessment method that:** 
+
+- **defines 'healthy'**; 
+- **has an explicit structure + purpose** to identify what is included;
+- **evaluates social and ecological elements** relevant for policy;
+
+and: 
+
+- is **tailorable for use in different contexts** by accommodating local environmental characteristics, cultural priorities, and information quality 
+
+## Motivation for developing OHI
+
+**Additionally must enable:**
+
+- **transparency** about the decisions made and why; 
+- **reproduciblity** through access to detailed methods and computational code
+- **repeatablility** through the ability to modify methods and computational code with future information
+- **communicability** by distilling complexity with visualization for wide audiences
+
+## blah
+
+- OHI scores are on a unitless scale from 0-100
+- visualized with maps and flower plots
+![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
 
 
-## OHI Framework: definition
+## OHI Conceptual Blueprint
 
-![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192) <br />
+<p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
 
-<span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span> <br /> <br />
 
- - a healthy ocean is not necessarily 'pristine'  
- - human priorities are explicit
+ - defines ocean health: <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span>
+ - has standardized structure but also can be customized
  - assesses a range of benefits, categorized as 'goals'
 
-<!---
-definition of ocean health
--->
+## OHI Conceptual Blueprint
 
-## OHI Framework: score calculations
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
-![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)<br />
+**local decisions tailored to the context**
 
-- score calculations: **current status** + **likely future state**
+- which goals should be assessed
+- how each goal status is modeled with key traits + priorities
 
-![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=960&h=540)
+**core framework** 
 
-<!---
-status + likely future state (made up of 5-year trend and pressures and resilience)
--->
+- goal status requires an explicitly set reference point
+- goal scores are calculated with status, likely future state, pressures, resilience
 
-## OHI Framework: context-specific 
+## OHI Conceptual Blueprint
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
+<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
 
-**Context specific decisions:** 
+**Local decisions:** 
 
 - which goals are important?
 - how should they ideally be measured?
@@ -146,13 +174,18 @@ status + likely future state (made up of 5-year trend and pressures and resilien
 - what are pressures affecting these goals?
 - what mitigates these pressures (resilience)?
 
-## OHI Framework: context-specific 
+## OHI Conceptual Blueprint
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
+<p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
-Ten goals were identified as important for global assessments:<br />
+**score calculations:** current status + likely future state
 
-![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
+<p align = 'center'>![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=576&h=384)
+
+<!---
+status + likely future state (made up of 5-year trend and pressures and resilience)
+-->
+
 
 ## OHI Framework
 
@@ -173,13 +206,6 @@ Good questions--talk to Courtney about the talking points
 
 
 --->
-## OHI Framework: scores
-
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
-
-- OHI scores are on a unitless scale from 0-100
-- visualized with maps and flower plots
-![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
 
 
 ## OHI calculations overview
