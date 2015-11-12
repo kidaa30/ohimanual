@@ -18,7 +18,6 @@ A: The OHI is not an index of ecosystem services. The Index prefers to describe 
 
 *(Source: OHI Baltic workshop)*
 
-
 **Q: Where is climate change measured in the Index?**
 
 A: Four different aspects of climate change -- increases in sea surface temperature (SST), sea level rise (SLR), ultraviolet radiation (UV), and ocean acidification (OA) -- are included as pressures to many goals in the Index, including Natural Products, Carbon Storage, Coastal Protection, Sense of Place, Livelihoods & Economies and Biodiversity.  Mitigation of climate change through carbon storage is one of the ten goals.
@@ -27,6 +26,52 @@ A: Four different aspects of climate change -- increases in sea surface temperat
 **Q: Why are food provision and artisanal fishing opportunities goals separated?**
 
 A: These goals measure different aspects of how people relate to fishing. The catch of fish made by artisanal (=small-scale, subsistence type) fisheries is captured in the food provision goal. Jobs, wages and income from both the food provision and artisanal fishing goals are captured in the livelihoods & economies goal. The purpose of the artisanal fishing opportunity goal is to evaluate the opportunity for people to pursue this fishing in relation to their need to do so.  
+
+**Q: Can 10 goals really capture all the ocean’s values? Shouldn’t we talk about ocean’s values in more detailed terms?**
+
+A: This question speaks of the interdisciplinary nature of OHI. It is a part of the design of the model. It takes experts from all fields many years to develop the 10 goals, and each goal includes different aspects. Ten goals can easily become 100. For example, the economy goal can be divided into individual goals of tourism, transportation, production, value added (eg. fish to burger) etc. However, getting solid scores for 100 goals could take more than a year or two, and trying to communicate all the information to stakeholders and managers will be cumbersome. But we can communicate with people across fields about 10 goals (and their pressures and resilience) without being overwhelming.
+
+Ten goals may seem simplified. But they are useful for talking to people across fields without compromising scientific validity.
+
+<!-- Ning: above is from CHN Beijing meeting, Johanna's answer. But should we also emphasize, the ten goals summarize all the major benefits from the ocean. It's difficult to think of something that's not covered. At least I can't...  -->
+
+**Q: How are the goals weighted to calculate the final score?**
+
+A: By default, we weighed them equally because we don’t have solid, better information to do otherwise, even though we understand that each goal may/should have different weights depending on regional conditions and needs. We didn't put emphesis on goal weighing because ten individual goal scores are more important than one total score, and can tell more about the status of ocean health. If you are interested in seeing how weighing affects the total index score, you can try the following:
+
+- Scenario studies.  The OHI framework is flexible so that you can change the weights and see how scores change
+- Studies on people’s preferences or management needs to weigh goals differently
+
+**Q: How should we compare regional scores, spatially or temporally?**
+
+A: Temporal comparison is good for repeated measurements in one location, so that managers can see how goal conditions change and whether their policies take effect.
+Spatial comparison is used to compare regional differences in your country.
+
+For OHI+, the most helpful comparison is temporal comparison. Management goals are different spatially, and data are different. We can’t compare spatially unless they use the same model and data. The goal of OHI is to help local agencies adapt and improve ocean resources management. Therefore it may be an unnecessary burden to compare spatially. Without worrying about comparisons, different regions can still learn from one another.
+
+**Q: We calculate trends based on 5 years of data. Wouldn’t it be more scientifically valid to have a 20 or 30 year trend?**
+
+A: Yes you can use more years of data if available. But 5 years is a good compromise between scientific validity and meaningulness for local stakeholders. On one hand, we have to do it scientifically vigorous with a solid reference. But on the other hand, a 5-yr trend is more helpful and actionable to stakeholders than a 30-yr trend.
+
+**Q: Is OHI an internatinally recognized mointoring system? What other partnership does OHI have?**
+
+A: OHI is gaining recognition from world governance organizations, NGOs, and local governments. There is only limited amount of funds for conservation. If we work together, we can reach maximum return on investment. We partner with UCSB, who is on the scientific frontier. They innovate science and technology, develop toolbox, fill data gap, and provide technical support for local OHI assessments. Conservation International focuses on external partnerships. CI is always looking at multilateral agreements. Some of our active partnerships include:
+
+- The United Nation. Many countries follow UN leads.
+- World Bank and The Nature Conservancy, who has good research on economics, and is interested in incorportating OHI in their monitoring systems that are already in place.
+- World Wildlife Fund, who is interested in using OHI in all of their 14 global sites.
+- Clinton Climate Initiative.
+
+**How to draw spatial boundary: ecosystem or jurisdictional boundary?**
+
+A. We recommend jurisdictional boundary. It comes down to who will care, and who will take responsibility for the results and act on the results.
+
+**There seems to be overlapping between goals, for example, habitats data re used for CS, CP, and HAB. Is that double counting?**
+
+A. No. There is no complete overlap of data. Different habitat data are used for different goals. For example, habitats good for CS aren’t necessarily appropriate for CP.
+
+OHI is also human benefits-driven, not ecologically-driven. It happens that CS, CP, and HAB are affected by similar factors, but they provide non-overlapping benefits. It is the design of OHI to show the connectivity among goals. If certain habitats are good for multiple goals, there is strong incentive to focus energy and resources to protect those habitats.
+
 
 ## Timing and Resources
 

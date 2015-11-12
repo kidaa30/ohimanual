@@ -1,0 +1,375 @@
+---
+title: 'The Ocean Health Index<br /> 2012-2015'
+author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br /> lowndes@nceas.ucsb.edu"
+output: ioslides_presentation
+---
+
+
+## The Ocean Health Index 2012 
+
+![](https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&h=480)
+
+<!---
+Most people have heard of the OHI because of Halpern et al 2012.
+3 years, interdisciplinary partnerships. It made a splash
+Focus not only on that there was a paper, but what they may have heard of.
+-->
+
+## The Ocean Health Index 2012 
+
+- scores a suite of benefits to humans ('goals') from 0-100
+- ten goals scored in global assessments
+- flower plots illustrate each goal scores <br />
+
+![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
+
+
+<!---
+background about OHI scoring
+-->
+
+## The Ocean Health Index 2012
+
+![](https://docs.google.com/drawings/d/1Q-RhWm-ypn9JPo-KWYbq_jT7buhgUw4ar7ogHUZU3lU/pub?w=768&h=480)
+
+<!---
+but we've been busy since then
+-->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1Krym79W1-i4gJZ3jtGWVVkZfUtjRwmNxw3HG_3SiwpE/pub?w=768&h=480)
+
+<!---
+But since 2012 there have been 5 full-time researchers, and we have repeated the global assessment through time
+Give examples of goals and follow them through. 
+
+Introduce the idea of goals and give exs throughout for a few Fisheries and Tourism. Use these to talk about the reference points, concrete points. Also helps illustrate how ref point is not pristine. And how the ref point isn't max ever: it's msy
+
+
+ref points as well-informed as possible. based on literature if nothing else
+-->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1emeqxgwGgE0GHSLzlP0i--Fqe8s-v7o5GyZTM-UWZJU/pub?w=768&h=480)
+
+<!---
+we've also tested it at different spatial scales and different degrees of data quality
+-->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1mjMnxoNtihK6fV0OTgBo2fwG_f6yWN95RqDtYYdykjM/pub?w=768&h=480)
+
+<!---
+Plus, we have developed open-source software tools and at training program.
+--->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
+
+<!---
+And independent groups are doing their own. 
+How did this come to be?
+I'm going to tell the story of the past 3 years, what OHI has come to be
+-->
+
+## Outline
+
+- Motivation for developing the Ocean Health Index (OHI)
+- OHI, the assessment framework
+- OHI Toolbox
+- Support for independent assessments
+
+## Motivation for developing OHI
+
+![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)<br />
+
+- Cumulative Human Impacts is only the negatives, what about the positives?
+
+
+## Motivation for developing OHI
+
+![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)<br />
+
+- Cumulative Human Impacts is only the negatives, what about the positives?
+- Policy mandates to 'keep oceans healthy' 
+- What is a 'healthy ocean'? Must define to measure
+
+<!---
+important to define what you're trying to do
+-->
+
+## Motivation for developing OHI
+
+**Need for an assessment method that:** 
+
+- **defines 'healthy'**; 
+- **has an explicit structure + purpose** to identify what is included;
+- **evaluates social and ecological elements** relevant for policy;
+
+## Motivation for developing OHI
+
+**Need for an assessment method that:** 
+
+- **defines 'healthy'**; 
+- **has an explicit structure + purpose** to identify what is included;
+- **evaluates social and ecological elements** relevant for policy;
+
+and: 
+
+- is **tailorable for use in different contexts** by accommodating local environmental characteristics, cultural priorities, and information quality 
+
+## Motivation for developing OHI
+
+**Additionally must enable:**
+
+- **transparency** about the decisions made and why; 
+- **reproduciblity** through access to detailed methods and computational code
+- **repeatablility** through the ability to modify methods and computational code with future information
+- **communicability** by distilling complexity with visualization for wide audiences
+
+## blah
+
+- OHI scores are on a unitless scale from 0-100
+- visualized with maps and flower plots
+![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
+
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
+
+
+ - defines ocean health: <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span>
+ - has standardized structure but also can be customized
+ - assesses a range of benefits, categorized as 'goals'
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**local decisions tailored to the context**
+
+- which goals should be assessed
+- how each goal status is modeled with key traits + priorities
+
+**core framework** 
+
+- goal status requires an explicitly set reference point
+- goal scores are calculated with status, likely future state, pressures, resilience
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
+
+**Local decisions:** 
+
+- which goals are important?
+- how should they ideally be measured?
+- what are key characteristics of the area?
+- what are cultural priorities?
+- what are pressures affecting these goals?
+- what mitigates these pressures (resilience)?
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
+
+**score calculations:** current status + likely future state
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=576&h=384)
+
+<!---
+status + likely future state (made up of 5-year trend and pressures and resilience)
+-->
+
+
+## OHI Framework
+
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
+
+**Make context-specific decisions BEFORE gathering information (data/indicators).** 
+
+- information should fit into the framework; the framework should not be built around available information (biases)
+- remain true to the planned goals
+    - include indirect (proxy) information
+    - highlight knowledge gaps
+
+<!---give example of proxy data
+
+Good questions--talk to Courtney about the talking points
+
+
+
+
+--->
+
+
+## OHI calculations overview
+
+Information is required for all regions in an assessment area
+
+![](https://docs.google.com/drawings/d/1zZhw3DA_lVvKXfa978URjf5YDXizlkVuWNTltLjJv9g/pub?w=768&h=480)
+
+
+## OHI calculations overview
+
+The same model is used for all regions 
+
+![](https://docs.google.com/drawings/d/15VlmW1U8FpvGKrTQFsZCeHTlGSFDcF9n1dOXW45v-ok/pub?w=768&h=480)
+
+## OHI calculations overview
+
+Scores are calculated for each region for a single goal
+
+![](https://docs.google.com/drawings/d/1yYTF0KUqe4UFuMKMkvzIM0-TyJh46xFFs13SViIuaqA/pub?w=768&h=480)
+
+## OHI calculations overview
+
+Scores are calculated for each region for all goals
+
+![](https://docs.google.com/drawings/d/1NLjtCCb5gsxCf4zmo5BXbOxL76Sj_xJyXWcHATzCOQk/pub?w=768&h=480)
+
+
+
+<!---Huge amount of time on Ref pts
+4 types
+and carry the thread with FIS and TR
+--->
+
+## OHI calculations overview
+
+Goal scores are averaged into index scores for each region
+
+![](https://docs.google.com/drawings/d/1pMoErOVLLj9stC9KUMqGCyVL-BHgOVzYoPnwzRJ2-j0/pub?w=768&h=480)
+
+## OHI calculations overview
+
+Assessment index score is the average of region index scores
+
+![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
+
+<!---
+step by step through data requirements and models per region-->
+
+## OHI Toolbox
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- open-source tools for analysis, visualization + communication 
+- tools are shared through the collaborative platform **GitHub**  
+
+## OHI Toolbox: R package
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- Open-source software (R package) to calculate scores
+    - [github.com/ohi-science/ohicore](https://github.com/ohi-science/ohicore)
+    
+    <!----show a nice diagram, don't take them there then take them there
+    take the time to draw this out with cartoons. 
+    No github navigation
+    
+    
+    grey out any part of these boxes that i'm talking about
+    don't spend much time on ohicore etc. Everything that you are responsible for is in this box
+    
+    
+    redo diagram so fewere words, colors, time-scale/what ohi+ peopel are responsible for, etc
+    
+    
+    --->
+
+## OHI Toolbox: context-specific
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- Context-specific info stored in a structured GitHub repository
+    - Ecuador ex: [github.com/ohi-science/gye](https://github.com/ohi-science/gye)
+    - Chile ex: [github.com/ohi-science/chl](https://github.com/ohi-science/chl)
+
+## OHI Toolbox: website
+
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+
+- Website to display methods and scores
+    - Ecuador ex: [ohi-science.org/gye](http://ohi-science.org/gye)
+    - Chile ex: [ohi-science.org/chl](http://ohi-science.org/chl)
+
+<!---frame this as a test question: so that when you are clicking through the audience follows what you're looking for
+follow FIS and TR
+--->
+
+## OHI Assessments
+
+The OHI framework is standardized, yet modifiable to suit assessments in different contexts.<br /><br />
+![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br />
+
+
+## OHI Assessments
+
+The OHI framework is standardized, yet modifiable to suit assessments in different contexts.
+![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+The Toolbox and GitHub facilitate assessment calculations, but also organization, remote collaboration, and documentation.
+
+## Support for independent assessments
+
+All resources are at [**ohi-science.org**](http://ohi-science.org) 
+
+![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
+
+## Support for independent assessments 
+
+![](https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&h=288)
+
+
+<!---give example of proxy data
+
+Summary slide
+
+livign breathing thing
+reflects core values
+
+
+--->
+
+**Contact us**<br /><br />
+Julie Lowndes: lowndes@nceas.ucsb.edu<br /><br />
+Ning Mendes: mendes@nceas.ucsb.edu<br /><br />
+Erich Pacheco: epacheco@conservation.org
+
+<!---
+make this more than just contact us
+For more info, 
+w other info, pubs
+contacts
+
+
+
+"it's about the process"
+it gives you a framework for thinking about all these things. You've had to think about the ocean in 10 diff ways and you've had to catelog all the things that go in and out, what's missing. So the scores at the end is just the final
+And this helps the process because for managers to think about how to improve those numbers, they need to understand the process
+''the scientist in me like the process' and the 'manager in me likes the scores'. but really you need to communicate both
+
+
+
+Other really good question: 
+Q for BH/Court: pressures and resilience and trend. why do you have that if it's already in there? 
+it gives the policy makers a lever. The past includes the past resiliences, but if you need to change the trajectory of the scores. Isolate the part you can act on. 
+
+PULL FAQ for ohi-science.org? Like Jorge's ref points, Jaide's comparing TR regions with diff ref points. 
+
+What good does it do to compare LA to Oregon? To get an overall feel, you cn
+
+Q about weightings
+
+
+To add re reference points:
+Reference points are set specifically to the local context to capture stakeholder priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions
+
+
+
+--->

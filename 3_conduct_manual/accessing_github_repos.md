@@ -32,13 +32,17 @@ Add access your 'bash profile' by typing:
 pico ~/.bash_profile
 ```
 
-You are now able to edit your ‘bash profile’. Type:
+You are now able to edit your ‘bash profile’ and your screen will change; it will look like this:
+
+> ![](https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&h=384)
+
+Now type:
 
 ```
 export PATH=/usr/local/git/bin:$PATH
 ```
 
-Exit pico by typing:
+Exit pico by entering:
 
 > control-X  
 y  

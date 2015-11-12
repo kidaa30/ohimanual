@@ -12,6 +12,15 @@ The example below shows information for a study area with 4 regions. There are t
 2. There are no data gaps
 3. Data are presented in 'long' or 'narrow' format (not 'wide' format -- see "**Long Formatting**"" section).
 
+### Uploading and formatting raw data files
+
+Unformatted data files can be uploaded to the `pre-proc` folder in your github repository and processed with R. Saving raw data in the same repository helps to keep track of how the data has been treated. Raw files can be uploaded as `.csv` or `.xlsx`. However, formatted data has to be saved as `.csv` in the `layers` folder.  
+
+In addition to `pre-proc`, a `prep` folder has been set up for data formatting. Inside the folder:
+- several sub-folders exist to house formatted data files for each goal/sub-goal
+- `prep.r` is where formatting occurs for each goal/sub-goal.
+- `README` is where you can record information on raw data files and processing for future reference
+
 **Example of data in the appropriate format:**
 
 ![](./fig/formatting_data_example.png)
@@ -119,12 +128,12 @@ With 'wide' format, data layers are more difficult to combine with others and mo
 
 Data are easily transformed in a programming language such as R.
 
-In R, the `reshape` package has the `melt` command, which will melt the data from a wide format into a narrow format. It also can `cast` the data back into a wide format if desired. R documentation:
+In R, the `tidyr` package has the `gather` command, which will gather the data from a wide format into a narrow format. It also can `spread` the data back into a wide format if desired. R documentation:
 
-- http://cran.r-project.org/web/packages/reshape2/reshape2.pdf
-- http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
-- http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
+- http://blog.rstudio.org/2014/07/22/introducing-tidyr/
+- http://www.rstudio.com/resources/cheatsheets/
 
+<!-- Change the example to gather:  -->
 Example code using the *melt* command in the *reshape2* library. Assume the data above is in a variable called *data_wide*:
 
 ![](./fig/melt_code.png)
