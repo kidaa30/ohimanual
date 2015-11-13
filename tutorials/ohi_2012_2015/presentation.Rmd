@@ -79,10 +79,11 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 ## Outline
 
 - Motivation for developing the Ocean Health Index (OHI)
-- OHI conceptual blueprint
+- OHI Blueprint
 - OHI Toolbox
 - OHI Toolbox workflow
-- Support for independent assessments
+- OHI assessment workflow
+- Resources at ohi-science.org
 
 ## Motivation for developing OHI
 
@@ -127,32 +128,31 @@ and:
 
 ## Motivation for developing OHI
 
-**Additionally must enable:**
+**The assessment method must also be:**
 
-- **transparency**: what decisions were made and why
-- **reproduciblity**: access to methods and computational code
-- **repeatablility**: ability to modify methods and code with context-specific info
-- **communicability**: distill complexity with visualization for wide audiences
+- **transparent**: what decisions were made and why
+- **reproducible**: access to methods and computational code
+- **repeatable**: ability to modify methods and code with context-specific info
+- **communicable**: distill complexity with visualization for wide audiences
 
-
-## OHI Conceptual Blueprint
-
-<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
-
- - defines ocean health: <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span>
- - customizable local decisions are distinct from core framework structure
- - assesses a range of benefits that together represent what the ocean provides to humans, categorized as 'goals'
- - uses existing, freely-available information
 
 ## OHI Conceptual Blueprint
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
-This blueprint allows OHI assessments to be familiar in structure and process but customized to capture attributes important to the assessment location.  
+ - defines ocean health, assesses a range of benefits that represent what the ocean provides to humans ('goals')
+ - local decisions are distinct from core framework structure
+ - uses existing, freely-available information (data/indicators) 
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+OHI blueprint allows OHI assessments to be familiar in structure and process but customized to capture attributes important to the assessment location. 
 
 This also means that assessments using the OHI framework will not be directly comparable to each other, since they are capturing different attributes specific to the context. This is OK because the *purpose* of the assessment is not to be directly comparable, it is to understand the assessment area. However, it can be useful to compare which areas are closer to reaching their own targets, since all scores are from 0-100.
 
-## OHI Conceptual Blueprint
+## OHI Blueprint: core
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
@@ -166,7 +166,7 @@ status + likely future state (made up of 5-year trend and pressures and resilien
 will return to reference points below
 -->
 
-## OHI Conceptual Blueprint
+## OHI Blueprint: core
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
@@ -174,18 +174,18 @@ will return to reference points below
 
 Reference points are set specifically to the local context to capture priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions.
 
+types: functional, established (policy) targets, temporal, spatial
 
-
-## OHI Conceptual Blueprint
+## OHI Blueprint: local
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
 
-- which goals are important?
-- how should they ideally be represented?
-- what are key characteristics and cultural priorities?
-- how could reference points be set?
-- what are pressures affecting these goals?
-- what mitigates these pressures (resilience)?
+identify and plan: 
+
+- which goals are important and how should they ideally be represented
+- key characteristics and cultural priorities to include
+- how could reference points be set
+- the pressures affecting these goals, and what mitigates these pressures (resilience)
 
 ## Example: US West Coast Assessment
 
@@ -193,7 +193,7 @@ Reference points are set specifically to the local context to capture priorities
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
 
-[map of US West Coast, intro]
+![](https://docs.google.com/drawings/d/1hmwb9R1usSpKCHrqeJ1u5VGds6HneYy5O6zgRzrEbNs/pub?w=768&h=384)
 
 ## Example: US West Coast Assessment
 
@@ -205,13 +205,13 @@ Reference points are set specifically to the local context to capture priorities
  
 - important fisheries with stock assessments (ref. pt. ~ MSY)
 - mariculture industry will be growing (ref. pt. ~ NOAA targets)
-- pressures/resilience:
+- pressures / resilience: pollution, invasives, fishing / gvt, social
 
 
 **Tourism and Recreation**
  
 - tourism very different among regions (ref. pt. ~ gvt targets?)
-- pressures/resilience:
+- pressures / resilience: pollution / gvt, social
 
 ## OHI Conceptual Blueprint
 
@@ -234,7 +234,7 @@ Good questions--talk to Courtney about the talking points
 ## OHI Toolbox
 
 - organization structure and computational code to calculate OHI scores using the conceptual blueprint
-- open source, free access
+- open source, cross-platform, and free 
 - get teams assessing ocean health as quickly/smoothly as possible
 
 ## OHI Toolbox
@@ -278,14 +278,15 @@ The same model is used for all regions
 
 **Food Provision - Wild-caught Fisheries and Mariculture**
  
-- X% of stocks are assessed, (ref. pt. = MSY)
+- % of stocks are assessed, (ref. pt. = MSY)
 - mariculture industry will be growing (ref. pt. = NOAA targets)
-- pressures/resilience:
+- pressures/resilience: runoff, fishing / regs, gas $, social cap
 
 **Tourism and Recreation**
  
 - coastal recreation survey (ref. pt. = trend by region)
-- pressures/resilience:
+- pressures/resilience: runoff + trash / regs, gas $, social cap
+
 
 ## OHI Toolbox overview: local
 
@@ -350,8 +351,7 @@ step by step through data requirements and models per region
 
 - open-source tools for analysis, visualization + communication built with **R** and **RStudio**
 - tools are shared through the collaborative platform **GitHub**
-    - local information stored in an **assessment repository**
-    - core calculations in **ohicore repository** (R package)
+    - **local assessment repository + ohicore repository** 
 - instructional materials are written in markdown and distributed online
 
 
@@ -372,6 +372,22 @@ This is all built with open-source software by BB.
 follow FIS and TR
 --->
 
+## OHI Toolbox workflow
+
+promoting good computing practices à la:
+
+<small>
+- [RopenSci](https://ropensci.org/)  
+- [RStudio](https://www.rstudio.com/) ([cheatsheets](https://www.rstudio.com/resources/cheatsheets/) and [webinars](https://www.rstudio.com/resources/webinars/))  
+- [Github](https://github.com)  
+- [Hampton et al. 2014](https://dx.doi.org/10.7287/peerj.preprints.549v1). *PeerJ*. The tao of open science for ecology  
+- [Wilson et al. 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). *PLoS ONE*. Best Practices for Scientific Computing   
+</small>
+
+<small>
+- Lowndes et al. in revision. *PeerJ*. Best practices for assessing ocean health in multiple contexts using customizable frameworks  
+- training group at UCSB: [eco-data-science](https://github.com/eco-data-science)
+</small>
 
 ## OHI assessment workflow
 
@@ -399,6 +415,8 @@ All information, instruction, data, publications, community, forum...
 
 
 ## Resources at ohi-science.org
+
+**building a community to improve ocean health**
 
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
@@ -452,12 +470,32 @@ it gives the policy makers a lever. The past includes the past resiliences, but 
 
 ***
 
-## Appendix: Talk abstract part 1/2
+## Appendix 1: references
+
+<small>
+- [Halpern et al. 2012](http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html), *Nature*.
+An index to assess the health and benefits of the global ocean.  
+- [Halpern et al. 2015](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863), *PLoS ONE*.
+Patterns and emerging trends in global ocean health.  
+- [Halpern et al. 2014](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995), *PLoS ONE*.
+Assessing the health of the U.S. West Coast with a regional-scale application of the OHI.  
+- [Elfes et al. 2014](http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589), *PLoS ONE*. A regional-scale OHI for Brazil.  
+- [Selig et al. 2015](http://www.sciencedirect.com/science/article/pii/S2212041614001363), *Ecosystem Services*.
+Measuring indicators of ocean health for an island nation: The OHI for Fiji.   
+- [Halpern et al. 2008](http://www.sciencemag.org/content/319/5865/948.abstract), *Science*.
+A global map of human impact on marine ecosystems.  
+- [Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html?message-global=remove&WT.ec_id=NCOMMS-20150715&spMailingID=49102925&spUserID=ODkwMTM2NjQyNgS2&spJobID=721894001&spReportId=NzIxODk0MDAxS0), *Nature Communications*.
+Spatial and temporal changes in cumulative human impacts on the world's ocean.    
+- Lowndes et al. in revision. Best practices for assessing ocean health in multiple contexts using customizable frameworks</small>
+
+
+
+## Appendix 2: Talk abstract part 1/2
 
 The Ocean Health Index (OHI) is a framework to assess the state of our marine systems. With a definition of 'healthy' that includes sustainable human use, the OHI scores locations from 0-100 depending on how sustainably their waters provide a suite of benefits to people. The OHI framework was first used to assess all coastal nations globally, and was published in 2012 (Halpern et al. 2012, Nature). 
 
 Following the 2012 publication, the OHI framework has been used to assess smaller-scale locations, most often states or provinces within a single nation. These smaller spatial scales often have information that better represents local characteristics of marine systems and are also often the scale at which policy decisions are made. 
 
-## Appendix: Talk abstract part 2/2
+## Appendix 2: Talk abstract part 2/2
 
 To date, eleven assessments using the OHI framework have been completed at global, national, and regional scales, four of which have been led by independent academic or government groups. To facilitate these assessments, we have developed a suite of open-source tools and instruction. The OHI Toolbox provides structure for data organization and storage, with data processing and goal modeling done in the programming language R and RStudio for reproducibility and repeatability. The OHI Toolbox is stored on the open-source online platform GitHub, which allows for transparency and collaboration and also houses websites to display and communicate methods and results with interactive visualizations. More information can be found at ohi-science.org (currently under a major restructuring and improvement, stay tuned!).
