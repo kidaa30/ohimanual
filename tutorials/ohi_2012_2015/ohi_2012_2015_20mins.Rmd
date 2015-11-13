@@ -150,6 +150,17 @@ This also means that assessments using the OHI framework will not be directly co
 
 ## OHI Conceptual Blueprint
 
+<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
+
+- which goals are important?
+- how should they ideally be represented?
+- what are key characteristics and cultural priorities?
+- how could reference points be set?
+- what are pressures affecting these goals?
+- what mitigates these pressures (resilience)?
+
+## OHI Conceptual Blueprint
+
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
 - goal scores ~ status, likely future state, pressures, resilience
@@ -163,36 +174,19 @@ status + likely future state (made up of 5-year trend and pressures and resilien
 will return to reference points below
 -->
 
-## OHI Conceptual Blueprint
-
-<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
-
-- which goals are important?
-- how should they ideally be represented?
-- what are key characteristics and cultural priorities?
-- how could reference points be set?
-- what are pressures affecting these goals?
-- what mitigates these pressures (resilience)?
-
-
-
 
 ## OHI Toolbox
 
-Intro Tbx slides, use those in the calcuations figures. 
-
 Then reiterate again how this is familiar but customizable.
 
-then show the calculations figures with core/local stuff labeled
 then show github diagram thing
 then show example repos
 
 where to put ref pt examples?
 
+<p align = 'center'>![](https://docs.google.com/drawings/d/1woawj-XXhyn2Kpc4xKO2NxmdWwa0WTI848aplmeNB4Y/pub?w=672&h=480)
+
 ## OHI Conceptual Blueprint
-
-
-<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
 **Conceptual decisions are made BEFORE gathering information.** 
 
@@ -209,50 +203,88 @@ Good questions--talk to Courtney about the talking points
 
 --->
 
+## OHI Toolbox
 
-## OHI calculations overview
+organization structure and computational code to calculate OHI scores using the conceptual blueprint
 
-Information is required for all regions in an assessment area
+## OHI Toolbox
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1woawj-XXhyn2Kpc4xKO2NxmdWwa0WTI848aplmeNB4Y/pub?w=624&h=480)
+
+<!---
+The Toolbox also has this paralleled structure as the conceptual blueprint.
+--->
+
+
+## OHI Toolbox overview: local
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1YFTb4D5_dgwznWJwtlUkg77jKhz0S-dTHby_1uiRJ8M/pub?w=576&h=144)
+
+- input information (data/indicators) for status, trend, pressures, resilience *for every region within the overall assessment area*
+- reference point targets are required for all goals
+
+## OHI Toolbox overview: local
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1YFTb4D5_dgwznWJwtlUkg77jKhz0S-dTHby_1uiRJ8M/pub?w=576&h=144)
 
 ![](https://docs.google.com/drawings/d/1zZhw3DA_lVvKXfa978URjf5YDXizlkVuWNTltLjJv9g/pub?w=768&h=480)
 
+<!---
+Information is required for all regions in an assessment area
+--->
 
-## OHI calculations overview
+## OHI Toolbox overview: local
 
-The same model is used for all regions 
+<p align = 'center'>![](https://docs.google.com/drawings/d/1YFTb4D5_dgwznWJwtlUkg77jKhz0S-dTHby_1uiRJ8M/pub?w=576&h=144)
 
 ![](https://docs.google.com/drawings/d/15VlmW1U8FpvGKrTQFsZCeHTlGSFDcF9n1dOXW45v-ok/pub?w=768&h=480)
 
-## OHI calculations overview
+<!---
+The same model is used for all regions 
+--->
 
-Scores are calculated for each region for a single goal
+## OHI Toolbox overview: core
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1EDLeLbF-Xmh7UIDA9UciMXP1aTtlmmme2HuaKUl49UA/pub?w=576&h=144)
+
+- how status and trend scores are combined with pressures and resilience as goal scores
+- how all goal scores are combined 
+
+## OHI Toolbox overview: core
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1EDLeLbF-Xmh7UIDA9UciMXP1aTtlmmme2HuaKUl49UA/pub?w=576&h=144)
 
 ![](https://docs.google.com/drawings/d/1yYTF0KUqe4UFuMKMkvzIM0-TyJh46xFFs13SViIuaqA/pub?w=768&h=480)
 
-## OHI calculations overview
+<!---
+Scores are calculated for each region for a single goal
+--->
 
-Scores are calculated for each region for all goals
+## OHI Toolbox overview: core
 
 ![](https://docs.google.com/drawings/d/1NLjtCCb5gsxCf4zmo5BXbOxL76Sj_xJyXWcHATzCOQk/pub?w=768&h=480)
 
-
+<!--- 
+Scores are calculated for each region for all goals
+--->
+`
 
 <!---Huge amount of time on Ref pts
 4 types
 and carry the thread with FIS and TR
 --->
 
-## OHI calculations overview
-
-Goal scores are averaged into index scores for each region
+## OHI Toolbox overview: core
 
 ![](https://docs.google.com/drawings/d/1pMoErOVLLj9stC9KUMqGCyVL-BHgOVzYoPnwzRJ2-j0/pub?w=768&h=480)
 
-## OHI calculations overview
+<!---Goal scores are averaged into index scores for each region--->
 
-Assessment index score is the average of region index scores
+## OHI Toolbox overview: core
 
 ![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
+
+<!---Assessment index score is the average of region index scores--->
 
 <!---
 step by step through data requirements and models per region
@@ -260,30 +292,23 @@ step by step through data requirements and models per region
 
 ## OHI Toolbox
 
-![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+<p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
 
-- open-source tools for analysis, visualization + communication 
-- tools are shared through the collaborative platform **GitHub**  
+- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
+- tools are shared through the collaborative platform **GitHub**
+    - local information stored in an **assessment repository**
+    - core calculationsin **ohicore repository** (R package)
+- instructional materials are written in markdown and distributed online
 
-## OHI Toolbox: R package
 
-![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
+<!---
+This is all built with open-source software by BB.
+--->
 
-- Open-source software (R package) to calculate scores
-    - [github.com/ohi-science/ohicore](https://github.com/ohi-science/ohicore)
-    
-    <!----show a nice diagram, don't take them there then take them there
-    take the time to draw this out with cartoons. 
-    No github navigation
-    
-    
-    grey out any part of these boxes that i'm talking about
-    don't spend much time on ohicore etc. Everything that you are responsible for is in this box
-    
-    
-    redo diagram so fewere words, colors, time-scale/what ohi+ peopel are responsible for, etc
-    
-    --->
+## OHI Toolbox
+
+![](https://docs.google.com/drawings/d/182k2BUIb4J9XS9lp7GA02nPMHkK1Z9plG2bCMVwltnI/pub?w=1481&h=1010)
+
 
 ## OHI Toolbox: context-specific
 
@@ -293,7 +318,7 @@ step by step through data requirements and models per region
     - Ecuador ex: [github.com/ohi-science/gye](https://github.com/ohi-science/gye)
     - Chile ex: [github.com/ohi-science/chl](https://github.com/ohi-science/chl)
 
-## OHI Toolbox: website
+## OHI Toolbox: visualization
 
 ![](https://docs.google.com/drawings/d/1tkwbzMdonCmKVHbiJ-IPy0xyeBfA4RVTVzh7ST-W6Os/pub?w=768&h=384)
 
