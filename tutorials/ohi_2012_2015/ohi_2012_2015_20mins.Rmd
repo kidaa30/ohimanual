@@ -19,7 +19,7 @@ Focus not only on that there was a paper, but what they may have heard of.
 
 - scores a suite of benefits to humans ('goals') from 0-100
 - ten goals scored in global assessments
-- flower plots illustrate each goal scores <br />
+- maps and flower plots illustrate scores <br />
 
 ![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
 
@@ -79,8 +79,8 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 ## Outline
 
 - Motivation for developing the Ocean Health Index (OHI)
-- OHI, the assessment framework
-- OHI Toolbox
+- OHI conceptual blueprint
+- OHI Toolbox and resources
 - Support for independent assessments
 
 ## Motivation for developing OHI
@@ -106,17 +106,17 @@ important to define what you're trying to do
 
 **Need for an assessment method that:** 
 
-- **defines 'healthy'**; 
-- **has an explicit structure + purpose** to identify what is included;
-- **evaluates social and ecological elements** relevant for policy;
+- **defines 'healthy'**
+- **has an explicit purpose** to structure what is included
+- **evaluates social and ecological elements** relevant for policy
 
 ## Motivation for developing OHI
 
 **Need for an assessment method that:** 
 
 - **defines 'healthy'**; 
-- **has an explicit structure + purpose** to identify what is included;
-- **evaluates social and ecological elements** relevant for policy;
+- **has an explicit purpose** to structure what is included
+- **evaluates social and ecological elements** relevant for policy
 
 and: 
 
@@ -126,74 +126,79 @@ and:
 
 **Additionally must enable:**
 
-- **transparency** about the decisions made and why; 
-- **reproduciblity** through access to detailed methods and computational code
-- **repeatablility** through the ability to modify methods and computational code with future information
-- **communicability** by distilling complexity with visualization for wide audiences
-
-## blah
-
-- OHI scores are on a unitless scale from 0-100
-- visualized with maps and flower plots
-![](https://docs.google.com/drawings/d/12lE8FoRzn9kjjLlhv8_IOxra0c786K1tz378ohTIbf4/pub?w=768&h=288)
+- **transparency**: what decisions were made and why
+- **reproduciblity**: access to methods and computational code
+- **repeatablility**: ability to modify methods and code with context-specific info
+- **communicability**: distill complexity with visualization for wide audiences
 
 
 ## OHI Conceptual Blueprint
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
-
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
  - defines ocean health: <span style="color:blue">*'A healthy ocean sustainably delivers a range of benefits to people now and in the future'*</span>
- - has standardized structure but also can be customized
+ - customizable local decisions are distinct from core framework structure
  - assesses a range of benefits, categorized as 'goals'
 
 ## OHI Conceptual Blueprint
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
-**local decisions tailored to the context**
+This blueprint allows OHI assessments to be familiar in structure and process but customized to capture attributes important to the assessment location.  
 
-- which goals should be assessed
-- how each goal status is modeled with key traits + priorities
-
-**core framework** 
-
-- goal status requires an explicitly set reference point
-- goal scores are calculated with status, likely future state, pressures, resilience
-
-## OHI Conceptual Blueprint
-
-<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
-
-**Local decisions:** 
-
-- which goals are important?
-- how should they ideally be measured?
-- what are key characteristics of the area?
-- what are cultural priorities?
-- what are pressures affecting these goals?
-- what mitigates these pressures (resilience)?
+This also means that assessments using the OHI framework will not be directly comparable to each other, since they are capturing different attributes specific to the context. This is OK because the *purpose* of the assessment is not to be directly comparable, it is to understand the assessment area. However, it can be useful to compare which areas are closer to reaching their own targets, since all scores are from 0-100.
 
 ## OHI Conceptual Blueprint
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
-**score calculations:** current status + likely future state
+- goal scores ~ status, likely future state, pressures, resilience
+- goal status requires an explicitly set reference point (target)
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=576&h=384)
+<p align = 'center'>![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=576&h=288)
 
 <!---
 status + likely future state (made up of 5-year trend and pressures and resilience)
+
+will return to reference points below
 -->
 
+## OHI Conceptual Blueprint
 
-## OHI Framework
+<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
 
-![](https://docs.google.com/drawings/d/1NCMYez3lMOIBOhtZSZ7PUATKnaTy4uLEzHevvN9XTHk/pub?w=768&h=144)<br /><br />
+- which goals are important?
+- how should they ideally be represented?
+- what are key characteristics and cultural priorities?
+- how could reference points be set?
+- what are pressures affecting these goals?
+- what mitigates these pressures (resilience)?
 
-**Make context-specific decisions BEFORE gathering information (data/indicators).** 
 
-- information should fit into the framework; the framework should not be built around available information (biases)
+
+
+## OHI Toolbox
+
+Intro Tbx slides, use those in the calcuations figures. 
+
+Then reiterate again how this is familiar but customizable.
+
+then show the calculations figures with core/local stuff labeled
+then show github diagram thing
+then show example repos
+
+where to put ref pt examples?
+
+## OHI Conceptual Blueprint
+
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**Conceptual decisions are made BEFORE gathering information.** 
+
+- blueprint should remain true to the definition of ocean health 
+
+
 - remain true to the planned goals
     - include indirect (proxy) information
     - highlight knowledge gaps
@@ -201,9 +206,6 @@ status + likely future state (made up of 5-year trend and pressures and resilien
 <!---give example of proxy data
 
 Good questions--talk to Courtney about the talking points
-
-
-
 
 --->
 
@@ -253,7 +255,8 @@ Assessment index score is the average of region index scores
 ![](https://docs.google.com/drawings/d/1RD08HVW53ClqGs6U2LIyLSqHDbg4u451958ETGJq4b0/pub?w=768&h=480)
 
 <!---
-step by step through data requirements and models per region-->
+step by step through data requirements and models per region
+-->
 
 ## OHI Toolbox
 
@@ -279,7 +282,6 @@ step by step through data requirements and models per region-->
     
     
     redo diagram so fewere words, colors, time-scale/what ohi+ peopel are responsible for, etc
-    
     
     --->
 
@@ -373,3 +375,15 @@ Reference points are set specifically to the local context to capture stakeholde
 
 
 --->
+
+***
+
+## Appendix: Talk abstract part 1/2
+
+The Ocean Health Index (OHI) is a framework to assess the state of our marine systems. With a definition of 'healthy' that includes sustainable human use, the OHI scores locations from 0-100 depending on how sustainably their waters provide a suite of benefits to people. The OHI framework was first used to assess all coastal nations globally, and was published in 2012 (Halpern et al. 2012, Nature). 
+
+Following the 2012 publication, the OHI framework has been used to assess smaller-scale locations, most often states or provinces within a single nation. These smaller spatial scales often have information that better represents local characteristics of marine systems and are also often the scale at which policy decisions are made. 
+
+## Appendix: Talk abstract part 2/2
+
+To date, eleven assessments using the OHI framework have been completed at global, national, and regional scales, four of which have been led by independent academic or government groups. To facilitate these assessments, we have developed a suite of open-source tools and instruction. The OHI Toolbox provides structure for data organization and storage, with data processing and goal modeling done in the programming language R and RStudio for reproducibility and repeatability. The OHI Toolbox is stored on the open-source online platform GitHub, which allows for transparency and collaboration and also houses websites to display and communicate methods and results with interactive visualizations. More information can be found at ohi-science.org (currently under a major restructuring and improvement, stay tuned!).
