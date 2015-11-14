@@ -1,7 +1,8 @@
 ---
 title: 'The Ocean Health Index<br /> 2012-2015'
-author: "Julia Stewart Lowndes<br /> Project Scientist, Ocean Health Index<br /> lowndes@nceas.ucsb.edu"
-output: ioslides_presentation
+author: "Julia Stewart Lowndes, Ben Halpern, and the OHI team <br /> National Center for Ecological Analysis and Synthesis, Conservation International"
+output:
+  ioslides_presentation
 ---
 
 
@@ -38,33 +39,46 @@ but we've been busy since then
 
 ## The Ocean Health Index 2012-2015
 
+![](https://docs.google.com/drawings/d/1ZQwKvvdL1GtL7ViK4rUW75P9kI8wyBGW36zdJxs5o68/pub?w=768&h=480)
+
+<!---
+But since 2012 there have been 5 full-time researchers
+and we've been working on 4 main categories. 
+--->
+
+## The Ocean Health Index 2012-2015
+
 ![](https://docs.google.com/drawings/d/1Krym79W1-i4gJZ3jtGWVVkZfUtjRwmNxw3HG_3SiwpE/pub?w=768&h=480)
 
 <!---
-But since 2012 there have been 5 full-time researchers, and we have repeated the global assessment through time
-Give examples of goals and follow them through. 
-
-Introduce the idea of goals and give exs throughout for a few Fisheries and Tourism. Use these to talk about the reference points, concrete points. Also helps illustrate how ref point is not pristine. And how the ref point isn't max ever: it's msy
-
-
-ref points as well-informed as possible. based on literature if nothing else
+1. we have repeated the global assessment through time, recalculating scores with updated information, improving models with internal and external feedback. 
 -->
 
 ## The Ocean Health Index 2012-2015
 
-![](https://docs.google.com/drawings/d/1emeqxgwGgE0GHSLzlP0i--Fqe8s-v7o5GyZTM-UWZJU/pub?w=768&h=480)
+![](https://docs.google.com/drawings/d/1emeqxgwGgE0GHSLzlP0i--Fqe8s-v7o5GyZTM-UWZJU/pub?w=1536&h=960)
 
 <!---
-we've also tested it at different spatial scales and different degrees of data quality
--->
-
-## The Ocean Health Index 2012-2015
-
-![](https://docs.google.com/drawings/d/1mjMnxoNtihK6fV0OTgBo2fwG_f6yWN95RqDtYYdykjM/pub?w=768&h=480)
-
-<!---
-Plus, we have developed open-source software tools and at training program.
+2. Plus, we have developed the Toolbox to facilitate the recalculations and also do OHI assessments at different scales. open-source software tools and at training program.
 --->
+
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1mjMnxoNtihK6fV0OTgBo2fwG_f6yWN95RqDtYYdykjM/pub?w=1536&h=960)
+
+<!---
+3. we've also tested it at different spatial scales and different degrees of data quality
+-->
+
+## The Ocean Health Index 2012-2015
+
+![](https://docs.google.com/drawings/d/1eUI_1NGbqxM48bfDQpx9UOgxuaB6jG53it__VPqkdOg/pub?w=1536&h=960)
+
+<!---
+3b.  here's what that can look like: scores at smaller scales within Brazil
+-->
+
 
 ## The Ocean Health Index 2012-2015
 
@@ -102,6 +116,19 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 
 <!---
 important to define what you're trying to do
+
+WANTED TO QUANTIFY THESE THINGS
+
+we saw a need: for something that measured OH, there was nothing that was all these things we wanted. we saw a need, we made a def that would fill that need, but then we needed to build something that would do it.
+
+then, from the def, we knew what we were creating had those qualities 
+
+then knew we were including humans in a thing that needed to be compared across things
+it was at the benefit-level so we developed categories of benefits ('goals') and then went from there)
+
+we're always working towards those things, but we're not there yet. 
+
+set up this narrative of how the def came first and it's still being tweaked
 -->
 
 ## Motivation for developing OHI
@@ -117,28 +144,38 @@ important to define what you're trying to do
 
 **Need for an assessment method that:** 
 
-- **defines 'healthy'** 
-- **is comprehensive and holistic** by including multiple sectors
+<!---a healthy ocean sustainably provides a range of benefits to people now and in the future--->
+
+- defines 'ecosystem health' and includes humans <!---a healthy ocean--->
+- allows comparison across a range of social and ecological elements <!---range of benefits. SAY: goal-driven, ---> 
+- explicit objectives/purpose bound what information to include <!---- benefit-driven, not indicator-driven objective drives the selection of information--->
+- quantitative and sensitive to changes and trackable through time + space <!---now and in the future
+--->
+
 - **has an explicit purpose** to structure what is included
-- **evaluates social and ecological elements** relevant for policy
+- relevant for policy
 
 and: 
 
 - is **tailorable for use in different contexts** by accommodating local environmental characteristics, cultural priorities, and information quality 
+- a way to structure and organize information to structure what is included
+
+
+<!---say social: cultural, economic--->
 
 ## Motivation for developing OHI
 
 **The assessment method must also be:**
 
 - **transparent**: what decisions were made and why
-- **reproducible**: access to methods and computational code
-- **repeatable**: ability to modify methods and code with context-specific info
-- **communicable**: distill complexity with visualization for wide audiences
-
+- **replicable**: ability to use and modify methods and computational code
+- **easy to communicate**: distill complexity with visualization for wide audiences
 
 ## OHI Conceptual Blueprint
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**a healthy ocean sustainably provides a range of benefits to people now and in the future**
 
  - defines ocean health, assesses a range of benefits that represent what the ocean provides to humans ('goals')
  - local decisions are distinct from core framework structure
@@ -174,7 +211,8 @@ will return to reference points below
 
 Reference points are set specifically to the local context to capture priorities such that goal scores reflect progress towards achieving those targets, and future assessments can serve as a measure of the effectiveness of management and policy interventions.
 
-types: functional, established (policy) targets, temporal, spatial
+
+<!---ref points as well-informed as possible. based on literature if nothing else--->
 
 ## OHI Blueprint: local
 
@@ -421,7 +459,7 @@ All information, instruction, data, publications, community, forum...
 ![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
 
-## OHI workflow summary
+## OHI summary
 
 **OHI blueprint:**  
 
@@ -430,12 +468,11 @@ All information, instruction, data, publications, community, forum...
 - evaluates social and ecological elements relevant for policy
 - is tailorable for use in different contexts
 
-**OHI Toolbox promotes:**
+**OHI Toolbox:**
 
-- transparency
-- reproduciblity
-- repeatablility
-- communicability
+- transparent
+- replicable
+- easy to communicate
 
 
 ## OHI team
