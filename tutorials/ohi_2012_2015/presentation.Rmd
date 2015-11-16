@@ -19,8 +19,8 @@ Focus not only on that there was a paper, but what they may have heard of.
 ## The Ocean Health Index 2012 
 
 - scores a suite of benefits to humans ('goals') from 0-100
-- ten goals scored in global assessments
-- maps and flower plots illustrate scores <br />
+- maps and flower plots illustrate scores 
+- uses existing, freely-available information (data/indicators) <br />
 
 ![](https://docs.google.com/drawings/d/1VDqT5eN5eg3dtVZLMrpKNmaDqhCoGvUNjfBJt-2w6s0/pub?w=768&h=288)
 
@@ -111,8 +111,7 @@ I'm going to tell the story of the past 3 years, what OHI has come to be
 ![](https://docs.google.com/drawings/d/1rFFkxJh3PkW_nh535385KSfxDzf7wMov9gSyqt1xDAs/pub?w=768&h=288)<br />
 
 - Cumulative Human Impacts is only the negatives, what about the positives?
-- Policy mandates to 'keep oceans healthy' 
-- What is a 'healthy ocean'? Must define to measure
+- Policy mandates to 'keep oceans healthy' --what does that mean?
 
 <!---
 important to define what you're trying to do
@@ -147,13 +146,41 @@ set up this narrative of how the def came first and it's still being tweaked
 - **evaluates social and ecological elements** relevant for policy
 --->
 
-- 'ecosystem health' definition includes humans (relevant for policy)<!---a healthy ocean--->
-- 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
+- 'ecosystem health' definition includes humans 
+    - relevant for policy<!---a healthy ocean--->
+    
+## Definition and purpose
+
+<span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
+    
+- 'ecosystem health' definition includes humans 
+    - relevant for policy<!---a healthy ocean--->
 - quantitative to allow comparison across a range of benefits
+    - 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
+
+## Definition and purpose
+
+<span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
+    
+- 'ecosystem health' definition includes humans 
+    - relevant for policy<!---a healthy ocean--->
+- quantitative to allow comparison across a range of benefits
+    - 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
 - sensitive to changes and trackable through time + space <!---now and in the future--->
 
+## Developing the OHI Blueprint + Toolbox
 
-## Developing the OHI Blueprint
+<!---conceptually and technically--->
+
+## Developing the OHI Blueprint + Toolbox
+
+**Conceptually, the assessment method must:**
+
+- **provide structure** but also bound the information included 
+    - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
+
+
+## Developing the OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -164,7 +191,32 @@ set up this narrative of how the def came first and it's still being tweaked
 <!---say social: cultural, economic--->
 
 
-## Developing the OHI Blueprint
+## Developing the OHI Blueprint + Toolbox
+
+**Conceptually, the assessment method must:**
+
+- **provide structure** but also bound the information included 
+    - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
+- **be tailorable** for use in different contexts by accommodating local environmental characteristics, cultural priorities, and information quality 
+
+**Technically, the assessment method must be:**
+
+- **transparent**: what decisions were made and why
+
+## Developing the OHI Blueprint + Toolbox
+
+**Conceptually, the assessment method must:**
+
+- **provide structure** but also bound the information included 
+    - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
+- **be tailorable** for use in different contexts by accommodating local environmental characteristics, cultural priorities, and information quality 
+
+**Technically, the assessment method must be:**
+
+- **transparent**: what decisions were made and why
+- **replicable**: ability to use and modify methods and computational code
+
+## Developing the OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -178,27 +230,22 @@ set up this narrative of how the def came first and it's still being tweaked
 - **replicable**: ability to use and modify methods and computational code
 - **easy to communicate**: distill complexity with visualization for wide audiences
 
-## OHI Blueprint
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
-
-'Blueprint': local decisions are distinct from core assessment framework structure
 
 ## OHI Blueprint
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+<p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
 
-'Blueprint': decisions that customize an assessment to the local context are distinct from core assessment framework structure  
+'Blueprint': local decisions are distinct from core assessment framework structure 
+
+Structured by definition of ocean health: assesses a range of benefits ('goals') that the ocean provides to humans  
   
-Structured by definition of ocean health: assesses a range of benefits that represent what the ocean provides to humans ('goals')  
-
-Uses existing, freely-available information (data/indicators) 
 
 ## OHI Blueprint
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+<p align = 'center'>![](https://docs.google.com/drawings/d/11e--GQq3gSLb3meIy7m1Bnl0Z5ypVrW63MmyYXY8sd8/pub?w=576&h=144)
 
-**two main elements of the core framework:**
+**two main elements of the core framework (standardized):**
 
 1. how goals are scored
 2. that reference points (targets) must be explicitly set
@@ -207,12 +254,12 @@ Uses existing, freely-available information (data/indicators)
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
-**two main elements of the core framework:**
+**two main elements of the core framework (standardized):**
 
 1. how goals are scored
 2. that reference points (targets) must be explicitly set
 
-**two main elements of local decisions:**
+**two main elements of local decisions (tailored):**
 
 1. deciding which goals to score and key characteristics/priorities to include
 2. determining how to set reference points
@@ -222,6 +269,7 @@ Uses existing, freely-available information (data/indicators)
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
+**standard to all assessments:**
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1sCrfwO886tb8Nn3Xu-rmHzMmZtEM7aRqYKM37JAQ7rY/pub?w=576&h=288)
 
@@ -229,6 +277,7 @@ Uses existing, freely-available information (data/indicators)
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
+**standard to all assessments:**
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1MsrR7sKOMFzfUaGVaVQ4CPb7Y6RFaBt40XJXgmT7Edo/pub?w=576&h=288)
 
@@ -242,7 +291,9 @@ will return to reference points below
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1j2yaWgAt2kBg7nHma0a46cFgA5hURNMg_t1eHPMdbyI/pub?w=576&h=144)
 
-**goal status requires an explicitly set reference point (target)**  
+**standard to all assessments:**  
+
+goal status requires an explicitly set reference point (target)
 
 ![](https://docs.google.com/drawings/d/1TUBUpU1MRPPfKIXbg_uhlp7w4Ip7bnx5o2qgBYy8QMc/pub?w=768&h=288)
 
@@ -262,12 +313,12 @@ Reference points are set specifically to the local context to capture priorities
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
 
-identify and plan: 
+**tailored to each assessment:**
 
-- which goals are important and how should they ideally be represented
-- key characteristics and cultural priorities to include
-- how could reference points be set
-- the pressures affecting these goals, and what mitigates these pressures (resilience)
+- which goals are included and how to represent them
+- what key characteristics and cultural priorities to include
+- how reference points are set
+- which pressures affect each goal, and what mitigates these pressures (resilience)
 
 ## Example: US West Coast Assessment
 
@@ -300,6 +351,20 @@ identify and plan:
 
 **Conceptual blueprint is developed BEFORE data search.** 
 
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**Conceptual blueprint is developed BEFORE data search.** 
+
+- blueprint should remain true to the definition of ocean health 
+
+## OHI Conceptual Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**Conceptual blueprint is developed BEFORE data search.** 
+
 - blueprint should remain true to the definition of ocean health 
 - blueprint provides structure for information search (and reduces biases)
     - search for direct measures based on blueprint
@@ -311,6 +376,19 @@ identify and plan:
 Good questions--talk to Courtney about the talking points
 
 --->
+
+## OHI Toolbox
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1cXN-D0RzE8icrBsGmjRTepANwEKhSmV8sZ7LgbsEJHk/pub?w=624&h=336)
+
+- organization structure and code to calculate OHI scores
+
+## OHI Toolbox
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1cXN-D0RzE8icrBsGmjRTepANwEKhSmV8sZ7LgbsEJHk/pub?w=624&h=336)
+
+- organization structure and code to calculate OHI scores
+- open source, cross-platform, and free 
 
 ## OHI Toolbox
 
@@ -409,19 +487,46 @@ step by step through data requirements and models per region
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
 
-- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
 - tools are shared through the collaborative platform **GitHub**
-    - **local assessment repository + ohicore repository** 
-- instructional materials are written in markdown and distributed online
+    - <span style="color:green">**local assessment repository + ohicore repository**</span> 
 
+
+## OHI Toolbox workflow
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
+
+- tools are shared through the collaborative platform **GitHub**
+    - <span style="color:green">**local assessment repository + ohicore repository**</span> 
+- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
+
+
+## OHI Toolbox workflow
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
+
+- tools are shared through the collaborative platform **GitHub**
+    - <span style="color:green">**local assessment repository + ohicore repository**</span> 
+- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
+- instructional materials are written in markdown and distributed online (ohi-science.org and OHI+ websites)
 
 <!---
 This is all built with open-source software by BB.
+
+Including this presentation.
 --->
 
 ## OHI Toolbox workflow
 
 ![](https://docs.google.com/drawings/d/1urr3If3UxeGuxY5rY0h0HArFh2qoK2lzOtbeB-i5hxk/pub?w=768&h=480)
+
+## OHI Toolbox workflow
+
+![](https://docs.google.com/drawings/d/1eEl6EB8s1f4HS9UZAMf_DzS-ibjqZg1IjmSSVY9YZcY/pub?w=768&h=480)
+
+
+## OHI Toolbox workflow
+
+![](https://docs.google.com/drawings/d/13U3lc-1Wf7t-iIC7lNjbWWusB7p0HZSY0RNvRJ3bTMQ/pub?w=768&h=480)
 
 ## OHI Toolbox workflow
 
