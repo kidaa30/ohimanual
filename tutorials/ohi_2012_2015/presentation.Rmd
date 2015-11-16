@@ -135,6 +135,10 @@ set up this narrative of how the def came first and it's still being tweaked
 
 <span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
 
+## Definition and purpose
+
+<span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
+
 <!---**Need for an assessment method that:** 
 
 - **defines 'healthy'**
@@ -143,16 +147,18 @@ set up this narrative of how the def came first and it's still being tweaked
 - **evaluates social and ecological elements** relevant for policy
 --->
 
-- defines 'ecosystem health' and includes humans (relevant for policy)<!---a healthy ocean--->
-- allows comparison across a range of social and ecological elements <!---range of benefits. SAY: goal-driven, ---> 
-- quantitative and sensitive to changes and trackable through time + space <!---now and in the future--->
+- 'ecosystem health' definition includes humans (relevant for policy)<!---a healthy ocean--->
+- 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
+- quantitative to allow comparison across a range of benefits
+- sensitive to changes and trackable through time + space <!---now and in the future--->
 
 
 ## Developing the OHI Blueprint
 
 **Conceptually, the assessment method must:**
 
-- **provide structure** and bound the information included <!---- benefit-driven, not indicator-driven objective drives the selection of information--->
+- **provide structure** but also bound the information included 
+    - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
 - **be tailorable** for use in different contexts by accommodating local environmental characteristics, cultural priorities, and information quality 
 
 <!---say social: cultural, economic--->
@@ -162,7 +168,8 @@ set up this narrative of how the def came first and it's still being tweaked
 
 **Conceptually, the assessment method must:**
 
-- **provide structure** and bound the information included <!---- benefit-driven, not indicator-driven objective drives the selection of information--->
+- **provide structure** but also bound the information included 
+    - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
 - **be tailorable** for use in different contexts by accommodating local environmental characteristics, cultural priorities, and information quality 
 
 **Technically, the assessment method must be:**
@@ -181,11 +188,34 @@ set up this narrative of how the def came first and it's still being tweaked
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
 
-'Blueprint': local decisions are distinct from core assessment framework structure  
+'Blueprint': decisions that customize an assessment to the local context are distinct from core assessment framework structure  
   
 Structured by definition of ocean health: assesses a range of benefits that represent what the ocean provides to humans ('goals')  
 
 Uses existing, freely-available information (data/indicators) 
+
+## OHI Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**two main elements of the core framework:**
+
+1. how goals are scored
+2. that reference points (targets) must be explicitly set
+
+## OHI Blueprint
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=192)
+
+**two main elements of the core framework:**
+
+1. how goals are scored
+2. that reference points (targets) must be explicitly set
+
+**two main elements of local decisions:**
+
+1. deciding which goals to score and key characteristics/priorities to include
+2. determining how to set reference points
 
 
 ## OHI Blueprint: core
@@ -214,6 +244,7 @@ will return to reference points below
 
 **goal status requires an explicitly set reference point (target)**  
 
+![](https://docs.google.com/drawings/d/1TUBUpU1MRPPfKIXbg_uhlp7w4Ip7bnx5o2qgBYy8QMc/pub?w=768&h=288)
 
 <!---
 
@@ -390,6 +421,10 @@ This is all built with open-source software by BB.
 
 ## OHI Toolbox workflow
 
+![](https://docs.google.com/drawings/d/1urr3If3UxeGuxY5rY0h0HArFh2qoK2lzOtbeB-i5hxk/pub?w=768&h=480)
+
+## OHI Toolbox workflow
+
 ![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=768&h=480)
 
 
@@ -414,7 +449,7 @@ promoting good computing practices à la:
 </small>
 
 <small>
-- Lowndes et al. in revision. *PeerJ*. Best practices for assessing ocean health in multiple contexts using customizable frameworks  
+- Lowndes et al. in revision. *PeerJ*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks  
 - training group at UCSB: [eco-data-science](https://github.com/eco-data-science)
 </small>
 
@@ -446,11 +481,13 @@ All information, instruction, data, publications, community, forum...
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/11wFyv3wHt7S8b6qaZAjHNRIwC62jE9NqJXUTPOHaJQc/pub?w=624&h=480)
 
-## OHI Next Steps
+## OHI next steps
 
 - continue refining analytical and visualization tools 
-- continue developing resources to make assessment process as independent as possible
+- make assessment process as independent as possible
+- inform policy
 
+<p align = 'center'>![](https://docs.google.com/drawings/d/1UZRtulCJ5LSNnmlmjbbCFr-F6sbsYOjvge0kfmoqQHc/pub?w=576&h=384)
 
 ## The Ocean Health Index
 
