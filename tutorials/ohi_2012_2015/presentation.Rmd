@@ -222,13 +222,13 @@ set up this narrative of how the def came first and it's still being tweaked
 
 - **provide structure** but also bound the information included 
     - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
-- **be tailorable** for use in different contexts by accommodating local environmental characteristics, cultural priorities, and information quality 
+- **be tailorable** for use in local contexts by accommodating environmental traits, cultural priorities, + information quality 
 
 **Technically, the assessment method must be:**
 
 - **transparent**: what decisions were made and why
 - **replicable**: ability to use and modify methods + computational code
-- **easy to communicate**: distill complexity with visualization for wide audiences
+- **easy to communicate**: distill complexity for wide audiences
  
 ## OHI Blueprint
 
