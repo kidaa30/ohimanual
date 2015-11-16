@@ -168,11 +168,11 @@ set up this narrative of how the def came first and it's still being tweaked
     - 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
 - sensitive to changes and trackable through time + space <!---now and in the future--->
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 <!---conceptually and technically--->
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -180,7 +180,7 @@ set up this narrative of how the def came first and it's still being tweaked
     - benefit-driven, not indicator-driven <!---objective drives the selection of information--->
 
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -191,7 +191,7 @@ set up this narrative of how the def came first and it's still being tweaked
 <!---say social: cultural, economic--->
 
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -203,7 +203,7 @@ set up this narrative of how the def came first and it's still being tweaked
 
 - **transparent**: what decisions were made and why
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -216,7 +216,7 @@ set up this narrative of how the def came first and it's still being tweaked
 - **transparent**: what decisions were made and why
 - **replicable**: ability to use and modify methods and computational code
 
-## Developing the OHI Blueprint + Toolbox
+## Developing OHI Blueprint + Toolbox
 
 **Conceptually, the assessment method must:**
 
@@ -229,8 +229,6 @@ set up this narrative of how the def came first and it's still being tweaked
 - **transparent**: what decisions were made and why
 - **replicable**: ability to use and modify methods and computational code
 - **easy to communicate**: distill complexity with visualization for wide audiences
-
-
 
 ## OHI Blueprint
 
