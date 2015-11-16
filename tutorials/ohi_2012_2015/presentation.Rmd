@@ -227,9 +227,9 @@ set up this narrative of how the def came first and it's still being tweaked
 **Technically, the assessment method must be:**
 
 - **transparent**: what decisions were made and why
-- **replicable**: ability to use and modify methods and computational code
+- **replicable**: ability to use and modify methods + computational code
 - **easy to communicate**: distill complexity with visualization for wide audiences
-
+ 
 ## OHI Blueprint
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
