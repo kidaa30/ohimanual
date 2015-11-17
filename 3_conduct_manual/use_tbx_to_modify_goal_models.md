@@ -31,6 +31,8 @@ Changing goal weights will be done here by editing the value in the *weight* col
 
 > TIP: In the 'preindex_function' column, you should see what the `year_max`, `status_year`, and `trend_year` say.
 
+<!-- Ning: is it necessary/recommended to set the year_max etc.? In CHN assessment, I deleted those columns from goal model functions all together...  -->
+
 ### Example modification:
 
 Suppose your team has decided to add an 'artisanal access' component to the Artisanal Fishing Opportunity goal because of locally available data. Once the data are obtained and properly formatted, the data layer is saved as `ao_access_art`. To include this new information in the goal model, you will need to do the following:
