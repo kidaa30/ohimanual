@@ -153,20 +153,21 @@ set up this narrative of how the def came first and it's still being tweaked
 
 <span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
     
-- 'ecosystem health' definition includes humans 
+- socio-ecological 
+    - includes humans
     - relevant for policy<!---a healthy ocean--->
-- quantitative to allow comparison across a range of benefits
-    - 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
+    - allows comparison across a range of benefits
+   <!---range of benefits. SAY: goal-driven, ---> 
 
 ## Definition and purpose
 
 <span style="color:blue">"A healthy ocean sustainably provides a range of benefits to people now and in the future"</span>
     
-- 'ecosystem health' definition includes humans 
+- socio-ecological 
+    - includes humans
     - relevant for policy<!---a healthy ocean--->
-- quantitative to allow comparison across a range of benefits
-    - 'benefits' are social and ecological <!---range of benefits. SAY: goal-driven, ---> 
-- sensitive to changes and trackable through time + space <!---now and in the future--->
+    - allows comparison across a range of benefits
+- trackable through time + space <!---now and in the future--->
 
 ## Developing OHI Blueprint + Toolbox
 

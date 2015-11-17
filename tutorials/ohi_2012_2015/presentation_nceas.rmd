@@ -1,0 +1,125 @@
+---
+title: "The Ocean Health Index<br /> 2012-2015"
+author: Julia Stewart Lowndes, Ben Halpern, and the OHI team <br /> National Center
+  for Ecological Analysis and Synthesis, UCSB <br /> Conservation International
+output: ioslides_presentation
+---
+
+## Ocean Health Index 2012
+
+If you've heard of the Ocean Health Index, you probably know 3 things about it. 
+
+(animate through each of these, with the previous ones getting smaller)
+- Nature paper (show Nature paper)
+- scores different benefits to humans (show flower plot)
+- done on the global scale (show map)
+
+<!---
+SAY: there are 2 things going on here though that get confounded. The OHI is an assessment framework, and there was an assessment done with this framework that was at the global scale, meaning every country gets a score. 
+--->
+
+## Ocean Health Index 2012-2015
+
+What you might not know these other 4 things:
+
+- we've done the global every year
+    - means finding updated data each year <!---SAY: existing information, sourcing quality data and indicators --->
+    - refining methods (internal and external critique)
+    - producing annual scores (show all annual flower plots)
+    
+<!---SAY: this isn't a talk that is going to get into those scores. We've published a follow up (Halpern et al 2015) and are planning another for the 5-year anniversary---> 
+
+- we've developed the Toolbox
+    - this automates a lot of the assessment process, making those repeated assessments easier
+    - All in R and RStudio (includes R package)
+    - all online through GitHub
+    
+- we've done assessments at different scales
+    - differentiated the framework from the global assessment: can be used at different scales
+    
+    
+- we've been helping other groups do their own assessments
+    - that's why I was hired. 
+    - lots of interest, different motivations
+    
+    
+
+## Today's focus
+
+- what the OHI is as a conceptual framework
+- how the Toolbox complements the framework
+- Examples of OHI+ assessments
+- Building from experiences (resources)
+- Next Steps
+
+
+## OHI is a framework
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&h=144)
+
+- **core:** standardized and familiar
+    - an 'OHI assessment' means something
+    - easier to uncover decisions and methods 
+- **tailored:** flexible to different contexts
+    - captures what's important locally
+    - can include targets relevant for policy
+
+## OHI is a framework
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&h=144)
+
+- **core:** 
+    - how goal scores are calculated
+    - that each goal needs a reference point (target)
+- **tailored:** 
+    - which goals to score
+    - how reference points are set
+
+
+## OHI is a framework  %%%necess?
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&h=144)
+
+- **core:** 
+    - requires all goals to have current status, reference point, pressures, resilience
+
+- **tailored:** 
+    - identify what's important socially and ecologically
+  <!---  - create an inventory of --->
+  
+
+## OHI Toolbox  
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1cXN-D0RzE8icrBsGmjRTepANwEKhSmV8sZ7LgbsEJHk/pub?w=624&h=336)
+
+
+- organization structure and code
+- open source, cross-platform, free 
+- assess ocean health as smoothly as possible
+
+<!---
+- tools are shared through the collaborative platform **GitHub**
+    - <span style="color:green">**tailored repository + ohicore repository**</span> 
+- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
+- instructional materials are written in markdown and distributed online (ohi-science.org and OHI+ websites)
+--->
+
+## OHI Toolbox  
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
+
+## OHI Toolbox  
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&h=144)
+<p align = 'center'>![](https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&h=336)
+
+
+## OHI Toolbox  
+  
+
+## Examples of OHI+ assessments
+
+- Lauren's fig
+- map
+- motivation. these aren't going to be comparable directly. not the purpose.
+
