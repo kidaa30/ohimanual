@@ -61,8 +61,6 @@ This definition explicitly includes humans in this assessment: the purpose is to
 The range of benefits means that you can categorize many goods and services that the ocean provides, such as providing food, protection from storms, tourism and recreation opportunities, and more intangible things like how cultures feel a sense of place or connection to the ocean. 
 The OHI brings all of these benefits together so that they are on the same quantified scoring system, and can then be compared to each other and from there, prioritized for policy. The idea is that you use this repeatedly through time and you would be able to track the changes in ocean health and build policy in response.
 
-I think of this like human health. It's hard to put your finger on what classifies someone as 'healthy', and if you do, you're working with some definition in your own head. But to make a more objective classification that allows quantitative comparison, would would need a definition of what healthy means and a way to represent and it. You could come up with some kind of definition that might involve a person's energy levels and resilience to disease. This definition would bound your assessment of human health because maybe indicators like exercise, diet, family disease history might be included, as well as 'intangibles' like happiness, optimism? You would want a structure to include those things, but maybe not things like height or age alone, since those don't directly tie to energy levels and resilience to disease. 
-
 --->
 
 
@@ -94,6 +92,10 @@ They also developed a way to use the definition so that this framework would hav
 - **tailored:** 
     - which goals to score
     - how reference points are set
+    
+    
+So this is the framework. I'm not going to get into further details here but we will talk about what it looks like in action, in the global asessment. 
+10 min mark>
 --->
    
 ## Ocean Health Index: 2012 recap
@@ -102,6 +104,8 @@ They also developed a way to use the definition so that this framework would hav
 
 
 <!---
+
+
 OK, so then they did this at the global scale. Conceptually, they identified what is important to measure while bounded by the definition. 
 --->
 
@@ -112,7 +116,7 @@ OK, so then they did this at the global scale. Conceptually, they identified wha
 <!---
 They identified 10 categories of benefits the ocean provides for humans
 
-They scored every coastal nation in the world based on these 10 things. Scores are displayed in these flower plots (show and describe)
+They scored every coastal nation in the world based on these 10 things. 
 
 Assessments use existing and information available from sources like the World Bank, UN FAO, NGOs etc. Because of data quality, models had to be developed to capture those 10 categories as best they could, but mostly in less-than-perfect ways. 
 
@@ -132,6 +136,7 @@ Let's talk briefly about these 10 goals.
 
 <!---
 And about flower plots.
+WORK ON TALKING
 --->
 
 
@@ -161,7 +166,6 @@ What you might not know these other 4 things:
 - we've done the global every year
 - means finding updated data each year: existing information, sourcing quality data and indicators
 - refining methods (internal and external critique)
-- producing annual scores
 this isn't a talk that is going to get into those scores. We've published a follow up (Halpern et al 2015) and are planning another for the 5-year anniversary---> 
 
 ## OHI: 2012-2015 overview
@@ -173,21 +177,21 @@ this isn't a talk that is going to get into those scores. We've published a foll
 - this automates a lot of the assessment process, making those repeated assessments easier
 - All in R and RStudio (includes R package)
 - all online through GitHub
+- user-friendly for us, but also for others. Best computing practices
+- transparency, reproducible science, communication
+- as a team, we've all grown with this. BB built it and we've been maintaining and building from it. The Toolbox really enables everything that we do. 
 --->    
     
 ## OHI: 2012-2015 overview
 <p align = 'center'>![](https://docs.google.com/drawings/d/1hC5A7RmXz2mmRxih2mmMa_9yWI2poKGygReJBsgIx_s/pub?w=768&h=480)
 
 <!---
-- we've done assessments at different scales
+- we've done assessments at different scales: Brazil. Fiji. currently in BC>
 - differentiated the framework from the global assessment: can be used at different scales
-- why would we do this? more relevant for policy
 - OHI is supposed to be able to track things through space as well as through time. 
-- tested in seeminly data-rich, data-poor. Coastlines that cover latitudes and that are archipeligos. 
-- Documented challenges, etc
+- tested in seeminly data-rich, data-poor. - Documented challenges, etc
 
 Value of doing assessments at smaller scales: can use better data, know the system better, can include local cultural priorities, preferences. More relevant for policy.
-But there was still value in doing the global scale: it is the first holistic picture of ocean health globally, it identifies information and knowledge gaps. It's also opened up a transparent conversation about what is important to assess, all the assumptions that go in, etc. 
 --->
 
 ## OHI: 2012-2015 overview
@@ -208,7 +212,7 @@ But there was still value in doing the global scale: it is the first holistic pi
 <!---
 SO I'm going to talk about these two things today, as well as the resources we're developing based on our experiences and our next steps. These two things go hand in hand because as we've been developing the Toolbox for ourselves, we've needed to make it as user-friendly as possible. 
 
--The OHI Framework and Toolbox
+-The OHI Toolbox
 -Examples of OHI+ assessments
 -Building from experiences (resources)
 -Next Steps
@@ -221,13 +225,12 @@ SO I'm going to talk about these two things today, as well as the resources we'r
 <p align = 'center'>![](https://docs.google.com/drawings/d/1AUj1UrLQpNGjAqaTPQNhm14obVyIH907_c7Wk4Lq-8w/pub?w=768&h=480)
 
 <!---
-Just like the framework, the Toolbox has a standardized portion that not really change, and a tailored part that is flexible for different users. 
 
 - organization structure and code
 - open source, cross-platform, free 
 - assess ocean health as smoothly as possible
 
-
+Just like the framework, the Toolbox has a standardized portion that not really change, and a tailored part that is flexible for different users. 
 --->
 
 ## OHI Toolbox  
@@ -277,6 +280,7 @@ I made this for Lena, she used it like this, she had full control.
 
 <!---
 you'll end up with scores
+tbx integral for transparency, reproducibility, repeatability, comparison, communication
 --->
 
 ## OHI assessment process
@@ -299,7 +303,7 @@ Let's shift gears to talk about some live examples of this
 <!---
 
 - many countries in different stages. Led by gvt, academic, or a combination.
-- different motivations
+- different motivations. Some are gvt interested in developing policy around it, some are academic interested in comparing it to other methods
 - really different places. OHI is a really cool lens to see really different coastlines, from ecological and social.
 
 these aren't going to be comparable directly. not the purpose.
@@ -371,7 +375,7 @@ Important for different audiences to have places to come, whether they are inter
 
 
 
-## Next Steps
+## Next steps 
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
@@ -388,9 +392,10 @@ Improve the app
 
 
 ## OHI take-home messages
-not just the global (applied elsewhere)
-living thing, active community, OHI+
-stay tuned for our new website
+
+- OHI is much more than the global assessment
+- it's a living thing, active community
+- stay tuned for our new website!
 
 
 

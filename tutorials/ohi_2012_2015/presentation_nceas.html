@@ -91,168 +91,489 @@
           </hgroup>
   </slide>
 
-<slide class=''><hgroup><h2>Ocean Health Index 2012</h2></hgroup><article  id="ocean-health-index-2012">
+<!---Today I'm going to talk about what the OHI team has been up to for the past few years. We've had a team of about 5-8 full-time people here at NCEAS and also with our partners at CI. 
 
-<p>If you&#39;ve heard of the Ocean Health Index, you probably know 3 things about it.</p>
-
-<p>(animate through each of these, with the previous ones getting smaller) - Nature paper (show Nature paper) - scores different benefits to humans (show flower plot) - done on the global scale (show map)</p>
-
-<!---
-SAY: there are 2 things going on here though that get confounded. The OHI is an assessment framework, and there was an assessment done with this framework that was at the global scale, meaning every country gets a score. 
+I'll give a brief intro to what what OHI was in 2012 when the Nature paper came out, and then get into what we've been doing since then. 
 --->
 
-</article></slide><slide class=''><hgroup><h2>Ocean Health Index 2012-2015</h2></hgroup><article  id="ocean-health-index-2012-2015">
-
-<p>What you might not know these other 4 things:</p>
-
-<ul>
-<li>we&#39;ve done the global every year
-
-<ul>
-<li>means finding updated data each year <!---SAY: existing information, sourcing quality data and indicators ---></li>
-<li>refining methods (internal and external critique)</li>
-<li>producing annual scores (show all annual flower plots)</li>
-</ul></li>
-</ul>
-
-<!---SAY: this isn't a talk that is going to get into those scores. We've published a follow up (Halpern et al 2015) and are planning another for the 5-year anniversary--->
-
-<ul>
-<li>we&#39;ve developed the Toolbox
-
-<ul>
-<li>this automates a lot of the assessment process, making those repeated assessments easier</li>
-<li>All in R and RStudio (includes R package)</li>
-<li>all online through GitHub</li>
-</ul></li>
-<li>we&#39;ve done assessments at different scales
-
-<ul>
-<li>differentiated the framework from the global assessment: can be used at different scales</li>
-</ul></li>
-<li>we&#39;ve been helping other groups do their own assessments
-
-<ul>
-<li>that&#39;s why I was hired.</li>
-<li>lots of interest, different motivations</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>Today&#39;s focus</h2></hgroup><article  id="todays-focus">
-
-<ul>
-<li>what the OHI is as a conceptual framework</li>
-<li>how the Toolbox complements the framework</li>
-<li>Examples of OHI+ assessments</li>
-<li>Building from experiences (resources)</li>
-<li>Next Steps</li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>OHI is a framework</h2></hgroup><article  id="ohi-is-a-framework">
+<slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/1bNchCm0kpqK4zb0En5gZ0xPWNXtQATdFN-2gzJeqwsw/pub?w=576&amp;h=144' title=''/>
+<img src='https://docs.google.com/drawings/d/1Br2KWVv0nc6isNgJ88D_vbTVvrguTXUJjT-MjRlOLMM/pub?w=768&amp;h=480' title=''/>
 
-<ul>
-<li><strong>core:</strong> standardized and familiar
+<!---
 
-<ul>
-<li>an &#39;OHI assessment&#39; means something</li>
-<li>easier to uncover decisions and methods</li>
-</ul></li>
-<li><strong>tailored:</strong> flexible to different contexts
+Ben Halpern et al. published this paper in Nature in 2012. It spun off of a working group here at NCEAS about ecosystem health, which was a project with these coauthors for about 3 years. 
+ --->
 
-<ul>
-<li>captures what&#39;s important locally</li>
-<li>can include targets relevant for policy</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>OHI is a framework</h2></hgroup><article  id="ohi-is-a-framework-1">
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-1">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/15abn7jdkiHHFsi_DXbU0tPIMbWJpkZeBTJVBBoS0zdY/pub?w=576&amp;h=144' title=''/>
+<img src='https://docs.google.com/drawings/d/1FVIyNXvsUi28rezbo7Mb-RQkpFEGLkxrFtbblEPak48/pub?w=768&amp;h=480' title=''/>
 
-<ul>
-<li><strong>core:</strong>
+<!---
+The Halpern et al. *Nature* paper reported two things, although they sort of get confounded together. 
+1. they developed the OHI assessment framework
+2. they did an OHI assessment at the global scale
+--->
 
-<ul>
-<li>how goal scores are calculated</li>
-<li>that each goal needs a reference point (target)</li>
-</ul></li>
-<li><strong>tailored:</strong>
-
-<ul>
-<li>which goals to score</li>
-<li>how reference points are set</li>
-</ul></li>
-</ul>
-
-</article></slide><slide class=''><hgroup><h2>OHI is a framework %%%necess?</h2></hgroup><article  id="ohi-is-a-framework-necess">
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-2">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/11fBevpwK4zBHGHoOtkaOdAqFYenXQprx3XKH8253cHM/pub?w=576&amp;h=144' title=''/>
+<img src='https://docs.google.com/drawings/d/1dbEXF68jsIvxStj73v8BrwfIEJTC7M_yG7HIntL-Baw/pub?w=768&amp;h=480' title=''/>
 
-<ul>
-<li><strong>core:</strong>
+<!---
+Let's talk first about the framework. What is it?
 
-<ul>
-<li>requires all goals to have current status, reference point, pressures, resilience</li>
-</ul></li>
-<li><strong>tailored:</strong>
+OHI assessment framework is the conceptual design and structure to assess how healthy oceans are. But what does healthy mean? They came up with a deliberate definition of what a healthy ocean is. 
 
-<ul>
-<li>identify what&#39;s important socially and ecologically <!---  - create an inventory of ---></li>
-</ul></li>
-</ul>
+Why do you need something like this? 
+Governments around the world are realizing that their oceans are in trouble, and want to change that. But they need some estimate of how their oceans were doing now in order to set priorities and change policy. 
+There are several approaches out there, but few are truly comprehensive and it seems like everyone has to reinvent the wheel and no one learns from each other, yet no one has time or resources or familiarity with how you would go about it. 
+
+So the OHI framework here defines what we mean by healthy, and developed a structured way for how to respresent it. This definition provides guidance but boundaries what can be included in the assessment down the line. 
+
+When I say it's important for the definition to guide and bound what can be included later on in the assessment, I think an analogy about human health can help. If you wanted to identify a lot of attributes that exemplify a healthy person, you'd want to have it guided and constrained by some definition of what you mean by health such that elements like maybe weight or bloodpressure would be included, but something like height would not be. 
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-3">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1vW5Ar6Kx8EyJGr-0x060z9Gg36K4wlXqEiFfXA_r90k/pub?w=768&amp;h=480' title=''/>
+
+<!---
+
+The definition is 'a healthy ocean sustainably delivers a range of benefits to people now and in the future'. 
+
+
+This definition explicitly includes humans in this assessment: the purpose is to be relevant for policy so it focuses around what is important to people. 
+The range of benefits means that you can categorize many goods and services that the ocean provides, such as providing food, protection from storms, tourism and recreation opportunities, and more intangible things like how cultures feel a sense of place or connection to the ocean. 
+The OHI brings all of these benefits together so that they are on the same quantified scoring system, and can then be compared to each other and from there, prioritized for policy. The idea is that you use this repeatedly through time and you would be able to track the changes in ocean health and build policy in response.
+
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-4">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1i-sh_MZmPyGfFp70nRVoHdfKP--MbUItwpFMliB-TTU/pub?w=768&amp;h=480' title=''/>
+
+<!---
+They also developed a way to use the definition so that this framework would have a core part that was standardized and familiar and also a tailored part that would allow this to be flexible in different contexts. Both of these were important so that it's a familar thing that you can build from but that you're not reinventing the wheel. 
+
+- **core:** standardized and familiar
+    - an 'OHI assessment' means something
+    - easier to uncover decisions and methods 
+- **tailored:** flexible to different contexts
+    - captures what's important locally
+    - can include targets relevant for policy
+    - so that you're not reinventing the wheel all the time. 
+
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-5">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1RaGSMwC75HmiQnJ7AzT01pYvdhDw0NC4JcyQEKTTOVc/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- **core:** 
+    - how goal scores are calculated
+    - that each goal needs a reference point (target)
+- **tailored:** 
+    - which goals to score
+    - how reference points are set
+    
+    
+So this is the framework. I'm not going to get into further details here but we will talk about what it looks like in action, in the global asessment. 
+10 min mark>
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-6">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1tFwng_She3SSRLsEFIJTnKiQLwuZePqGCYF7PambrpU/pub?w=768&amp;h=480' title=''/>
+
+<!---
+
+
+OK, so then they did this at the global scale. Conceptually, they identified what is important to measure while bounded by the definition. 
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-7">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1032gwwfkvSoqGao69E13pW8W0j9Guwhz7vxMkQ5SY3g/pub?w=768&amp;h=480' title=''/>
+
+<!---
+They identified 10 categories of benefits the ocean provides for humans
+
+They scored every coastal nation in the world based on these 10 things. 
+
+Assessments use existing and information available from sources like the World Bank, UN FAO, NGOs etc. Because of data quality, models had to be developed to capture those 10 categories as best they could, but mostly in less-than-perfect ways. 
+
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-8">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/11c6W8onhInaP_gOJetFkNCJlnH3j23o8nCsdzbmPqR4/pub?w=576&amp;h=480' title=''/>
+
+<!---
+Let's talk briefly about these 10 goals.
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-9">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1-XvPPQ08ENMy_lR8qUZxrimcqp6DCaq9fzlw5HtSb1o/pub?w=576&amp;h=480' title=''/>
+
+<!---
+And about flower plots.
+WORK ON TALKING
+--->
+
+</article></slide><slide class=''><hgroup><h2>Ocean Health Index: 2012 recap</h2></hgroup><article  id="ocean-health-index-2012-recap-10">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1032gwwfkvSoqGao69E13pW8W0j9Guwhz7vxMkQ5SY3g/pub?w=768&amp;h=480' title=''/>
+
+<!---
+So that's the quick summary of OHI as of the 2012 Nature paper. You can see how these things can get confounded but it's important that they are separate. 
+
+That distinction is especially important for what I want to talk with you about for the rest of today that has been keeping us so busy.
+
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview">
+
+<!---
+So what have we been doing? 
+What you might not know these other 4 things:
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview-1">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1DCTg7Ttue_FYiWVYdbUD1Vgp77RlNeAijk4n85MtYJA/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- we've done the global every year
+- means finding updated data each year: existing information, sourcing quality data and indicators
+- refining methods (internal and external critique)
+this isn't a talk that is going to get into those scores. We've published a follow up (Halpern et al 2015) and are planning another for the 5-year anniversary--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview-2">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1cEb_FgrzFr0YjEVlWEwXXbenxNBLbp6QE6eS-W9Cab4/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- we've developed the Toolbox
+- this automates a lot of the assessment process, making those repeated assessments easier
+- All in R and RStudio (includes R package)
+- all online through GitHub
+- user-friendly for us, but also for others. Best computing practices
+- transparency, reproducible science, communication
+- as a team, we've all grown with this. BB built it and we've been maintaining and building from it. The Toolbox really enables everything that we do. 
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview-3">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1hC5A7RmXz2mmRxih2mmMa_9yWI2poKGygReJBsgIx_s/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- we've done assessments at different scales: Brazil. Fiji. currently in BC>
+- differentiated the framework from the global assessment: can be used at different scales
+- OHI is supposed to be able to track things through space as well as through time. 
+- tested in seeminly data-rich, data-poor. - Documented challenges, etc
+
+Value of doing assessments at smaller scales: can use better data, know the system better, can include local cultural priorities, preferences. More relevant for policy.
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview-4">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- we've been helping other groups do their own assessments
+- that's why I was hired. 
+- lots of interest, different motivations
+- currently we have 4 completed assessments, 8 others in progress, many others in the wings.
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI: 2012-2015 overview</h2></hgroup><article  id="ohi-2012-2015-overview-5">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1BYSDSv-pM9yKHvajT4eFJsq9PoX1G7Iqe_DUX1t9kRQ/pub?w=768&amp;h=480' title=''/>
+
+<!---
+SO I'm going to talk about these two things today, as well as the resources we're developing based on our experiences and our next steps. These two things go hand in hand because as we've been developing the Toolbox for ourselves, we've needed to make it as user-friendly as possible. 
+
+-The OHI Toolbox
+-Examples of OHI+ assessments
+-Building from experiences (resources)
+-Next Steps
+--->
 
 </article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/1cXN-D0RzE8icrBsGmjRTepANwEKhSmV8sZ7LgbsEJHk/pub?w=624&amp;h=336' title=''/>
-
-<ul>
-<li>organization structure and code</li>
-<li>open source, cross-platform, free</li>
-<li>assess ocean health as smoothly as possible</li>
-</ul>
+<img src='https://docs.google.com/drawings/d/1AUj1UrLQpNGjAqaTPQNhm14obVyIH907_c7Wk4Lq-8w/pub?w=768&amp;h=480' title=''/>
 
 <!---
-- tools are shared through the collaborative platform **GitHub**
-    - <span style="color:green">**tailored repository + ohicore repository**</span> 
-- open-source tools for analysis, visualization + communication built with **R** and **RStudio**
-- instructional materials are written in markdown and distributed online (ohi-science.org and OHI+ websites)
+
+- organization structure and code
+- open source, cross-platform, free 
+- assess ocean health as smoothly as possible
+
+Just like the framework, the Toolbox has a standardized portion that not really change, and a tailored part that is flexible for different users. 
 --->
 
 </article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox-1">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&amp;h=144' title=''/>
+<img src='https://docs.google.com/drawings/d/1A-SlzcYuTKQAmGiJdvmjVXqHiTjgf--Z6hi2Lm91VDA/pub?w=768&amp;h=480' title=''/>
+
+<!---
+actually an R package that is a repository on github, and a repository that is tailored to the assessment
+--->
 
 </article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox-2">
 
 <p align = 'center'>
 
-<img src='https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=576&amp;h=144' title=''/>
+<img src='https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192' title=''/>
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/13U3lc-1Wf7t-iIC7lNjbWWusB7p0HZSY0RNvRJ3bTMQ/pub?w=576&amp;h=336' title=''/>
+
+<!---
+- toolbox is shared through the collaborative platform **GitHub**
+- All work done in R, RStudio
+- instructional materials are written in markdown and distributed online (ohi-science.org and OHI+ websites)
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox-3">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192' title=''/>
 
 <p align = 'center'>
 
 <img src='https://docs.google.com/drawings/d/1iwVUEBSlFEfSCi8Pw2sMgTl5zANkjcSCGE83kGxElaY/pub?w=576&amp;h=336' title=''/>
 
-</article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox-3">
+<!---
+OHI details
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI Toolbox</h2></hgroup><article  id="ohi-toolbox-4">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&amp;h=192' title=''/>
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/16IcxhslMAyFYhirIntt7SFs7HnmCY-hz66bSVHJ3kU0/pub?w=576&amp;h=336' title=''/>
+
+<!---
+let's take a little look
+
+I made this for Lena, she used it like this, she had full control. 
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI assessment process</h2></hgroup><article  id="ohi-assessment-process">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1z0UaAWaMOgqco4sdLrsqHZD3kYN6bRQYJPvj4_QeJFQ/pub?w=624&amp;h=480' title=''/>
+
+<!---
+you'll end up with scores
+tbx integral for transparency, reproducibility, repeatability, comparison, communication
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI assessment process</h2></hgroup><article  id="ohi-assessment-process-1">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&amp;h=432' title=''/>
+
+<!---
+What we've been talking about so far here is just one phase in the whole assessment process: conducting the assessment is really our focus here at NCEAS. 
+Our colleagues at Conservation International lead a lot of these other steps, with teaching people about assessments and helping them plan. We are also getting into the informing part a bit too, but I'll talk about that in a bit. 
+
+Let's shift gears to talk about some live examples of this
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI+: independent assessments</h2></hgroup><article  id="ohi-independent-assessments">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1OCJO5OcMdJ_u9zCFDVwXH9IJsGrjWzeydXdIAWpnlh8/pub?w=768&amp;h=384' title=''/>
+
+<!---
+
+- many countries in different stages. Led by gvt, academic, or a combination.
+- different motivations. Some are gvt interested in developing policy around it, some are academic interested in comparing it to other methods
+- really different places. OHI is a really cool lens to see really different coastlines, from ecological and social.
+
+these aren't going to be comparable directly. not the purpose.
+--->
 
 </article></slide><slide class=''><hgroup><h2>Examples of OHI+ assessments</h2></hgroup><article  id="examples-of-ohi-assessments">
 
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1yDSrCl5gqwzdZME5pEadZXOnfW1wDkZZs6B8d5x2Pno/pub?w=624&amp;h=432' title=''/>
+
+<table class = 'rmdtable'>
+<tr class="header">
+<th align="left">ohi+</th>
+<th align="left">getting started</th>
+<th align="left">assessment details</th>
+<th align="left">next steps</th>
+</tr>
+<tr class="odd">
+<td align="left">GYE</td>
+<td align="left">gvt Wanted to assess only 1 region, found there is more immediate value in comparison.</td>
+<td align="left">scored 10 goals, 82% local information (instead of placeholders from global), local ref pts</td>
+<td align="left">successful pilot; planning next one for all of ECU.</td>
+</tr>
+<tr class="even">
+<td align="left">ISR</td>
+<td align="left">academic team: Wanted to assess only 1 region (&lt;300 km of coastline). Decided to assess by district</td>
+<td align="left">no CS goal, NP goal has desal. <!---Whether or not to include negative impacts of desal was a really political issue. don't say 'pressure' ---></td>
+</tr>
+<tr class="odd">
+<td align="left">BHI</td>
+<td align="left">adacemic. no CP goal,</td>
+<td align="left">beta scores by Jan; meetings with all goalkeepers to discuss, finalized by fall 2016</td>
+</tr>
+</table>
+
+<p>No teams. less info for each Go country by country. Having a few bullet points. - what piece is interesting . why I&#39;m telling you this</p>
+
+</article></slide><slide class=''><hgroup><h2>Community resources</h2></hgroup><article  id="community-resources">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&amp;h=480' title=''/>
+
+<!---
+We are trying to capture what we've learned and built through this whole process.  
+
+We're also developing a community of people who are knowledgble in the conceptual and technical parts of OHI assessments, and it's great. 
+
+Success stories
+Examples: 
+- Soraya being hired for the Colombia assessment. 
+- Colombia using this as a policy tool before having calculated scores.
+--->
+
+</article></slide><slide class=''><hgroup><h2>Community resources</h2></hgroup><article  id="community-resources-1">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1eSRzAWmnUXEFmqXYIPtbmpu99_K_3f7xbYPu-xPRKKc/pub?w=624&amp;h=480' title=''/>
+
+<!---
+- resources: data, code, written instruction, the webapps, tutorials, etc.
+- Trying to promote best computing practices  à la:
+    - [RopenSci](https://ropensci.org/)  
+    - [RStudio](https://www.rstudio.com/) 
+    - [Github](https://github.com)  
+    - [Hampton et al. 2014](https://dx.doi.org/10.7287/peerj.preprints.549v1). *PeerJ*. 
+    - [Wilson et al. 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). *PLoS ONE*. 
+   - Lowndes et al. in revision. *PeerJ*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks  
+    - training group at UCSB: [eco-data-science](https://github.com/eco-data-science)
+    
+    
+build a community where people can share experiences but also work with each other. Stop reinventing the wheel. 
+Example: Soraya working for Colombia now. 
+
+Lauren is revamping this website, this is a figure I stole from her mock-up. It's going to be awesome. 
+--->
+
+</article></slide><slide class=''><hgroup><h2>Community resources</h2></hgroup><article  id="community-resources-2">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/11wFyv3wHt7S8b6qaZAjHNRIwC62jE9NqJXUTPOHaJQc/pub?w=624&amp;h=480' title=''/>
+
+<!---
+This is a sister website to oceanhealthindex.org. 
+Important for different audiences to have places to come, whether they are interested in it more generally or want to explore global scores, or whether they want to get technical.
+--->
+
+</article></slide><slide class=''><hgroup><h2>Next steps</h2></hgroup><article  id="next-steps">
+
+<p align = 'center'>
+
+<img src='https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&amp;h=480' title=''/>
+
+<!---
+- global assessments: revisiting conceptual decisions 
+- always improving technical methods
+- improving our support for OHI+ assessments/get them more independent
+
+
+- learning that can be used for policy 
+Everyone is reinventing the wheel and not learning anything. It's a community where everyone can learn and get over roadbloack
+Improve the app
+--->
+
+</article></slide><slide class=''><hgroup><h2>OHI take-home messages</h2></hgroup><article  id="ohi-take-home-messages">
+
 <ul>
-<li>Lauren&#39;s fig</li>
-<li>map</li>
-<li>motivation. these aren&#39;t going to be comparable directly. not the purpose.</li>
-</ul></article></slide>
+<li>OHI is much more than the global assessment</li>
+<li>it&#39;s a living thing, active community</li>
+<li>stay tuned for our new website!</li>
+</ul>
+
+</article></slide><slide class=''><hgroup><h2>OHI team</h2></hgroup><article  id="ohi-team">
+
+<img src='https://docs.google.com/drawings/d/1pwK1Y_N_xn2vJGGRjcBpXJ8asCdfmKOfD0Et4fJWLDU/pub?w=768&amp;h=288' title=''/>
+
+<p><strong>Thank you funders, open-source developers, data providers!</strong><br/>Pacific Life Foundation, Gordon and Betty Moore Foundation</p>
+
+<p><strong>Contact us about OHI+ assessments</strong><br/>Julie Lowndes: <a href='mailto:lowndes@nceas.ucsb.edu' title=''>lowndes@nceas.ucsb.edu</a><br/>Ning Mendes: <a href='mailto:mendes@nceas.ucsb.edu' title=''>mendes@nceas.ucsb.edu</a><br/>Erich Pacheco: <a href='mailto:epacheco@conservation.org' title=''>epacheco@conservation.org</a></p>
+
+</article></slide><slide class=''><hgroup><h2>Appendix 1: references</h2></hgroup><article  id="appendix-1-references">
+
+<p><small> - <a href='http://www.nature.com/nature/journal/v488/n7413/full/nature11397.html' title=''>Halpern et al. 2012</a>, <em>Nature</em>. An index to assess the health and benefits of the global ocean.<br/>- <a href='http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0117863' title=''>Halpern et al. 2015</a>, <em>PLoS ONE</em>. Patterns and emerging trends in global ocean health.<br/>- <a href='http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0098995' title=''>Halpern et al. 2014</a>, <em>PLoS ONE</em>. Assessing the health of the U.S. West Coast with a regional-scale application of the OHI.<br/>- <a href='http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0092589' title=''>Elfes et al. 2014</a>, <em>PLoS ONE</em>. A regional-scale OHI for Brazil.<br/>- <a href='http://www.sciencedirect.com/science/article/pii/S2212041614001363' title=''>Selig et al. 2015</a>, <em>Ecosystem Services</em>. Measuring indicators of ocean health for an island nation: The OHI for Fiji.<br/>- <a href='http://www.sciencemag.org/content/319/5865/948.abstract' title=''>Halpern et al. 2008</a>, <em>Science</em>. A global map of human impact on marine ecosystems.<br/>- <a href='http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html?message-global=remove&amp;WT.ec_id=NCOMMS-20150715&amp;spMailingID=49102925&amp;spUserID=ODkwMTM2NjQyNgS2&amp;spJobID=721894001&amp;spReportId=NzIxODk0MDAxS0' title=''>Halpern et al. 2015</a>, <em>Nature Communications</em>. Spatial and temporal changes in cumulative human impacts on the world&#39;s ocean.<br/>- Lowndes et al. in revision. Best practices for assessing ocean health in multiple contexts using tailorable frameworks</small></p>
+
+</article></slide><slide class=''><hgroup><h2>Appendix 2: Talk abstract part 1/2</h2></hgroup><article  id="appendix-2-talk-abstract-part-12">
+
+<p>The Ocean Health Index (OHI) is a framework to assess the state of our marine systems. With a definition of &#39;healthy&#39; that includes sustainable human use, the OHI scores locations from 0-100 depending on how sustainably their waters provide a suite of benefits to people. The OHI framework was first used to assess all coastal nations globally, and was published in 2012 (Halpern et al. 2012, Nature).</p>
+
+<p>Following the 2012 publication, the OHI framework has been used to assess smaller-scale locations, most often states or provinces within a single nation. These smaller spatial scales often have information that better represents local characteristics of marine systems and are also often the scale at which policy decisions are made.</p>
+
+</article></slide><slide class=''><hgroup><h2>Appendix 2: Talk abstract part 2/2</h2></hgroup><article  id="appendix-2-talk-abstract-part-22">
+
+<p>To date, eleven assessments using the OHI framework have been completed at global, national, and regional scales, four of which have been led by independent academic or government groups. To facilitate these assessments, we have developed a suite of open-source tools and instruction. The OHI Toolbox provides structure for data organization and storage, with data processing and goal modeling done in the programming language R and RStudio for reproducibility and repeatability. The OHI Toolbox is stored on the open-source online platform GitHub, which allows for transparency and collaboration and also houses websites to display and communicate methods and results with interactive visualizations. More information can be found at ohi-science.org (currently under a major restructuring and improvement, stay tuned!).</p></article></slide>
 
 
   <slide class="backdrop"></slide>

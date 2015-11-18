@@ -664,7 +664,7 @@ Measuring indicators of ocean health for an island nation: The OHI for Fiji.
 A global map of human impact on marine ecosystems.  
 - [Halpern et al. 2015](http://www.nature.com/ncomms/2015/150714/ncomms8615/full/ncomms8615.html?message-global=remove&WT.ec_id=NCOMMS-20150715&spMailingID=49102925&spUserID=ODkwMTM2NjQyNgS2&spJobID=721894001&spReportId=NzIxODk0MDAxS0), *Nature Communications*.
 Spatial and temporal changes in cumulative human impacts on the world's ocean.    
-- Lowndes et al. in revision. Best practices for assessing ocean health in multiple contexts using customizable frameworks</small>
+- Lowndes et al. in revision. Best practices for assessing ocean health in multiple contexts using tailorable frameworks</small>
 
 ## Question Slides 1: OHI Conceptual Blueprint
 
