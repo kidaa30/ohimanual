@@ -314,52 +314,44 @@ these aren't going to be comparable directly. not the purpose.
 <p align = 'center'>![](https://docs.google.com/drawings/d/1yDSrCl5gqwzdZME5pEadZXOnfW1wDkZZs6B8d5x2Pno/pub?w=624&h=432)
 
 
-ohi+ | getting started | assessment details | next steps
------|-----------------|--------------------|-----------
-GYE  | gvt Wanted to assess only 1 region, found there is more immediate value in comparison. | scored 10 goals, 82% local information (instead of placeholders from global), local ref pts | successful pilot; planning next one for all of ECU. 
-ISR  | academic team: Wanted to assess only 1 region (<300 km of coastline). Decided to assess by district | no CS goal, NP goal has desal. <!---Whether or not to include negative impacts of desal was a really political issue. don't say 'pressure' ---> |
-BHI  | adacemic. no CP goal,  | beta scores by Jan; meetings with all goalkeepers to discuss, finalized by fall 2016 
+## OHI+ assessment: Israel
 
-No teams. less info for each
-Go country by country. Having a few bullet points.
-- what piece is interesting . why I'm telling you this
+<p align = 'center'>![](https://docs.google.com/drawings/d/1tboWFEvjYkohQprLdJ_R4iHwynL8qQW-xUfwlUCWpfo/pub?w=624&h=432)
 
+## OHI+ assessment: Baltic Sea
 
+<p align = 'center'>![](https://docs.google.com/drawings/d/17Q7k5oh9ahyBgfaSd77V9grImyHUOCZxZ22jUSbecaw/pub?w=624&h=432)
 
+## OHI+ assessment: Ecuador
 
-## Community resources
+<p align = 'center'>![](https://docs.google.com/drawings/d/16ZbeozENekt2vgBkFCHcedbUI2KGxVhUl-n1NaXDTIE/pub?w=624&h=432)
 
-<p align = 'center'>![](https://docs.google.com/drawings/d/1x-cit-umi0WjwNXJjCQ1aBPGrq6dCjys3P6bWHCZ8ak/pub?w=768&h=480)
 
 <!---
-We are trying to capture what we've learned and built through this whole process.  
-
-We're also developing a community of people who are knowledgble in the conceptual and technical parts of OHI assessments, and it's great. 
-
-Success stories
-Examples: 
 - Soraya being hired for the Colombia assessment. 
-- Colombia using this as a policy tool before having calculated scores.
 --->
+
+## OHI assessment process
+
+<p align = 'center'>![](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
+  
+<!---
+So now that countries are starting to have scores at small scales, we are excited to see what happens with the Inform stage, both in how they improve their process for next time but also for policy, which is the ultimate goal. 
+
+We have recently been surprised to learn that it can also be useful for policy and make a difference even before scores are calculated. Colombia using this as a policy tool before having calculated scores.
+--->
+
 
 ## Community resources
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/1eSRzAWmnUXEFmqXYIPtbmpu99_K_3f7xbYPu-xPRKKc/pub?w=624&h=480)
 
 <!---
-- resources: data, code, written instruction, the webapps, tutorials, etc.
-- Trying to promote best computing practices  à la:
-    - [RopenSci](https://ropensci.org/)  
-    - [RStudio](https://www.rstudio.com/) 
-    - [Github](https://github.com)  
-    - [Hampton et al. 2014](https://dx.doi.org/10.7287/peerj.preprints.549v1). *PeerJ*. 
-    - [Wilson et al. 2014](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1001745). *PLoS ONE*. 
-   - Lowndes et al. in revision. *PeerJ*. Best practices for assessing ocean health in multiple contexts using tailorable frameworks  
-    - training group at UCSB: [eco-data-science](https://github.com/eco-data-science)
-    
-    
+We are trying to capture what we've learned and built through this whole process.  
+
+We're also developing a community of people who are knowledgble in the conceptual and technical parts of OHI assessments, and it's great. 
+
 build a community where people can share experiences but also work with each other. Stop reinventing the wheel. 
-Example: Soraya working for Colombia now. 
 
 Lauren is revamping this website, this is a figure I stole from her mock-up. It's going to be awesome. 
 --->
@@ -383,22 +375,17 @@ Important for different audiences to have places to come, whether they are inter
 - global assessments: revisiting conceptual decisions 
 - always improving technical methods
 - improving our support for OHI+ assessments/get them more independent
-
+- next gen with Per?
 
 - learning that can be used for policy 
 Everyone is reinventing the wheel and not learning anything. It's a community where everyone can learn and get over roadbloack
 Improve the app
---->
 
-
-## OHI take-home messages
-
+TAKE HOME MESSAGES
 - OHI is much more than the global assessment
 - it's a living thing, active community
 - stay tuned for our new website!
-
-
-
+--->
 
 
 ## OHI team
