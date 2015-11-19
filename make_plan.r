@@ -14,7 +14,7 @@ in_md = c(
   #'Phase_2.md',     # currently this file is in 0_orientation; JSL not sure it fits here?
   'Understand_Requirements_for_Assessment.md',
   'Funding.md',
-  'Assembling_team.md', # --> Developing; fix
+  'Assembling_team.md', # --> 11/19/15 fine for relaunch JSL will update more later
   'Data_Requirements.md',
   'Planning_and_Partnering.md',
   'Who_Should_Be_Involved.md',
