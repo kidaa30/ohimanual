@@ -6,7 +6,7 @@ library(stringr)
 # Also required if you get the pdflatex error: www.tug.org/mactex
 
 # set variables ----
-title = 'The Ocean Health Index Planning Guide'  # change title??
+title = 'The Ocean Health Index Planning Phase'
 wd = '~/github/ohimanual/2_plan'
 
 

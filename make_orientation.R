@@ -6,8 +6,8 @@ library(stringr)
 # Also required if you get the pdflatex error: www.tug.org/mactex
 
 # set variables ----
-title = 'The Ocean Health Index Communication Guide'  ### title??
-wd = '~/github/ohimanual/4_communicate'
+title = 'The Ocean Health Index Orientation'
+wd = '~/github/ohimanual/0_orientation'
 
 
 in_md = c(
@@ -20,7 +20,7 @@ in_md = c(
   # '0_glossary.md'
 )
 
-out_md = 'ohi-communicate.md'
+out_md = 'ohi-orientation.md'
 
 
 
