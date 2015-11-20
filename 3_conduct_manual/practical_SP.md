@@ -24,6 +24,7 @@ Ultimately, almost any species can be iconic to someone, and so the intent with 
 
 After identifying the list of iconic species, you need to find a matrix to reflect the _health_ of their population. In the global study, we used IUCN threat categories and weights. The reference point is to have the risk status of all assessed species as Least Concern. Alternatively, you can use a different kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.
 
+**_Examples of the Approach_**
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
 **Global 2012** | The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species. | The reference point is to have the risk status as Least Concern. | The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.
@@ -41,19 +42,19 @@ Ideally, you would be able to survey everyone in your region and produce a list 
 
 **_Practical Guidance_**
 
-It is important to think about how this goal can be tailored to make it be meaningful and specific to your location. Keep in mind, however, that it is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places. A good example to look at is the U.S. West Coast assessment, which defined "special" with specific criteria (2014).
+The ideal list of special places don't exist in practice, and this is a difficult goal to express accurately, since it attempts to capture how people interact culturally with their coastal places. You can define "special" with specific criteria. A good example to look at is the _U.S. West Coast assessment (2014)_ and _Brazil Assessment (2014)_.
 
-The main consideration for this sub-goal is the spatial data and the list of protected areas. Typically in assessments, the area of designated protected places relative to a **reference point** of thirty percent coastal area protected is used as a measure. Coastal area could be based off a 1 square km buffer, as in the Global Assessment, or it could be based on what is reasonable to your area. In any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?
+> In the _Brazil Assessment (2014)_, this goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
 
-> In the Brazil Assessment (2014), this goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
+More likely, you would follow the global assessment and use _lists of protected areas_ as catalogues of special places, and the area of designated protected places relative to a **reference point** (eg. of thirty percent coastal area protected) is used as a measure. Coastal area could be based off a 1 square km buffer inland, as in the Global Assessment, or it could be based on what is reasonable to your area. In any case, you would want to consider how far out from shore you should include as well; would it be 3 nautical miles, or as far as your territorial waters up to 12 nautical miles?
 
 Data sources should be specific to your region. International databases, like the World Database of Protected Areas, offer rich information, but they may not be as up-to-date as the list of national parks in your area, and may not have as much information on the quality of protection. If you have more information on quality, you could think about another approach than the thirty percent reference point target.
 
->This sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create resilience data layers like Marine Protected Areas. (See section, **Pressures and Resilience**).
+>This sub-goal makes use of protected areas, and some of the same information gathered on projected areas can be used to create **resilience** data layers like Marine Protected Areas.
 
-> In the Global Assessment framework, the **Special Places** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average, or even a different sub-goal instead of **Sense of Place**.
+> In the Global Assessment framework, the **Sense of Place** sub-goals were weighted equally and combined in an average to create a single goal score. The two sub-goals are averaged currently in the framework. But these could be combined with a weighted average.
 
-#### Examples of the Approach
+**_Examples of the Approach_**
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
