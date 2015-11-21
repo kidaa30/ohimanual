@@ -78,6 +78,8 @@ very least adjusting values by the size of the workforce in each location.
 
 **_Examples of the Approaches_**
 
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|-----------------------|-------------------------|---------------------------------------|
 **Global 2012** | This was measured as the number of direct and indirect jobs across sectors within a region plus the average purchasing power parity (PPP)-adjusted wages within each sector. Jobs were summed across sectors and wages were averages across sectors within each region. | The reference point for jobs was a temporal comparison using a moving-window value; the reference point for wages was the highest average annual wage observed across all reporting units. A score of 100 indicated that the number of marine jobs had not reduced relative to the number five years previously, and that the wages in the area were the highest anywhere. | The goal model assumed there was no-net-loss of jobs in order to account for broader economic trends. The economic multipliers were used for jobs and revenue but not wages.
@@ -85,6 +87,8 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
 **U.S. West Coast (2014)** | This goal follows the same model as in Global 2012, using local data for the sectors of living resources, tourism and recreation, shipping and transport, marine related construction, and ship and boat building or repair. Data and sector-specific multipliers came from the National Ocean Economics Program (NOEP). | The reference point was the same as in Global 2012. | This study followed the Global 2012 approach but used local data. It recognized that sectors and economic activity within a region can be influenced by activities outside the region.
 **China (2015)** |Status model is the based on the number of direct jobs across marine sectors and the average disposable income among rural and urban inhabitants within a region. |Both jobs and wages have a spatial reference point of the maximum value among all provinces across all years. | Eleven marine sectors are assessed. The number of jobs per sector is not readily available and is extenuated from the nation-wide number of employments for each sector and the total number of marine-related jobs per province. There is not enough information on indirect jobs and is thus left out of the calculation. Due to unavailability of wage information per sector, wage is substituted by disposable income.
+
+</span>
 
 #### Sub-goal: Economies
 
@@ -128,6 +132,8 @@ on the Competitiveness Index.
 
 **_Examples of the Approaches_**
 
+<span style="font-size:0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
 **Global 2012** | The status used the total adjusted revenue generated directly and indirectly from each sector at current and reference time points. | In the economies sub-goal, revenue had a moving target temporal comparison. A score of 100 would indicate that revenue has not decreased compared to its value five years previous. The years used for GDP data were based on the average current year and average reference year across the sector data sources. | The study accounted for a region's GDP trend. The economic multipliers were used for jobs and revenue but not wages. The study assumed that sector-specific job and revenue multipliers were static and globally consistent, but distinct for developed versus developing regions.
@@ -135,3 +141,5 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
 **U.S. West Coast (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
 **China (2015)** | Status model is the same as in global assessments| The spatial reference point is the maximum revenue across all regions over all years. | Data on revenue generated from each marine sector is not available, and thus total revenue from all sectors are used for the assessment.
+
+</span>
