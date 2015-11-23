@@ -1,0 +1,1 @@
+View the '**Modify a goal model with the Ocean Health Index Toolbox**' presentation [**in English here**](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/tbx_modifications/tutorial_tbx_modifications.html#1) and [**in Spanish here**](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/tbx_modifications/tutorial_tbx_modifications_SPANISH.html#1).

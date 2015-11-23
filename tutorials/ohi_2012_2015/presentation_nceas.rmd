@@ -306,7 +306,7 @@ Let's shift gears to talk about some live examples of this
 - different motivations. Some are gvt interested in developing policy around it, some are academic interested in comparing it to other methods
 - really different places. OHI is a really cool lens to see really different coastlines, from ecological and social.
 
-these aren't going to be comparable directly. not the purpose.
+these aren't going to be comparable directly. not the purpose. not the purpose.
 --->
 
 ## Examples of OHI+ assessments
@@ -317,6 +317,7 @@ these aren't going to be comparable directly. not the purpose.
 ## OHI+ assessment: Baltic Sea
 
 <p align = 'center'>![](https://docs.google.com/drawings/d/17Q7k5oh9ahyBgfaSd77V9grImyHUOCZxZ22jUSbecaw/pub?w=624&h=432)
+
 
 ## OHI+ assessment: Israel
 

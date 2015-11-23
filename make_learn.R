@@ -6,7 +6,7 @@ library(stringr)
 # Also required if you get the pdflatex error: www.tug.org/mactex
 
 # set variables ----
-title = 'The Ocean Health Index Conceptual Guide'
+title = 'The Ocean Health Index Conceptual Guide (Learn Phase)'
 wd = '~/github/ohimanual/1_learn_concguide'
 
 
