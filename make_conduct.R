@@ -99,24 +99,35 @@ render(
     toc=T, toc_depth=3),
   clean=T, quiet=F,
   output_file = paste0(pfx, '.html'))
-if (redo_website) {
+
+# If pushing to the OHI Science website, render an HTML file a little differently
+if (redo_website) { 
+  render(
+    out_md,
+    html_document(
+      number_sections=T, fig_width = 3, fig_height = 2, fig_retina = 2, fig_caption = T, smart=T,
+      self_contained=F, theme=NULL,
+      highlight=NULL, mathjax='default',
+      toc=T, toc_depth=3),
+    clean=T, quiet=F,
+    output_file = paste0(pfx, '-external.html'))
+  
 cat(sprintf('---
-layout: page
+layout: manual
 title : Manual
 tagline: %s
 header : The Ocean Health Index Assessment Manual
-group: navigation
 ---
 {%s include JB/setup %s}
 ', format(Sys.time(), "%d %B %Y"), '%', '%'), file='~/github/ohi-science.github.io/manual/index.html')
 cat(
-  readLines(paste0(pfx, '.html')),
+  readLines(paste0(pfx, '-external.html')),
   file='~/github/ohi-science.github.io/manual/index.html',
   append=T)
-# #file.copy(paste0(pfx, '.html'), '~/github/ohi-science.github.io/manual/index.html', overwrite=T)
+# #file.copy(paste0(pfx, '-external.html'), '~/github/ohi-science.github.io/manual/index.html', overwrite=T)
   dir.create('~/github/ohi-science.github.io/manual/fig', showWarnings=F)
   file.copy('fig', '~/github/ohi-science.github.io/manual', overwrite=T, recursive=T)
-  system('cd ~/github/ohi-science.github.io; git pull; git add -A; git commit -m "update manual"; git push')
+  system('cd ~/github/ohi-science.github.io; git pull; git add manual -A; git commit -m "update manual"; git push')
 }
 
 # render docx ----

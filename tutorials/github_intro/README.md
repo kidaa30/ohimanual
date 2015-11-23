@@ -1,0 +1,1 @@
+View the presentation **Introduction to GitHub** [**in English here**](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/github_intro/tutorial_github_intro.html#1) and [**in Spanish here**](https://cdn.rawgit.com/OHI-Science/ohimanual/master/tutorials/github_intro/tutorial_github_intro_SPANISH.html#1)
