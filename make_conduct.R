@@ -29,7 +29,8 @@ in_md = c(
   #'practical_species_BDD_ICO.md',                   # TODO: review and update JSL ICO/LSP #476
   #'practical_SP.md',                                # TODO: review and update
   #'practical_FP_NP.md',                             # TODO: review and update JSL #392, #367 #52 #488
-  #'practical_LE_TR.md',                             # TODO: review and update
+  #'practical_LE.md',                                # reviewed 11/23
+  #'practical_TR.md',                                # TODO: review and update
   #'practical_AO.md',                                # TODO: review and update
   #'practical_CW.md',                                # TODO: review and update
   #'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
