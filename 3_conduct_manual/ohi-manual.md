@@ -356,6 +356,70 @@ There are a lot of existing data that contribute to our scientific understanding
 
 <!---Option: JSL develop the discussion of searching not only for strict data within your country to use, but studies that have been done anywhere in the world, demonstrating relationships between different things (eg camaroneras effects on mangrove condition)--->
 
+## Developing Goal Models and Setting Reference Points
+
+Once you have determined which goals are assessed and have begun searching for data and indicators, you can start to develop goal models and set reference points. The decision tree of the data discovery process also applies here: first consider how goals can be tailored to your local context before you consider replicating what was done in the Global Assessments. It is always better to use local goal model and reference point approaches where possible. 
+
+### Developing multiple goal models at the same time
+
+Goals can be assessed independent of one another. As each goal model is developed and data gathered, it can be assessed without affecting other goals.
+
+ However, you can develop some goal models simultaneously and streamline the data search. For example, the habitat-based goals **Carbon Storage**, **Coastal Protection**, and the **Habitats sub-goal of Biodiversity** all rely on the same underlying data, and their models can be developed together. A spatial analyst can create the spatial layers used for these goals with the same source material. This will greatly expedite your data layer preparation. Species data for **Iconic Species sub-goal of Sense of Place** is often a subset of data from **Species sub-goal of Biodiversity**. Data for non-food marine products for **Natural Products** and food products for **Fisheries sub-goal of Food Provision** are often recored in similar data sources and may need partitioning.
+
+ If you wish to further coordinate these activities on a higher level, you could have the same team member coordinate activities for the development of certain goals. That is a consideration when assembling your team and planning your workflow. For more details, please see the goal-specific sections.
+
+### Keeping Reference Points in Mind
+
+Setting a reference point is required for every goal model you develop. It is an "ideal" condition, or target, where the goal is considered to be achieved to its full potential. Achieving or exceeding the reference point will result in a score of 100. The choice of a reference point will thus affect how the final scores are calculated, and must be balanced between knowledge of the system, expert judgment, and limitations of the data. You may set an universal reference point for all regions in your study area, or you may set a unique reference point for each region.
+
+Generally there are four types of reference points:
++ *Functional*: Scientifically sound target set based on the known responses of variables measured, such as Maximum Sustainable Yield.
++ *Temporal*: A historical benchmark is used as a the "ideal" point in the past, such as mangrove coverage in the 1980's.
++ *Spatial*: A region within the study area with the highest input values, and all others are scaled to it.
++ *Established target*: Such as a sustainable catch yield by a certain year, or the number of people employed in a marine sector by a certain year.
+
+Which type of reference point to use depends on the goal and available data. How many years of data are available? Can you set a temporal reference point with these data, or do you have to find another dataset or other source of information? In any case, you must balance being realistic with being ambitious. We suggest following the S.M.A.R.T. criteria when choosing a reference point: _"Specific," "Measurable," "Ambitious," "Realistic," and "Time-bound."_
+
+You will learn more, and think more critically about reference points, as you develop the data layers for your assessment.
+
+**_How to use the reference point in a model_**
+
+ It's best to explicitly include the reference point in the model equation whenever possible. For example, the Carbon Storage goal model in the global assessment is written like this:
+
+![](http://i.imgur.com/JN58oqB.png),  
+
+where C<sub>r</sub> is the reference condition of each habitat. See goal-specific sections for more examples.
+
+### Identifying pressures and resilience
+
+While you are developing goal models, you should note the links between your goals and pressures and resilience: both the pressures and resilience that affect them and whether the goal acts as pressure or resilience on other goals. It is recommended to begin gathering data of pressure and resilience from the start of the assessment. The team members who are developing specific goals should think about the pressures that act upon those goals as they are data-gathering, and they should think about the data sources that could provide pressures information. However, it may be most useful when one team member gathers all of the data for pressures, since the same pressures often affect multiple goals. See **Pressure and Resilience** section of this chapter for more information.
+
+<!-- Ning: maybe we can move this detailed information to the pressure/resilience section.  
+
+Julie: either way is fine with me. -->
+
+Some pressure data are the same or closely-related to data for goals. For example, the **Wild-Caught Fisheries** goal model requires catch data, which may be the same data source for information on commercial high- and low-bycatch data, which are used as pressures layers that affect **Livelhoods and Economies** and **Biodiversity**. In global assessments, the **Clean Waters** goal is very much linked to pressures layers because the input layers for its status are used as pressure layers. Trash pollution is a pressure that affects **Tourism and Reacreation**, **Lasting Special Places**, **Livelihoods and Economies,** and **Species**. It is important to remember these linkages as you go through the data discovery process.
+
+You should also start searching for pressures data independent from data for goals. An example would be how climate change impacts will appear in various places in your assessment. Climate change pressures layers can include UV radiation, sea surface temperature (SST), sea-level rise (SLR), and ocean acidification, and these impacts might affect such goals as **Natural Products**, **Carbon Storage**, **Coastal Protection**, **Sense of Place**, **Livelihoods and Economies**, and **Biodiversity**. These linkages will become more clear as you go through the OHI+ assessment process.
+
+
+<!-- Ning: What about Resilience? It's trickier to gather resilience data, but it's good to start thinking about resilience from the beginning.
+
+I saw the tempnotes_b_reslilience. I can edit it and move some information over if you think it's good.
+
+Also there are theoretical questions about resilience, but it is a discussion for another day. Does resilience mean measures to keep things the way it is (eg. grants for AO fishermen to keep fishing), or ways to help people adapt and change (eg. grants for AO fishermen to start aquaculture)?  -->
+
+
+<!-- Julie: that sounds good.
+
+Also there are theoretical questions about resilience, but it is a discussion for another day. Does resilience mean measures to keep things the way it is (eg. grants for AO fishermen to keep fishing), or ways to help people adapt and change (eg. grants for AO fishermen to start aquaculture)?  
+
+Yes, we can try to get into this stuff in the resilience section--> -->
+
+<!--
+Julie: I've deleted the rest below and rewritten it as the intro for the goal-by-goal page on ohi-science.org: https://github.com/OHI-Science/ohi-science.github.io/blob/master/revamp_copy.md
+--->
+
 # The Ocean Health Index Toolbox
 
 >**Section Summary:**
@@ -557,6 +621,15 @@ The example below shows information for a study area with 4 regions. There are t
 2. There are no data gaps
 3. Data are presented in 'long' or 'narrow' format (not 'wide' format -- see "**Long Formatting**"" section).
 
+### Uploading and formatting raw data files
+
+Unformatted data files can be uploaded to the `pre-proc` folder in your github repository and processed with R. Saving raw data in the same repository helps to keep track of how the data has been treated. Raw files can be uploaded as `.csv` or `.xlsx`. However, formatted data has to be saved as `.csv` in the `layers` folder.  
+
+In addition to `pre-proc`, a `prep` folder has been set up for data formatting. Inside the folder:
+- several sub-folders exist to house formatted data files for each goal/sub-goal
+- `prep.r` is where formatting occurs for each goal/sub-goal.
+- `README` is where you can record information on raw data files and processing for future reference
+
 **Example of data in the appropriate format:**
 
 ![](./fig/formatting_data_example.png)
@@ -664,12 +737,12 @@ With 'wide' format, data layers are more difficult to combine with others and mo
 
 Data are easily transformed in a programming language such as R.
 
-In R, the `reshape` package has the `melt` command, which will melt the data from a wide format into a narrow format. It also can `cast` the data back into a wide format if desired. R documentation:
+In R, the `tidyr` package has the `gather` command, which will gather the data from a wide format into a narrow format. It also can `spread` the data back into a wide format if desired. R documentation:
 
-- http://cran.r-project.org/web/packages/reshape2/reshape2.pdf
-- http://www.slideshare.net/jeffreybreen/reshaping-data-in-r
-- http://tgmstat.wordpress.com/2013/10/31/reshape-and-aggregate-data-with-the-r-package-reshape2/
+- http://blog.rstudio.org/2014/07/22/introducing-tidyr/
+- http://www.rstudio.com/resources/cheatsheets/
 
+<!-- Change the example to gather:  -->
 Example code using the *melt* command in the *reshape2* library. Assume the data above is in a variable called *data_wide*:
 
 ![](./fig/melt_code.png)
@@ -724,9 +797,7 @@ The following section describes how to use GitHub to access and sync your assess
 * [**Good Resources for Learning Git and GitHub**](https://help.github.com/articles/good-resources-for-learning-git-and-github/) by GitHub: https://help.github.com/articles/good-resources-for-learning-git-and-github/
 
 ## Accessing GitHub Repositories
-
-GitHub has an online interface and a desktop application for the version-control software called ** *git*. ** In addition to cloning your GitHub repository to your computer, you will need to download and install *git* software and the GitHub App (application), both of which are freely available.
-
+GitHub has an online interface and a desktop application for the version-control software called ** git**, where your project repository and any changes done to it are kept and recorded. All changes within your local, desktop repository will be tracked by GitHub regardless of the software you use to make the changes, and saved shared via its online interface. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. To do so, you will need to create a GitHub account online and install git, R, and RStudio on your local computer. All are freely available.
 
 ### Create a GitHub account
 
@@ -757,13 +828,17 @@ Add access your 'bash profile' by typing:
 pico ~/.bash_profile
 ```
 
-You are now able to edit your ‘bash profile’. Type:
+You are now able to edit your ‘bash profile’ and your screen will change; it will look like this:
+
+> ![](https://docs.google.com/drawings/d/1TfDXXGrIptvQKX1W5Ym3S4Se2U5a_g8x31Z4ct0-HVQ/pub?w=576&h=384)
+
+Now type:
 
 ```
 export PATH=/usr/local/git/bin:$PATH
 ```
 
-Exit pico by typing:
+Exit pico by entering:
 
 > control-X  
 y  
@@ -812,13 +887,13 @@ Quit the Terminal after typing:
 exit
 ```
 
-### Install the GitHub application
+<!-- ### Install the GitHub application
 
 There are several options to clone your repository to your local machine. When getting started, we recommend using the GitHub application. This is freely available for download. Follow the default instructions for downloading and installing from the following:
 
 * **Windows**: https://windows.github.com/.
 
-* **Mac**: https://mac.github.com/.
+* **Mac**: https://mac.github.com/. -->
 
 ### Create a folder called *github* on your computer
 
@@ -833,28 +908,12 @@ This folder can be identified by any computer as `~/github/`.
 
 > TIP: You can check the location of your `github` folder by right-clicking the folder icon and selecting 'Get Info' on a Mac or 'Properties' on Windows.
 
-### Clone your repository to your computer
-
-
-Clone a repository by clicking the 'Clone in Desktop' button on your online repository's homepage (https://github.com/OHI-Science/[assessment]):
-
-> ![](https://docs.google.com/drawings/d/1sGEwp5wX0q3BJCy_J51FjS3km7fh7sx3k3jD9CBguBg/pub?w=384&h=288)
-
-You will be asked where to save this repository: save it into the `github` folder you created. The file path for your assessment will therefore be:
-
-* Windows: C: `\Users\[User]\Documents\github\[assessment] (example: C:\Users\johndoe\Documents\github\ecu)`
-* on a Mac: `/Users/[User]/github/[assessment] (example: /Users/johndoe/github/ecu)`
-
-The assessment can be identified by any computer as `~/github/[assessment]`.  
-
-The entire folder will now be saved on your computer.
-
 
 ### Update permissions
 
 You need to **email your username to ohi-science@nceas.ucsb.edu** for permission to upload modifications to your GitHub repository (you only need to do this once). Only team members who will be modifying files will need to do this; all other members can view online and download the repository without these permissions.  
 
-### Work locally
+### Work locally with R and RStudio
 
 You will then work locally on your own computer, modifying the files in the repository to reflect the desired modifications your team has identified for your assessment. Multiple users can work on the same repository at the same time, so there are steps involved to 'check in' your modifications so they can merge with the work of others without problems. GitHub has specific words for each of these steps. You have already successfully **cloned** an online repository to your local machine. After making modifications, you will **commit** these changes with a description before being able to sync back to the online repository. **Synching** involves both **pulling** any updates from the online repository before **pushing** committed changes back to the server.
 
@@ -864,50 +923,27 @@ The example below illustrates GitHub's collaborative workflow:
 
 >>![](https://docs.google.com/drawings/d/1_LegC8-1eH7Ed_0iIXcUhPCKPdKSw7vQIfuQGOXQHnA/pub?w=768&h=480)
 
-**All changes within your local repository will be tracked by GitHub regardless of the software you use to make the changes**. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. We recommend doing as much data manipulation as possible in a programming language like R, to maximize transparency and reproducibility. When modifying R scripts such as `functions.R`, you will need to work in R.
+All changes within your local repository will be tracked by GitHub regardless of the software you use to make the changes. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. We recommend doing as much data manipulation as possible in a programming language like R, to maximize transparency and reproducibility.
 
-We recommend syncing with either the GitHub App or with RStudio. Both methods require you to commit your changes, before pulling any updates and pushing your modifications. The GitHub App combines the pulling and pushing into one step, called syncing. The following sections show you how to synchronize the repository on your computer with the repository online.
+* **R** is a free computing and graphical software where all the modifications to your OHI repository are done. Download the latest version of R appropriate for your operating system at http://cran.r-project.org/ and follow the instructions to install it on your computer.
 
-### Syncing
+* **RStudio** is a user-friendly R interface that can be used to synchronize any modifications you make to files in your assessment’s repository. It is also where model modifications and calculations occur. Install the latest version of RStudio at [https://www.rstudio.com/](https://www.rstudio.com/). 
 
-When you work on your computer, any edits you make to any files in your repo, using any program, will be tracked by *git*. You can use any of the above to commit and sync your changes back to GitHub. There are many options you can use to sync your edits on a repo with the online version.
+>R and RStudio update frequently. If you already have those softwares installed, check on the websites for the most recent version. In general, it's good practice to check periodically for updates. When you run into unexplained errors while modifying contents in RStudio, check first if your versions of R or Rstudio are out-of-date. For R, you can see what you already have on your computer by typing "sessionInfo( )" into your R console.
 
-* **GitHub App** [for Mac](https://mac.github.com/) and [for Windows](https://windows.github.com/)
-* [**RStudio**](www.rstudio.com)
-* **Command line**
-
-If you are just modifying data *.csv* files, you probably only need to use the GitHub App. RStudio is convenient if you are working with *.R* files. Also, the command line can be used by those interested, and there are resources available online.
-
-> TIP: Once you sync your repository, the updated information will be automatically available to the WebApps.
-
-### Using the GitHub App to synchronize your repository
-
-The GitHub App will track your modifications and can be used to commit and sync any changes made locally to your repository.  Once you are done working on the pertinent files and wish to commit and sync the changes to the online server on the Github server, open the GitHub App. The following example is with the `ecu` repository:
-
-1. Make sure you select the correct repository, located on the left column of the GitHub App window (Step 1 in the figure).
-2. Select the different files to which changes have been made (2a), and preview those changes on the right column of the GitHub App window (2b).
-3. Once all the changes have been reviewed, write a summary/description in the respective message bars in the GitHub App window (3), then click on 'Commit' (3a) and then 'Sync' (3b) located on the top-right corner of the GitHub App window (Note: If a `Commit` button appears instead of `Commit & Sync`, you can either click `Commit` and then click the `Sync` in this way, or you can alternatively select *Edit* > *Automatically Sync After Committing* which will then allow you to click on 'Commit and Sync')
-
-> ![Figure showing the layout of the GitHub App when syncing. Click on 'Commit' and then 'Sync' to push changes to your repository.](https://docs.google.com/drawings/d/1-I-x8ML1QUR13AEAibn5OUX-bbHpdSIw1l6-fcMkO3o/pub?w=1033&h=665)
-
-Go online and check that your changes are now visible on GitHub online.
-
-### Working with R and RStudio
-
-**RStudio** is a program that can be used to synchronize any modifications you make to files in your assessment’s repository, and if you are working in R, it is convenient since you do not need to open the GitHub App.
-If you do not already have this installed, install the latest version of R and RStudio (and if you do have these installed, check for updates: there are frequent updates to the R software, and the current version is identified on the website). Both R and RStudio are freely available to download.  
-
-**R**: Download the current version of R appropriate for your operating system at http://cran.r-project.org/ and follow the instructions to install it on your computer. If updating, compare the available version on their website with what you already have on your computer by typing sessionInfo() into your R console.  
-
-**RStudio**: Download the current version of RStudio software at www.rstudio.com. RStudio is not updated as often as R, but it is good to check for updates regularly.  Note that in this case, you should follow the default install instructions.
-
-If you are working on a Mac, you will need to tell RStudio to use the proper version of Git by doing the updating the preferences for 'Git executable':
+If you are working on a _Mac_, you will need to tell RStudio to use the proper version of Git by doing the updating the preferences for 'Git executable':
 
 **RStudio > Preferences... > Git/SVN > Git executable: /usr/local/git/bin/git**
 
-### Using RStudio to synchronize your repository
+#### Cloning a repository to your local computer
 
-RStudio can sync files with GitHub directly, and can be used instead of the GitHub App. Like the GitHub App, it will capture the changes made to any files within the repository, no matter which software was used to modify them. The advantage for using RStudio to sync instead of the GitHub App is if you are working with R scripts already. In RStudio, you sync by first pulling and then pushing (separately); in the GitHub App these two functions are done together.
+In order to sync GitHub and RStudio, you need to clone your GitHub repository to RStudio. Here is a step-by-step guide on how to do so:
+
+![How to clone repository to Rstudio](https://docs.google.com/drawings/d/1QHQGHlE3Ct7KQ7o216k9rRqUC__7rCOwt5EXd3tcvLo/pub?w=720&h=1920)
+
+#### Syncing your repository with RStudio
+
+RStudio can sync files with GitHub directly. It will capture the changes made to any files within the repository, no matter which software was used to modify them. In RStudio, you sync by first pulling and then pushing (separately); in the GitHub App these two functions are done together.
 
 Launch your project in RStudio by double-clicking the `.Rproj` file in the assessment folder on your local hard drive.
 
@@ -915,26 +951,22 @@ Launch your project in RStudio by double-clicking the `.Rproj` file in the asses
 
 When you modify or add a file, the file will appear in the 'Git' window once it has been saved. In the example below, the file `test.R` was created.
 
-1. Clicking the 'Staged' box and the 'Commit' button opens a new window where you can review changes.
+<span style="font-size:0.9em">
+
+1. Clicking the '_Staged_' (checked) box and the '_Commit_' button opens a new window where you can review changes.
 2. Type a commit message that is informative to the changes you've made.
   - Note 1: there will often be multiple files 'staged' at the same time, and so the same commit message will be associated with all of the updated files. It is best to commit changes often with informative commit messages.
   - Note 2: clicking on a staged file will identify additions and deletions within that file for your review
-3. Click 'Commit' to commit the changes and the commit message
-4. Pull any changes that have been made to the online repository. This is important to ensure there are no conflicts with updating the online repository.
-5. Push your committed changes to the online repository. Your changes are now visible online.
+3. Click '_Commit_' to commit the changes and the commit message.
+4. "Pull" any changes that have been made to the online repository. This is important to ensure there are no conflicts with updating the online repository, espeically if you are working with collaborators who might be working on the same files as you are.
+5. "Push" your committed changes to the online repository. Your changes are now visible online.
+</span>
 
 > TIP: If you aren't seeing your changes in the 'Git' window, try saving the file again.
 
 ![Figure showing RStudio when sycing. After first staging your changes, click the 'commit' button to open a new window where you can enter a 'commit message' and then pull and push new changes. ](https://docs.google.com/drawings/d/1M9-87q0RZ_lPD8QEL3DIpoPgyh-w2rKPoF-5IFWFJfo/pub?w=1027&h=687)
 
-
-> TIP: Another way to sync and open the project is to click on 'New Project' in the upper-right-hand corner of Rstudio,  then choose 'Version Control', and then you can paste the URL of the desired repository. This URL can be found on on your online repository's homepage.
-
-### Install the latest version of R and RStudio
-
-Make sure you have the most current version of R and RStudio. Download **R** at http://cran.r-project.org/ and install on your computer. If you already have R installed, check the website for updates. There are frequent updates to the R software, and the current version is identified on the website. Compare what is available from their website with what you already have on your computer by typing `sessionInfo()` into your R console. (This will also identify packages you have installed).  
-
-While not required, we highly recommend working with **RStudio**, which is an interface that makes working with R much easier, and it also interfaces with GitHub so you are able to synchronize without using the GitHub App. RStudio does not get updated as often as R does, but it is good to check for updates regularly.
+ _Note_: Another option to syncing your edits on a repo with the online version is to use **Command Lines**, if you are familiar with it. There are resources available online on how to do so.    
 
 ## GitHub repository architecture
 
@@ -977,7 +1009,7 @@ It is recommended that you construct a useful workflow with your team to incorpo
 
 <!---OM: this is an optional new figure; drafts are commented like so in these Tbx sections. Remove this comment if you want to make it public: ![A figure showing key steps in the process of creating and preparing your data layers.](https://docs.google.com/drawings/d/1faQjNMY3Z_R2X2U53hQ9ChqhxlyEa3xRe8jz5FnXsbU/pub?w=960&h=859)--->
 
-Data layers are *.csv* files and are located in the `[assessment]/subcountry2014/layers` folder. Remember that all data layers provided in your repository are extracted from the global 2014 assessment.
+Data layers are *.csv* files and are located in the `[assessment]/subcountry.year/layers` folder (example: gye/subcountry2014/layers). Remember that all data layers provided in your repository are extracted from the global 2014 assessment.
 
 ![This figure shows the location of your data layers. Mac navigation is shown above and Windows is shown below.](https://docs.google.com/drawings/d/1ztC3Warw_qWkxJsbPFcdrKRqPBmG-EqYzxHCK6RUQ8I/pub?w=1150&h=818)  
 
@@ -1001,7 +1033,7 @@ The OHI Toolbox expects each data layer to be in its own *.csv* file and to be i
 
 When you modify existing or create new data layers, we recommend saving this as a new *.csv* file with a suffix identifying your assessment (example: `_sc2014.csv`). Modifying the layer name provides an easy way to track which data layers have been updated regionally, and which rely on global data. Then, the original layers (`_gl2014.csv` and `_sc2014.csv`) can be deleted.  
 
-\* Note: filenames should not have any spaces: use an underscore (‘_’) instead. This will reduce problems when R reads the files.
+\* Note: filenames should not have any spaces: use an underscore ('_')_ instead. This will reduce problems when R reads the files.
 
 ### Register data layers in `layers.csv`  
 
@@ -1011,19 +1043,41 @@ When there are new filenames associated with each layer, they will need to be re
 
 > TIP: This part is done manually. If you prefer not to manipulate your file by hand, you can generate a script that automates this.
 
-However, if a new layer has been added (for example when a new goal model is developed), you will need to add a new row in the registry for the new data layer and fill in the first eight columns (columns A-H). It is important to check that you have filled you the fields correctly, for instance, if "fld_value" does not match the header of the source data layer, you will see an error message when you try to calculate scores. Other columns are generated later by the Toolbox as it confirms data formatting and content:
-
+However, if a new layer has been added (for example when a new goal model is developed), you will need to add a new row in the registry for the new data layer and fill in the first eight columns (columns A-H):
 
  + **targets:** Add the goal/dimension that the new data layer relates to. Goals are indicated with two-letter codes and sub-goals are indicated with three-letter codes, with pressures, resilience, and spatial layers indicated separately.
- + **layer:** Add an identifying name for the new data layer, which will be used in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`.
+ + **layer:** Add an identifying name for the new data layer, which will be referenced in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`.
  + **name:** Add a longer title for the data layer--this will be displayed on your WebApp.
  + **description:** Add a longer description of the new data layer--this will be displayed on your WebApp.
- + **fld_value:** Add the appropriate units for the new data layer (which will be referenced in subsequent calculations).
- + **units:** Add a description about the *units* chosen in the *fld_value* column above.
+ + **fld_value:** Add the appropriate units for the new data layer. It is _the same as the column name in the data file_, which will be referenced in R scripts in subsequent calculations. (example: area_km2)
+ + **units:** Add a description about the *units* chosen in the *fld_value* column above. Think about what units you would like to be displayed on the WebApp when filling out "units." (example: km^2)
  + **filename:** Add a filename for the new data layer that matches the name of the *.csv* file that was created previously in the `layers` folder.
  + **fld_id_num:** Area designation that applies to the newly created data layer, such as: *rgn_id* and *fao_id*.
 
- >TIP: Think about what units you would like to be displayed on the WebApp when filling out "units."
+ It is important to check that you have filled you the fields correctly, for instance, if "fld_value" does not match the header of the source data layer, you will see an error message when you try to calculate scores. Other columns are generated later by the Toolbox as it confirms data formatting and content.
+
+ <!-- Ning: where/how to incorporate the template? It is a bit long, and repeats some of the information above. But I think it's good to include as a concrete example for the goal keepers/toolbox person. Should we set this in an Appendix and just reference it in the text here?
+
+ Template:
+ 1. Filename of the data layer: cw_pathogen_trend_gl2014.csv
+
+2. Identify the target for this data layer: goal, sub-goal, pressures, or resilience: CW
+
+3. Short title of the data layer (for the 'name' column in `layers.csv`): Trends in access to improved sanitation
+
+4. One-sentence explanation of the data layer (for the 'description' column in `layers.csv`): Trends in percent of population with access to improved sanitation facilities.
+
+
+5. Long description of the data layer (that includes any data manipulation that has occurred, how to interpret it, and why; any further data manipulation required, how to interpret it, and why): Trends in percent of population with access to improved sanitation facilities. Scores range from 0 to 1, with 0 being the poorest santiation trend and 1 being the best sanitation trend. We updated percent of population with access to improved sanitation facilities data that were available from 1990-2011 from the World Health Organization and United Nations Children's Fund's Joint Monitoring Programme. Processing included the function na.locf from the zoo package in R, and rescaling the data from 0 - 1 with the highest possible score as a reference. This was chosen as was chosen as a proxy for pathogen pollution trend due to lack of better data. If time-series data were available for monitoring of point pollution sources, we could use that data instead in future assessments.
+
+
+6. The data source ( institution that collected the original data, or the institution providing the data if different from the original, the year it was accessed, the URL or publication reference): World Health Organization and United Nations Children's Fund's Joint Monitoring Programme (WHO/UNICEF's JMP). Accessed April 2015. (http://www.wssinfo.org/data-estimates/table)
+
+7. The years of data available: 1990 - 2011
+
+8. The units of data: Trend score (unitless)
+
+9. Any other observations or explanations about the data:Processing included the function na.locf from the zoo package in R (Zeileis & Grothendieck 2005)  -->
 
 ### Check pressures and resilience matrices
 
@@ -1215,6 +1269,8 @@ Changing goal weights will be done here by editing the value in the *weight* col
 **When updating layers or goal models, it is important to ensure that information called from `goals.csv` is correct**:
 
 > TIP: In the 'preindex_function' column, you should see what the `year_max`, `status_year`, and `trend_year` say.
+
+<!-- Ning: is it necessary/recommended to set the year_max etc.? In CHN assessment, I deleted those columns from goal model functions all together...  -->
 
 ### Example modification:
 
@@ -1512,9 +1568,9 @@ Rosenberg, A.A., Fogarty, M.J., Cooper, A.B., Dickey-Collas, M., Fulton, E.A., G
 
 The WebApp displays input layers on several pages: on the App page, Layers page, and Scores page. These input layers are displayed from `layers.csv` and the layers within the `layers` folder and the scores are displayed from `scores.csv`. While the input layers and scores will be automatically displayed on the WebApp, there is other content on WebApps pages that can be edited by your team and displayed. You will likely spend the most time updating the equations displayed on the Goals page to be consistent with the updated methods you have used in your assessment.
 
-For the WebApp to display the pages properly, not everything on each page can be edited as it is written in a language to create the website. But it is possible to explore the files and update much of the text that is displayed while maintaining the required formatting. To do this, follow the instructions in `copy_webapps_templates.r`, which creates a folder called `webapps_templates` and copies template files there.
+For the WebApp to display the pages properly, not everything on each page can be edited as it is written in a language to create the website. But it is possible to explore the files and update much of the text that is displayed while maintaining the required formatting. To do this, run `copy_webapps_templates.r` once, before further modifications on the WebApp contents. This actions creates a folder called `webapps_templates` and copies template files there.
 
-It is best to edit the files in RStudio: you will be able to view your work as it will be displayed on the WebApp by clicking the 'Preview HTML'. 
+It is best to edit the files in RStudio: you will be able to view your work as it will be displayed on the WebApp by clicking the 'Preview HTML'.
 
 ![](https://docs.google.com/drawings/d/1QUE7LkgyjXLKk63Bf4F6x-g3fHofZHLcRFXiExuQyFs/pub?w=576&h=288)
 
@@ -1528,7 +1584,7 @@ Most of the information displayed on the Layers page of the WebAppis taken from 
 
 ### Goals
 
-You will likely spend the most time modifying the information displayed on the Goals page, as these show and describe the models used in the assessment. Text can be modifed with the file called `webapps_templates/goals.brew.md`.
+You will likely spend the most time modifying the information displayed on the Goals page, as these show and describe the models used in the assessment. Text can be modified with the file called `webapps_templates/goals.brew.md`.
 
 To edit the goal equations themselves, you will edit the `goals.Rmd` found in the `conf` folder (example: `ecu/subcountry2014/conf/goals.Rmd`. This is an Rmarkdown file, with equations written in LaTex. When rendered by RStudio or the WebApp, it displays nicely formatted. To update model equations, you will need to use the LaTex format. You can learn the syntax by studying how the equations from the global assessments are displayed, and from many resources online. One resource is https://en.wikibooks.org/wiki/LaTeX/Mathematics. Learn more about .Rmd formatting at http://shiny.rstudio.com/articles/rmarkdown.html.
 
@@ -2058,6 +2114,37 @@ Here's how we fixed it: we updated `git.exe` to the latest version, 2.2.1, edite
 Next time you push a commit from RStudio, it should remember the username and password from your test commit in Step 6, and you should be good to go.
 
 
+### Git not detected on system path
+
+After downloading and installing git, sometimes RStudio is unable to locate git and will show the following error:
+
+![Error screen window:'Git was not detected on the system path'](./fig/git_not_detected.png)
+
+It is important to make sure you do in fact have git installed on your computer first. You can do this by opening up terminal (Mac OSX) or the cmd line (Windows) and typing:
+
+  * `$ which git` for Mac/Linux,
+  * `$ where git` for Windows
+  
+These commands will tell you where the `git.exe` file is located. Typically it will look something like this: `/usr/local/git/bin/git` or `/usr/bin/git` or some variation of those.
+
+Once confirming the location of `git.exe` you need to tell RStudio where it is. Open up RStudio, got to Preferences and select the Git/SVN option:
+
+![](./fig/RStudio_git_svn.png)
+
+In the Git executable area, fill in the path to your git.exe. If RStudio does not let you manually enter your path, select Browse... and navigate to the `git.exe` file. If you are not able to navigate to the file it is likely a hidden file. 
+
+On a Mac, to make hidden files visible, close RStudio and do the following:
+
+  * Open Terminal found in Finder > Applications > Utilities.
+  * In Terminal, paste the following: defaults write com.apple.finder AppleShowAllFiles YES.
+  * Press return.
+  * Hold the 'Option/alt' key, then right click on the Finder icon in the dock and click Relaunch.
+
+And then reopen RStudio, go to Preferences -> Git/SVN -> Browse... and you should be able to navigate to the `git.exe`
+
+You will then need to create an RSA Key. You can do this by clicking on 'Create RSA Key...' at the bottom of the Git/SVN panel, then 'View public key'. Copy the key you see, and add it to your GitHub account by using the instructions provided [here](https://help.github.com/articles/generating-ssh-keys/#step-4-add-your-ssh-key-to-your-account).
+
+
 ### Loading RWorkspace on Restart
 
 When you restart your R Session (**Session > Restart R** on a Mac), if you see that it is trying to load `ohicore`, it may give you an error:
@@ -2129,7 +2216,6 @@ A: The OHI is not an index of ecosystem services. The Index prefers to describe 
 
 *(Source: OHI Baltic workshop)*
 
-
 **Q: Where is climate change measured in the Index?**
 
 A: Four different aspects of climate change -- increases in sea surface temperature (SST), sea level rise (SLR), ultraviolet radiation (UV), and ocean acidification (OA) -- are included as pressures to many goals in the Index, including Natural Products, Carbon Storage, Coastal Protection, Sense of Place, Livelihoods & Economies and Biodiversity.  Mitigation of climate change through carbon storage is one of the ten goals.
@@ -2138,6 +2224,52 @@ A: Four different aspects of climate change -- increases in sea surface temperat
 **Q: Why are food provision and artisanal fishing opportunities goals separated?**
 
 A: These goals measure different aspects of how people relate to fishing. The catch of fish made by artisanal (=small-scale, subsistence type) fisheries is captured in the food provision goal. Jobs, wages and income from both the food provision and artisanal fishing goals are captured in the livelihoods & economies goal. The purpose of the artisanal fishing opportunity goal is to evaluate the opportunity for people to pursue this fishing in relation to their need to do so.  
+
+**Q: Can 10 goals really capture all the ocean’s values? Shouldn’t we talk about ocean’s values in more detailed terms?**
+
+A: This question speaks of the interdisciplinary nature of OHI. It is a part of the design of the model. It takes experts from all fields many years to develop the 10 goals, and each goal includes different aspects. Ten goals can easily become 100. For example, the economy goal can be divided into individual goals of tourism, transportation, production, value added (eg. fish to burger) etc. However, getting solid scores for 100 goals could take more than a year or two, and trying to communicate all the information to stakeholders and managers will be cumbersome. But we can communicate with people across fields about 10 goals (and their pressures and resilience) without being overwhelming.
+
+Ten goals may seem simplified. But they are useful for talking to people across fields without compromising scientific validity.
+
+<!-- Ning: above is from CHN Beijing meeting, Johanna's answer. But should we also emphasize, the ten goals summarize all the major benefits from the ocean. It's difficult to think of something that's not covered. At least I can't...  -->
+
+**Q: How are the goals weighted to calculate the final score?**
+
+A: By default, we weighed them equally because we don’t have solid, better information to do otherwise, even though we understand that each goal may/should have different weights depending on regional conditions and needs. We didn't put emphesis on goal weighing because ten individual goal scores are more important than one total score, and can tell more about the status of ocean health. If you are interested in seeing how weighing affects the total index score, you can try the following:
+
+- Scenario studies.  The OHI framework is flexible so that you can change the weights and see how scores change
+- Studies on people’s preferences or management needs to weigh goals differently
+
+**Q: How should we compare regional scores, spatially or temporally?**
+
+A: Temporal comparison is good for repeated measurements in one location, so that managers can see how goal conditions change and whether their policies take effect.
+Spatial comparison is used to compare regional differences in your country.
+
+For OHI+, the most helpful comparison is temporal comparison. Management goals are different spatially, and data are different. We can’t compare spatially unless they use the same model and data. The goal of OHI is to help local agencies adapt and improve ocean resources management. Therefore it may be an unnecessary burden to compare spatially. Without worrying about comparisons, different regions can still learn from one another.
+
+**Q: We calculate trends based on 5 years of data. Wouldn’t it be more scientifically valid to have a 20 or 30 year trend?**
+
+A: Yes you can use more years of data if available. But 5 years is a good compromise between scientific validity and meaningulness for local stakeholders. On one hand, we have to do it scientifically vigorous with a solid reference. But on the other hand, a 5-yr trend is more helpful and actionable to stakeholders than a 30-yr trend.
+
+**Q: Is OHI an internatinally recognized mointoring system? What other partnership does OHI have?**
+
+A: OHI is gaining recognition from world governance organizations, NGOs, and local governments. There is only limited amount of funds for conservation. If we work together, we can reach maximum return on investment. We partner with UCSB, who is on the scientific frontier. They innovate science and technology, develop toolbox, fill data gap, and provide technical support for local OHI assessments. Conservation International focuses on external partnerships. CI is always looking at multilateral agreements. Some of our active partnerships include:
+
+- The United Nation. Many countries follow UN leads.
+- World Bank and The Nature Conservancy, who has good research on economics, and is interested in incorportating OHI in their monitoring systems that are already in place.
+- World Wildlife Fund, who is interested in using OHI in all of their 14 global sites.
+- Clinton Climate Initiative.
+
+**How to draw spatial boundary: ecosystem or jurisdictional boundary?**
+
+A. We recommend jurisdictional boundary. It comes down to who will care, and who will take responsibility for the results and act on the results.
+
+**There seems to be overlapping between goals, for example, habitats data re used for CS, CP, and HAB. Is that double counting?**
+
+A. No. There is no complete overlap of data. Different habitat data are used for different goals. For example, habitats good for CS aren’t necessarily appropriate for CP.
+
+OHI is also human benefits-driven, not ecologically-driven. It happens that CS, CP, and HAB are affected by similar factors, but they provide non-overlapping benefits. It is the design of OHI to show the connectivity among goals. If certain habitats are good for multiple goals, there is strong incentive to focus energy and resources to protect those habitats.
+
 
 ## Timing and Resources
 
