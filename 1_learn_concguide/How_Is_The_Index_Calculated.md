@@ -1,6 +1,6 @@
 ## How is the Index calculated?
 
-For each goal, the **current status** is a mathematical model developed to best capture the philosophy of that goal using the best available data at the scale of study. The **current status** is calculated individually for each goal and represents half of a goal’s total score.  The other half is the **likely future status**, which is based on three things:
+For each goal, the **current status** is a mathematical model developed to best capture the philosophy of that goal relative to a target using the best available data at the scale of study. The **current status** is calculated individually for each goal and represents half of a goal’s total score.  The other half is the **likely future status**, which is based on three things:
 
 * **Trend**: the average rate of change for status during the most recent five years
 

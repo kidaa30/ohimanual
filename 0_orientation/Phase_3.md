@@ -8,4 +8,4 @@ This section is organized as follows:
 - Defining spatial boundaries
 - Discovering data and information
 - The Ocean Health Index Toolbox: installation, use, troubleshooting
-- Frequently Asqued Questions (technical)
+- Frequently Asked Questions (technical)

@@ -1,6 +1,6 @@
 # Ocean Health Index+ Independent Assessments
 
-Welcome to the Ocean Health Index (OHI) Portal orientation. Here, you will learn how to use the portal and how to access the tools and information available to you to facilitate the development of your Ocean Health Index independent assessment (OHI+).
+Welcome to the Ocean Health Index (OHI) orientation. Here, you will learn how to use this site and how to access the tools and information available to you to facilitate the development of your Ocean Health Index independent assessment (OHI+).
 
 ## What is the Ocean Health Index?
 
@@ -34,7 +34,7 @@ The OHI supports the growing need for marine management to establish comprehensi
 
 ## Why conduct an OHI+ assessment?
 
-The reasons for conducting an assessment vary from context to context. Perhaps you want to better understand ocean and coastal health in your region, or you are actively engaging in ecosystem-based management, or you are facilitating a multi-stakeholder collaborative planning and target setting process. Regardless of your reasons, you can use this portal so at the end of your assessment, you will have established a baseline estimation of the status of ocean health in your study area, and use that information to determine how well you are meeting, exceeding, goal targets in certain indicators.
+The reasons for conducting an assessment vary from context to context. Perhaps you want to better understand ocean and coastal health in your region, or you are actively engaging in ecosystem-based management, or you are facilitating a multi-stakeholder collaborative planning and target setting process. Regardless of your reasons, you can use this site so at the end of your assessment, you will have established a baseline estimation of the status of ocean health in your study area, and use that information to determine how well you are meeting, exceeding, goal targets in certain indicators.
 
 Assessments provide opportunity put in place a multi-stakeholder collaborative process. In our experiences engaging with various countries around the world, the most effective assessments are those where the process of conducting the assessment was just as valuable (if not more) than the final results. This is because the assessment process serves as a forum to engage stakeholders from multiple backgrounds (scientific, civil society, government, private sector, NGOs, etc.) to discuss local preferences and priorities, understand the interactions between various activities, and collaboratively establish management targets.
 
@@ -42,5 +42,5 @@ On the technical side, the process is also valuable because it allows the users 
 > TIP: Before you engage with the tools in Phase Three, you should engage with Phases One and Two.
 
 ## Target Audience
-Developing an assessment requires skillsets from various backgrounds (we discuss this with more detail in Phase 2). This portal is intended for different audiences with different backgrounds. ** Phases 1, 2, and 4 ** are intended for project managers and scientific analysts alike, while **Phase 3** is very technical and is aimed at a scientific audience. Due to this multidisciplinary nature, it is important that you assemble a team that can work well in a collaboratively setting.
+Developing an assessment requires skillsets from various backgrounds (we discuss this with more detail in Phase 2). The training modules presented here are intended for different audiences with different backgrounds. ** Phases 1, 2, and 4 ** are intended for project managers and scientific analysts alike, while **Phase 3** is very technical and is aimed at a scientific audience. Due to this multidisciplinary nature, it is important that you assemble a team that can work well in a collaboratively setting.
 ***

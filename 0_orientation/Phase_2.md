@@ -10,12 +10,10 @@ In this section you will be guided through how to:
   - Technical capacities required in the team
   - Examples of timelines, budgets, and team compositions of independent assessments in various countries
 
-
 - Planning and partnering with decision makers
   - Who should be involved?
   - Conducting a stakeholder analysis
   - Introducing the OHI+ concept to key stakeholders
-
 
 - Strategic Planning
    - Considerations for joint planning
