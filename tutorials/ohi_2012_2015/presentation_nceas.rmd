@@ -2,7 +2,7 @@
 title: "The Ocean Health Index<br /> 2012-2015"
 author: Julia Stewart Lowndes, Ben Halpern, and the OHI team <br /> National Center
   for Ecological Analysis and Synthesis, UCSB <br /> Conservation International
-output: ioslides_presentation
+output: beamer_presentation
 ---
 
 <!---Today I'm going to talk about what the OHI team has been up to for the past few years. We've had a team of about 5-8 full-time people here at NCEAS and also with our partners at CI. 
