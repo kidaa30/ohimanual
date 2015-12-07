@@ -26,7 +26,7 @@ The OHI Toolbox expects each data layer to be in its own *.csv* file and to be i
 
 When you modify existing or create new data layers, we recommend saving this as a new *.csv* file with a suffix identifying your assessment (example: `_sc2014.csv`). Modifying the layer name provides an easy way to track which data layers have been updated regionally, and which rely on global data. Then, the original layers (`_gl2014.csv` and `_sc2014.csv`) can be deleted.  
 
-\* Note: filenames should not have any spaces: use an underscore ('_') instead. This will reduce problems when R reads the files.
+\* Note: filenames should not have any spaces: use an underscore ('_')_ instead. This will reduce problems when R reads the files.
 
 ### Register data layers in `layers.csv`  
 
@@ -42,7 +42,7 @@ However, if a new layer has been added (for example when a new goal model is dev
  + **layer:** Add an identifying name for the new data layer, which will be referenced in R scripts like `functions.R` and *.csv* files like `pressures_matrix.csv` and `resilience_matrix.csv`.
  + **name:** Add a longer title for the data layer--this will be displayed on your WebApp.
  + **description:** Add a longer description of the new data layer--this will be displayed on your WebApp.
- + **fld_value:** Add the appropriate units for the new data layer. It is the same as the column name in the data file, which will be referenced in R scripts in subsequent calculations. (example: area_km_2)
+ + **fld_value:** Add the appropriate units for the new data layer. It is _the same as the column name in the data file_, which will be referenced in R scripts in subsequent calculations. (example: area_km2)
  + **units:** Add a description about the *units* chosen in the *fld_value* column above. Think about what units you would like to be displayed on the WebApp when filling out "units." (example: km^2)
  + **filename:** Add a filename for the new data layer that matches the name of the *.csv* file that was created previously in the `layers` folder.
  + **fld_id_num:** Area designation that applies to the newly created data layer, such as: *rgn_id* and *fao_id*.

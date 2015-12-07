@@ -22,7 +22,7 @@ completed assessments have only been able to include catch information from
 commercial fisheries due to data availability limitations. When data become
 available for artisanal and/or recreational catch, they could be included as
 part of the fisheries sub-goal or as a separate sub-goal depending on the
-context. </p>
+context.
 
 > The sub-goals of Food Provision (Fisheries and Mariculture)
 measure the amount of goods sustainably harvested from the sea for human
@@ -138,6 +138,8 @@ instance, when all species are exploited simultaneously, fishing pressure on
 each population might be lower due to changes in interactions between species
 that occur when a predator population is reduced.
 
+<!-- The contents below will probably change when Mel writes the report on FIS Model -->
+
 ###### *A note about methods used in the fisheries goal*
 
 <p style="font-size: 90%; color:grey;"> Since Global 2012, several new data-poor approaches have been developed to
@@ -204,18 +206,6 @@ calculating the scores using a more precise model as well, so fisheries experts
 can assess whether results look reasonable. This is important so that the scores
 produced have credibility.
 
-<!---not sure this example really clarifies Local knowledge of the fishing
-industry can help interpret B/Bmsy values and OHI scores. For example, consider
-this situation where catch data show recent decreases in small pelagic fish but
-increases in large pelagic fish. This can be interpreted with local knowledge:
-fleets stopped fishing small pelagic fish because they ran out of them and then
-started fishing the larger ones. OHI scores will take this into account since
-once you have a B/Bmsy calculated for the small pelagic species, and the model
-says they have declined, the score will be penalized. Though you have no catch
-for those species in recent years, those catch values are indicated as 0's and
-they are included in the mean catch, which averages across the whole
-time-series. This is why the mean catch throughout the time-series is included
-as a weighting factor. --->
 
 #### Examples of the Approach
 
