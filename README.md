@@ -14,3 +14,5 @@ This manual provides information for:
 4. Guidance for frequently asked questions and troubleshooting
 
 
+[download](https://github.com/OHI-Science/ohi-science.github.io/blob/dev/assets/downloads/Israeli_Med_2014_OHI%2Bdocumentation_Tsemel_et_al.pdf.zip)
+
