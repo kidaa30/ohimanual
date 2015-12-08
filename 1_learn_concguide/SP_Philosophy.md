@@ -16,11 +16,11 @@ They can be identified through activities such as fishing, hunting, commerce; th
 
 #### Ideal Approach
 
-You should gather information on all species that are important to coastal communities, and then assess the condition of each of the populations. It would ideal to find an officially-sanctioned list, or a list from a trusted source, of the iconic species for an area.
+You should gather information on all species that are important to coastal communities and various stakeholder groups (including indigenous groups), and then assess the conservation status of each of the populations. It would ideal to find an officially-sanctioned list, or a list from a trusted source, of the iconic species for an area.
 
 #### Keep in Mind
 
-This type of assessment stands in contrast to economic or extractive reasons for valuing the species. Because almost any species can be iconic to different groups or individuals, defining which species are culturally iconic can be challenging. Information can sometimes be found from local customs and experts, oral tradition, sociological or anthropological literature, journalism, and regional studies.
+This type of assessment stands in contrast to economic or extractive reasons for valuing the species. Because almost any species can be iconic to different groups or individuals, defining which species are culturally iconic can be challenging. Thus, it is important to establish objective criteria for determining what is considered an iconic species in the study area. Information can sometimes be found from local customs and experts, oral tradition, sociological or anthropological literature, journalism, and regional studies.
 
 ***
 
@@ -36,7 +36,7 @@ The **Lasting Special Places** sub-goal focuses on those geographic locations th
 
 #### Ideal Approach
 
-You could use list of all the places that people within a region consider special could be found or developed, along with an assessment of what percent of and how well those areas are protected. First-hand information could be gathered through surveys or some similar approach.
+You could list all the places that people within a region consider special, along with an assessment of what percent of and how well those areas are protected. First-hand information could be gathered through surveys or through observed behavior.
 
 #### Keep in Mind
 

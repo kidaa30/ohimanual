@@ -44,6 +44,6 @@ Use information on the extent and condition of every single habitat type would b
 
 This sub-goal is methodologically similar to the **Carbon Storage** goal but it includes all habitats with sufficient data for this goal, not just those habitats that sequester carbon.
 
-> TIP: Consider approaching this goal with **Carbon Storage** and **coastal protection** when conducting your assessment in Phase Three.
+> TIP: Consider approaching this goal with **Carbon Storage** and **Coastal Protection** when conducting your assessment in Phase Three since many of the components assessed are similar.
 
 ***

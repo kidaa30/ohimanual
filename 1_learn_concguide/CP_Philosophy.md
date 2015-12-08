@@ -4,7 +4,7 @@
 
 #### Philosophy
 
-Many habitats, including coral reefs, mangroves, seagrasses, salt marshes, and sea ice, act as natural buffers against storm damage and erosion. By protecting against incoming waves, flooding, and and other erosive factors, these living habitats keep people safe and help mitigate economic loss of personal and public property, cultural landmarks, and natural resources. The **Coastal Protection** goal assesses the amount of protection provided by marine and coastal habitats by measuring the area they cover now relative to the area they covered in the recent past.
+Many habitats, including coral reefs, mangroves, seagrasses, salt marshes, sand dunes, and sea ice, act as natural buffers against storm damage and erosion. By protecting against incoming waves, flooding, and and other erosive factors, these living habitats keep people safe and help mitigate economic loss of personal and public property, cultural landmarks, and natural resources. The **Coastal Protection** goal assesses the amount of protection provided by marine and coastal habitats by measuring the area they cover now relative to the area they covered in the recent past.
 
 #### Ideal Approach
 
@@ -12,6 +12,6 @@ Develop a model using information for all habitats within regions of a study are
 
 #### Keep in Mind
 
-The Global studies did not include an assessment of the protection provided by human-made structures such as jetties and seawalls, because these structures cannot be preserved without maintenance and do not constitute long-term sustainable services. They may also have other undesirable side effects such as the altering of sedimentation rates causing erosion in new and unexpected locations. Although this phenomenon is closely tied to human habitation, it does not account for such things as property values as indicators but rather it focuses on what the habitats actually are and the protection that they provide.
+The Global studies did not include an assessment of the protection provided by human-made structures such as jetties and seawalls, because these structures cannot be preserved without maintenance and do not constitute long-term sustainable services. They may also have other undesirable side effects, such as the altering of sedimentation rates causing erosion in new and unexpected locations. Although this phenomenon is closely tied to human habitation, it does not account for such things as property values as indicators but rather it focuses on what the habitats actually are and the protection that they provide.
 
 ***

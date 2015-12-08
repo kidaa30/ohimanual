@@ -3,7 +3,7 @@ title: "Introduction to the Ocean Health Index Independent Assessment (OHI+)"
 output: html_document
 ---
 
-This portal introduces you to the Ocean Health Index framework and the process for developing an Ocean Health Index Independent Assessment (OHI+). The portal is designed as a course to provide you with all the information required to successfully and autonomously conduct an OHI+ assessment. Therefore, this portal is divided along the four distinct, but interconnected, phases of OHI+:
+This site introduces you to the Ocean Health Index framework and the process for developing an Ocean Health Index Independent Assessment (OHI+). The site is designed as a course to provide you with all the information required to successfully and autonomously conduct an OHI+ assessment. Therefore, this site is divided along the four distinct, but interconnected, phases of OHI+:
 
 1. Learn about the Ocean Health Index
 2. Plan an Ocean Health Index Independent Assessment

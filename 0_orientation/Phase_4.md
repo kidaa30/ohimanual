@@ -10,3 +10,4 @@ This section will guide you on :
 - Communicate results with partners and others
 - Develop and implement policies and management interventions that respond to the priorities
 - Monitor and re-evaluate to determine policy effectiveness and set new priorities
+- Develop an action plan with your findings
