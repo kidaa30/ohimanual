@@ -2,7 +2,7 @@
 
 > “If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both overall ocean health and particular goals” (Halpern *et al.* 2014).
 
-Findings will help inform decision-makers about management actions and policies. However, understanding the effect of management actions requires iterative studies. Therefore, we strongly recommend you plan on conducting repeated assessments in the future to continuously adapt management strategies. Future assessments may not require as much time or funding as the initial assessment, since the focus is to update data and reference points. For this reason, management plans must include a thorough mechanism to track any changes (i.e. data and indicator collection) related to the assessments activities.
+Findings will help inform decision-makers about management actions and policies. However, understanding the effect of management actions requires institutionalizing the tool as a decision-making support mechanism, in which assessments are conducted regularly. Therefore, we strongly recommend you plan on conducting repeated assessments in the future to continuously adapt management strategies. Future assessments may not require as much time or funding as the initial assessment, since the focus is to update data and reference points. For this reason, management plans must include a thorough mechanism to track any changes (i.e. data and indicator collection) related to the assessments activities.
 
 ![](https://docs.google.com/drawings/d/1jeaRX5UuTxNt8R0TmRWxEuWXB1nh_uvW4hFnIloM5OU/pub?w=960&h=720)
 

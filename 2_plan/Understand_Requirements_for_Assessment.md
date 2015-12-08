@@ -7,7 +7,7 @@ The lead organizer of the proposed assessment may want to begin by with a stakeh
 * Developing a project proposal
 * Assembling a qualified **Technical Team** to conduct the assessment itself
 
-Under the section **Assembling a Team** you can learn more about the skillsets required for an effective Technical Team.
+Under the section **Team* Structure** you can learn more about the skillsets required for an effective Technical Team.
 
 Procuring funding and creating a budget that is informed by the task timeline will also aid in smart spending and decrease the likelihood that funding will run out before the process is completed.
 
