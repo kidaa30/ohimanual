@@ -24,12 +24,11 @@ in_md = c(
   'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
-  'intro_goalbygoal.md',                             # reviewed 11/09
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
   'data_transformation.md',                         # TODO: review and update JSL
-  'install_tbx.md', # ready to push 7/09
+  'install_tbx.md', 
   'accessing_github_repos.md',                       # TODO: review and update
   'github_architecture.md',
   'use_tbx.md',                                      # TODO: review and update JSL
@@ -54,6 +53,8 @@ in_md = c(
   'practical_TR.md',                                # TODO: review and update
   'practical_SP.md',
   'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
+  'file_prep_instructions.md',
+  'record_sheet.md',
   'frequently_asked_questions.md')                   # TODO: review and update
 out_md = 'ohi-manual.md'
 

@@ -1,8 +1,4 @@
----
-title: "use_tbx_to_modify_goal_models_practical.md"
-output: html_document
----
-This tutorial will how you how to modify goal models and calculate status and trend.
+## Modify goal models
 
 Before getting started on the R codes, make sure that you followed instructions on OHI Manual, starting from accessing github repositories, until modifying goal models, which means:  
  + install the latest versions of R, RStudio, and GitHub

@@ -1,8 +1,6 @@
 # Installing the Toolbox
 
->**Section Summary:**
-
->In this section, you will learn how to successfully download, install, and use the software required to conduct an assessment. You will create a GitHub account and install R, RStudio, git, and the Github desktop  app. OHI assessments are conducted through open-source platforms that allow you to make real-time changes with collaborators, and to track progress so that errors can be corrected and new insights can be shared in the future.
+In this section, you will learn how to successfully download, install, and use the software required to conduct an assessment. You will create a GitHub account and install R, RStudio, git, and the Github desktop  app. OHI assessments are conducted through open-source platforms that allow you to make real-time changes with collaborators, and to track progress so that errors can be corrected and new insights can be shared in the future.
 
 ## Overview
 
@@ -29,8 +27,7 @@ This section explains the GitHub workflow and how to access and setup required s
 * **commit** ~ message associated with your changes at a point in time
 * **pull** ~ sync a repo on your computer with online version
 * **push** ~ sync the online repo with your version, only possible after committing
-
-**sync = pull + commit + push**
+* **sync** = pull + commit + push
 
 ### Learning GitHub
 The following section describes how to use GitHub to access and sync your assessment repository. There are also many great resources available online with more in-depth information:
