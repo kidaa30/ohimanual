@@ -18,6 +18,15 @@ output: html_document
 - **Phase 3:** **Conduct** the OHI+ assessment
 - **Phase 4:** **Communicate** and inform--->
 
+<div style="text-align=center" markdown="1">
+
+![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
+</div>
+
+<p align = "center">![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
+
+
+
 **The OHI framework** allows you to synthesize  the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.
 
 The first completed assessment for a study area is valuable because it establishes a baseline and highlights the state of information quality and availability in an area. Any subsequent assessments carried out through time are also valuable because they can be used to track and monitor changes in ocean health. Your assessment will require careful thought and consideration along the way, and we encourage documentation and scripting to be done within the OHI Toolbox to facilitate collaboration and transparency, as well as the reproducibility for future assessments.
@@ -77,7 +86,7 @@ Identifying the spatial boundaries of the regions within the assessment area is 
 
 There are many decisions to be made when searching for and gathering data, and searches should extend beyond any one expertise, discipline, source, or data-type. This is because your data will come from disparate sources, and you will have to engage experts to help identifying good proxies and indicators, deciding reference points, and developing goal models. OHI+ assessments should incorporate higher-resolution information where possible for goal status models and pressures and resilience measures. The process of discovering and gathering so many different kinds of data and indicators is an important step that you will return to as you continue to conduct the assessment. This is where having a collaborative team that can work across disciplines will be key.
 
-### Maintain core values and characteristics within the assessment framework regardless of limited information quality 
+### Maintain core values and characteristics within the assessment framework regardless of limited information quality
 
 The models you develop and reference points you set must reflect the philosophy of the OHI framework while accommodating the attributes and shortcomings of the data. While goal status models developed in completed assessments offer good examples of approaches in different contexts, they should be considered  as guides and should not limit exploration into new model development. It will likely be an iterative process to incorporate the best available information into a model that captures the philosophy of the goals. It will also require creative thinking and problem-solving abilities among your team, and documenting the decisions you make is important for transparency, communication and repeatability.
 
