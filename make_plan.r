@@ -13,21 +13,17 @@ wd = '~/github/ohimanual/2_plan'
 in_md = c(
   #'Phase_2.md',     # currently this file is in 0_orientation; JSL not sure it fits here?
   'Understand_Requirements_for_Assessment.md',
-  'Funding.md',
-  'Assembling_team.md', # --> 11/19/15 fine for relaunch JSL will update more later
+  'Team_Structure.md', # --> 11/19/15 fine for relaunch JSL will update more later
   'Data_Requirements.md',
+  'Funding.md',
   'Planning_and_Partnering.md',
   'Who_Should_Be_Involved.md',
   'Conducting_a_Stakeholder_Analysis.md',
   'Introducing_Concept_to_Stakeholders.md',
-  'Considerations_for_Joint_Planning.md',
-  'Vision.md',
-  'Objectives.md',
-  'Spatial_Scale.md',
   'Strategy.md',
-  'Costs_and_Financial_Planning.md',
+  'Strategy_Components.md',
   'Adaptive_Management.md')
-  # summarzing ending             # add some kind of summary
+  # summarizing ending             # add some kind of summary
 
 out_md = 'ohi-plan.md' # <- this is the output "final" file.
 

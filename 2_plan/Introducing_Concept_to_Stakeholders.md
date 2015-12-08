@@ -16,6 +16,30 @@ Below are examples of language and messaging that can be used to describe the in
 
 - In global assessments (Halpern et al. 2012, Halpern et al. 2015), scores are calculated for the exclusive economic zone (EEZ) of each coastal nation and territory (two hundred twenty one regions), and then combined by offshore-area-weighted average to produce scores for all EEZs globally (study area). The Index framework has also been adapted for regional assessments at smaller scales, where data and priorities can be at finer resolution and more in line with local management needs and policy priorities.
 
-## Using OHI to Support Environmental Peacebuilding
+### Using OHI to Support Environmental Peacebuilding
 
 Because the OHI framework integrates multiple goals that interact with one another, the framework lends itself to understand how resource users and stakeholders can work together to prevent conflict and foster sustainable use. This is consistent with the concept of **environmental peacebuilding**, which "integrates natural resource management in conflict prevention, mitigation, resolution, and recovery to build resilience in regions affected by conflict" (http://environmentalpeacebuilding.org). OHI assessments can help catalyze decision-making across multiple sectors in a way that explicitly evaluates the inherent trade-offs of management actions. In doing so, stakeholders can better identify the winners and losers of specific courses of action and design interventions that alleviate some of the undesired effects on specific groups or ocean benefits. Environmental peacebuilding is an effective mechanism used to prevent the "tragedy of the commons," where individuals puruing resource use in their best personal interest, results in the demise of the resource for all users in the long term. Therefore, sustainable natural resource management is far more likely when conflicts between resource users are adequately addressed and minimized.
+
+### Considerations for Joint Planning
+
+Collaborative assessment planning is an effective approach to ensuring that the assessment will be useful for decision-making. Strengthening scientist-decision maker partnerships creates opportunities for applying research findings to improve ocean health.
+
+•	Create a work plan that has research and management objectives
+
+•	Align research with policy issues to ensure all parties are pursuing the same objectives
+
+•	Share timeline of the study – availability of results, critical decision-making dates (budgets, planning, etc.) – releasing findings strategically can increase impact
+
+•	Identify sources of high quality information and data
+
+•	Plan communications to make the information accessible to stakeholders and various decision-makers
+
+•	Funding strategy should include short and long term planning for science, communication, and action
+
+•	Fundraise with decision-makers: Align research with policy issues to ensure both parties are pursuing the same objectives
+
+•	Articulate the agreed plans in writing (scientists also share a research plan)
+
+•	Create a budget that includes a communications component to cover costs of nationally disseminating findings: providing briefings about findings and applications of if the Index to agencies, decision-makers, and managers who will use the Index
+
+•	Allocate ~15% of the budget to science outreach and communications; travel, time, meeting costs, planning, production of materials

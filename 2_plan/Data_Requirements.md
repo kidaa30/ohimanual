@@ -22,12 +22,13 @@ Data required for pressures:
       - Fishing impacts
       - Climate change
       - Social pressures
-  - Governance indicators
+  - Social pressures
+    - Governance indicators
 
 Data required for resilience
-  - Ecological resilience
-  - Regulatory framework
-  - Ecological integrity
-  - Social resilience
-  - Social integrity
-  - Governance indicators
+- Ecological resilience
+    - Regulatory framework
+    - Ecological integrity
+    - Social resilience
+- Social integrity
+    - Governance indicators (policies, enforcement, effectiveness)
