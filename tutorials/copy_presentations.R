@@ -35,9 +35,9 @@ copy_fxn('github_intro/tutorial_github_intro_SPANISH')
 
 copy_fxn('ohi_2012_2015/presentation_nceas')
 file.rename('~/github/ohi-science.github.io/assets/downloads/pres/presentation_nceas.pdf',
-            '~/github/ohi-science.github.io/assets/downloads/pres/OHI_overview_2012_2015.pdf')
+            '~/github/ohi-science.github.io/assets/downloads/pres/OHI_Overview_2012_2015.pdf')
 file.rename('~/github/ohi-science.github.io/assets/downloads/pres/presentation_nceas.html',
-            '~/github/ohi-science.github.io/assets/downloads/pres/OHI_overview_2012_2015.html')
+            '~/github/ohi-science.github.io/assets/downloads/pres/OHI_Overview_2012_2015.html')
 
 
 
