@@ -1,6 +1,7 @@
 ---
 title: 'El Indice de Salud del Océano: Introducción a la Caja de Herramientas'
-author: "Julia Stewart Lowndes<br /> Cientifico del Proyecto, Ocean Health Index<br /> lowndes@nceas.ucsb.edu"
+author: Julia Stewart Lowndes<br /> Cientifico del Proyecto, Ocean Health Index<br
+  /> lowndes@nceas.ucsb.edu
 output: ioslides_presentation
 ---
 
