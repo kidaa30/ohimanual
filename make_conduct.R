@@ -34,16 +34,15 @@ in_md = c(
   'github_architecture.md',
   'use_tbx.md',                                      # TODO: review and update JSL
   'use_tbx_to_modify_data_layers.md',
-  'use_tbx_to_modify_pressures_resilience.md',
-  'use_tbx_to_modify_goal_models.md',
-  'use_tbx_to_modify_goal_models_practical_new.md',  #updated by NJM 9/15
+  'use_tbx_to_modify_pressures_resilience.md',    
+  'use_tbx_to_modify_goal_models.md',      # updated by NJM 9/15
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
   'update_webapp.md',                                # reviewed for 07/09 push
   'R_tutes_all.md',                                  # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
-  'intro-goalbygoal.md',                             # added on 07/15
+  'intro_goalbygoal.md',                             # added on 07/15
   'practical_AO.md',                   # TODO: review and update
   'practical_BD.md',                   # TODO: review and update JSL ICO/LSP #476
   'practical_CP.md',                                # TODO: review and update
