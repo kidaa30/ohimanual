@@ -25,19 +25,10 @@ in_md = c(
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
   'intro_goalbygoal.md',                             # reviewed 11/09
-  #'practical_HAB_goals_CS_CP.md',                   # TODO: review and update
-  #'practical_species_BDD_ICO.md',                   # TODO: review and update JSL ICO/LSP #476
-  #'practical_SP.md',                                # TODO: review and update
-  #'practical_FP_NP.md',                             # TODO: review and update JSL #392, #367 #52 #488
-  #'practical_LE.md',                                # reviewed 11/23
-  #'practical_TR.md',                                # TODO: review and update
-  #'practical_AO.md',                                # TODO: review and update
-  #'practical_CW.md',                                # TODO: review and update
-  #'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
   'file_system.md',                                  # reviewed for 07/09 push
   'formatting_data.md',
-  #'data_transformation.md',                         # TODO: review and update JSL
+  'data_transformation.md',                         # TODO: review and update JSL
   'install_tbx.md', # ready to push 7/09
   'accessing_github_repos.md',                       # TODO: review and update
   'github_architecture.md',
@@ -45,13 +36,25 @@ in_md = c(
   'use_tbx_to_modify_data_layers.md',
   'use_tbx_to_modify_pressures_resilience.md',
   'use_tbx_to_modify_goal_models.md',
-  #'use_tbx_to_modify_goal_models_practical_new.md',  #updated by NJM 9/15
+  'use_tbx_to_modify_goal_models_practical_new.md',  #updated by NJM 9/15
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
   'update_webapp.md',                                # reviewed for 07/09 push
   'R_tutes_all.md',                                  # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
+  'intro-goalbygoal.md',                             # added on 07/15
+  'practical_AO.md',                   # TODO: review and update
+  'practical_BD.md',                   # TODO: review and update JSL ICO/LSP #476
+  'practical_CP.md',                                # TODO: review and update
+  'practical_CS.md',                             # TODO: review and update JSL #392, #367 #52 #488
+  'practical_CW.md',                                # reviewed 11/23
+  'practical_FP.md',                                # TODO: review and update
+  'practical_LE.md',                                # TODO: review and update
+  'practical_NP.md',
+  'practical_TR.md',                                # TODO: review and update
+  'practical_SP.md',
+  'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
   'frequently_asked_questions.md')                   # TODO: review and update
 out_md = 'ohi-manual.md'
 
