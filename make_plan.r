@@ -17,8 +17,6 @@ in_md = c(
   'Data_Requirements.md',
   'Funding.md',
   'Planning_and_Partnering.md',
-  'Who_Should_Be_Involved.md',
-  'Conducting_a_Stakeholder_Analysis.md',
   'Introducing_Concept_to_Stakeholders.md',
   'Strategy.md',
   'Strategy_Components.md',

@@ -1,4 +1,4 @@
-### Establishing Your Strategy: Creating an Assessment Blueprint
+## Establishing Your Strategy: Guidelines for your assessment
 
 Your strategy should be a results-based planning document that details the results and objectives that will be achieved through the assessment and the specific activities, human resources, and funding needed to achieve them. Having an assessment strategy ensures that financial and human resources are used systematically and logically to accomplish the intended objectives.
 
