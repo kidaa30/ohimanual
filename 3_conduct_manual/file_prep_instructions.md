@@ -1,7 +1,3 @@
----
-output: word_document
----
-
 # Appendix 2: Instructions for preparing data files for the OHI Toolbox
 
 This document explains what to provide the toolbox master for your OHI assessment, using China 2015 assessment as an example.
@@ -70,7 +66,7 @@ Please name each data layer with the following format so it is easy to keep all 
 
 > prefix_layername_scenario_suffix.extension
 
-There cannot be any white spaces in any part of the filename: instead, use underscores ('_').
+There cannot be any white spaces in any part of the filename: instead, use underscores ('_')._
 
 The **prefix** will be the letters identifying each goal (two letters) or sub-goal (three letters):
 

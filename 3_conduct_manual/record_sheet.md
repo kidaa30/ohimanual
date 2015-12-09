@@ -1,4 +1,4 @@
-# Appendix 3: Develop a record-keeping spreadsheet
+# Appendix 4: Develop a record-keeping spreadsheet
 
 If you are a toolbox master responsible for indexing all the data and modifying all the goal models, it is helpful to keep a master record-keeping spreadsheet from the start. This will allow to note who to contact for each goal and whether the key items for calculations are received, as well as to track your own progress. Goal keepers might be at different stages of data gathering and model development, and might send you pieces of information at different times. When you are updating multiple goal models, it is easy to lose track where you are in the progress for each goal.
 

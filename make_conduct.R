@@ -20,6 +20,7 @@ title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
+  'overall_guide.md',
   'intro_assessment.md',                             # reviewed for 07/09 push
   'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
@@ -54,6 +55,7 @@ in_md = c(
   'practical_SP.md',
   'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
   'file_prep_instructions.md',
+  'model_descript_instructions.md',
   'record_sheet.md',
   'frequently_asked_questions.md')                   # TODO: review and update
 out_md = 'ohi-manual.md'
