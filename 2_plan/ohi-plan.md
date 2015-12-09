@@ -1,5 +1,6 @@
 ---
-title: The Ocean Health Index Planning Phase
+title: "The Ocean Health Index Planning Phase"
+output: pdf_document
 ---
 
 ## Understand the Requirements for Conducting an OHI Assessment
@@ -250,17 +251,6 @@ The assessment planning approach should be appropriate to the local context. It 
 
 It is important to create a detailed planning timeline, detailing specific deadlines and milestones to help organize and coordinate production.
 
-### Resources
-Tools to help you develop these planning documents can be found at the following sites:
-
-  - [Mind Tools](http://www.mindtools.com/pages/main/newMN_PPM.htm)
-
-  - [Kepner Tregoe](http://www.kepner-tregoe.com/pdfs/articles/jofbusinessstrategypm.pdf)
-
-  - [Project Smart](http://www.projectsmart.co.uk/methods-tools.php)
-
-  - [World Bank Strategic Planning: A Ten Step Guide](http://siteresources.worldbank.org/INTAFRREGTOPTEIA/Resources/mosaica_10_steps.pdf)
-
 ### Key Components of an Assessment Strategic Plan
 
 An effective Strategic Plan includes (but is not limited to) the following key components:
@@ -328,6 +318,17 @@ When deciding the spatial scale of the assessments, the Working Group should con
 These questions are important to keep the Index assessment relevant but ultimately data availability will be the most important factor when defining boundaries for the Index.
 
 There is no single criterion for identifying the scale of the study area since the Index can potentially be used at all scales using data, parameters, interests, and goals at the scale of the study.
+
+#### Resources
+Tools to help you develop these planning documents can be found at the following sites:
+
+  - [Mind Tools](http://www.mindtools.com/pages/main/newMN_PPM.htm)
+
+  - [Kepner Tregoe](http://www.kepner-tregoe.com/pdfs/articles/jofbusinessstrategypm.pdf)
+
+  - [Project Smart](http://www.projectsmart.co.uk/methods-tools.php)
+
+  - [World Bank Strategic Planning: A Ten Step Guide](http://siteresources.worldbank.org/INTAFRREGTOPTEIA/Resources/mosaica_10_steps.pdf)
 
 ### Adaptive Management
 

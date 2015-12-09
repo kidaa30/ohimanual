@@ -13,7 +13,7 @@ An effective Strategic Plan includes (but is not limited to) the following key c
 - Linkages with decision-making
 - Establish accountable and responsible individuals/organizations for each objective/task
 
-#### Creating a Vision
+#### Creating a Vision: What's the purpose of the assessment?
 
 Producing the Index is not the end goal: It is merely a process toward the true end goal – achieving improved ocean health.
 
@@ -65,3 +65,14 @@ When deciding the spatial scale of the assessments, the Working Group should con
 These questions are important to keep the Index assessment relevant but ultimately data availability will be the most important factor when defining boundaries for the Index.
 
 There is no single criterion for identifying the scale of the study area since the Index can potentially be used at all scales using data, parameters, interests, and goals at the scale of the study.
+
+#### Resources
+Tools to help you develop these planning documents can be found at the following sites:
+
+  - [Mind Tools](http://www.mindtools.com/pages/main/newMN_PPM.htm)
+
+  - [Kepner Tregoe](http://www.kepner-tregoe.com/pdfs/articles/jofbusinessstrategypm.pdf)
+
+  - [Project Smart](http://www.projectsmart.co.uk/methods-tools.php)
+
+  - [World Bank Strategic Planning: A Ten Step Guide](http://siteresources.worldbank.org/INTAFRREGTOPTEIA/Resources/mosaica_10_steps.pdf)

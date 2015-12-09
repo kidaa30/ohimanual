@@ -19,14 +19,3 @@ Your strategy document should include key characteristics and priorities before 
 The assessment planning approach should be appropriate to the local context. It is important to carefully consider the physical, social, political, economic and environmental characteristics of the study area to develop a realistic and achievable plan. The process we recommend in this guide can be followed step by step, but it is better if it is adapted to local needs.
 
 It is important to create a detailed planning timeline, detailing specific deadlines and milestones to help organize and coordinate production.
-
-#### Resources
-Tools to help you develop these planning documents can be found at the following sites:
-
-  - [Mind Tools](http://www.mindtools.com/pages/main/newMN_PPM.htm)
-
-  - [Kepner Tregoe](http://www.kepner-tregoe.com/pdfs/articles/jofbusinessstrategypm.pdf)
-
-  - [Project Smart](http://www.projectsmart.co.uk/methods-tools.php)
-
-  - [World Bank Strategic Planning: A Ten Step Guide](http://siteresources.worldbank.org/INTAFRREGTOPTEIA/Resources/mosaica_10_steps.pdf)
