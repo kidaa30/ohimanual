@@ -18,14 +18,8 @@ output: html_document
 - **Phase 3:** **Conduct** the OHI+ assessment
 - **Phase 4:** **Communicate** and inform--->
 
-<div style="text-align=center" markdown="1">
-
-![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
-</div>
 
 <p align = "center">![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
-
-
 
 **The OHI framework** allows you to synthesize  the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.
 
