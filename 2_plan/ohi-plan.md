@@ -1,5 +1,6 @@
 ---
-title: The Ocean Health Index Planning Phase
+title: "The Ocean Health Index Planning Phase"
+output: pdf_document
 ---
 
 ## Understand the Requirements for Conducting an OHI Assessment
@@ -11,7 +12,7 @@ The lead organizer of the proposed assessment may want to begin by with a stakeh
 * Developing a project proposal
 * Assembling a qualified **Technical Team** to conduct the assessment itself
 
-Under the section **Assembling a Team** you can learn more about the skillsets required for an effective Technical Team.
+Under the section **Team* Structure** you can learn more about the skillsets required for an effective Technical Team.
 
 Procuring funding and creating a budget that is informed by the task timeline will also aid in smart spending and decrease the likelihood that funding will run out before the process is completed.
 
@@ -19,28 +20,32 @@ The availability of local data is perhaps the single most important requirement 
 
 Index scores are a reflection of data quality, and thus, accessing the best data available is of the highest importance. Data from existing environmental, social, and economic indicators may be used. All data will be rescaled to specific reference points (targets) before being combined therefore setting these reference points at the appropriate scale is a fundamental component of any assessment. This requires the interpretation of the philosophy of each Index goal and sub-goal using the best available data and indicators. For your reference, you may look at a list of the data layers used in the 2014 Global Assessment for Ecuador at http://ohi-science.org/ecu/layers/
 
-### Funding
+### Team Structure
 
-Most assessments up to date have been funded by the public sector. However, in some other cases foundations, research labs and academic institutions, and/or the private sector have provided the funding.
+The Team Structure will largely depend on the goal of conducting an assessment, thus there is no single "right" team requirements for developing an OHI+ assessment. Academic led assessments (such as those led by research labs or for a Ph.D thesis) tend to have fewer people involved. However, most assessments to date have management and/or policy goals, and therefore, have wider stakeholder involvement. Effective assessments are carefully planned and require adequate project leadership and vision. Due to the multidisciplinary nature of the Index, assessments often count with participation of various stakeholder groups. Nevertheless, we recommend a key agency or group assumes the leadership of the assessment to ensure proper planning, development, and engagement throughout the assessment.
 
-More specifics on funding are included under the [Strategic Planning](Costs and Financial Planning) section.
+However, many successful teams have structured themselves as follows:
 
-The OHI program does not offer funding for assessments. However, Conservation International may be able to support assessment activities through field programs. The OHI program offers significant in kind contribution to those doing assessments: we facilitate trainings and workshops and provide technical, managerial, and communications support. For more information about the OHI program and the team refer to the **About Us** page.
+1) A Multidisciplinary Working Group:
 
-## Assembling a Technical Team
+  The OHI+ working group for your study area should include government agencies, scientific and academic experts, civil society (resource users), and NGOs (social, environmental). By assembling a multidisciplinary working group, you ensure the tasks are evenly divided among the participants, as well counting with a pluralistic system to include various values and perspectives. It is this working group who is responsible for doing the early learning about OHI and developing the Work Plan in Phase 2. The working group also provides important guidance to the technical team in terms of stakeholder engagement, goal weighing, reference points, and ensuring the study is aligning with management and policy needs. Lastly, the working group actively engages with key stakeholders and decision-makers through the process and after assessments are conducted to develop action plans that integrate the findings of the study into management and policy interventions.
 
-The success of your OHI+ assessment process will depend on the effectiveness of your team. While every assessment will be done differently--it is always done according to local needs, resources, and priorities--we can provide guidance on the skills required within your team and how other assessments have structured their teams. Team sizes have ranged from two to ten people depending on the scope of the study and the qualifications/skills of the team, particularly the technical members. Whether members work full-time or part-time will also affect the time required to completed the assessment.
+**Sample OHI Team structure**
 
-It is best to assemble a small core team of skilled, flexible people. Because OHI assessments combine knowledge from multiple disciplines, require developing models and setting reference points, and use innovative, evolving open-source tools, team members will likely be required to work outside of their direct expertise and technical ability and must feel comfortable and have the authority to do so. One approach that has worked well has been to assemble a core team that is very knowledgeable about the OHI framework and process, with specific members having backgrounds in marine science and tasked with information gathering and communication or with information processing and the Toolbox (or better yet, a combination of the two). This core team then engages additional ‘goal keepers’ that are experts in specific OHI goals to help develop the best models, access information, identify pressures and resilience measures, and set reference points, through in-person meetings, workshops, and remote communication.
+  ![](https://docs.google.com/drawings/d/1YEg9thEUnCxByJ5Izs5i86CvURMn3dfUXXkH8PSmdoA/pub?w=1440&h=1080)
 
-There are a few requirements. 
+2) A Technical Team
 
-1. The technical team members need to be skilled in the programming language R.
-2. Setting regional boundaries and spatial analysis requires access to GIS software (some of this can be done in R). 
+  The success of your OHI+ assessment process will depend on the effectiveness of your technical team. While every assessment will be done differently--it is always done according to local needs, resources, and priorities--we can provide guidance on the skills required within your team and how other assessments have structured their teams. Team sizes have ranged from two to ten people depending on the scope of the study and the qualifications/skills of the team, particularly the technical members. Whether members work full-time or part-time will also affect the time required to completed the assessment.
+
+  It is best to assemble a small core team of skilled, flexible people. Because OHI assessments combine knowledge from multiple disciplines, require developing models and setting reference points, and use innovative, evolving open-source tools, team members will likely be required to work outside of their direct expertise and technical ability and must feel comfortable and have the authority to do so. One approach that has worked well has been to assemble a core team that is very knowledgeable about the OHI framework and process, with specific members having backgrounds in marine science and tasked with information gathering and communication or with information processing and the Toolbox (or better yet, a combination of the two). This core team then engages additional ‘goal keepers’ that are experts in specific OHI goals to help develop the best models, access information, identify pressures and resilience measures, and set reference points, through in-person meetings, workshops, and remote communication.
+
+  There are a few requirements.
+
+  - The technical team members need to be skilled in the programming language R.
+  - Setting regional boundaries and spatial analysis requires access to GIS software (some of this can be done in R).
 
 The OHI team can offer in-kind support (scientific, managerial, and communications), but for local technical information and support, you will require dedicated specialists. <!---From FAQ, ECU workshop 2015--->
-
-Effective assessments are carefully planned and require adequate project leadership and vision. Due to the multidisciplinary nature of the Index, assessments often count with participation of various stakeholder groups. Nevertheless, we recommend a key agency or group assumes the leadership of the assessment to ensure proper planning, development, and engagement throughout the assessment.
 
 ### Data Requirements
 
@@ -66,17 +71,44 @@ Data required for pressures:
       - Fishing impacts
       - Climate change
       - Social pressures
-  - Governance indicators
+  - Social pressures
+    - Governance indicators
 
 Data required for resilience
-  - Ecological resilience
-  - Regulatory framework
-  - Ecological integrity
-  - Social resilience
-  - Social integrity
-  - Governance indicators
+- Ecological resilience
+    - Regulatory framework
+    - Ecological integrity
+    - Social resilience
+- Social integrity
+    - Governance indicators (policies, enforcement, effectiveness)
 
-## Planning and Partnering with Decision Makers 
+### Funding
+
+Independent assessments can be completed at varying costs depending on the local context. Most assessments up to date have been funded by the public sector. However, in some other cases foundations, research labs and academic institutions, and/or the private sector have provided the funding.
+
+#### Costs and Financial Planning
+
+Funds are needed for:
+- Human resources (**Technical Team**)
+- Workshops, trainings, meetings, stakeholder engagement, and travel
+- Research (data gathering, spatial and statistical analysis, model programming)
+- Outreach and communications (including publications)
+
+As the budget is developed, consideration should be given to the source of financing for the assessment. The budget should provide a detailed estimate of all the costs to complete objectives and activities. It might be helpful to separate the budget into the three Phases of the Index process. The budget should allow the satisfactorily completion of all the activities to accomplish the objectives. Given the scientific nature of the Index, engaging qualified human resources may be the highest cost involved in developing an assessment.
+
+It may take up to eighteen months to complete an assessment, therefore, creating a financing plan is recommended to determine how the expenses in the budget will be covered over time.
+
+It is important to understand tasks and commitments made under contract, including the disbursement time frame, financial reporting schedule, and possible renewal options. Also consider future finances for long-term objectives.
+
+When identifying funding sources, make sure the team understands the tasks needed to secure and maintain any contracts and/or grants awarded. As part of identifying roles and responsibilities in the step above, it will be important to choose a person or group who will be responsible for tracking and monitoring the finance plan (the Working Group could be in charge of this step).
+
+Depending on the local context fundraising can be an important challenge to overcome. Foundations, NGOs, research institutions, and/or the private sector could serve as donors. It might be beneficial to design the financing plan in a “modular” way, so that key pieces can be pulled out from the plan to respond to specific funding opportunities.
+
+> Note: it is difficult for us to provide exact figures on the cost of an assessment because the costs vary widely depending on the local context and the scope of the assessment. Assessments have ranged from ~US$250,000 to US$2 million.
+
+The OHI program does not offer funding for assessments. However, Conservation International may be able to support assessment activities through field programs. The OHI program offers significant in kind contribution to those doing assessments: we facilitate trainings and workshops and provide technical, managerial, and communications support. For more information about the OHI program and the team refer to the **About Us** page.
+
+## Collaborative Planning and Partnering with Decision Makers
 
 >"The Index offers a tool to engage stakeholders and decision-makers in difficult but necessary discussions, while also helping agencies fulfill their mandates" (Halpern *et al.* 2014)
 
@@ -94,7 +126,7 @@ The assessment process will require a dedicated and interested group of individu
 
 Stakeholder participation may vary greatly depending on the purpose of the assessment and the unique characteristics of the regions chosen for the study. Prior initiatives demonstrate that enduring success is more likely when stakeholders and communities are actively involved throughout the planning process.
 
-The process of implementing the tool will require scientists and leaders to make politically sensitive decisions across multiple social, political and economic dimensions. We recommend creating a Working Group of individuals who are able to commit important time to the processes, and have the authority necessary to represent their organizations. A Technical Working Group can support the calculation of the goal scores and esablish a scientific nature to ensure validity.
+The process of implementing the tool will require scientists and leaders to make politically sensitive decisions across multiple social, political and economic dimensions. We recommend creating a Working Group of individuals who are able to commit important time to the processes, and have the authority necessary to represent their organizations. A Technical Working Group can support the calculation of the goal scores and establish a scientific nature to ensure validity.
 
 Ensuring continuous transparency and participatory opportunities is essential to guaranteeing that the findings will be widely accepted and validated. Although a participatory process is highly encouraged, there should be a balance between stakeholder participation and keeping the process moving along a pre-established timeline. It is very important to create clear guidelines for participation, and assign specific roles and responsibilities to the team members directly involved in the process.
 
@@ -116,20 +148,24 @@ Participant stakeholders could include, but are not limited to, the following:
   - Tourism
   - Finance
   - Health
-
-
-- Agencies:
+  - Technical secretariats
+  - Maritime institutions
   - Ocean commission
-  - Water
+  - Water quality
   - Environmental protection
 
-**Non-Governmental Organizations, Civil Society, Private Sector:**
+**Non-Governmental Organizations, Civil Society, Private Sector, Resource Users:**
 
 - Coastal community leaders/associations
-- Fishing associations
+- Indigenous communities
+- Commercial and artisanal fishing associations
+- Mariculture producers
+- Resource extractors (traders, etc.)
+- Coastal developers
 - Tourism associations
-- Conservation non-governmental organizations (NGOs)
-- Ocean dependent industries (mariculture, ports, )
+- Environmental conservation and social non-governmental organizations (NGOs)
+- Ocean dependent industries (mariculture, ports, energy)
+- Chamber of commerce
 
 ### Conducting a Stakeholder Analysis
 
@@ -144,6 +180,8 @@ Below several resource you may wish to use to help you conduct your stakeholder 
 - [Overseas Development Institute](http://www.odi.org/publications/5257-stakeholder-analysis)
 
 Once you have conducted your stakeholder analysis, it might be useful to use a [stakeholder management](http://www.mindtools.com/pages/article/newPPM_08.htm) tool to help you prioritize your stakeholders as well as keep track of your communications with them.
+
+Once you have identified your key stakeholders, it is important to introduce the OHI+ framework through a lens that will promote buy-in. By referring back to your stakeholder analysis, you can create a strategy for approaching each stakeholder by finding which aspects of the benefits of running an assessment line up with each potential stakeholder's current efforts or motivations.
 
 ### Introducing the OHI+ Concept to Key Stakeholders
 
@@ -163,7 +201,11 @@ Below are examples of language and messaging that can be used to describe the in
 
 - In global assessments (Halpern et al. 2012, Halpern et al. 2015), scores are calculated for the exclusive economic zone (EEZ) of each coastal nation and territory (two hundred twenty one regions), and then combined by offshore-area-weighted average to produce scores for all EEZs globally (study area). The Index framework has also been adapted for regional assessments at smaller scales, where data and priorities can be at finer resolution and more in line with local management needs and policy priorities.
 
-## Considerations for Joint Planning
+### Using OHI to Support Environmental Peacebuilding
+
+Because the OHI framework integrates multiple goals that interact with one another, the framework lends itself to understand how resource users and stakeholders can work together to prevent conflict and foster sustainable use. This is consistent with the concept of **environmental peacebuilding**, which "integrates natural resource management in conflict prevention, mitigation, resolution, and recovery to build resilience in regions affected by conflict" (http://environmentalpeacebuilding.org). OHI assessments can help catalyze decision-making across multiple sectors in a way that explicitly evaluates the inherent trade-offs of management actions. In doing so, stakeholders can better identify the winners and losers of specific courses of action and design interventions that alleviate some of the undesired effects on specific groups or ocean benefits. Environmental peacebuilding is an effective mechanism used to prevent the "tragedy of the commons," where individuals puruing resource use in their best personal interest, results in the demise of the resource for all users in the long term. Therefore, sustainable natural resource management is far more likely when conflicts between resource users are adequately addressed and minimized.
+
+### Considerations for Joint Planning
 
 Collaborative assessment planning is an effective approach to ensuring that the assessment will be useful for decision-making. Strengthening scientist-decision maker partnerships creates opportunities for applying research findings to improve ocean health.
 
@@ -187,7 +229,44 @@ Collaborative assessment planning is an effective approach to ensuring that the 
 
 •	Allocate ~15% of the budget to science outreach and communications; travel, time, meeting costs, planning, production of materials
 
-### Establishing the Vision
+## Establishing Your Strategy: Guidelines for your assessment
+
+Your strategy should be a results-based planning document that details the results and objectives that will be achieved through the assessment and the specific activities, human resources, and funding needed to achieve them. Having an assessment strategy ensures that financial and human resources are used systematically and logically to accomplish the intended objectives.
+
+Those involved in developing the assessment should use a planning approach that is familiar and comfortable to them. All strategies should at a minimum answer these key questions regardless of the exact approach or timeline:
+
+* What do we want to achieve by developing an Index assessment?
+
+* Who will use the strategy, and for what purposes?
+
+* Who will be involved?
+
+*	When will the assessment be completed?
+
+*	What funding and support are available?
+
+Your strategy document should include key characteristics and priorities before gathering information. This requires an inventory of information and knowledge that spans disciplines, space and time, and can be a useful process for understanding the current policy, information and knowledge landscape. The strategy needs to simultaneously include broad ocean benefits and key characteristics reflecting social values and priorities specific to the context. These will extend beyond any single discipline or knowledge base and should be specified before information gathering begins. The developed strategy will provide the necessary structure to later identify, process and combine information. Explicitly drafting the strategy for the assessment so that it is in accordance with local priorities and perspectives makes the findings more useful for established needs. Doing this before assembling information is also critical because it can reduce potential bias, since an assessment framework built around the availability of known information may unduly skew the assessment and ultimately produce scores that misrepresent the assessment’s stated purpose.
+
+The assessment planning approach should be appropriate to the local context. It is important to carefully consider the physical, social, political, economic and environmental characteristics of the study area to develop a realistic and achievable plan. The process we recommend in this guide can be followed step by step, but it is better if it is adapted to local needs.
+
+It is important to create a detailed planning timeline, detailing specific deadlines and milestones to help organize and coordinate production.
+
+### Key Components of an Assessment Strategic Plan
+
+An effective Strategic Plan includes (but is not limited to) the following key components:
+
+- Purpose of your assessment
+- Introduction to the study area, background information, and justification for using OHI
+- Goals and objectives
+- List of resources needed to accomplish goals and objectives (human, physical, and financial)
+- Key stakeholders (refer to Stakeholder Analysis)
+- Identify potential constraints
+- Timeline of activities
+- Communications strategy
+- Linkages with decision-making
+- Establish accountable and responsible individuals/organizations for each objective/task
+
+#### Creating a Vision
 
 Producing the Index is not the end goal: It is merely a process toward the true end goal – achieving improved ocean health.
 
@@ -205,10 +284,10 @@ Establishing a vision is the first step, and will help identify outstanding impo
 
 * Is there a need for stronger multi sectorial collaboration for effective management?
 
-### Establish Your Objectives
+#### Establishing Objectives
 
-First, establish concrete objectives for the assessment process itself:
-- Engage stakeholders and create **Working group**
+You must first concrete objectives for the assessment process itself:
+  - Engage stakeholders and create **Working group**
 - Identify local characteristics, priorities, and determine the goals to assess
 - Define spatial regions for the assessments
 - Establish **Technical Team** that will conduct the assessment
@@ -222,7 +301,7 @@ First, establish concrete objectives for the assessment process itself:
 
 Second, create short and long-term objectives highlighting intentions for the findings and iterative activities for future assessments. This refere refers to specific measurable results for your assessment’s broad goals. The assessment objectives describe how much of what will be accomplished by when. The objectives should describe the future conditions after the problem has been addressed (think of the reference points), following a logical hierarchy, and illustrating their relationships with the final goal. In defining the objectives, you should also describe the intended strategies (the how) to reach the desired objectives. These strategies can range from the broad (stakeholder analysis) to the very specific (institutionalization of the Index).
 
-### Determining the Spatial Scale
+#### Determining the Spatial Scale
 
 It is important to remember that the scale of your assessment should match the scale of decision-making. Most assessments focus on political boundaries, since most agencies and organizations gather and report data at this spatial scale, however, assessments can be conducted at any spatial scale including transboundary areas and ecoregions.
 
@@ -240,28 +319,7 @@ These questions are important to keep the Index assessment relevant but ultimate
 
 There is no single criterion for identifying the scale of the study area since the Index can potentially be used at all scales using data, parameters, interests, and goals at the scale of the study.
 
-### Establishing Your Strategy
-
-Your strategy should be a results-based planning document that details the results and objectives that will be achieved through the assessment and the specific activities, human resources, and funding needed to achieve them.
-
-Having an assessment strategy ensures that financial and human resources are used systematically and logically to accomplish the intended objectives.
-
-Those involved in developing the assessment should use a planning approach that is familiar and comfortable to them. All strategies should at a minimum answer these key questions regardless of the exact approach or timeline:
-
-* What do we want to achieve by developing an Index assessment?
-
-* Who will use the strategy, and for what purposes?
-
-* Who will be involved?
-
-*	When will the assessment be completed?
-
-*	What funding and support are available?
-
-The assessment planning approach should be appropriate to the local context. It is important to carefully consider the physical, social, political, economic and environmental characteristics of the study area to develop a realistic and achievable plan. The process we recommend in this guide can be followed step by step, but it is better if it is adapted to local needs.
-
-It is important to create a detailed planning timeline, detailing specific deadlines and milestones to help organize and coordinate production.
-
+#### Resources
 Tools to help you develop these planning documents can be found at the following sites:
 
   - [Mind Tools](http://www.mindtools.com/pages/main/newMN_PPM.htm)
@@ -270,33 +328,16 @@ Tools to help you develop these planning documents can be found at the following
 
   - [Project Smart](http://www.projectsmart.co.uk/methods-tools.php)
 
-### **Costs and Financial Planning**
-
-Funds are needed for:
-- Human resources (**Technical Team**)
-- Workshops, trainings, meetings, stakeholder engagement, and travel
-- Research (data gathering, spatial and statistical analysis, model programming)
-- Outreach and communications (including publications)
-
-As the budget is developed, consideration should be given to the source of financing for the assessment. The budget should provide a detailed estimate of all the costs to complete objectives and activities. It might be helpful to separate the budget into the three Phases of the Index process. The budget should allow the satisfactorily completion of all the activities to accomplish the objectives. Given the scientific nature of the Index, engaging qualified human resources may be the highest cost involved in developing an assessment.
-
-It may take up to eighteen months to complete an assessment, therefore, creating a financing plan is recommended to determine how the expenses in the budget will be covered over time.
-
-It is important to understand tasks and commitments made under contract, including the disbursement time frame, financial reporting schedule, and possible renewal options. Also consider future finances for long-term objectives.
-
-When identifying funding sources, make sure the team understands the tasks needed to secure and maintain any contracts and/or grants awarded. As part of identifying roles and responsibilities in the step above, it will be important to choose a person or group who will be responsible for tracking and monitoring the finance plan (the Working Group could be in charge of this step).
-
-Depending on the local context fundraising can be an important challenge to overcome. Foundations, NGOs, research institutions, and/or the private sector could serve as donors. It might be beneficial to design the financing plan in a “modular” way, so that key pieces can be pulled out from the plan to respond to specific funding opportunities.
-
-> Note: it is difficult for us to provide exact figures on the cost of an assessment because the costs vary widely depending on the local context and the scope of the assessment. Assessments have ranged from ~US$250,000 to US$2 million.
+  - [World Bank Strategic Planning: A Ten Step Guide](http://siteresources.worldbank.org/INTAFRREGTOPTEIA/Resources/mosaica_10_steps.pdf)
 
 ### Adaptive Management
 
 > “If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both overall ocean health and particular goals” (Halpern *et al.* 2014).
 
-Findings will help inform decision-makers about management actions and policies. However, understanding the effect of management actions requires iterative studies. Therefore, we strongly recommend you plan on conducting repeated assessments in the future to continuously adapt management strategies. Future assessments may not require as much time or funding as the initial assessment, since the focus is to update data and reference points. For this reason, management plans must include a thorough mechanism to track any changes (i.e. data and indicator collection) related to the assessments activities.
+Findings will help inform decision-makers about management actions and policies. However, understanding the effect of management actions requires institutionalizing the tool as a decision-making support mechanism, in which assessments are conducted regularly. Therefore, we strongly recommend you plan on conducting repeated assessments in the future to continuously adapt management strategies. Future assessments may not require as much time or funding as the initial assessment, since the focus is to update data and reference points. For this reason, management plans must include a thorough mechanism to track any changes (i.e. data and indicator collection) related to the assessments activities.
+
+![](https://docs.google.com/drawings/d/1jeaRX5UuTxNt8R0TmRWxEuWXB1nh_uvW4hFnIloM5OU/pub?w=960&h=720)
 
 A repeatable process of Index assessments can help determine how well the management interventions are accomplishing the established targets. Through this process, the design, management, and monitoring of the project should be used to continually gather information on the effectiveness of its decision-making process. As information is gathered and assessed, it is possible to recommend policy and management reforms as needed, providing a flexible decision-making process that constantly improves. This will provide key information to decision-makers so they can adapt their management strategies over time, in a way that increasingly moves closer to the target.
 
 Continuous monitoring of the strategy will also help improve resource allocation, so the strategies remain cost-effective.
-
