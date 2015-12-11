@@ -1,7 +1,6 @@
 ## Monitor and Re-evaluate to Determine Policy Effectiveness and Set New Priorities
 
-If the Index were adopted as a management tool, recalculating scores
-regularly could reveal whether management actions had the intended effect on both
+If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both
 overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for the assessment.
 We also highlight the importance of ongoing and future monitoring that will provide robust data relevant to ocean health assessment.
 

@@ -10,6 +10,8 @@ Those involved in developing the assessment should use a planning approach that 
 
 * Who will be involved?
 
+* What national/local policies, mandates, or initiatives could OHI+ complement?
+
 *	When will the assessment be completed?
 
 *	What funding and support are available?

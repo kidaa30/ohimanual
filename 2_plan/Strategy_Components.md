@@ -4,7 +4,8 @@ An effective Strategic Plan includes (but is not limited to) the following key c
 
 - Purpose of your assessment
 - Introduction to the study area, background information, and justification for using OHI
-- Goals and objectives
+- Alignment of OHI with management needs, as well as existing policies and initiatives
+- General and specific objectives
 - List of resources needed to accomplish goals and objectives (human, physical, and financial)
 - Key stakeholders (refer to Stakeholder Analysis)
 - Identify potential constraints
