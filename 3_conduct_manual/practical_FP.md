@@ -87,6 +87,8 @@ that can be sustainably fished, and the information available will determine
 what type of modeling to take. There are many different modeling approaches, and
 most are based on either catch alone, or catch-per-unit-effort.
 
+> The Ocean Health Index relies on freely accessible, open-source data that is consistently updated over time. Here are two datasets used in the OHI-Global assessments, which could be also be useful for OHI+ assessments: Fisheries catch over time from the [Sea Around Us Project](http://www.seaaroundus.org) (seaaroundus.org) and Global fisheries landings over time from [FAO](http://www.fao.org/fishery/statistics/en) (fao.org/fishery/statistics/en).
+
 _If only catch data are available_, it is highly recommended to follow the
 approach in the _2013 global assessment_ (Halpern *et al.* 2015) rather than the
 2012 global assessment (Halpern *et al.* 2012). All global assessments use
