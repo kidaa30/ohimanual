@@ -20,9 +20,8 @@ title = 'The Ocean Health Index Assessment Manual'
 wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
-  'overall_guide.md',
+  # 'overall_guide.md',                              # incorporated into intro_assessment for website, but may format it as an intro page for pdf version
   'intro_assessment.md',                             # reviewed for 07/09 push
-  'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'defining_spatial.md',                             # reviewed for 07/09 push. TODO: new figs
   'assemble_inputs.md',                              # reviewed for 07/09 push
   'intro_to_tbx.md',                                 # reviewed for 07/09 push. TODO: see notes
@@ -41,6 +40,7 @@ in_md = c(
   'example_modifications_with_tbx.md',
   'update_webapp.md',                                # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
+  'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
   'intro_goalbygoal.md',                             # added on 07/15
   'practical_AO.md',                   # TODO: review and update
   'practical_BD.md',                   # TODO: review and update JSL ICO/LSP #476
