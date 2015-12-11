@@ -40,7 +40,6 @@ in_md = c(
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
   'update_webapp.md',                                # reviewed for 07/09 push
-  'R_tutes_all.md',                                  # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
   'intro_goalbygoal.md',                             # added on 07/15
   'practical_AO.md',                   # TODO: review and update
@@ -53,10 +52,11 @@ in_md = c(
   'practical_NP.md',
   'practical_TR.md',                                # TODO: review and update
   'practical_SP.md',
-  'pressures_resilience.md',                        # TODO: review and update JSL #148; add notes from BHI call Sept 1 'tempnotes_b_resilience.md' 
+  'pressures_resilience.md',                      
   'file_prep_instructions.md',
   'model_descript_instructions.md',
   'record_sheet.md',
+  'R_tutes_all.md',   
   'frequently_asked_questions.md')                   # TODO: review and update
 out_md = 'ohi-manual.md'
 
