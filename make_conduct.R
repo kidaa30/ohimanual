@@ -38,9 +38,9 @@ in_md = c(
   'use_tbx_to_remove_goal_models.md',
   'use_tbx_to_modify_goals_categories.md',
   'example_modifications_with_tbx.md',
-  'update_webapp.md',                                # reviewed for 07/09 push
   'toolbox_troubleshooting.md',                      # TODO: review and update
   'intro_webapp.md',                                 # reviewed for 07/09 push. TODO: interpreting a flower plot
+  'update_webapp.md',                                # reviewed for 07/09 push
   'intro_goalbygoal.md',                             # added on 07/15
   'practical_AO.md',                   # TODO: review and update
   'practical_BD.md',                   # TODO: review and update JSL ICO/LSP #476
