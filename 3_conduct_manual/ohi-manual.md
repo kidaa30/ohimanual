@@ -949,7 +949,7 @@ If the new or modified layer is a pressures layer, check that `pressures_matrix.
 
 ## Modifying pressures matrices
 
-Your team will identify if any pressures layers should be added to the pressures matrices, and if so, which goals the pressure affects and what weight they should have. You can transfer this information in `pressures_matrix.csv` (located in the `[assessment]/subcountry2014/conf` folder). It is important to note that the matrix identifies the pressures relevant to each goal, and which weight will be applied in the calculation. Each pressure is a data layer, located in the `subcountry2014/layers` folder. This means that pressure layers need information for each region in the study area, and some layers will need to be updated with local data. In modifying pressures, you will need to consider whether data layers can be updated or added, and whether data layers map onto goals appropriately in the local context.
+Your team will identify if any pressures layers should be added to the pressures matrices, and if so, which goals the pressure affects and what weight they should have (see Appendix 6 for guidance on Pressure and Resilience). You can transfer this information in `pressures_matrix.csv` (located in the `[assessment]/subcountry2014/conf` folder). It is important to note that the matrix identifies the pressures relevant to each goal, and which weight will be applied in the calculation. Each pressure is a data layer, located in the `subcountry2014/layers` folder. This means that pressure layers need information for each region in the study area, and some layers will need to be updated with local data. In modifying pressures, you will need to consider whether data layers can be updated or added, and whether data layers map onto goals appropriately in the local context.
 
 Adding a new pressure to the pressures matrix requires the following steps:
 
@@ -1103,13 +1103,14 @@ If the general resilience categories are relevant to the habitat, the next step 
 
 ## Modify goal models
 
-Before getting started on the R codes, make sure that you followed instructions on OHI Manual, starting from accessing github repositories, until modifying goal models, which means:  
- + install the latest versions of R, RStudio, and GitHub
- + Synchronize GitHub and Rstudio
- + Updated data layers, pressure, and resilience in both layers folder and layers.csv _(Link to a separate module on data layers preperation)_
+Before getting started on the R codes, make sure that you have finished these steps:
+
+ * Check that you have installed the latest versions of R, RStudio, and GitHub
+ * Synchronize GitHub and Rstudio
+ * Update data layers, pressure, and resilience in both layers folder and layers.csv
 
 ### Setup
-A few steps to take before modifying goal models. We will use CHN Carbon Storage goal as an example.
+Now you are ready to modify your goal models and calculate scores. Here are a few steps to set it up. We will use CHN Carbon Storage goal as an example:
 
 1. Open your project (eg. CHN) in RStudio, and open the folder of your specific assessment (eg. province2015).
 1. Run `install_ohicore.R`. _This only needs to be done once to load all the background functions for OHI._
@@ -1122,6 +1123,7 @@ Your repository is pre-loaded with r codes for calculations from the 2014 Global
 
 #### Load data
 1. Identify and select the data layers we need. _(Note that the layer names are what was set up in layers.csv. Now the toolbox will look for those layers)_
+
 ```
 lyrs = c('cs_condition',
            'cs_contribution',
@@ -1132,7 +1134,6 @@ lyrs = c('cs_condition',
   # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
 
   head(D); summary(D)
-
   ```
 
 It is good practice to use head() and summary() after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio `Environment` to see the entire dataset you just created. Here is what the _head_ and _summary_ look like:
@@ -1153,6 +1154,7 @@ It is good practice to use head() and summary() after each step to make sure the
 ```                                                                                                                                                       
 
 2. Combine all the data layers into one formatted data file. Select only the columns we need with _select_, change the row format to columns with _spread_, and change the column names to something easier to use with _rename_.
+
 ```
 rk = D %>%
     select(region_id = id_num,
@@ -1165,7 +1167,9 @@ rk = D %>%
                   extent       = cs_extent,
                   extent_trend = cs_extent_trend); head(rk)
 ```
+
 _This is what head(rk) looks like:_
+
 ```
     region_id     habitat contribution condition  extent extent_trend
             1 saltmarshes          1.0       0.8 1188600         -0.1
@@ -1173,6 +1177,7 @@ _This is what head(rk) looks like:_
             2 saltmarshes          1.0       0.8   81551         -0.1
 ...
 ```
+
 _Note: the %>% is a chain operator from dplyr used to simplify coding writing. To read more about it: http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html on chaining_
 
 <!-- narrative for video: we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
@@ -1180,20 +1185,23 @@ right now, the data are in rows, and we want to make each layer into a column (s
 now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. -->
 
 3. Select only the habitats that contribute to CS _(Not all habitats included in the raw data files are used for carbon storage)_. You can select specific rows with _filter_.
-`````r
+
+```
 rk = rk %>%
   filter(habitat %in% c('mangroves','saltmarshes','seagrasses'))
-`````
+```
 
 #### Status Calculation
-for easy reference, you can write down the equation as a comment before calculations.  
-`````r
+for easy reference, you can write down the equation as a comment before calculations.
+
+```
 ## status model calculations
  #  xCS = sum(ck           * Cc/Cr     * Ak) / At
  #      = sum(contribution * condition * extent_per_habitat) / total_extent_all_habitats
-`````
+```
 
-1. Calculations are done in steps with functions _mutate_, _group_by_, and _summarize_, which are among the main functions you would need in OHI. (Link to dplyr-intro)
+1. Calculate status for all reported years. Most frequently used functions are _mutate_, _group_by_, and _summarize_. To learn more, see Appendix 5.
+
 ```
 StatusData = rk %>%
     mutate(c_c_a = contribution * condition * extent) %>%  # mutate adds a new column
@@ -1205,18 +1213,20 @@ StatusData = rk %>%
            score = pmax(-1, pmin(1, xCS_calc)) * 100)     #score can't exceed 100
 ```
 
-2. Select only the results we need to report, and the dimension. Toolbox will need goal, dimension, region_id, and score, although they don't need to be listed in a certain order at this step.
-`````r
+2. Select only the status of the most recent year, and add a column for dimension "status". For final reporting, the toolbox will need four pieces of information: goal, region_id, dimension, and score, although they don't need to be listed in a certain order at this step.
+
+```
 status <-  StatusData %>%
    filter(year==status_year) %>%
    mutate(score     = round(Status*100),                # score is 0-100
           dimension = 'status') %>%
    select(region_id=rgn_id, dimension, score) %>%       # select the correct columns
    data.frame()
-`````
+```
 
 #### Trend Calculation
 For CS, a variable `extent-trend` has been prepared to calculate the trend:
+
 ```
 trend = rk %>%
   group_by(region_id) %>%
@@ -1260,6 +1270,10 @@ In the `preindex_fuction`, you could specify variables such as _status_year_ and
 ![Check the information in `goals.csv`. It provides input information for `functions.R`. ](https://docs.google.com/drawings/d/17BgYSw2sHbZvHNjUqBlTG-kCOAAn7o6a65O37s0S_es/pub?w=1052&h=719)
 
 ![A screenshot of `goals.csv`, used to modify goal model](https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&h=524)
+
+#### Calculate overall OHI Index Scores
+
+
 <!-- eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
 next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice.
 now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers.
@@ -1539,34 +1553,6 @@ Martell, S & Froese, R (2013) "A simple method for estimating MSY from catch and
 
 Rosenberg, A.A., Fogarty, M.J., Cooper, A.B., Dickey-Collas, M., Fulton, E.A., Gutiérrez, N.L., Hyde, K.J.W., Kleisner, K.M., Kristiansen, T., Longo, C., Minte-Vera, C., Minto, C., Mosqueira, I., Chato Osio, G., Ovando, D., Selig, E.R., Thorson, J.T. & Ye, Y. (2014) Developing new approaches to global stock status assessment and fishery production potential of the seas. *FAO Fisheries and Aquaculture Circular No. 1086*. Rome, FAO. 175 pp. [Downloadable here](http://www.fao.org/docrep/019/i3491e/i3491e.pdf)
 
-## Updating the WebApp's pages
-
-The WebApp displays input layers on several pages: on the App page, Layers page, and Scores page. These input layers are displayed from `layers.csv` and the layers within the `layers` folder and the scores are displayed from `scores.csv`. While the input layers and scores will be automatically displayed on the WebApp, there is other content on WebApps pages that can be edited by your team and displayed. You will likely spend the most time updating the equations displayed on the Goals page to be consistent with the updated methods you have used in your assessment.
-
-For the WebApp to display the pages properly, not everything on each page can be edited as it is written in a language to create the website. But it is possible to explore the files and update much of the text that is displayed while maintaining the required formatting. To do this, run `copy_webapps_templates.r` once, before further modifications on the WebApp contents. This actions creates a folder called `webapps_templates` and copies template files there.
-
-It is best to edit the files in RStudio: you will be able to view your work as it will be displayed on the WebApp by clicking the 'Preview HTML'.
-
-![](https://docs.google.com/drawings/d/1QUE7LkgyjXLKk63Bf4F6x-g3fHofZHLcRFXiExuQyFs/pub?w=576&h=288)
-
-### Regions
-
-You may have redefined the spatial boundaries of the regions used in your assessment, or you may want to update the information provided about them. This can be done with the file called `webapps_templates/regions.brew.md`.
-
-### Layers
-
-Most of the information displayed on the Layers page of the WebAppis taken from the `layers.csv`, and therefore to modify any information about specific data layers, you will need to modify the `layers.csv` file within the draft branch of your repository. However, you are able to edit the header text information at the top of the Layers page if you wish. This can be done with the file called `webapps_templates/layers.brew.md`.
-
-### Goals
-
-You will likely spend the most time modifying the information displayed on the Goals page, as these show and describe the models used in the assessment. Text can be modified with the file called `webapps_templates/goals.brew.md`.
-
-To edit the goal equations themselves, you will edit the `goals.Rmd` found in the `conf` folder (example: `ecu/subcountry2014/conf/goals.Rmd`. This is an Rmarkdown file, with equations written in LaTex. When rendered by RStudio or the WebApp, it displays nicely formatted. To update model equations, you will need to use the LaTex format. You can learn the syntax by studying how the equations from the global assessments are displayed, and from many resources online. One resource is https://en.wikibooks.org/wiki/LaTeX/Mathematics. Learn more about .Rmd formatting at http://shiny.rstudio.com/articles/rmarkdown.html.
-
-### Scores
-
-The scores displayed on the Scores page of the WebApp are the calculated scores from the `scores.csv` file in the draft branch, and therefore cannot be modified. However, you are able to edit the header text information at the top of the Scores page if you wish. This can be done with the file called `webapps_templates/scores.brew.md`.
-
 # Toolbox Troubleshooting
 
 The Toolbox prints messages during its processing to help guide error checking and debugging. Here are a few troubleshooting tips. This section will be updated frequently; please share any problems that you encounter.  
@@ -1790,6 +1776,34 @@ The App page also offers the ability to view different **branches** or **scenari
 > The App displays a *published* branch by default. It is recommended work on the *draft* branch until your assessment is finalized. When it is finalized, you can then merge the *draft* branch with the *published* branch.  
 
 These options for displaying and comparing information will be useful for understanding the multiple objectives in your OHI+ assessment.
+
+## Updating the WebApp's pages
+
+The WebApp displays input layers on several pages: on the App page, Layers page, and Scores page. These input layers are displayed from `layers.csv` and the layers within the `layers` folder and the scores are displayed from `scores.csv`. While the input layers and scores will be automatically displayed on the WebApp, there is other content on WebApps pages that can be edited by your team and displayed. You will likely spend the most time updating the equations displayed on the Goals page to be consistent with the updated methods you have used in your assessment.
+
+For the WebApp to display the pages properly, not everything on each page can be edited as it is written in a language to create the website. But it is possible to explore the files and update much of the text that is displayed while maintaining the required formatting. To do this, run `copy_webapps_templates.r` once, before further modifications on the WebApp contents. This actions creates a folder called `webapps_templates` and copies template files there.
+
+It is best to edit the files in RStudio: you will be able to view your work as it will be displayed on the WebApp by clicking the 'Preview HTML'.
+
+![](https://docs.google.com/drawings/d/1QUE7LkgyjXLKk63Bf4F6x-g3fHofZHLcRFXiExuQyFs/pub?w=576&h=288)
+
+### Regions
+
+You may have redefined the spatial boundaries of the regions used in your assessment, or you may want to update the information provided about them. This can be done with the file called `webapps_templates/regions.brew.md`.
+
+### Layers
+
+Most of the information displayed on the Layers page of the WebAppis taken from the `layers.csv`, and therefore to modify any information about specific data layers, you will need to modify the `layers.csv` file within the draft branch of your repository. However, you are able to edit the header text information at the top of the Layers page if you wish. This can be done with the file called `webapps_templates/layers.brew.md`.
+
+### Goals
+
+You will likely spend the most time modifying the information displayed on the Goals page, as these show and describe the models used in the assessment. Text can be modified with the file called `webapps_templates/goals.brew.md`.
+
+To edit the goal equations themselves, you will edit the `goals.Rmd` found in the `conf` folder (example: `ecu/subcountry2014/conf/goals.Rmd`. This is an Rmarkdown file, with equations written in LaTex. When rendered by RStudio or the WebApp, it displays nicely formatted. To update model equations, you will need to use the LaTex format. You can learn the syntax by studying how the equations from the global assessments are displayed, and from many resources online. One resource is https://en.wikibooks.org/wiki/LaTeX/Mathematics. Learn more about .Rmd formatting at http://shiny.rstudio.com/articles/rmarkdown.html.
+
+### Scores
+
+The scores displayed on the Scores page of the WebApp are the calculated scores from the `scores.csv` file in the draft branch, and therefore cannot be modified. However, you are able to edit the header text information at the top of the Scores page if you wish. This can be done with the file called `webapps_templates/scores.brew.md`.
 
 # Appendix 1: Developing Goal Models and Setting Reference Points
 

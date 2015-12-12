@@ -31,7 +31,6 @@ lyrs = c('cs_condition',
   # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
 
   head(D); summary(D)
-
   ```
 
 It is good practice to use head() and summary() after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio `Environment` to see the entire dataset you just created. Here is what the _head_ and _summary_ look like:
@@ -52,6 +51,7 @@ It is good practice to use head() and summary() after each step to make sure the
 ```                                                                                                                                                       
 
 2. Combine all the data layers into one formatted data file. Select only the columns we need with _select_, change the row format to columns with _spread_, and change the column names to something easier to use with _rename_.
+
 ```
 rk = D %>%
     select(region_id = id_num,
