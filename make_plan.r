@@ -1,14 +1,9 @@
 ## make_plan.r 
 ## this script will stitch or 'knit' together all the individual .md files and push online to ohi-science.org.
 
-## load libraries ----
-library(knitr) # install.packages("knitr")
-library(rmarkdown)
-library(stringr)
-# Also required if you get the pdflatex error: www.tug.org/mactex
-
 ## setup ----
 source('~/github/ohimanual/make_functions.r') # rendering functions for OHI
+# also required if you get the pdflatex error: www.tug.org/mactex
 
 title_header = 'The Ocean Health Index Plan Phase'
 title_short  = 'Plan'
