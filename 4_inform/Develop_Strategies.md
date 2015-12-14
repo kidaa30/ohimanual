@@ -1,6 +1,12 @@
-## Develop and Implement Policies and Management Interventions that Respond to the Priorities
+## Develop Strategies: Implement Policies and Management Interventions that Respond to the Priorities
 
 A well-designed and executed Ocean Health Index assessment should provide important information to stakeholders and decision-makers. In most cases the assessment findings can be used to identify geographic priorities among the regions assessed and sectorial priorities, both within the regions and for the entire study area. The technical team who conducted the assessment should work in collaboration with decision-makers to assess several management scenarios to determine how the Index can be used to identify cost-effective interventions, and to understand the tradeoffs among goals and the consequences for overall ocean health.
+
+You should consider involving stakeholders to develop and implement an **action plan**. Much like you planned for your assessment, you must now plan for the actions and policies you will enact to reduce pressures and increase resilience, the two possible pathways to improving ocean health and thus moving closer towards your targets.
+
+#### Resources
+- [Conservation Gateway: Conservation Action Planning](https://www.conservationgateway.org/Documents/CAP_2pg_Description.pdf)
+- [Conservation Action Planning Handbook](https://www.conservationgateway.org/Documents/Cap%20Handbook_June2007.pdf)
 
 ### Lessons learned from U.S. West Coast Assessment:
 

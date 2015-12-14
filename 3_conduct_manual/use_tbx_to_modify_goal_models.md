@@ -1,12 +1,13 @@
 ## Modify goal models
 
-Before getting started on the R codes, make sure that you followed instructions on OHI Manual, starting from accessing github repositories, until modifying goal models, which means:  
- + install the latest versions of R, RStudio, and GitHub
- + Synchronize GitHub and Rstudio
- + Updated data layers, pressure, and resilience in both layers folder and layers.csv _(Link to a separate module on data layers preperation)_
+Before getting started on the R codes, make sure that you have finished these steps:
+
+ * Check that you have installed the latest versions of R, RStudio, and GitHub
+ * Synchronize GitHub and Rstudio
+ * Update data layers, pressure, and resilience in both layers folder and layers.csv
 
 ### Setup
-A few steps to take before modifying goal models. We will use CHN Carbon Storage goal as an example.
+Now you are ready to modify your goal models and calculate scores. Here are a few steps to set it up. We will use CHN Carbon Storage goal as an example:
 
 1. Open your project (eg. CHN) in RStudio, and open the folder of your specific assessment (eg. province2015).
 1. Run `install_ohicore.R`. _This only needs to be done once to load all the background functions for OHI._
@@ -19,6 +20,7 @@ Your repository is pre-loaded with r codes for calculations from the 2014 Global
 
 #### Load data
 1. Identify and select the data layers we need. _(Note that the layer names are what was set up in layers.csv. Now the toolbox will look for those layers)_
+
 ```
 lyrs = c('cs_condition',
            'cs_contribution',
@@ -29,7 +31,6 @@ lyrs = c('cs_condition',
   # SelectLayersData is an `ohicore` function that will call the layers from layers folder you just named
 
   head(D); summary(D)
-
   ```
 
 It is good practice to use head() and summary() after each step to make sure the data looks the way it is supposed to. Alternatively, you can click the file name in Rstudio `Environment` to see the entire dataset you just created. Here is what the _head_ and _summary_ look like:
@@ -50,6 +51,7 @@ It is good practice to use head() and summary() after each step to make sure the
 ```                                                                                                                                                       
 
 2. Combine all the data layers into one formatted data file. Select only the columns we need with _select_, change the row format to columns with _spread_, and change the column names to something easier to use with _rename_.
+
 ```
 rk = D %>%
     select(region_id = id_num,
@@ -62,7 +64,9 @@ rk = D %>%
                   extent       = cs_extent,
                   extent_trend = cs_extent_trend); head(rk)
 ```
+
 _This is what head(rk) looks like:_
+
 ```
     region_id     habitat contribution condition  extent extent_trend
             1 saltmarshes          1.0       0.8 1188600         -0.1
@@ -70,6 +74,7 @@ _This is what head(rk) looks like:_
             2 saltmarshes          1.0       0.8   81551         -0.1
 ...
 ```
+
 _Note: the %>% is a chain operator from dplyr used to simplify coding writing. To read more about it: http://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html on chaining_
 
 <!-- narrative for video: we select only the columns we need: the province id, layer, habitat, and values. note that those names have been written differently in github than the original data file, as shown in the summary (point to summary). we’ll change the names to something we can easily recognize. and we can do so in the select command (region_id to id_num, etc)
@@ -77,20 +82,23 @@ right now, the data are in rows, and we want to make each layer into a column (s
 now the data is in a nice and clean format in one table, we can do the status calculation. The model is written out according to the data description file. -->
 
 3. Select only the habitats that contribute to CS _(Not all habitats included in the raw data files are used for carbon storage)_. You can select specific rows with _filter_.
-`````r
+
+```
 rk = rk %>%
   filter(habitat %in% c('mangroves','saltmarshes','seagrasses'))
-`````
+```
 
 #### Status Calculation
-for easy reference, you can write down the equation as a comment before calculations.  
-`````r
+for easy reference, you can write down the equation as a comment before calculations.
+
+```
 ## status model calculations
  #  xCS = sum(ck           * Cc/Cr     * Ak) / At
  #      = sum(contribution * condition * extent_per_habitat) / total_extent_all_habitats
-`````
+```
 
-1. Calculations are done in steps with functions _mutate_, _group_by_, and _summarize_, which are among the main functions you would need in OHI. (Link to dplyr-intro)
+1. Calculate status for all reported years. Most frequently used functions are _mutate_, _group_by_, and _summarize_. To learn more, see Appendix 5.
+
 ```
 StatusData = rk %>%
     mutate(c_c_a = contribution * condition * extent) %>%  # mutate adds a new column
@@ -102,18 +110,20 @@ StatusData = rk %>%
            score = pmax(-1, pmin(1, xCS_calc)) * 100)     #score can't exceed 100
 ```
 
-2. Select only the results we need to report, and the dimension. Toolbox will need goal, dimension, region_id, and score, although they don't need to be listed in a certain order at this step.
-`````r
+2. Select only the status of the most recent year, and add a column for dimension "status". For final reporting, the toolbox will need four pieces of information: goal, region_id, dimension, and score, although they don't need to be listed in a certain order at this step.
+
+```
 status <-  StatusData %>%
    filter(year==status_year) %>%
    mutate(score     = round(Status*100),                # score is 0-100
           dimension = 'status') %>%
    select(region_id=rgn_id, dimension, score) %>%       # select the correct columns
    data.frame()
-`````
+```
 
 #### Trend Calculation
 For CS, a variable `extent-trend` has been prepared to calculate the trend:
+
 ```
 trend = rk %>%
   group_by(region_id) %>%
@@ -157,6 +167,10 @@ In the `preindex_fuction`, you could specify variables such as _status_year_ and
 ![Check the information in `goals.csv`. It provides input information for `functions.R`. ](https://docs.google.com/drawings/d/17BgYSw2sHbZvHNjUqBlTG-kCOAAn7o6a65O37s0S_es/pub?w=1052&h=719)
 
 ![A screenshot of `goals.csv`, used to modify goal model](https://docs.google.com/drawings/d/1o2wtJ9KCPDyGPH9Y4unmALG6BlxX9lmJ_PakDDiQrLo/pub?w=700&h=524)
+
+#### Calculate overall OHI Index Scores
+
+
 <!-- eventually we want a score for each region. to do so, we group the data by region, with group_by, by rgn_id (show new data table grouped by region)
 next we calculate the sum of extent*condition*contribution in each region, and the sum of all extents. we use summarize this time, which adds a new column automatically, and aggregate different habitats in each region into one combined score. note that summarize acts based on the group_by command we just did. then we ungroup before the next command, which is always a good practice.
 now we have calculated the sum of extent*condition*contribution, and the sum of extents (point to the model equation), we can calculate the final score for each region. again, to add a new column, we use mutate. since the score can’t exceed 100, we’ll use the function min(1, xCS_calc), which takes the minimum of the two numbers.
