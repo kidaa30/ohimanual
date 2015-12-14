@@ -1,15 +1,16 @@
 ---
 output: html_document
 ---
-# Introduction
 
 In this manual, you will find all the essential information on how to complete your own independent OHI assessment. The manual should be used by _goal keepers_ (ie. experts of specific goals tasked with gathering data and developing goal models), and the _toolbox master_ (ie. technical expert(s) responsible for calculating the scores using the toolbox).  
 
-The first four sections will be helpful for all participants, especially the goal keepers. It contains information on the Ocean Health Index philosophy, what to expect when conducting and independent OHI+ assessment, best practices, and an introduction to the toolbox. Details on goal model development and Pressure and Resilience are housed separately in Appendix 1 of the manual, which includes the meaning of the goal, data selection, reference point, ideal approach, practical guidance, and examples. Appendix 2 and 3 provides guidelines on how to report data layers and model descriptions to the toolbox master(s).
+The first four sections will be helpful for all participants, especially the goal keepers. It contains information on the Ocean Health Index philosophy, what to expect when conducting and independent OHI+ assessment, best practices, and an introduction to the toolbox. Details on goal model development and Pressure and Resilience are housed separately in Appendix 1, which includes the meaning of the goal, reference point, ideal approach, practical guidance, and examples. Appendix 2 and 3 provides guidelines on how to report data layers and model descriptions to the toolbox master(s).
 
-The remaining sections, which focuses on technical guidance on how to use the toolbox and troubleshoot, will be most useful to the toolbox master. Appendix 4 provides an example of a record-keeping spreadsheet which will be helpful to track progress. Appendix 5 includes tutorials on frequently used R commands in the toolbox.
+The remaining sections, which focuses on technical guidance on how to use the toolbox and troubleshoot, will be most useful to the toolbox master. Appendix 4 provides an example of a record-keeping spreadsheet which will be helpful for tracking progress. Appendix 5 includes tutorials on frequently used R commands in the toolbox.
 
 Conceptual and technical Frequently Asked Questions are included in the Appendix 6.
+
+# Introduction
 
 ## Where you are in the OHI+ process
 
