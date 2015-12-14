@@ -3,13 +3,13 @@ output: html_document
 ---
 # Introduction
 
-> This manual will guide you through conducting an OHI+ assessment. An OHI+ assessment involves incorporating information from your study area into goal models to calculate Ocean Health Index (OHI) scores using the OHI Toolbox software and displaying information on an WebApp. The key conceptual and technical information are provided here.
+> This manual will guide you through the conceptual and technical steps of conducting an OHI+ assessment. An OHI+ assessment involves incorporating information from your study area into goal models to calculate Ocean Health Index (OHI) scores using the OHI Toolbox software and displaying information on an WebApp.
 
 ## Where you are in the OHI+ process
 
 > At this stage, you should have **Learned** and **Planned** for your assessment, and are now ready to **Conduct** it.
 
-**Here you will learn how to conduct an independent Ocean Health Index+ (OHI+) assessment.** The OHI+ process consists of four phases. In the first phase, you **learned** about the OHI to understand the philosophy behind the goals and the motivation for conducting a study. In the second phase, you actively **planned** to conduct your OHI+ assessment. Now you will actively **conduct** the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the **OHI Toolbox** and related software to produce the final results. This is where the science of data discovery and goal model development comes in. In the final phase, you will **communicate** the findings and results of your assessment with others.
+The OHI+ process consists of four phases. In the first phase, you **learned** about the OHI to understand the philosophy behind the goals and the motivation for conducting a study. In the second phase, you actively **planned** to conduct your OHI+ assessment. Now you will actively **conduct** the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the **OHI Toolbox** and related software to produce the final results. This is where the science of data discovery and goal model development comes in. In the final phase, you will **communicate** the findings and results of your assessment with others.
 
 <p align="center">![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=432)
 
@@ -49,7 +49,7 @@ How long does an assessment take? Past assessments have taken between two and th
 * **Fiji**
   - Selig et al. (2015) Measuring indicators of ocean health for an island nation: The Ocean Health Index for Fiji. *Ecosystem Services*
 
-Additionally, several OHI+ assessments have been completed. As information is available about those assessments they will be posted on http://ohi-science.org.
+Additionally, several OHI+ assessments have been completed. As information becomes available about those assessments they will be posted on http://ohi-science.org.
 
 > TIP: The OHI+ development team is prepared to provide guidance for assessments.  -->
 
