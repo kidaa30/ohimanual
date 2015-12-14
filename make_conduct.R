@@ -16,7 +16,8 @@ redo_website = T # T if push to ohi-science.org/manual; F if do not push. Displa
 #                     '~/github/ohimanual/README.md', overwrite=T))
 
 # set variables ----
-title = 'The Ocean Health Index Conduct Phase: Assessment Manual'
+title_header = 'The Ocean Health Index Conduct Phase: Assessment Manual'
+title_short  = 'Manual'
 wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
@@ -81,7 +82,7 @@ cat_md = function(
 
   if (file.exists(out_md)) unlink(out_md)
 
-  cat('---\n', 'title: ', title, '\n---\n\n', sep='', file=out_md, append=T)
+  cat('---\n', 'title: ', title_header, '\n---\n\n', sep='', file=out_md, append=T)
 
   for (md in files_md){
     cat(paste(c(readLines(md),'',''), collapse='\n'), file=out_md, append=T)
