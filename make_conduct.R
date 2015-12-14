@@ -16,7 +16,7 @@ redo_website = T # T if push to ohi-science.org/manual; F if do not push. Displa
 #                     '~/github/ohimanual/README.md', overwrite=T))
 
 # set variables ----
-title = 'The Ocean Health Index Assessment Manual'
+title = 'The Ocean Health Index Conduct Phase: Assessment Manual'
 wd = '~/github/ohimanual/3_conduct_manual'
 
 in_md = c(
@@ -122,7 +122,7 @@ cat(sprintf('---
 layout: manual
 title : Manual
 tagline: %s
-header : The Ocean Health Index Assessment Manual
+header : The Ocean Health Index Conduct Phase: Assessment Manual
 ---
 {%s include JB/setup %s}
 ', format(Sys.time(), "%d %B %Y"), '%', '%'), file='~/github/ohi-science.github.io/manual/index.html')
