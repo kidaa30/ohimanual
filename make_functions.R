@@ -44,7 +44,7 @@ ohi_pdf = function(out_md) {
 
 
 # render html for OHI and push to ohi-science.org
-ohi_html = function(out_md) { 
+ohi_html = function(out_md, title_header, title_short) { 
   render(
     out_md,
     html_document(
