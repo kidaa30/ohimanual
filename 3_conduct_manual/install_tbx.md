@@ -8,10 +8,10 @@ Your assessment repository is located at *github.com/OHI-Science* and we recomme
 
 This section explains the GitHub workflow and how to access and setup required software. You can use GitHub to upload any modifications you make so that you can work collaboratively with your team.  
 
-**Required software:**
+**Required:**
 
-1. **Github App**
-2. ** *git* **
+1. **GitHub**
+2. **git**
 3. **R**
 4. **RStudio**
 
@@ -19,7 +19,7 @@ This section explains the GitHub workflow and how to access and setup required s
 
 ## GitHub
 
-**GitHub** is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It is possible to revert back to any previous version, which is incredibly useful to not only to document what work has been done, but how it differs from work done in the past, and who is responsible for the changes.  
+**GitHub**, together with the version control system **git**, is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It is possible to revert back to any previous version, which is incredibly useful to not only to document what work has been done, but how it differs from work done in the past, and who is responsible for the changes.  
 
 **GitHub Vocabulary:**
 
@@ -32,6 +32,6 @@ This section explains the GitHub workflow and how to access and setup required s
 ### Learning GitHub
 The following section describes how to use GitHub to access and sync your assessment repository. There are also many great resources available online with more in-depth information:
 
-* [**Git and GitHub**](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham: http://r-pkgs.had.co.nz/git.html
+* [**Git and GitHub**](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham: r-pkgs.had.co.nz/git.html
 * [**Collaboration and Time Travel: Version Control with Git, GitHub and RStudio**](http://www.rstudio.com/resources/webinars/) video tutorial by Hadley Wickham: www.rstudio.com/resources/webinars
-* [**Good Resources for Learning Git and GitHub**](https://help.github.com/articles/good-resources-for-learning-git-and-github/) by GitHub: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+* [**Good Resources for Learning Git and GitHub**](https://help.github.com/articles/good-resources-for-learning-git-and-github/) by GitHub: help.github.com/articles/good-resources-for-learning-git-and-github/
