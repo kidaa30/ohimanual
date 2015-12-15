@@ -34,18 +34,18 @@ ohi_pdf = function(out_md) {
     output_file = paste0(pfx, '.pdf'))
 }
 
-# render html for OHI ---- --> JSL note: I think we can delete: I can't think of a reason to make the .html separately in addition to formatted specifically for the website. 
-# ohi_html = function(out_md) {
-#   render(
-#     out_md,
-#     html_document(
-#       number_sections=T, fig_width = 3, fig_height = 2, fig_retina = 2, fig_caption = T, smart=T,
-#       self_contained=F, theme='default',
-#       highlight='default', mathjax='default', template='default',
-#       toc=T, toc_depth=3),
-#     clean=T, quiet=F,
-#     output_file = paste0(pfx, '.html'))
-# }
+# render html for OHI in local ohimanual repo---- 
+ohi_html_local = function(out_md) {
+  render(
+    out_md,
+    html_document(
+      number_sections=T, fig_width = 3, fig_height = 2, fig_retina = 2, fig_caption = T, smart=T,
+      self_contained=F, theme='default',
+      highlight='default', mathjax='default', template='default',
+      toc=T, toc_depth=3),
+    clean=T, quiet=F,
+    output_file = paste0(pfx, '.html'))
+}
 
 
 # render html for OHI and push to ohi-science.org

@@ -33,8 +33,11 @@ pfx = tools::file_path_sans_ext(out_md)
 # render pdf ----
 ohi_pdf(out_md)
 
+# render html to local ohimanual repo ----
+ohi_html_local(out_md)
+
 # render html to ohi-science.org website ----
-ohi_html(out_md)
+ohi_html(out_md, title_header, title_short)
 
 
 
