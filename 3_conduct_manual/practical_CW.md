@@ -36,7 +36,7 @@ For each contamination category, a reference point is set and all data in this c
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|

@@ -213,7 +213,7 @@ produced have credibility.
 
 #### Examples of the Approach
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
