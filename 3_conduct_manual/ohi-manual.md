@@ -2122,7 +2122,7 @@ For each contamination category, a reference point is set and all data in this c
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -2348,7 +2348,7 @@ produced have credibility.
 
 #### Examples of the Approach
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
@@ -2722,7 +2722,7 @@ After identifying the list of iconic species, you need to find a matrix to refle
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -2754,7 +2754,7 @@ Data sources should be specific to your region. International databases, like th
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
