@@ -142,9 +142,11 @@ that occur when a predator population is reduced.
 
 <!-- The contents below will probably change when Mel writes the report on FIS Model -->
 
-###### *A note about methods used in the fisheries goal*
+##### *A note about methods used in the fisheries goal*
 
-<p style="font-size: 90%; color:grey;"> Since Global 2012, several new data-poor approaches have been developed to
+<p style="font-size: 90%">
+
+Since Global 2012, several new data-poor approaches have been developed to
 assess fisheries that leverage globally-available information (Costello *et
 al*., 2012; Martell & Frœse, 2013; Thorson *et al*., 2013).  The estimates of
 B/B<sub>MSY</sub> used in Global 2013 were obtained by applying a model
@@ -152,7 +154,7 @@ developed by Martell & Frœse, (2013), and referred to as the “catch-MSY” me
 This approach adopts the population biomass at MSY (B<sub>MSY</sub>) as a
 single-species reference point.</p>
 
-<p style="font-size: 90%; color:grey"> The catch-MSY approach improves upon the method used in Global 2012 in that it
+<p style="font-size: 90%"> The catch-MSY approach improves upon the method used in Global 2012 in that it
 leverages a mechanistic understanding of the connection between harvest dynamics
 and population dynamics and uses this to infer stock depletion levels as a
 function of both historical patterns in catch and of species-specific resilience
@@ -161,7 +163,7 @@ the case of developing fisheries, whereas the Global 2012 approach assumed a
 perfect score in cases where a peak with successive decline had yet to be
 observed.</p>
 
-<p style="font-size: 90%;color:grey"> Although it is a data-poor method, the more complex approach better takes into
+<p style="font-size: 90%"> Although it is a data-poor method, the more complex approach better takes into
 account species-specific fishery dynamics. The scores for each population were
 also combined using a geometric mean, which ensures that smaller, rarer
 populations have more weight so that the biodiversity of the catch is taken into
@@ -211,12 +213,15 @@ produced have credibility.
 
 #### Examples of the Approach
 
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
 **Global 2012** | The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species.| The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/B<sub>MSY</sub> is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/B<sub>MSY</sub> is within 0.5 points of 1.  | The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.
 **Global 2013** | The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean. | The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest. | The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.
 **Brazil (2014)** | The status was calculated in the same manner as Global 2012, with a modified sustainability term. | As in Global 2012, the reference point is based on an estimate mMSY. | This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.
 **U.S. West Coast (2014)** | The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors. |  The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks. | This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello *et al.* 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.
+</span>
 
 #### Mariculture sub-goal
 
@@ -302,6 +307,9 @@ large part of the year) or logistical reasons (e.g., scarcely inhabited), such
 as Canada, to be unduly penalized.--->
 
 ##### Examples of the Approach
+
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
 **Global 2012** | Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008). | The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China. | Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.
@@ -309,3 +317,4 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area. |  Reference points were set for each species. | In this study it was possible to use both biophysical constraints and social preferences.
 **U.S. West Coast (2014)** | The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region. | The reference point was a target level of production increase as proposed by NOAA | The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.
 **China (2015)** | Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.| The spatial reference point was the region with the highest value. | Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Maricutlure Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.
+</span>
