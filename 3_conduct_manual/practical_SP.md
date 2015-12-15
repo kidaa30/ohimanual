@@ -26,7 +26,7 @@ After identifying the list of iconic species, you need to find a matrix to refle
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
@@ -58,7 +58,7 @@ Data sources should be specific to your region. International databases, like th
 
 **_Examples of the Approach_**
 
-<span style="font-size=0.9em">
+<span style="font-size:0.9em">
 
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
