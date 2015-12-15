@@ -1,6 +1,5 @@
 ---
-title: "The Ocean Health Index Planning Phase"
-output: pdf_document
+title: The Ocean Health Index Planning Phase
 ---
 
 ## Understand the Requirements for Conducting an OHI Assessment
@@ -20,7 +19,7 @@ The availability of local data is perhaps the single most important requirement 
 
 Index scores are a reflection of data quality, and thus, accessing the best data available is of the highest importance. Data from existing environmental, social, and economic indicators may be used. All data will be rescaled to specific reference points (targets) before being combined therefore setting these reference points at the appropriate scale is a fundamental component of any assessment. This requires the interpretation of the philosophy of each Index goal and sub-goal using the best available data and indicators. For your reference, you may look at a list of the data layers used in the 2014 Global Assessment for Ecuador at http://ohi-science.org/ecu/layers/
 
-### Team Structure
+## Team Structure
 
 The Team Structure will largely depend on the goal of conducting an assessment, thus there is no single "right" team requirements for developing an OHI+ assessment. Academic led assessments (such as those led by research labs or for a Ph.D thesis) tend to have fewer people involved. However, most assessments to date have management and/or policy goals, and therefore, have wider stakeholder involvement. Effective assessments are carefully planned and require adequate project leadership and vision. Due to the multidisciplinary nature of the Index, assessments often count with participation of various stakeholder groups. Nevertheless, we recommend a key agency or group assumes the leadership of the assessment to ensure proper planning, development, and engagement throughout the assessment.
 
@@ -181,8 +180,6 @@ Below several resource you may wish to use to help you conduct your stakeholder 
 
 Once you have conducted your stakeholder analysis, it might be useful to use a [stakeholder management](http://www.mindtools.com/pages/article/newPPM_08.htm) tool to help you prioritize your stakeholders as well as keep track of your communications with them.
 
-Once you have identified your key stakeholders, it is important to introduce the OHI+ framework through a lens that will promote buy-in. By referring back to your stakeholder analysis, you can create a strategy for approaching each stakeholder by finding which aspects of the benefits of running an assessment line up with each potential stakeholder's current efforts or motivations.
-
 ### Introducing the OHI+ Concept to Key Stakeholders
 
 Once you have identified your key stakeholders, it is important to introduce the OHI+ framework through a lens that will promote buy-in. By referring back to your stakeholder analysis, you can create a strategy for approaching each stakeholder by finding which aspects of the benefits of running an assessment line up with each potential stakeholder's current efforts or motivations.
@@ -241,6 +238,8 @@ Those involved in developing the assessment should use a planning approach that 
 
 * Who will be involved?
 
+* What national/local policies, mandates, or initiatives could OHI+ complement?
+
 *	When will the assessment be completed?
 
 *	What funding and support are available?
@@ -257,7 +256,8 @@ An effective Strategic Plan includes (but is not limited to) the following key c
 
 - Purpose of your assessment
 - Introduction to the study area, background information, and justification for using OHI
-- Goals and objectives
+- Alignment of OHI with management needs, as well as existing policies and initiatives
+- General and specific objectives
 - List of resources needed to accomplish goals and objectives (human, physical, and financial)
 - Key stakeholders (refer to Stakeholder Analysis)
 - Identify potential constraints
@@ -266,7 +266,7 @@ An effective Strategic Plan includes (but is not limited to) the following key c
 - Linkages with decision-making
 - Establish accountable and responsible individuals/organizations for each objective/task
 
-#### Creating a Vision
+#### Creating a Vision: What's the purpose of the assessment?
 
 Producing the Index is not the end goal: It is merely a process toward the true end goal – achieving improved ocean health.
 
@@ -287,7 +287,7 @@ Establishing a vision is the first step, and will help identify outstanding impo
 #### Establishing Objectives
 
 You must first concrete objectives for the assessment process itself:
-  - Engage stakeholders and create **Working group**
+- Engage stakeholders and create **Working group**
 - Identify local characteristics, priorities, and determine the goals to assess
 - Define spatial regions for the assessments
 - Establish **Technical Team** that will conduct the assessment
@@ -341,3 +341,4 @@ Findings will help inform decision-makers about management actions and policies.
 A repeatable process of Index assessments can help determine how well the management interventions are accomplishing the established targets. Through this process, the design, management, and monitoring of the project should be used to continually gather information on the effectiveness of its decision-making process. As information is gathered and assessed, it is possible to recommend policy and management reforms as needed, providing a flexible decision-making process that constantly improves. This will provide key information to decision-makers so they can adapt their management strategies over time, in a way that increasingly moves closer to the target.
 
 Continuous monitoring of the strategy will also help improve resource allocation, so the strategies remain cost-effective.
+

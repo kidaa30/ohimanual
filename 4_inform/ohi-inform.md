@@ -1,8 +1,8 @@
 ---
-title: The Ocean Health Index: Inform Phase
+title: The Ocean Health Index Inform Phase
 ---
 
-## Outreach and Communications
+## Outreach and Communications Strategy
 
 It is important to have a clear communications strategy for how you will communicate the results of your assessment to your various audiences. You will want to tailor your message and platform to your various audiences, choosing the tools that will best suit your objective or call to action for each group. In order to do this, it is helpful to revisit your stakeholders analysis and identify key messages and recommendations that are relevant to relevant to each group.
 
@@ -10,11 +10,9 @@ In terms of influencing policy change, in addition to highlighting key findings 
 
 Keeping this in mind, you must then develop your communications and outreach strategy.
 
-### Communications and Outreach Strategy
-
 Your strategy will consist of both the creation of materials to communicate the findings of the assessment as well as an outreach plan that details how you will position yourself with your various audiences to gain leverage.
 
-**Communications Strategy**
+### Communications Strategy
 
 The following materials will be needed to influence decision making:
 
@@ -26,7 +24,7 @@ The following materials will be needed to influence decision making:
 
  -	Fact-sheets & printed materials
 
-**Outreach Strategy**
+### Outreach Strategy**
 
 Examples of how to increase your presence include:
 
@@ -85,9 +83,15 @@ Scores can then be visualized to communicate the results to stakeholders. For ex
 
 Clear communication and transparency of the process are fundamental to the Ocean Health Index overall.
 
-## Develop and Implement Policies and Management Interventions that Respond to the Priorities
+## Develop Strategies: Implement Policies and Management Interventions that Respond to the Priorities
 
 A well-designed and executed Ocean Health Index assessment should provide important information to stakeholders and decision-makers. In most cases the assessment findings can be used to identify geographic priorities among the regions assessed and sectorial priorities, both within the regions and for the entire study area. The technical team who conducted the assessment should work in collaboration with decision-makers to assess several management scenarios to determine how the Index can be used to identify cost-effective interventions, and to understand the tradeoffs among goals and the consequences for overall ocean health.
+
+You should consider involving stakeholders to develop and implement an **action plan**. Much like you planned for your assessment, you must now plan for the actions and policies you will enact to reduce pressures and increase resilience, the two possible pathways to improving ocean health and thus moving closer towards your targets.
+
+#### Resources
+- [Conservation Gateway: Conservation Action Planning](https://www.conservationgateway.org/Documents/CAP_2pg_Description.pdf)
+- [Conservation Action Planning Handbook](https://www.conservationgateway.org/Documents/Cap%20Handbook_June2007.pdf)
 
 ### Lessons learned from U.S. West Coast Assessment:
 
@@ -99,8 +103,7 @@ As you consider courses of management and policy action, it might be also benefi
 
 ## Monitor and Re-evaluate to Determine Policy Effectiveness and Set New Priorities
 
-If the Index were adopted as a management tool, recalculating scores
-regularly could reveal whether management actions had the intended effect on both
+If the Index were adopted as a management tool, recalculating scores regularly could reveal whether management actions had the intended effect on both
 overall ocean health and particular goals. This objective demonstrates the power (and necessity) of having a quantitative, repeatable, transparent and comprehensive method for the assessment.
 We also highlight the importance of ongoing and future monitoring that will provide robust data relevant to ocean health assessment.
 
