@@ -21,6 +21,7 @@ Ideal indicators mentioned above are often scarce, especially percent poverty or
 | Physical | Number of coastal access points per mile | 1 coastal access point per mile |
 | Economic | Change in gas price over time | No change in gas price |
 | Resource | Condition of fish stocks through NOAA Fish Stock Index | Perfect sustainability score on FSI |
+
 </span>
 
 You should include data that are distinct from the catch data used in other areas of **Food Provision**. So once you find catch data and access data, you should think about which goals to use it in. For instance, if you find tonnage of artisanally-caught fish, you should include that elsewhere. In any case, you will likely modify the default Global Assessment model using different and better-resolved data.

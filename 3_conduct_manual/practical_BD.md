@@ -60,7 +60,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 
 </span>
 
-#### Sub-goal: habitats
+#### Sub-goal: Habitats
 The Habitats sub-goal includes all habitats in the study area, and assess their health condition and coverage area.
 
 >Habitat is included in the Biodiversity goal to provide a more complete picture of diversity in the system. This is because in global assessments assessed species data were limited and the diversity of habitats can be included with the assumption that healthier habitats mean healthier species. Therefore if you have comprehensive species assessments in your area you may not need to include all habitats as a sub-goal, instead only including living habitats (algae, corals) along with species in the Species sub-goal.
@@ -103,4 +103,5 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Global 2013** | The goal model was the same as 2012. | The reference was the same as Global 2013. | The same model as 2012 was used.
 **Brazil (2014)** | The goal model was the same as as Global 2012 for mangroves, coral reefs, seagrass beds, salt marshes, and subtidal soft-bottom habitats. | The timeframes between current and reference condition varied across habitats using a 20-year gap. | Information from a few point estimates had to be used to infer the health of many habitats.
 **U.S. West Coast (2014)** | Salt marshes and seagrass beds were considered. Extent was used and habitat health was not used. | Temporal reference points were set for each habitat. For salt marshes, the percentage of pre-industrialized habitat coverage; for sand dunes, the habitat extent between the 1950s and 1960s. | The study required reconstructions of historic habitat extents in order to set more ambitious targets.
+
 </span>

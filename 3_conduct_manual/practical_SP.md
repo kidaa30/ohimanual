@@ -35,6 +35,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
 **U.S. West Coast (2014)** | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
 **China (2015)** |Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable. |The reference point was the same as Global 2012.|
+
 </span>
 
 #### Sub-goal: Lasting Special Places
@@ -67,4 +68,5 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | this goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
 **U.S. West Coast (2014)** | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
 **China (2015)** |Status model is similar to global assessments | The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.| Only coastal marine protected areas was considered, since protected coastline information is not available.
+
 </span>
