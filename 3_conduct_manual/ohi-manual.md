@@ -1,5 +1,5 @@
 ---
-title: The Ocean Health Index Assessment Manual
+title: The Ocean Health Index Conduct Phase - Assessment Manual
 ---
 
 ---
@@ -22,7 +22,7 @@ Conceptual and technical Frequently Asked Questions are included in the Appendix
 
 The OHI+ process consists of four phases. In the first phase, you **learned** about the OHI to understand the philosophy behind the goals and the motivation for conducting a study. In the second phase, you actively **planned** to conduct your OHI+ assessment. Now you will actively **conduct** the assessment by engaging with the work of finding the data, preparing the goal models, and taking the necessary steps to learn how to use the **OHI Toolbox** and related software to produce the final results. This is where the science of data discovery and goal model development comes in. In the final phase, you will **communicate** the findings and results of your assessment with others.
 
-![4 phases](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=500)
+![four phases of OHI Assessments](https://docs.google.com/drawings/d/1Abt2c9n4TQRPb_m0K-Ba0aGsHxMFdhxY9BXcuOQcxfM/pub?w=624&h=500)
 
 **The OHI framework** allows you to synthesize the information and priorities relevant to your local context and produce comparable scores. Because the methods of the framework are repeatable, transparent, quantitative, and goal-driven, the process of a carrying out an OHI+ assessment is as valuable as the final results.
 
@@ -30,21 +30,16 @@ The first completed assessment for a study area is valuable because it establish
 
 Each OHI+ assessment should have a clear purpose. One of the typical reasons for conducting an independent assessment is to inform policy and management decisions. Assessments can be more relevant to management when they are conducted at the spatial scales at which policy decisions are made, such as states, provinces, or counties. The **regions** and the overall **study area** are definitions that will be used throughout the assessment. The study area is the entire spatial boundary of your assessment, while the regions are the smaller subdivisions within the study area. In the OHI framework, goal scores are calculated for regions separately and then combined to produce an overall OHI score for each study area. The number of regions varies with each assessment's study area; completed assessments have had between one and 221 regions.
 
-OHI framework allows you to tailor assessments to the local context. While holding true to the core philosophy, you will decide how to modify your local models to ref
-
 <!---add calculation fig--->
 
 > The process of conducting an OHI+ assessment is as valuable as the final results. Documenting decisions made, as well as the challenges and successes encountered along the way, can lead to better understanding of the system, help inform management decisions, and guide future assessments to track changes through time.
 
-## Process of conducting an assessment
 
-> It is important to include information that best represents your study area, and to make science-driven decisions and clearly document what was done and why. Your team should as creative and insightful as you can be while working within the bounds of informational and technical limitations.
+**When conducting an OHI+ assessment**, it is important to include information that best represents your study area, and to make science-driven decisions and clearly document what was done and why. Your team should as creative and insightful as you can be while working within the bounds of informational and technical limitations.
 
 There are **key processes and considerations** that will be a part of every assessment. Every assessment should ideally build from the lessons learned of previously completed assessments and identify what local characteristics need to be included in a study. This is done partly by comparing the local situation to situations in previous assessments; it is also done by comparing the default information provided in the WebApp to what is known about local realities. After you have outlined and identified local characteristics and priorities, you should prepare to develop models, set reference points, gather information, and use the Toolbox software to analyze data and calculate scores. You will also visualize the outputs in the WebApp's maps and flower plots that can be shared with other partners and collaborators. Above all, you should be prepared to **know that this process takes time and is iterative, meaning that you often return to previous steps**.
 
-> In many cases, studying completed OHI assessments will inform your approaches for discovering data and developing goal models later on in the process. Information, publications, and websites for completed OHI+ assessments are listed on the projects page of ohi-science.org, and notable approaches for each goal are listed in Appendix 1 of the manual.
-
-How long does an assessment take? Past assessments have taken between two and three years, with the time varying depending the size and composition of the team, the challenges encountered in discovering and gathering information, and how many models are redeveloped. The amount of data processing and goal model development needed before you will be able to use the Toolbox also affects the amount of time it takes to conduct the assessment. The skill sets of the team members and the amount of technical resources available are also hugely important factors. You should think about which team members are needed at what stage of the process, including an R programmer and a spatial analyst. It will take time for the technical team to become familiar with the OHI Toolbox and GitHub.
+**How long does an assessment take?** Past assessments have taken between two and three years, with the time varying depending the size and composition of the team, the challenges encountered in discovering and gathering information, and how many models are redeveloped. The amount of data processing and goal model development needed before you will be able to use the Toolbox also affects the amount of time it takes to conduct the assessment. The skill sets of the team members and the amount of technical resources available are also hugely important factors. You should think about which team members are needed at what stage of the process, including an R programmer and a spatial analyst. It will take time for the technical team to become familiar with the OHI Toolbox and GitHub.
 
 
 <!-- The OHI framework was developed through collaboration and iteration. Your assessment can leverage the collective knowledge and insight used in the methods of the global assessment by Halpern *et al*. in *Nature* (2012) as well as the subsequent assessments conducted annually (in 2013, 2014, and ongoing). Each annual global assessment has improved upon some of the goal models based on better data availability or a better understanding of the systems involved. Several smaller-scale assessments have been completed that are highly informative as well, and particularly for regional scale assessments. The following studies have been published with supplemental online materials, and are available at http://ohi-science.org: -->
@@ -66,9 +61,9 @@ Additionally, several OHI+ assessments have been completed. As information becom
 
 ## Best practices for OHI assessments  
 
-Conducting an assessment requires both an understanding of how past assessments have been completed and the innovation to capture important characteristics of your study area using the information available. You can start by understanding the structure of completed assessments at global and smaller scales and the models that were created. Understanding the approaches in different contexts will help you think about what should be done similarly and differently in your local context.
+Conducting an assessment requires both an understanding of how past assessments have been completed and the innovation to capture important characteristics of your study area using the information available. You can start by understanding the structure of completed assessments at global and smaller scales and the models that were created. Understanding the approaches in different contexts will help you think about what should be done similarly and differently in your local context. Information, publications, and websites for completed OHI+ assessments are listed on the projects page of ohi-science.org, and example approaches for each goal are listed in Appendix 1 of the manual.
 
-Navigating through the WebApp can help frame your thinking and introduce you to the structure of inputs that will be required for the OHI Toolbox software.
+<!-- Navigating through the WebApp can help frame your thinking and introduce you to the structure of inputs that will be required for the OHI Toolbox software. -->
 
 ![Best practices of OHI+ assessments](https://docs.google.com/drawings/d/1dUFAOVa2JfbKHyaq98yDYdtcDuEPyr10uNB_auz_Pdc/pub?h=650)
 
@@ -80,14 +75,14 @@ The OHI framework should guide your assessment, but you should not be constraine
 
 ### Maintain core values and characteristics within the assessment framework regardless of limited information quality
 
-The assessment framework can be implemented using the best freely-available existing information, even if the information available is ‘limited’ or not ‘ideal’. ‘Limited’ information may be of low quality, have gaps, or be indirectly obtained through modeling instead of being directly measured. Different methods can be used to deal with limited data, such as gap filling, incorporating indirect (proxy) or place-holder information, or use intermediate models.
+The assessment framework can be implemented using the best freely-available existing information, even if the information available is ‘limited’ or not ‘ideal’. ‘Limited’ information may be of low quality, have gaps, or be indirectly obtained through modeling instead of being directly measured. Different methods can be used to work with limited data, such as gap filling, incorporating indirect (proxy) or place-holder information, or using intermediate models.
 
-Remaining true to the conceptual framework by using those methods, hence developing less-than-ideal goal models, provides a fuller picture than redesigning it to only include characteristics where ideal information is available. This is because all key characteristics in the system should be represented somehow in a comprehensive assessment, even if assumptions must be made to compensate for missing information. If these methods, including assumptions and rationales, are clearly considered and explained, completed assessments will not only provide the best possible picture of the current system but will also identify information gaps and highlight areas for improvement. Such scrutiny of available knowledge could be lost if important elements were simply excluded from the assessment due to imperfect representation.
+**Remaining true to the conceptual framework by using those methods, hence developing less-than-ideal goal models, provides a fuller picture than redesigning it to only include characteristics where ideal information is available.** This is because all key characteristics in the system should be represented somehow in a comprehensive assessment, even if assumptions must be made to compensate for missing information. If these methods, including assumptions and rationales, are clearly considered and explained, completed assessments will not only provide the best possible picture of the current system but will also identify information gaps and highlight areas for improvement. Such scrutiny of available knowledge could be lost if important elements were simply excluded from the assessment due to imperfect representation.
 
 ### Strategically define spatial boundaries balance information availability and decision-making scales
 
 Identifying the spatial boundaries of the Regions within the Assessment Area is extremely important because OHI scores are calculated for each unique Region, and the boundaries will be used to aggregate or disaggregate input information reported at different spatial
-scales. Spatial boundaries should be defined with geographic information system (GIS) mapping software, ideally per management jurisdiction (see **Defining spatial boundaries** section for technical guidance). **Jurisdictional boundaries** are optimal because it is often at these scales where management and policy decisions are made, cultural priorities and management targets are identified, and information is collected in standardized and therefore comparable ways.
+scales. Spatial boundaries should be defined with geographic information system (GIS) mapping software, ideally per management jurisdiction (see _Defining spatial boundaries_ section for technical guidance). **Jurisdictional boundaries are optimal because it is often at these scales where management and policy decisions are made, cultural priorities and management targets are identified, and information is collected in standardized and therefore comparable ways**.
 
 Within the OHI framework, there is no limit to the number of Regions that can exist within the Assessment Area; the number is only constrained by data availability and the utility of having scores calculated for a particular Region. Although it is possible to assess only one region in the study area (i.e. the region is the assessment area), this might not be ideal because it eliminates the possibility of making comparisons or identifying geographic priorities within the study area.
 
@@ -98,11 +93,13 @@ There are many decisions to be made when searching for and gathering data, and s
 
 ### Carefully document and share all decisions in writing and computational code
 
- It is important to plan for future assessments, as repeated assessments enable you to compare and track how scores have changed over time, with the aim of ultimately informing policy to improve ocean health. Assessment methods should be repeatable one location through time, using the same methods and reference points, but incorporating updated data.
+Documentation of all aspects of an assessment process is paramount to ensuring transparency of the decisions made, reproducibility and interpretation of results, repeatability to facilitate and compare future assessments, and the ease of communication throughout the process.
+
+<!-- It is important to plan for future assessments, as repeated assessments enable you to compare and track how scores have changed over time, with the aim of ultimately informing policy to improve ocean health. Assessment methods thus should be repeatable one location through time, using the same methods and reference points, but incorporating updated data. Your methods should also be reproducible in different locations.  -->
 
 Detailed information about how the assessment is conducted will enhance its credibility and reproducibility. Decisions of why information was included and why models were developed in a certain manner are of great importance so that future assessments can incorporate the same logic and understanding of the system — or make improvements. Further, the type of workflow developed and software used to organize and process information will greatly affect the efficiency, transparency, and reproducibility of subsequent assessments. Providing public access to all such information, as well as input data and computational code is becoming the standard for scientific inquiry, so every effort should be made to achieve those aims.
 
-This means documenting and sharing not only the tools and methods used but also the knowledge gained through the process based on decisions made, what was decided against (e.g. why information was included or excluded, and how it was processed), challenges encountered, and recommendations for improvement. Frank documentation about the successes and shortcomings makes for greater scientific credibility, enables others to replicate what was done, and allows for the most appropriate interpretations of the results, as well as the highest potential for future improvement of assessment approaches, and ultimately, management towards ocean health.
+**This means documenting and sharing not only the tools and methods used but also the knowledge gained through the process based on decisions made, what was decided against (e.g. why information was included or excluded, and how it was processed), challenges encountered, and recommendations for improvement**. Frank documentation about the successes and shortcomings makes for greater scientific credibility, enables others to replicate what was done, and allows for the most appropriate interpretations of the results, as well as the highest potential for future improvement of assessment approaches, and ultimately, management towards ocean health.
 
 ## The Toolbox software and WebApp
 
@@ -116,9 +113,9 @@ The WebApp is a widely useful communication tool. Not all team collaborators may
 
 ## Outcomes of conducting an assessment
 
-**The process of conducting an OHI assessment can be as valuable as the final results.** This is because while conducting an OHI assessment you will bring together meaningful ocean health information from many disciplines. In doing so, you will have a census of existing information and will also identify knowledge and data gaps. Further, conducting an OHI+ assessment can engage many different groups, including research institutions, government agencies, policy groups, non-governmental organizations, and both the civil and private sectors.
-
 Your completed assessment will produce OHI scores for each goal for every region in your study area, and scores within the assessment can be compared with each other. These scores will not be quantitatively comparable to those of other OHI assessments because they differ in the underlying inputs, goal models, and reference points. The only *quantitative* comparisons can be made within an assessment's study area, whether between regions or through time. However, *qualitative* comparisons between different OHI assessments can be  made because the scores are an indication of how far a region is to achieving its own targets. For instance, if two study areas have scores of seventy and sixty-five, it should be interpreted that the first study area is closer to its management targets than the second is, but since these management targets are different (in addition to the underlying data and models), they cannot be quantitatively compared.
+
+>While the OHI scores are valuable information, **the process of conducting an OHI assessment can be as valuable as the final results.** This is because during an OHI assessment you will bring together meaningful ocean health information from many disciplines. In doing so, you will have a census of existing information and will also identify knowledge and data gaps. Further, conducting an OHI+ assessment can engage many different groups, including research institutions, government agencies, policy groups, non-governmental organizations, and both the civil and private sectors.
 
 # Defining spatial boundaries
 
@@ -254,9 +251,7 @@ When looking for data, the following decision tree may be useful when going goal
 
 Below are examples of some decisions made when exploring available data for the U.S. West Coast assessment. Determining whether certain data could be included began with a solid understanding of the layers and models included in the global assessment. Since the U.S. West Coast is a data-rich region, finer-resolution local data could be used in place of many of the global data layers. The U.S. West Coast assessment had five regions: Washington, Oregon, Northern California, Central California, and Southern California.
 
-### Reasons data were excluded  
-
-There are a lot of existing data that contribute to our scientific understanding of ocean processes and interactions but are not ideal for the OHI. Reasons to exclude data are both due to practical requirements (e.g., spatial or temporal resolution) and philosophical requirements (i.e., they do not help capture the attributes of interest for assessing ocean health). Some common reasons for excluding data are:  
+There are a lot of existing data that contribute to our scientific understanding of ocean processes and interactions but are not ideal for the OHI. Reasons to exclude data are both due to practical requirements (e.g., spatial or temporal resolution) and philosophical requirements (i.e., they do not help capture the attributes of interest for assessing ocean health). **Some common reasons for excluding data** are:  
 
 * **The data do not cover the entire area of the reporting region**. The state of California had excellent, long-term data on public attendance at state parks that would have been quite useful in the calculation of the tourism and recreation goal. However, data were only available for three of the five regions (the three California regions but not Oregon and Washington), so they could not be used.  
 
@@ -278,9 +273,9 @@ There are a lot of existing data that contribute to our scientific understanding
 
 **The OHI Toolbox** is an ecosystem of small files and scripts that are the tools needed to calculate OHI scores. These files and scripts are stored in two '*repositories*': folders that are synchronized with collaborators. The first folder is your **assessment repository** that has a three-letter code, such as *esp* for Spain or *ecu* for Ecuador. You will edit this repository with your data, goal models, and updated pressures and resilience matrix tables. The second repository is called **ohicore** and it contains core functions for combining your data and goal models to calculate OHI scores. You will not edit `ohicore`, but you are able to explore it to understand the calculations.
 
-![Toolbox = your repo + ohicore](https://docs.google.com/drawings/d/18pdPUxpT5u52Qlt-o3kM5aPTipFOF2xAgktyDVRPkT4/pub?w=960&h=720)
+![Toolbox = your repo + ohicore](https://docs.google.com/drawings/d/1sXHn8zi_-XZkPDOGO1RrmhVGZcOEAHEpTfDGXYmUut8/pub?w=768&h=192)
 
-Your **assessment repository** contains data input layers, configuration files, and scripts. These files are organized in the same way within a *scenario folder* called `subcountry2014`, with data layers, goal model equations, and configuration files from the global 2014 assessment. Files within the scenario folder are comma-separated-value (*.csv*) files and scripts written in the programming language *R*.
+Your **tailored assessment repository** contains data input layers, configuration files, and scripts. These files are organized in the same way within a *scenario folder* called `subcountry2014`, with data layers, goal model equations, and configuration files from the global 2014 assessment. Files within the scenario folder are comma-separated-value (*.csv*) files and scripts written in the programming language *R*.
 
 **Each OHI+ assessment repository has inputs and goal models based on the 2014 global assessment**. This means that each assessment repository isolates the information used for each region in the global assessment and stores it in a separate OHI+ assessment repository. Therefore, it can be an easy way to explore the inputs used in the global assessment for one specific place. When conducting an assessment, you will replace and modify as much of this information with local information that better represents your study area, since information reported at a national scale cannot always be attributed to its subcountry regions, as has been done in most cases in each OHI+ assessment repository. See more details in the discussion of the **layers folder**.
 
@@ -631,10 +626,10 @@ Your assessment repository is located at *github.com/OHI-Science* and we recomme
 
 This section explains the GitHub workflow and how to access and setup required software. You can use GitHub to upload any modifications you make so that you can work collaboratively with your team.  
 
-**Required software:**
+**Required:**
 
-1. **Github App**
-2. ** *git* **
+1. **GitHub**
+2. **git**
 3. **R**
 4. **RStudio**
 
@@ -642,7 +637,7 @@ This section explains the GitHub workflow and how to access and setup required s
 
 ## GitHub
 
-**GitHub** is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It is possible to revert back to any previous version, which is incredibly useful to not only to document what work has been done, but how it differs from work done in the past, and who is responsible for the changes.  
+**GitHub**, together with the version control system **git**, is an open-source development platform that enables easy collaboration and versioning, which means that all saved versions are archived and attributed to each user. It is possible to revert back to any previous version, which is incredibly useful to not only to document what work has been done, but how it differs from work done in the past, and who is responsible for the changes.  
 
 **GitHub Vocabulary:**
 
@@ -655,9 +650,9 @@ This section explains the GitHub workflow and how to access and setup required s
 ### Learning GitHub
 The following section describes how to use GitHub to access and sync your assessment repository. There are also many great resources available online with more in-depth information:
 
-* [**Git and GitHub**](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham: http://r-pkgs.had.co.nz/git.html
+* [**Git and GitHub**](http://r-pkgs.had.co.nz/git.html) by Hadley Wickham: r-pkgs.had.co.nz/git.html
 * [**Collaboration and Time Travel: Version Control with Git, GitHub and RStudio**](http://www.rstudio.com/resources/webinars/) video tutorial by Hadley Wickham: www.rstudio.com/resources/webinars
-* [**Good Resources for Learning Git and GitHub**](https://help.github.com/articles/good-resources-for-learning-git-and-github/) by GitHub: https://help.github.com/articles/good-resources-for-learning-git-and-github/
+* [**Good Resources for Learning Git and GitHub**](https://help.github.com/articles/good-resources-for-learning-git-and-github/) by GitHub: help.github.com/articles/good-resources-for-learning-git-and-github/
 
 ## Accessing GitHub Repositories
 GitHub has an online interface and a desktop application for the version-control software called ** git**, where your project repository and any changes done to it are kept and recorded. All changes within your local, desktop repository will be tracked by GitHub regardless of the software you use to make the changes, and saved shared via its online interface. This means that you can delete or paste files in the Mac Finder or Windows Explorer and edit *.csv* files in Excel or a text editor, and still sync these changes with the online repository. To do so, you will need to create a GitHub account online and install git, R, and RStudio on your local computer. All are freely available.
@@ -2282,9 +2277,11 @@ that occur when a predator population is reduced.
 
 <!-- The contents below will probably change when Mel writes the report on FIS Model -->
 
-###### *A note about methods used in the fisheries goal*
+##### *A note about methods used in the fisheries goal*
 
-<p style="font-size: 90%; color:grey;"> Since Global 2012, several new data-poor approaches have been developed to
+<p style="font-size: 90%">
+
+Since Global 2012, several new data-poor approaches have been developed to
 assess fisheries that leverage globally-available information (Costello *et
 al*., 2012; Martell & Frœse, 2013; Thorson *et al*., 2013).  The estimates of
 B/B<sub>MSY</sub> used in Global 2013 were obtained by applying a model
@@ -2292,7 +2289,7 @@ developed by Martell & Frœse, (2013), and referred to as the “catch-MSY” me
 This approach adopts the population biomass at MSY (B<sub>MSY</sub>) as a
 single-species reference point.</p>
 
-<p style="font-size: 90%; color:grey"> The catch-MSY approach improves upon the method used in Global 2012 in that it
+<p style="font-size: 90%"> The catch-MSY approach improves upon the method used in Global 2012 in that it
 leverages a mechanistic understanding of the connection between harvest dynamics
 and population dynamics and uses this to infer stock depletion levels as a
 function of both historical patterns in catch and of species-specific resilience
@@ -2301,7 +2298,7 @@ the case of developing fisheries, whereas the Global 2012 approach assumed a
 perfect score in cases where a peak with successive decline had yet to be
 observed.</p>
 
-<p style="font-size: 90%;color:grey"> Although it is a data-poor method, the more complex approach better takes into
+<p style="font-size: 90%"> Although it is a data-poor method, the more complex approach better takes into
 account species-specific fishery dynamics. The scores for each population were
 also combined using a geometric mean, which ensures that smaller, rarer
 populations have more weight so that the biodiversity of the catch is taken into
@@ -2351,12 +2348,15 @@ produced have credibility.
 
 #### Examples of the Approach
 
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
 **Global 2012** | The status was calculated as a function of the absolute difference between a region’s total landed biomass from the reference multi-species maximum sustainable yield weighted by a correction factor for taxonomies. This was calculated by summing all the single-species MSY estimates obtained for commercially-landed species.| The reference point was based on the difference from multispecies MSY (mMSY), an estimate of the optimum amount of all marine species that may be caught sustainably. The reference point was set so the total landed biomass of wild-caught species will not be more than 75% of the estimated mMSY using and an asymmetrical buffer where overfished stocks achieve a perfect score if B/B<sub>MSY</sub> is up to 0.2 points below 1 and under-fished stocks achieve a perfect score if B/B<sub>MSY</sub> is within 0.5 points of 1.  | The approach had to be modified by working with fisheries scientists to adapt the data that were available at the global scale.
 **Global 2013** | The status was calculated based on estimating population biomass relative to the biomass that can deliver maximum sustainable yield for each landed stock (B/B<sub>MSY</sub>) using the catch-MSY model. Single-species values of B/ B<sub>MSY</sub> were aggregated using a geometric mean. | The reference point was similar to Global 2012 where regions were penalized for under-harvest and more severely for over-harvest. | The catch status was improved in this assessment to capture multi-species effects.The reference point was calculated through a more robust model than the one used in Global 2012, and it is a more direct measure of population health because it relates directly to population size.
 **Brazil (2014)** | The status was calculated in the same manner as Global 2012, with a modified sustainability term. | As in Global 2012, the reference point is based on an estimate mMSY. | This was calculated in the same manner as Global 2012 using local-scale data on exploitation category of species caught within Brazil’s EEZ as a catch-based sustainability index.
 **U.S. West Coast (2014)** | The status was based on B/B<sub>MSY</sub> for each landed stock and fishing mortality that can deliver maximum sustainable yield (F/FMSY). There were stock assessments for 41 species with historical data available. Estimates were extracted for each species and then assigned to each region based on the contribution of each species in each region to the overall catch in that region, along with weighting factors. |  The reference point was a functional relationship that accounted for fishing pressure. The approach produced lower scores for species where both under-fishing and overfishing are occurring, but did not punish as much for under-fishing of stocks. | This study used formal stock assessments rather than data-poor estimates from catch data. The use of historical information was useful in creating sub-regional scores for this goal. This study also tested the use of a recently published data-poor approach (Costello *et al.* 2012) to obtain B/ B<sub>MSY</sub> values for the remaining stocks.
+</span>
 
 #### Mariculture sub-goal
 
@@ -2442,6 +2442,9 @@ large part of the year) or logistical reasons (e.g., scarcely inhabited), such
 as Canada, to be unduly penalized.--->
 
 ##### Examples of the Approach
+
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------|
 **Global 2012** | Mariculture was calculated as the yield reported multiplied by the sustainability for each species harvested. Yield was drawn from UN FAO reports, and sustainability was based on information from a Mariculture Sustainability Index (MSI) by Trujillo (2008). | The reference point for mariculture was a spatial comparison set at highest amount of seafood produced per square kilometer of eligible coastline in the most productive region observed, China. | Restricting the area based on biophysical constraints and social preferences at a global scale was not possible, and so the entire area within 3nm of the coastline was considered potential habitat.
@@ -2449,6 +2452,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The status was calculated using harvest data reported by the Brazilian Institute of the Environment and Renewable Natural Resources (IBAMA). For each of up to four species cultured within the state, the score was determined by the yield, the reference sustainable production per unit area, and the total potential farming area. |  Reference points were set for each species. | In this study it was possible to use both biophysical constraints and social preferences.
 **U.S. West Coast (2014)** | The status was calculated as the sustainable production density of shellfish biomass from mariculture relative to a target level of production density for each state within the region. | The reference point was a target level of production increase as proposed by NOAA | The approach was similar to the Global but the reference point was made using better information about physical and social limitations on mariculture allotments.
 **China (2015)** | Status model is similar to the 2012 global assessment. But the status model was based on tonnes of mariculture species per habitat identified as suitable area by the Chinese government.| The spatial reference point was the region with the highest value. | Using designated mariculture area for calculations provides a more realistic picture of the status of mariculture. Currently Maricutlure Sustainability Index (MSI) values were obtained from the global study. More data on water quality standards and food sources (eg. species, origin, etc) will help determine the sustainability of mariculture.
+</span>
 
 ### Livelihoods and Economies
 
@@ -2717,6 +2721,9 @@ Ultimately, almost any species can be iconic to someone, and so the intent with 
 After identifying the list of iconic species, you need to find a matrix to reflect the _health_ of their population. In the global study, we used IUCN threat categories and weights. The reference point is to have the risk status of all assessed species as Least Concern. Alternatively, you can use a different kind of assessment approach to see if the populations are healthy, which could be indicated, for instance, by the stability of their populations.
 
 **_Examples of the Approach_**
+
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
 **Global 2012** | The status was the average extinction risk of iconic species, calculated as the weighted sum of the number of species in each threat category. An increasing weight was assigned by level of extinction risk of the threat category. A list of region-specific iconic species was combined with a list of globally-recognized iconic species from the World Wildlife Fund’s global and regional lists for Priority Species and Flagship Species. | The reference point is to have the risk status as Least Concern. | The lists used were the only source that included cultural reasons for listing iconic species but they only cover a few regions and by no means capture the rich diversity of species that are iconic for local regions.
@@ -2724,6 +2731,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | The approach was the same as Global 2012.
 **U.S. West Coast (2014)** | This study replaced the global IUCN risk assessments with regionally-specific species assessments provided by NatureServe. | The reference point was the same as Global 2012. | Same as Global 2012, with regional data for the threat categories.
 **China (2015)** |Status model is similar to global assessments. However, average extinction risk of all assessed species was only calculated as the weighted sum of the number of species in each threat category, since habitat area per species is not obtainable. |The reference point was the same as Global 2012.|
+</span>
 
 #### Sub-goal: Lasting Special Places
 This sub-goal focuses on those geographic locations that hold particular value for aesthetic, spiritual, cultural, recreational or existence reasons, and assesses how well they are protected.
@@ -2746,6 +2754,8 @@ Data sources should be specific to your region. International databases, like th
 
 **_Examples of the Approach_**
 
+<span style="font-size=0.9em">
+
 Assessment | Developing the Model  | Setting the Reference Point | Other Considerations
 ---------------|------------------------------------------------|-----------------------------|-------------------|
 **Global 2012** | The status was calculated by combining the percent of coastal waters that are coastal marine protected areas and the percent of coastline that is protected. | The reference point is 30% protection for both land and sea areas.| It was assumed that it is possible to protect up to 30% of areas.
@@ -2753,6 +2763,7 @@ Assessment | Developing the Model  | Setting the Reference Point | Other Conside
 **Brazil (2014)** | The method was the same as Global 2012. | The reference point was the same as Global 2012. | this goal was assessed using a national database of protected areas that included fully-protected and sustainable use designations at federal, state and municipal levels, and included indigenous lands. The highest-scoring area contained the largest continuous extent of protected areas within the country in what is called the Biodiversity Corridor of Amapa´.
 **U.S. West Coast (2014)** | The model was the same as Global 2012. | The reference point was the same as Global 2012. |  The study used assumptions to define 'special.'
 **China (2015)** |Status model is similar to global assessments | The reference point is only 5% protection, a target set by national marine protection policies to achieve by 2020.| Only coastal marine protected areas was considered, since protected coastline information is not available.
+</span>
 
 ## Pressures and resilience
 
