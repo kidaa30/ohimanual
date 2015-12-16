@@ -47,6 +47,10 @@ mammal oil harvest, they should include it in the calculation, keeping in mind
 that the sustainability of this type of harvest is likely to be low and should
 be reflected in the score.
 
+> In the global assessments, Natural Products data come from the [UN’s Food and Agriculture Administration] (www.fao.org/fishery/statistics/software/fishstatj/en). These data are compiled and reported by product for each country, and available by downloading the FishStatJ software.
+
+> If natural products are all produced through on-land aquaculture, you would probably have good reason to exclude the natural product goal. This would also depend on the origin of these natural products--are they from the region’s waters? You should consult with experts and any reports/papers on the topic. In addition, this goal does NOT include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining--and they are not truly an ocean product. 
+
 The second task is to think about **where these products are harvested and how
 much of them are harvested** in these areas through a period of time. You should
 find spatial representation of these products, which can be done by knowing

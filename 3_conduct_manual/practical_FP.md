@@ -250,6 +250,10 @@ This approach would not penalize regions that
 have less geographic area available for mariculture, though places with fewer
 sheltered bays or lower primary production could be at a disadvantage.
 
+> Culture of marine fish in closed pools on-shore should not be included because onshore aquaculture does not require a marine environment. However, if the aquaculture farms receive seawater supply and return seawater back to the sea, they should be included in the Mariculture sub-goal. Finer-scale, environmental damages due to the intake pipes and the processed brine back into the marine system could be incorporated as a pressure layer as well.
+
+> Fish that are used as feed for other fish (e.g., sprat) would be more appropriate to include in Natural Products. This is because they are not being consumed directly. Fish such as sprat, for example, may be used to feed pigs in addition to other fish, and therefore you would need to know how much (tonnage) is being produced, and where it is going to be able to accurately distinguish these categories to avoid double-counting.
+
 **_Practical Guidance_**
 
 Besides harvest information, either by species or total amount, this goal requires _spatial information_. You would have to find maps determining where coastal activities are allowed, or find other kind of data that tells you
