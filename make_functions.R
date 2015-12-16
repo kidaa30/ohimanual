@@ -62,15 +62,15 @@ ohi_html = function(out_md, title_header, title_short) {
   
   cat(sprintf('---
 layout: manual
-title : %s
+title: %s
+subtitle: %s
 tagline: %s
-header : %s
 ---
 {%s include JB/setup %s}
 ', 
-              title_short,
-              format(Sys.time(), "%d %B %Y"), '%', '%',
-              title_header), 
+              title_header,
+              subtitle_header,
+              format(Sys.time(), "%d %B %Y"), '%', '%'), 
       file=sprintf('~/github/ohi-science.github.io/%s/index.html', tolower(title_short)))
   cat(
     readLines(paste0(pfx, '-external.html')),
