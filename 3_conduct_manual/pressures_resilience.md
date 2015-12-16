@@ -80,7 +80,7 @@ Independent from local pressure layers, you will develop a Pressures Matrix tabl
 
 >It is easy to confuse the weights with pressure data layers. But pressure weights should not be applied to the regions, only to the goals.
 
-The rank weights used in the pressures matrix were determined by Halpern *et al*. 2012 (*Nature*) based on scientific literature and expert opinion (see Supplemental Table S28 of *Halpern et al. 2012*). In the pressures matrix ranks are categorized as follows:
+The rank weights used in the pressures matrix were determined by Halpern *et al*. 2012 (*Nature*) based on scientific literature and expert opinion (see Supplemental Table S28 of *Halpern et al. 2012*). For example, commercial high and low bycatch are categorical values that were set based on fishing gear type. This began as a list of gear types used, producing a range of potential bycatch frequencies (from local reports when possible), which can be rescaled. In the pressures matrix ranks are categorized as follows:
 
 * 3 = high pressure
 * 2 = medium pressure
