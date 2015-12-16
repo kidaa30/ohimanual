@@ -4,6 +4,8 @@ The jobs and revenue produced from marine-related industries are clearly of huge
 
 In the global study, this goal does not attempt to capture any aspects of _job identity_ (i.e. the reputation, desirability or other social or cultural perspectives associated with different jobs). We make the assumption that all marine-related jobs are equivalent, such that, for example, a fisherman could transition to a job in mariculture or ship-building without affecting the score of this goal. There are also not adequate data to assess workers' _job satisfaction_ or _ecological sustainability_ of sectors. Future, finer scale applications of the Index could incorporate these key considerations.
 
+> Oil and gas industries are NOT included in this goal. The Natural Products goal does not include non-living items such as oil, gas, and mining products, because these practices are not considered to be sustainable. They are also done at such large scales that including them would essentially make OHI an index for oil and mining--and they are not truly an ocean product. Because these products are not included in terms of quantity extracted, it did not seem appropriate to include information regarding jobs, wages or revenue.
+
 #### Sub-goal: Livelihoods
 
 This sub-goal describes livelihood quantity and quality for
@@ -27,7 +29,7 @@ After you have identified which jobs are in your area, you will want to find som
 > One example to use economic multipliers is to multiply the number of fishermen by a multiplier to estimate larger economic effects, ranging
 from gear manufacturing companies to restaurants and movie theaters where the fishermen spend their income.
 
-Next you must think about how to use the data to infer **quality and quantity of jobs**. Do you have data through time so that you can see how the number of jobs or the wages per sector have changed over time? If all of the sectors change in the same way, for instance, this might show broader economic trends that you should account for. 
+Next you must think about how to use the data to infer **quality and quantity of jobs**. Do you have data through time so that you can see how the number of jobs or the wages per sector have changed over time? If all of the sectors change in the same way, for instance, this might show broader economic trends that you should account for.
 
 <!-- what are good ways to find satisfaction, identity, and sustainability information of different sectors? -->
 
@@ -58,8 +60,11 @@ Ideally, revenue data would be collected for all coastal regions, and traced fro
 
 **_Practical Guidance_**
 
-A number of sectors were not included in
-the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others. It may be practical to include the same sectors in the *Livelihoods* and the *Economies* subgoals.
+A number of sectors were not included in the Global Assessments because sufficient data did not exist. However, it might be desirable to include sectors such as ecotourism, sailing, kayaking, surfing, and offshore wind energy production, and scientific research, among others. It may be practical to include the same sectors in the *Livelihoods* and the *Economies* subgoals.
+
+> The quantity of Wild-caught fisheries, Mariculture, and participation of Tourism & Recreation are considered separately in specific goals, whereas the monetary component is captured in L&E.
+
+> Revenue data from shipping, boat building, ports and harbors are included as revenue. Those sectors are included because the demand for some of those boats (fishing boats, sailboats, yachts) is dependent on a healthy ocean.
 
 In the global assessment, revenue has a moving-target temporal **reference point** by comparing the value in the current year to values in previous years. Global assessments used a five-year moving-window because it is intended to capture short-term changes in the trajectory. But then you must consider if that amount of time would represent economic trends. If there is a not economic downturn, do you want to reward an increasing number of jobs, or reward maintaining the same
 number of jobs?
