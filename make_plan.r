@@ -6,6 +6,7 @@ source('~/github/ohimanual/make_functions.r') # rendering functions for OHI
 # also required if you get the pdflatex error: www.tug.org/mactex
 
 title_header = 'The Ocean Health Index Plan Phase'
+subtitle_header = ''
 title_short  = 'Plan'
 wd = '~/github/ohimanual/2_plan'
 setwd(wd)
